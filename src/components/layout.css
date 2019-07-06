@@ -151,6 +151,14 @@ body {
   }
 }
 
+@media (max-width: 620px) {
+  #intro .positive-impact,
+  #intro .made-with-code {
+    letter-spacing: 2px;
+    font-size: 15px;
+  }
+}
+
 #intro .positive-impact .triangle {
   transform: rotate(180deg);
 }
@@ -161,6 +169,16 @@ body {
   stroke: #A6F673;
   stroke-width: 10;
   fill: none;
+}
+
+@media (max-width: 620px) {
+  #intro .positive-impact .triangle,
+  #intro .made-with-code .triangle {
+    width: 20px;
+    stroke: #A6F673;
+    stroke-width: 10;
+    fill: none;
+  }
 }
 
 #go-for-a-scroll {
@@ -190,6 +208,12 @@ body {
     display: block;
     width: auto;
     padding: 50px;
+  }
+}
+
+@media (max-width: 620px) {
+  #about-me {
+    font-size: 0.8rem;
   }
 }
 
