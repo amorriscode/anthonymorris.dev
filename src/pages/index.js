@@ -1,6 +1,5 @@
 import React from "react"
 import { TimelineMax, TweenMax } from "gsap/all";
-import { FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -11,6 +10,7 @@ class IndexPage extends React.Component {
 
     const introSection = document.getElementById('intro');
     const introContainer = introSection.getElementsByClassName('section-container')[0];
+    const introContainerLeftOrigin = getComputedStyle(introContainer).left;
 
     const brandDivider = introSection.getElementsByClassName('divider')[0];
     const brandDividerBoundingBox = brandDivider.getBoundingClientRect();
@@ -22,7 +22,6 @@ class IndexPage extends React.Component {
     const positiveImpactContainer = introContainer.getElementsByClassName('positive-impact')[0];
     const positiveImpactContainerBoundingBox = positiveImpactContainer.getBoundingClientRect();
     const madeWithCodeContainer = introContainer.getElementsByClassName('made-with-code')[0];
-    const triangles = document.getElementsByClassName('triangle');
 
     const goForAScroll = document.getElementById('go-for-a-scroll');
     const goForAScrollLetters = goForAScroll.getElementsByClassName('letter');
@@ -30,6 +29,9 @@ class IndexPage extends React.Component {
     const aboutMeSection = document.getElementById('about-me');
 
     const glitchables = document.getElementsByClassName('glitchable');
+
+    // Make sure the viewport is big enough for the cool stuff
+    const showScrollEffects = window.matchMedia('(min-width: 816px)');
 
     // Randomize
     const getRandomZeroToMax = max => Math.floor(Math.random() * max);
@@ -49,85 +51,87 @@ class IndexPage extends React.Component {
       return clipPathOffset;
     }
 
-    // Fade intro text
-    const introTimeline = new TimelineMax();
-    introTimeline.pause()
-      .add(TweenMax.to(brandAmorrisContainer, 1, { opacity: 0 }).delay(0.5), 0)
-      .add(TweenMax.to(positiveImpactContainer, 1, { opacity: 0 }).delay(0.5), 0)
-      .add(TweenMax.to(madeWithCodeContainer, 1, { opacity: 0 }).delay(0.5), 0);
+    if (showScrollEffects.matches) {
+      // Fade intro text
+      const introTimeline = new TimelineMax();
+      introTimeline.pause()
+        .add(TweenMax.to(brandAmorrisContainer, 1, { opacity: 0 }).delay(0.5), 0)
+        .add(TweenMax.to(positiveImpactContainer, 1, { opacity: 0 }).delay(0.5), 0)
+        .add(TweenMax.to(madeWithCodeContainer, 1, { opacity: 0 }).delay(0.5), 0);
 
-    // Change vertical scroll to horizontal
-    document.addEventListener('mousewheel', event => {
-      xOffset += event.deltaY;
-      xOffset = xOffset < 0 ? 0 : xOffset;
+      // Change vertical scroll to horizontal
+      document.addEventListener('mousewheel', event => {
+        xOffset += event.deltaY;
+        xOffset = xOffset < 0 ? 0 : xOffset;
 
-      const hasScrolledPastDivider = window.innerWidth - xOffset < brandDividerBoundingBox.x;
+        const hasScrolledPastDivider = window.innerWidth - xOffset < brandDividerBoundingBox.x;
 
-      // Adjust the gradient in the background
-      const darkGradientPercentage = xOffset > 600 ? xOffset / 6 : 100;
-      introSection.style.setProperty('background', `linear-gradient(270deg, rgba(31,24,55,1) ${xOffset / 10}%, rgba(101,40,90,1) ${darkGradientPercentage}%)`);
+        // Adjust the gradient in the background
+        const darkGradientPercentage = xOffset > 600 ? xOffset / 6 : 100;
+        introSection.style.setProperty('background', `linear-gradient(270deg, rgba(31,24,55,1) ${xOffset / 10}%, rgba(101,40,90,1) ${darkGradientPercentage}%)`);
 
-      // Adjust divider height
-      const computedHeight = (xOffset !== 0)
-        ? `${xOffset * 2}px`
-        : '20px';
-      brandDivider.style.setProperty('height', computedHeight);
+        // Adjust divider height
+        const computedHeight = (xOffset !== 0)
+          ? `${xOffset * 2}px`
+          : '20px';
+        brandDivider.style.setProperty('height', computedHeight);
 
-      // Adjust divider position from top
-      const computedDividerPosition = (xOffset !== 0)
-        ? `-${xOffset - 10}px`
-        : '0px';
-      brandDivider.style.setProperty('top', computedDividerPosition);
+        // Adjust divider position from top
+        const computedDividerPosition = (xOffset !== 0)
+          ? `-${xOffset - 10}px`
+          : '0px';
+        brandDivider.style.setProperty('top', computedDividerPosition);
 
-      // Move the intro out of the way
-      const computedIntroContainerPosition = (hasScrolledPastDivider)
-        ? `${window.innerWidth - xOffset - 117}px`
-        : '25vw';
-      introContainer.style.setProperty('left', computedIntroContainerPosition);
+        // Move the intro out of the way
+        const computedIntroContainerPosition = (hasScrolledPastDivider)
+          ? `${window.innerWidth - xOffset - 117}px`
+          : introContainerLeftOrigin;
+        introContainer.style.setProperty('left', computedIntroContainerPosition);
 
-      // Clip go for a scroll section
-      const goForAScrollClipPath = `inset(0 ${xOffset}px 0 0)`;
-      goForAScroll.style.setProperty('clip-path', goForAScrollClipPath);
-      
-      // Clip code in brand section
-      const brandClipPathOffset = getClipPathOffset(brandCodeContainerBoundingBox);
-      const brandClipPath = `inset(0 ${brandClipPathOffset} 0 0)`;
-      brandCodeContainer.style.setProperty('clip-path', brandClipPath);
+        // Clip go for a scroll section
+        const goForAScrollClipPath = `inset(0 ${xOffset}px 0 0)`;
+        goForAScroll.style.setProperty('clip-path', goForAScrollClipPath);
+        
+        // Clip code in brand section
+        const brandClipPathOffset = getClipPathOffset(brandCodeContainerBoundingBox);
+        const brandClipPath = `inset(0 ${brandClipPathOffset} 0 0)`;
+        brandCodeContainer.style.setProperty('clip-path', brandClipPath);
 
-      // Clip intro section
-      const introClipPathOffset = getClipPathOffset(positiveImpactContainerBoundingBox);
-      const introClipPath = `inset(0 ${introClipPathOffset} 0 0)`;
-      positiveImpactContainer.style.setProperty('clip-path', introClipPath);
-      madeWithCodeContainer.style.setProperty('clip-path', introClipPath);
+        // Clip intro section
+        const introClipPathOffset = getClipPathOffset(positiveImpactContainerBoundingBox);
+        const introClipPath = `inset(0 ${introClipPathOffset} 0 0)`;
+        positiveImpactContainer.style.setProperty('clip-path', introClipPath);
+        madeWithCodeContainer.style.setProperty('clip-path', introClipPath);
 
-      // Progress the introScene
-      if (hasScrolledPastDivider) {
-        introTimeline.totalProgress(xOffset / 1000 - 1);
-      } else {
-        introTimeline.totalProgress(0);
-      }
+        // Progress the introScene
+        if (hasScrolledPastDivider) {
+          introTimeline.totalProgress(xOffset / 1000 - 1);
+        } else {
+          introTimeline.totalProgress(0);
+        }
 
-      // Adjust About Me Section
-      const computedAboutMeDisplay = (xOffset < window.innerWidth - 50)
-        ? `none`
-        : 'block';
-      aboutMeSection.style.setProperty('display', computedAboutMeDisplay);
+        // Adjust About Me Section
+        const computedAboutMeDisplay = (xOffset < window.innerWidth - 50)
+          ? `none`
+          : 'block';
+        aboutMeSection.style.setProperty('display', computedAboutMeDisplay);
 
-      // Adjust the side nav positioning
-      const computedSideNavPositioning = (xOffset < window.innerWidth - 50)
-        ? `${xOffset - (window.innerWidth - 50)}px`
-        : '0';
-      sideNav.style.setProperty('left', computedSideNavPositioning);
+        // Adjust the side nav positioning
+        const computedSideNavPositioning = (xOffset < window.innerWidth - 50)
+          ? `${xOffset - (window.innerWidth - 50)}px`
+          : '0';
+        sideNav.style.setProperty('left', computedSideNavPositioning);
 
-      // Made the divider absolutely positioned
-      if (computedSideNavPositioning === '0') {
-        brandDivider.style.setProperty('position', 'fixed');
-        brandDivider.style.setProperty('left', '50px');
-      } else {
-        brandDivider.style.setProperty('left', '0');
-        brandDivider.style.setProperty('position', 'absolute');
-      }
-    });  
+        // Made the divider absolutely positioned
+        if (computedSideNavPositioning === '0') {
+          brandDivider.style.setProperty('position', 'fixed');
+          brandDivider.style.setProperty('left', '50px');
+        } else {
+          brandDivider.style.setProperty('left', '0');
+          brandDivider.style.setProperty('position', 'absolute');
+        }
+      });
+    }  
 
     const possibleCharacters = [
       'A','B','C','D','E','F','G',
@@ -218,23 +222,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Home" />
-        <section id="side-nav">
-          <section className="grid">
-            <section className="logo">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 140 120" className="triangle">
-                <polygon points="50 15, 100 100, 0 100"/>
-              </svg>
-            </section>
-    
-            <section className="social">
-              <a href='https://www.linkedin.com/in/amorriscode'><FaLinkedinIn className="social" /></a>
-              <a href='http://github.com/amorriscode'><FaGithub className="social" /></a>
-              <a href='http://twitter.com/amorriscode'><FaTwitter className="social" /></a>
-            </section>
-          </section>
-        </section>
-  
+        <SEO title="amorrriscode" />
         <section id="main-grid">
           <section id="intro">
             <div className="section-container">
@@ -413,7 +401,7 @@ class IndexPage extends React.Component {
         </section>
     
         <section id="about-me">
-          <p>Hello! 👋</p>
+          <p>Hello! <span role="img" aria-label="wave">👋</span></p>
           <p>My name is Anthony Morris.</p>
           <p>I'm a software engineer currently working for a <a href="https://www.cisco.com">networking company</a>. I'm endlessly curious, always looking to improve. To do that while working, I'm <a href="https://www.coursera.org/degrees/bachelor-of-science-computer-science-london">studying computer science</a>.</p>
           <p>Writing code has allowed me to become a builder. I want to use my skills to do something positive for others.</p>
