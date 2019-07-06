@@ -1,5 +1,4 @@
 import React from "react"
-import { TimelineMax, TweenMax } from "gsap/all";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -15,7 +14,7 @@ class IndexPage extends React.Component {
     const brandDivider = introSection.getElementsByClassName('divider')[0];
     const brandDividerBoundingBox = brandDivider.getBoundingClientRect();
     const brandAmorrisContainer = introContainer.getElementsByClassName('amorris')[0];
-
+    
     const brandCodeContainer = introContainer.getElementsByClassName('code')[0];
     const brandCodeContainerBoundingBox = brandCodeContainer.getBoundingClientRect();
 
@@ -52,15 +51,9 @@ class IndexPage extends React.Component {
     }
 
     if (showScrollEffects.matches) {
-      // Fade intro text
-      const introTimeline = new TimelineMax();
-      introTimeline.pause()
-        .add(TweenMax.to(brandAmorrisContainer, 1, { opacity: 0 }).delay(0.5), 0)
-        .add(TweenMax.to(positiveImpactContainer, 1, { opacity: 0 }).delay(0.5), 0)
-        .add(TweenMax.to(madeWithCodeContainer, 1, { opacity: 0 }).delay(0.5), 0);
-
       // Change vertical scroll to horizontal
       document.addEventListener('mousewheel', event => {
+        const isMovingLeft = event.deltaY >= 0 ? 1 : 0;
         xOffset += event.deltaY;
         xOffset = xOffset < 0 ? 0 : xOffset;
 
@@ -103,11 +96,19 @@ class IndexPage extends React.Component {
         positiveImpactContainer.style.setProperty('clip-path', introClipPath);
         madeWithCodeContainer.style.setProperty('clip-path', introClipPath);
 
-        // Progress the introScene
+        // Fade the intro text
+        const brandAmorrisContainerOpacity = parseFloat(getComputedStyle(brandAmorrisContainer).opacity);
+        const positiveImpactContainerOpacity = parseFloat(getComputedStyle(positiveImpactContainer).opacity);
+        const madeWithCodeContainerOpacity = parseFloat(getComputedStyle(madeWithCodeContainer).opacity);
         if (hasScrolledPastDivider) {
-          introTimeline.totalProgress(xOffset / 1000 - 1);
+          const adjustment = isMovingLeft ? -0.01 : 0.01;
+          brandAmorrisContainer.style.setProperty('opacity', brandAmorrisContainerOpacity + adjustment);
+          positiveImpactContainer.style.setProperty('opacity', positiveImpactContainerOpacity + adjustment);
+          madeWithCodeContainer.style.setProperty('opacity', madeWithCodeContainerOpacity + adjustment);
         } else {
-          introTimeline.totalProgress(0);
+          brandAmorrisContainer.style.setProperty('opacity', 1);
+          positiveImpactContainer.style.setProperty('opacity', 1);
+          madeWithCodeContainer.style.setProperty('opacity', 1);
         }
 
         // Adjust About Me Section
