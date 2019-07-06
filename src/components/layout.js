@@ -10,10 +10,13 @@ import PropTypes from "prop-types"
 
 import "./layout.css"
 
+import Nav from './nav';
+
 const Layout = ({ children }) => {
   return (
     <>
       <div>
+        <Nav />
         <main>{children}</main>
       </div>
     </>

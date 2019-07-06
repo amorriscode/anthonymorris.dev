@@ -89,6 +89,21 @@ body {
   bottom: 25vh;
 }
 
+@media (max-width: 1200px) {
+  #intro .section-container {
+    left: 10vw;
+  }
+}
+
+@media (max-width: 815px) {
+  #intro .section-container {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin: auto auto 15vh auto;
+  }
+}
+
 #intro .section-container div {
   padding: 25px;
 }
@@ -129,6 +144,13 @@ body {
   font-size: 35px;
 }
 
+@media (max-width: 815px) {
+  #intro .positive-impact,
+  #intro .made-with-code {
+    font-size: 25px;
+  }
+}
+
 #intro .positive-impact .triangle {
   transform: rotate(180deg);
 }
@@ -150,11 +172,25 @@ body {
   font-size: 12px;
 }
 
+@media (max-width: 815px) {
+  #go-for-a-scroll {
+    display: none;
+  }
+}
+
 #about-me {
   display: none;
   padding: 250px;
   width: 50vw;
   font-size: 1.5rem;
+}
+
+@media (max-width: 815px) {
+  #about-me {
+    display: block;
+    width: auto;
+    padding: 50px;
+  }
 }
 
 #about-me a {
