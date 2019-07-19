@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": ["www.anthonymorrris.dev"],
+  "alias": ["www.anthonymorris.dev"],
   "routes": [
     {
       "src": "/(.*)",
