@@ -12,4 +12,4 @@ I have a strong interest in building products that people love. Products that ar
 
 You can follow me on [Twitter](http://twitter.com/amorriscode) or take a look at my career path on [LinkedIn](https://www.linkedin.com/in/amorriscode).
 
-This website was built using [Gatsby](https://gatsbyjs.org) with deployments covered by [Netlify](https://www.netlify.com).
+This website was built using [Gatsby](https://gatsbyjs.org) with deployments covered by [now](https://zeit.co/now).
