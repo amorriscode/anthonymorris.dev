@@ -227,6 +227,25 @@ body {
   transition: color 0.25s;
 }
 
+#about-me .greeting {
+  display: flex;
+}
+
+#about-me .greeting .wave {
+  padding-left: 10px;
+  animation: wave 0.8s alternate infinite;
+  margin-top: -5px;
+}
+
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
+}
+
 .glitch {
   position: relative;
 }

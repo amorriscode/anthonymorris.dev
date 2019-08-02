@@ -112,10 +112,10 @@ class IndexPage extends React.Component {
         }
 
         // Adjust About Me Section
-        const computedAboutMeDisplay = (xOffset < window.innerWidth - 50)
+        const computedContentDisplay = (xOffset < window.innerWidth - 50)
           ? `none`
           : 'block';
-        aboutMeSection.style.setProperty('display', computedAboutMeDisplay);
+        aboutMeSection.style.setProperty('display', computedContentDisplay);
 
         // Adjust the side nav positioning
         const computedSideNavPositioning = (xOffset < window.innerWidth - 50)
@@ -400,9 +400,9 @@ class IndexPage extends React.Component {
           <span>&nbsp;</span>
           <span className="letter">?</span>
         </section>
-    
+
         <section id="about-me">
-          <p>Hello! <span role="img" aria-label="wave">👋</span></p>
+          <p class="greeting">Hello! <div role="img" aria-label="wave" class="wave">👋</div></p>
           <p>My name is Anthony Morris.</p>
           <p>I'm a software engineer currently working for a <a href="https://www.cisco.com">multinational networking company</a>. I'm endlessly curious, always looking to improve. To do that while working, I'm <a href="https://www.coursera.org/degrees/bachelor-of-science-computer-science-london">studying computer science</a>.</p>
           <p>Writing code has allowed me to become a builder. I want to use my skills to do something positive for others.</p>
