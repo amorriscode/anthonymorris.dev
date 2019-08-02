@@ -25,6 +25,9 @@ class IndexPage extends React.Component {
     const goForAScroll = document.getElementById('go-for-a-scroll');
     const goForAScrollLetters = goForAScroll.getElementsByClassName('letter');
 
+    const blocksSection = document.getElementById('blocks');
+    const blocks = document.getElementsByClassName('block');
+
     const aboutMeSection = document.getElementById('about-me');
 
     const glitchables = document.getElementsByClassName('glitchable');
@@ -111,10 +114,11 @@ class IndexPage extends React.Component {
           madeWithCodeContainer.style.setProperty('opacity', 1);
         }
 
-        // Adjust About Me Section
-        const computedContentDisplay = (xOffset < window.innerWidth - 50)
+        // Adjust Blocks and About Me Section
+        const computedContentDisplay = (xOffset < window.innerWidth - 450)
           ? `none`
           : 'block';
+        blocksSection.style.setProperty('display', computedContentDisplay);
         aboutMeSection.style.setProperty('display', computedContentDisplay);
 
         // Adjust the side nav positioning
@@ -401,6 +405,12 @@ class IndexPage extends React.Component {
           <span className="letter">?</span>
         </section>
 
+        <section id="blocks">
+          <div className="block block-one"></div>
+          <div className="block block-two"></div>
+          <div className="block block-three"></div>
+        </section>
+    
         <section id="about-me">
           <p class="greeting">Hello! <div role="img" aria-label="wave" class="wave">👋</div></p>
           <p>My name is Anthony Morris.</p>
