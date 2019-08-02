@@ -196,7 +196,43 @@ body {
   }
 }
 
+#blocks {
+  display: none;
+  position: absolute;
+  padding-top: 20vh;
+}
+
+#blocks .block {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  border: 1px solid #A6F673;
+  box-shadow: 0px 0px 100px -20px #61FF00;
+  position: absolute;
+}
+
+#blocks .block-one {
+  width: 100px;
+  height: 100px;
+  left: calc(100vw - 50vw);
+}
+
+#blocks .block-two {
+  width: 250px;
+  height: 250px;
+  left: calc(100vw - 32vw);
+}
+
+#blocks .block-three {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 365px;
+  left: calc(100vw - 28vw);
+}
+
 #about-me {
+  margin-top: 250px;
   display: none;
   padding: 250px;
   width: 50vw;
@@ -225,6 +261,25 @@ body {
 #about-me a:hover {
   color: #6F2C63;
   transition: color 0.25s;
+}
+
+#about-me .greeting {
+  display: flex;
+}
+
+#about-me .greeting .wave {
+  padding-left: 10px;
+  animation: wave 0.8s alternate infinite;
+  margin-top: -5px;
+}
+
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
 }
 
 .glitch {
