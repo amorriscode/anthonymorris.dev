@@ -404,7 +404,7 @@ class IndexPage extends React.Component {
         <section id="about-me">
           <p class="greeting">Hello! <div role="img" aria-label="wave" class="wave">👋</div></p>
           <p>My name is Anthony Morris.</p>
-          <p>I'm a software engineer currently working for a <a href="https://www.cisco.com">multinational networking company</a>. I'm endlessly curious, always looking to improve. To do that while working, I'm <a href="https://www.coursera.org/degrees/bachelor-of-science-computer-science-london">studying computer science</a>.</p>
+          <p>I'm a software engineer building a <a href="https://writewithwrabit.com">writing platform for mental health</a>. I'm endlessly curious; always looking to improve. To do that while working, I'm studying computer science.</p>
           <p>Writing code has allowed me to become a builder. I want to use my skills to do something positive for others.</p>
           <p>I have a strong interest in building products that people love. Products that are a pleasure to use, a pleasure to look at, and make us better off as humans.</p>
           <p>You can follow me on <a href='http://twitter.com/amorriscode'>Twitter</a> or take a look at my career path on <a href='https://www.linkedin.com/in/amorriscode'>LinkedIn</a>.</p>
