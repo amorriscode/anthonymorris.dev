@@ -41,7 +41,7 @@ function ProjectPage({ project }: { project: Project }) {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const project = getProjectBySlug(params?.slug, [
+  const project = getProjectBySlug(params?.slug as string, [
     'title',
     'date',
     'launchDate',

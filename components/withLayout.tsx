@@ -27,12 +27,9 @@ function withLayout(PageComponent: any) {
         </div>
 
         <style jsx>{`
-        .gradient-line {
+          .gradient-line {
             height: 2px;
             background-image: linear-gradient(45deg, #1f1837, #65285a, #e200b9);
-          }
-
-          .nav-item-container:hover .gradient-line {
           }
         `}</style>
       </>
