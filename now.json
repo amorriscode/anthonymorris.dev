@@ -1,13 +1,8 @@
 {
-  "version": 2,
   "name": "anthonymorris.dev",
-  "builds": [
-    { 
-      "src": "package.json",
-      "use": "@now/static-build",
-      "config": {
-        "distDir": "public"
-      }
-    }
-  ]
+  "version": 2,
+  "builds": [{
+    "src": "package.json",
+    "use": "@now/next"
+  }]
 }

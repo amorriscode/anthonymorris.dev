@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  @apply bg-buzz-white;
+  @apply text-buzz-gray;
+}
+
+a:not(.nav-item,.header-link) {
+  @apply underline;
+}
+
+a {
+  @apply text-buzz-purple-light;
+  transition: color 0.15s ease-in;
+}
+
+a:not(.header-link):hover {
+  @apply text-buzz-purple-neon;
+}
