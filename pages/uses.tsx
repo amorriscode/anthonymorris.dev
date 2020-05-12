@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="container">
       <Head>
-        <title>projects | anthony morris</title>
+        <title>uses | anthony morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
