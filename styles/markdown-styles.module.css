@@ -1,0 +1,19 @@
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote,
+.markdown img {
+  @apply my-4;
+}
+
+.markdown blockquote {
+  @apply border-l-4 border-buzz-green-neon bg-gray-100 p-4 italic;
+}
+
+.markdown footer {
+  @apply text-xs;
+}
+
+.markdown img {
+  @apply mx-auto;
+}

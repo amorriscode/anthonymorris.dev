@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import withLayout from '../components/withLayout';
 
-function Home() {
+function Books() {
   return (
     <div className="container">
       <Head>
@@ -17,4 +17,4 @@ function Home() {
   )
 };
 
-export default withLayout(Home);
+export default withLayout(Books);

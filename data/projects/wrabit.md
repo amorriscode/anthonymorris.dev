@@ -1,0 +1,32 @@
+---
+title: 'Wrabit'
+description: 'A writing platform that helps you build a writing habit while contributing to mental health research.'
+date: '2019-12-01'
+launchDate: '2019-12-01'
+image: '/assets/projects/wrabit-card.jpg'
+---
+
+In 2019 I started to really thing about _why_ I code. What do I want to do with the knowledge I have obtained? It was clear to me that I wanted to use my abilities for good. On top of that, I wasn't feeling satisfied with my job.
+
+I had recently finished building the [Social Media Death Clock](/projects/social-media-death-clock) and had a strong desire to keep building. I went back to the drawing board.
+
+I found inspiration [750words.com](https://750words.com) and [The Artist's Way](https://www.goodreads.com/book/show/615570.The_Artist_s_Way). There were similar solutions but none that quite fit my needs. Plus, I was itching to build.
+
+The idea is that writing every day is beneficial to our mental health. If we are able to dump a stream of consciousness to the page, we will learn more about ourselves and feel better overall. I tried the practice with pen and paper and found it beneficial.
+
+![A screenshot of the simplistic Wrabit editor](/assets/projects/wrabit-screen.jpg)
+
+Just writing daily wasn't enough of a difference from existing solutions. I wanted Wrabit to be more than an exercise. My partner and I sat down one night and tried to think about ways to make it unique. In the end, I decided that I would charge for the product and donate portions of the user's monthly fees to mental health research.
+
+When a user writers seven days in a row, $1 from their monthly fee is donated to the [Brain & Behaviour Research Foundation](https://www.bbrfoundation.org/). Overall we have donated ~$500 to the foundation since launch!
+
+
+---
+
+<footer>
+
+[Build a writing habit today](https://writewithwrabit.com)
+
+[View the code on GitHub](https://github.com/writewithwrabit)
+
+</footer>

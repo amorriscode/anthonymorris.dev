@@ -11,7 +11,7 @@ function NavLink({
 }) {
   const router = useRouter();
   const linkPath = path || `/${title}`;
-  const isActive = router.pathname === linkPath;
+  const isActive = router.pathname.includes(linkPath);
 
   return (
     <>
@@ -50,11 +50,11 @@ function Nav() {
 
   return (
     <nav className="w-1/4 text-right pr-8 space-y-1">
-      <NavLink title="writing" />
+      {/* <NavLink title="writing" />
 
       <NavLink title="books" />
 
-      <NavLink title="photos" />
+      <NavLink title="photos" /> */}
 
       <NavLink title="projects" />
 
