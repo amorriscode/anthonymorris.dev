@@ -3,7 +3,6 @@
 @import "tailwindcss/utilities";
 
 body {
-  @apply bg-buzz-white;
   @apply text-buzz-gray;
 }
 
