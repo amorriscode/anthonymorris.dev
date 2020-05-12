@@ -9,7 +9,6 @@ import withLayout from '../../components/withLayout';
 import ProjectCard from '../../components/ProjectCard';
 
 function Projects({ projects }: { projects: Project[] }) {
-  console.log(projects);
   return (
     <div className="container">
       <Head>
