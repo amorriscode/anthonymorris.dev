@@ -12,7 +12,7 @@ function Home() {
 
       <main className="space-y-4">
         <section>
-          <h2 className="text-2xl">
+          <h2>
             Editor &amp; Terminal
           </h2>
 
@@ -32,7 +32,7 @@ function Home() {
         </section>
 
         <section>
-          <h2 className="text-2xl">
+          <h2>
             Apps
           </h2>
 
@@ -60,7 +60,7 @@ function Home() {
         </section>
 
         <section>
-          <h2 className="text-2xl">
+          <h2>
             Desk
           </h2>
 
@@ -76,7 +76,7 @@ function Home() {
         </section>
 
         <section>
-          <h2 className="text-2xl">
+          <h2>
             Misc
           </h2>
 

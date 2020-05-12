@@ -23,7 +23,9 @@ function Home() {
 
         <p>You can find me on <a href="http://twitter.com/amorriscode">Twitter</a> or <a href="https://www.linkedin.com/in/amorriscode">LinkedIn</a> but I'm trying to spend less time on social media these days.</p>
 
-        <p className="text-xs border-t border-gray-400 pt-4">This website was built using <a href="https://nextjs.org">Next.js</a> with deployments handled by <a href="https://vercel.com">Vercel</a>.</p>
+        <hr />
+
+        <p className="text-xs ">This website was built using <a href="https://nextjs.org">Next.js</a> with deployments handled by <a href="https://vercel.com">Vercel</a>.</p>
       </main>
     </div>
   )

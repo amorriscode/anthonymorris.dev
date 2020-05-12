@@ -1,16 +1,15 @@
-import { NextPage } from 'next';
 import Link from 'next/link';
 
 import Nav from './Nav';
 
-function withLayout(PageComponent: NextPage) {
+function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
     return (
       <>
         <div className="container mx-auto sm:w-3/5 px-5 pb-5">
           <header className="text-right text-4xl mb-4">
             <Link href="/">
-              <a className="header-link text-buzz-gray">
+              <a className="header-link">
                 anthony morris
               </a>
             </Link>
@@ -28,12 +27,9 @@ function withLayout(PageComponent: NextPage) {
         </div>
 
         <style jsx>{`
-        .gradient-line {
+          .gradient-line {
             height: 2px;
             background-image: linear-gradient(45deg, #1f1837, #65285a, #e200b9);
-          }
-
-          .nav-item-container:hover .gradient-line {
           }
         `}</style>
       </>

@@ -6,15 +6,27 @@ body {
   @apply text-buzz-gray;
 }
 
-a:not(.nav-item,.header-link) {
+a:not(.nav-item, .header-link, .project-card) {
   @apply underline;
 }
 
-a {
+a:not(.header-link, .project-card) {
   @apply text-buzz-purple-light;
   transition: color 0.15s ease-in;
 }
 
-a:not(.header-link):hover {
+a:not(.header-link, .project-card):hover {
   @apply text-buzz-purple-neon;
+}
+
+h1 {
+  @apply text-4xl mb-4 font-extrabold;
+}
+
+h2 {
+  @apply text-3xl mb-4;
+}
+
+h3 {
+  @apply text-2xl mb-4;
 }
