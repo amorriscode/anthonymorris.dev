@@ -1,46 +1,33 @@
 {
   "name": "amorriscode",
-  "private": true,
-  "description": "A personal websitee for Anthony Morris",
-  "version": "0.1.0",
+  "description": "A personal website for Anthony Morris",
   "author": "Anthony Morris <anthony@amorrissound.com>",
-  "dependencies": {
-    "gatsby": "^2.13.4",
-    "gatsby-image": "^2.2.4",
-    "gatsby-plugin-google-analytics": "^2.1.4",
-    "gatsby-plugin-manifest": "^2.2.1",
-    "gatsby-plugin-offline": "^2.2.1",
-    "gatsby-plugin-react-helmet": "^3.1.0",
-    "gatsby-plugin-sharp": "^2.2.2",
-    "gatsby-source-filesystem": "^2.1.2",
-    "gatsby-transformer-sharp": "^2.2.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
-    "react-icons": "^3.7.0"
-  },
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "now-build": "npm run build",
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.4.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-icons": "^3.10.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/amorriscode/anthonymorris.dev"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/amorriscode/anthonymorris.dev/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "@types/react": "^16.9.35",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.6",
+    "typescript": "^3.8.3"
   }
 }
