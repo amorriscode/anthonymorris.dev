@@ -17,12 +17,10 @@ function Projects({ projects }: { projects: Project[] }) {
       </Head>
 
       <main className="space-y-4">
-        <div className="grid grid-cols-2 col-gap-4 row-gap-6">
-          {projects.map(project => <ProjectCard key={project.slug} project={project} />)}
-        </div>
+        {projects.map(project => <ProjectCard key={project.slug} project={project} />)}
       </main>
     </div>
-  )
+  );
 };
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -31,7 +29,7 @@ export const getStaticProps: GetStaticProps = async () => {
     'date',
     'slug',
     'description',
-    'image',
+    'status',
   ]);
 
   return {

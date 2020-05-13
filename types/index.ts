@@ -6,4 +6,5 @@ export type Project = {
   content: string;
   slug: string;
   image: string;
+  status: string;
 }

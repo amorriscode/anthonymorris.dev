@@ -4,6 +4,7 @@ description: 'A Chrome extension to remind us of our mortality.'
 date: '2019-06-07'
 launchDate: '2019-06-07'
 image: '/assets/projects/social-media-death-clock-card.jpg'
+status: 'live'
 ---
 
 I've been a fan of [Stoicism](https://www.iep.utm.edu/stoicism/) for a few years now. I haven't read all of the ancients text. I'm no expert but I love the practical use of the philosophy.

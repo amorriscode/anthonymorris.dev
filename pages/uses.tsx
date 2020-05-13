@@ -16,7 +16,7 @@ function Home() {
             Editor &amp; Terminal
           </h2>
 
-          <ul className="pl-6 list-disc">
+          <ul className="pl-6 list-disc -mt-4">
             <li>
               I wish I were a vim power user but alas I use <a href="https://code.visualstudio.com">Visual Studio Code</a>.
             </li>
@@ -36,7 +36,7 @@ function Home() {
             Apps
           </h2>
 
-          <ul className="pl-6 list-disc">
+          <ul className="pl-6 list-disc -mt-4">
             <li>
               <a href="https://culturedcode.com/things">Things 3</a> keeps me focused and accountable.
             </li>
@@ -54,7 +54,7 @@ function Home() {
             </li>
 
             <li>
-              I subscribe to way too many podcats on <a href="https://www.pocketcasts.com">Pocket Casts</a>.
+              I subscribe to way too many podcasts on <a href="https://www.pocketcasts.com">Pocket Casts</a>.
             </li>
           </ul>
         </section>
@@ -64,7 +64,7 @@ function Home() {
             Desk
           </h2>
 
-          <ul className="pl-6 list-disc">
+          <ul className="pl-6 list-disc -mt-4">
             <li>
               Sometimes I stand with my <a href="https://www.fully.com/standing-desks/jarvis.html">Fully Jarvis</a> standing desk.
             </li>
@@ -80,7 +80,7 @@ function Home() {
             Misc
           </h2>
 
-          <ul className="pl-6 list-disc">
+          <ul className="pl-6 list-disc -mt-4">
             <li>
               I love paper notebooks but my <a href="https://remarkable.com">reMarkable</a> has been a good replacement. I love the ability to organize and not waste paper. But I miss my notebooks.
             </li>

@@ -49,14 +49,14 @@ function Nav() {
 
 
   return (
-    <nav className="w-1/4 text-right pr-8 space-y-1">
-      {/* <NavLink title="writing" />
-
-      <NavLink title="books" />
-
-      <NavLink title="photos" /> */}
-
+    <nav className="sm:w-1/4 text-right sm:pr-8 space-y-1 mb-4">
       <NavLink title="projects" />
+
+      {/* <NavLink title="photos" />
+      
+      <NavLink title="writing" />
+
+      <NavLink title="books" /> */}
 
       <NavLink title="uses" />
     </nav>
