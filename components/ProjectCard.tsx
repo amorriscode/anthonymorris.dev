@@ -6,14 +6,18 @@ function ProjectCard({ project }: { project: Project }) {
   return (
     <>
       <Link href="/projects/[slug]" as={`/projects/${project.slug}`} passHref>
-        <a className="project-card col-span-1">
-          <div className="project-image mb-2 w-full h-40"></div>
+        <a className="project-card block">
+          <div className="flex justify-between items-center">
+            <div className="project-title text-lg font-bold mb-1">
+              {project.title}
+            </div>
 
-          <div className="project-title font-bold mb-1">
-            {project.title}
+            <div className="text-sm border-b border-buzz-green-neon border-dashed">
+              {project.status}
+            </div>
           </div>
 
-          <div className="text-xs">
+          <div className="text-sm">
             {project.description}
           </div>
         </a>
@@ -26,14 +30,6 @@ function ProjectCard({ project }: { project: Project }) {
 
         .project-card:hover .project-title {
           color: #e200b9;
-        }
-
-        .project-image {
-          background-position: center;
-          background-size: cover;
-          background-image: ${project?.image
-            ? 'url(' + project.image + ')'
-            : 'linear-gradient(45deg, #1f1837, #65285a, #e200b9)'};
         }
       `}</style>
     </>

@@ -17,10 +17,10 @@ function withLayout(PageComponent: any) {
             <div className="gradient-line w-full"></div>
           </header>
 
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <Nav />
 
-            <div className="w-3/4">
+            <div className="sm:w-3/4">
               <PageComponent {...pageProps} />
             </div>
           </div>
@@ -29,7 +29,7 @@ function withLayout(PageComponent: any) {
         <style jsx>{`
           .gradient-line {
             height: 2px;
-            background-image: linear-gradient(45deg, #1f1837, #65285a, #e200b9);
+            background-image: linear-gradient(90deg, #1f1837, #65285a, #e200b9);
           }
         `}</style>
       </>

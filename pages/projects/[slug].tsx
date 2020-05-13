@@ -21,15 +21,23 @@ function ProjectPage({ project }: { project: Project }) {
       <article>
         {project?.image && <img className="mb-4" src={project.image} alt={project.title} />}
 
-        <h1>
-          {project.title}
-        </h1>
+        <div className="flex justify-between items-center">
+          <h1>
+            {project.title}
+          </h1>
 
-        {project?.launchDate && (
-          <div className="text-xs">
-            Launched on {format(new Date(project.launchDate), 'MMMM do, y')}
+          <div className="text-xs text-right mb-4">
+            <div className="border-b inline-block border-buzz-green-neon border-dashed">
+              {project.status}
+            </div>
+
+            {project?.launchDate && (
+              <div className="border-b border-buzz-green-neon border-dashed">
+                launched {format(new Date(project.launchDate), 'MMMM do, y')}
+              </div>
+            )}
           </div>
-        )}
+        </div>
 
         <div
           className={markdownStyles['markdown']}
@@ -48,6 +56,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     'slug',
     'content',
     'image',
+    'status',
   ]);
 
   const content = await markdownToHtml(project.content || '');
