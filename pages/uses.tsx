@@ -90,7 +90,7 @@ function Home() {
             </li>
 
             <li>
-              I make loud noises with my purple <a href="https://strandbergguitars.com/product-category/body-style/boden">.standberg Boden</a> guitar.
+              I make loud noises with my purple <a href="https://strandbergguitars.com/product-category/body-style/boden">.strandberg Boden</a> guitar.
             </li>
           </ul>
         </section>
