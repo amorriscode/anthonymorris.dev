@@ -7,7 +7,7 @@ body {
 }
 
 a:not(.nav-item, .header-link, .project-card) {
-  @apply underline;
+  @apply border-buzz-purple-light border-b border-dotted;
 }
 
 a:not(.header-link, .project-card) {
@@ -16,7 +16,7 @@ a:not(.header-link, .project-card) {
 }
 
 a:not(.header-link, .project-card):hover {
-  @apply text-buzz-purple-neon;
+  @apply text-buzz-purple-neon border-buzz-purple-neon border-solid;
 }
 
 h1 {
