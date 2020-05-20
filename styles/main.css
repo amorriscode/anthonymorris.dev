@@ -6,16 +6,16 @@ body {
   @apply text-buzz-gray;
 }
 
-a:not(.nav-item, .header-link, .project-card) {
+a:not(.nav-item, .header-link, .content-card) {
   @apply border-buzz-purple-light border-b border-dotted;
 }
 
-a:not(.header-link, .project-card) {
+a:not(.header-link, .content-card) {
   @apply text-buzz-purple-light;
   transition: color 0.15s ease-in;
 }
 
-a:not(.header-link, .project-card):hover {
+a:not(.header-link, .content-card):hover {
   @apply text-buzz-purple-neon border-buzz-purple-neon border-solid;
 }
 

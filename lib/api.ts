@@ -2,17 +2,21 @@ import fs from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
 
-import { Project } from '../types';
+import { Project, Book } from '../types';
 
-const projectsDirectory = join(process.cwd(), 'data/projects');
+const getContentDirectory = (type: string) => join(process.cwd(), `data/${type}`);
 
 export function getSlugs(dir: string) {
   return fs.readdirSync(dir);
 }
 
-export function getProjectBySlug(slug: string, fields: string[] = []): Project {
+export function getContentBySlug(
+  type: string,
+  slug: string,
+  fields: string[] = [],
+): Project | Book {
   const realSlug = slug.replace(/\.md$/, '');
-  const fullPath = join(projectsDirectory, `${realSlug}.md`);
+  const fullPath = join(getContentDirectory(type), `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
 
@@ -34,14 +38,15 @@ export function getProjectBySlug(slug: string, fields: string[] = []): Project {
     }
   })
 
-  return items as Project;
+  return items as Project | Book;
 }
 
-export function getAllProjects(fields: string[] = []) {
-  const slugs = getSlugs(projectsDirectory);
+export function getAllContent(type: string, fields: string[] = []) {
+  const slugs = getSlugs(getContentDirectory(type));
+
   const projects = slugs
-    .map(slug => getProjectBySlug(slug, fields))
-    // sort projects by date in descending order
+    .map(slug => getContentBySlug(type, slug, fields))
+    // sort by date in descending order
     .sort((a, b) =>{
       const aCreatedAt = new Date(a.date);
       const bCreatedAt = new Date(b.date);

@@ -3,40 +3,41 @@ import { GetStaticProps } from 'next';
 
 import { getAllContent } from '../../lib/api';
 
-import { Project } from '../../types';
+import { Book } from '../../types';
 
 import withLayout from '../../components/withLayout';
-import ProjectCard from '../../components/ProjectCard';
+import BookCard from '../../components/BookCard';
 
-function Projects({ projects }: { projects: Project[] }) {
+function Books({ books }: { books: Book[] }) {
   return (
     <div className="container">
       <Head>
-        <title>projects | anthony morris</title>
+        <title>books | anthony morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main className="space-y-4">
-        {projects.map(project => <ProjectCard key={project.slug} project={project} />)}
+        {books.map(book => <BookCard key={book.slug} book={book} />)}
       </main>
     </div>
   );
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const projects = getAllContent('projects', [
+  const books = getAllContent('books', [
     'title',
     'date',
     'slug',
     'description',
-    'status',
+    'rating',
+    'readDate',
   ]);
 
   return {
     props: {
-      projects,
+      books,
     },
   }
 }
 
-export default withLayout(Projects);
+export default withLayout(Books);

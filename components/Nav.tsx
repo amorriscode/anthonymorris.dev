@@ -54,9 +54,9 @@ function Nav() {
 
       {/* <NavLink title="photos" />
       
-      <NavLink title="writing" />
+      <NavLink title="writing" /> */}
 
-      <NavLink title="books" /> */}
+      <NavLink title="books" />
 
       <NavLink title="uses" />
     </nav>

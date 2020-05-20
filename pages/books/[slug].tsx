@@ -2,46 +2,43 @@ import Head from 'next/head';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { format } from 'date-fns';
 
-import { Project } from '../../types';
+import { Book } from '../../types';
 
 import markdownStyles from '../../styles/markdown-styles.module.css';
 import markdownToHtml from '../../lib/markdownToHtml';
 import { getContentBySlug, getAllContent } from '../../lib/api';
 
 import withLayout from '../../components/withLayout';
+import BookRating from '../../components/BookRating';
 
-function ProjectPage({ project }: { project: Project }) {
+function BookPage({ book }: { book: Book }) {
   return (
     <>
       <Head>
-        <title>{project.title.toLowerCase()} | anthony morris</title>
+        <title>{book.title.toLowerCase()} | anthony morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <article>
-        {project?.image && <img className="mb-4" src={project.image} alt={project.title} />}
-
         <div className="flex justify-between items-center">
           <h1>
-            {project.title}
+            {book.title}
           </h1>
 
           <div className="text-xs text-right mb-4">
             <div className="border-b inline-block border-buzz-green-neon border-dashed">
-              {project.status}
+              <BookRating rating={book.rating} />
             </div>
 
-            {project?.launchDate && (
-              <div className="border-b border-buzz-green-neon border-dashed">
-                launched {format(new Date(project.launchDate), 'MMMM do, y')}
-              </div>
-            )}
+            <div className="border-b border-buzz-green-neon border-dashed">
+              finished reading on {format(new Date(book.readDate), 'MMMM do, y')}
+            </div>
           </div>
         </div>
 
         <div
           className={markdownStyles['markdown']}
-          dangerouslySetInnerHTML={{ __html: project.content }}
+          dangerouslySetInnerHTML={{ __html: book.content }}
         />
       </article>
     </>
@@ -49,22 +46,20 @@ function ProjectPage({ project }: { project: Project }) {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const project = getContentBySlug('projects', params?.slug as string, [
+  const book = getContentBySlug('books', params?.slug as string, [
     'title',
-    'date',
-    'launchDate',
+    'readDate',
     'slug',
     'content',
-    'image',
-    'status',
+    'rating',
   ]);
 
-  const content = await markdownToHtml(project.content || '');
+  const content = await markdownToHtml(book.content || '');
 
   return {
     props: {
-      project: {
-        ...project,
+      book: {
+        ...book,
         content,
       },
     },
@@ -72,13 +67,13 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const projects = getAllContent('projects', ['slug']) as Project[];
+  const books = getAllContent('books', ['slug']) as Book[];
 
   return {
-    paths: projects.map(project => {
+    paths: books.map(book => {
       return {
         params: {
-          slug: project.slug,
+          slug: book.slug,
         },
       }
     }),
@@ -86,4 +81,4 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }
 }
 
-export default withLayout(ProjectPage);
+export default withLayout(BookPage);
