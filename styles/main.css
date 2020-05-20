@@ -6,6 +6,14 @@ body {
   @apply text-buzz-gray;
 }
 
+::-moz-selection {
+  @apply bg-buzz-green-neon;
+}
+
+::selection {
+  @apply bg-buzz-green-neon;
+}
+
 a:not(.nav-item, .header-link, .content-card) {
   @apply border-buzz-purple-light border-b border-dotted;
 }

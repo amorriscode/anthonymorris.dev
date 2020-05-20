@@ -20,7 +20,7 @@ function BookPage({ book }: { book: Book }) {
       </Head>
 
       <article>
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-center mb-8">
           <h1 className="mb-0 leading-none">
             {book.title}
           </h1>
