@@ -6,7 +6,7 @@ function ProjectCard({ project }: { project: Project }) {
   return (
     <>
       <Link href="/projects/[slug]" as={`/projects/${project.slug}`} passHref>
-        <a className="project-card block">
+        <a className="content-card block">
           <div className="flex justify-between items-center">
             <div className="project-title text-lg font-bold mb-1">
               {project.title}
@@ -28,7 +28,7 @@ function ProjectCard({ project }: { project: Project }) {
           transition: color 0.15s ease-in;
         }
 
-        .project-card:hover .project-title {
+        .content-card:hover .project-title {
           color: #e200b9;
         }
       `}</style>
