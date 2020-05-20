@@ -49,6 +49,8 @@ Now go forth and ~~build~~ talk to your customers!
 
 <footer>
 
-[Goodreads](https://www.goodreads.com/book/show/18529000-the-mom-test)
+The Mom Test was written by [Rob Fitzpatrick](https://twitter.com/robfitz)
+
+[Add the book on Goodreads](https://www.goodreads.com/book/show/18529000-the-mom-test)
 
 </footer>

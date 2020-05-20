@@ -20,12 +20,12 @@ function BookPage({ book }: { book: Book }) {
       </Head>
 
       <article>
-        <div className="flex justify-between items-center">
-          <h1>
+        <div className="flex justify-between items-center mb-4">
+          <h1 className="mb-0 leading-none">
             {book.title}
           </h1>
 
-          <div className="text-xs text-right mb-4">
+          <div className="text-xs text-right">
             <div className="border-b inline-block border-buzz-green-neon border-dashed">
               <BookRating rating={book.rating} />
             </div>

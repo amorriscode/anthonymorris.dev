@@ -17,4 +17,5 @@ export type Book = {
   content: string;
   slug: string;
   rating: number;
+  author: string;
 }

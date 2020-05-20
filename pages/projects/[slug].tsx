@@ -21,8 +21,8 @@ function ProjectPage({ project }: { project: Project }) {
       <article>
         {project?.image && <img className="mb-4" src={project.image} alt={project.title} />}
 
-        <div className="flex justify-between items-center">
-          <h1>
+        <div className="flex justify-between items-center mb-4">
+          <h1 className="mb-0 leading-none">
             {project.title}
           </h1>
 
