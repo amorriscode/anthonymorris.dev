@@ -62,7 +62,7 @@ function Life() {
           {lifeCalendar.map((year, i) => (
             <div className="grid gap-1 w-full relative">
               {i % 4 === 0 && <div className="hidden sm:block absolute text-xs -mt-1 -ml-5 text-right w-4 text-gray-400">{i}</div>}
-              {year.map(week => (<div key={week.date.toISOString()} className={`rounded-sm h-2 w-2 border border-buzz-purple-dark ${isPast(week.date) ? 'bg-buzz-purple-neon border-none' : ''}`}></div>))}
+              {year.map(week => (<div key={week.date.toISOString()} className={`h-1 w-1 sm:rounded-sm sm:h-2 sm:w-2 border border-buzz-purple-dark ${isPast(week.date) ? 'bg-buzz-purple-neon border-none' : ''}`}></div>))}
             </div>
           ))}
         </div>

@@ -6,7 +6,7 @@ function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
     return (
       <>
-        <div className="container mx-auto sm:w-3/5 px-5 pb-5">
+        <div className="container mx-auto lg:w-3/5 px-5 pb-5">
           <header className="text-right text-4xl mb-4">
             <Link href="/">
               <a className="header-link">
@@ -20,7 +20,7 @@ function withLayout(PageComponent: any) {
           <div className="flex flex-col sm:flex-row">
             <Nav />
 
-            <div className="sm:w-3/4">
+            <div className="lg:w-3/4">
               <PageComponent {...pageProps} />
             </div>
           </div>
