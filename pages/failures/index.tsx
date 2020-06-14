@@ -26,12 +26,14 @@ function Failures({ failures }: { failures: Failure[] }) {
         </p>
 
         <p>
-          I've been trying to change my relationship with failure. I think a growth mindset allows you to utilize your failures to enable growth. I decided to make a <span className="font-bold">failure journal</span>.
+          I've been trying to change my relationship with failure. Using a growth mindset allows you to utilize your failures. I decided to make a <span className="font-bold">failure journal</span>.
         </p>
 
         <p>
-          This is a place for me to reflect on my failures. To learn from them. But more importantly, it's a place to <span className="italic">forgive myself for my failures</span>. A place to help me shift focus from the past to the <a href="/life">time I have left</a>.
+          This is a place for me to reflect on my failures. To learn from them. More importantly, it's a place to <span className="italic">forgive myself for my failures</span>. A place to help me shift focus from the past to the <a href="/life">time I have left</a>.
         </p>
+
+        <hr />
 
         {failures.map(failure => <FailureCard key={failure.slug} failure={failure} />)}
       </main>

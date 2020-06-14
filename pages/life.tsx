@@ -56,6 +56,8 @@ function Life() {
           Time to do something about those remaining blocks.
         </p>
 
+        <hr />
+
         <div className="space-y-2 w-full">
           {lifeCalendar.map((year, i) => (
             <div className="grid gap-1 w-full relative">

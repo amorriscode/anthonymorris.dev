@@ -15,6 +15,12 @@ function Home() {
           Uses
         </h1>
 
+        <p>
+          Developers lover <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer">talking about their tools</a>. These are the tools I like to use to be productive and have fun.
+        </p>
+
+        <hr />
+
         <section>
           <h2>
             Editor &amp; Terminal
