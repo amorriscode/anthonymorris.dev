@@ -59,6 +59,8 @@ function Nav() {
       <NavLink title="books" />
 
       <NavLink title="uses" />
+
+      <NavLink title="💀" path="/life" />
     </nav>
   )
 }
