@@ -19,3 +19,11 @@ export type Book = {
   rating: number;
   author: string;
 }
+
+export type Failure = {
+  title: string;
+  description: string;
+  date: string;
+  content: string;
+  slug: string;
+}

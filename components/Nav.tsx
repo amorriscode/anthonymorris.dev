@@ -52,6 +52,8 @@ function Nav() {
     <nav className="sm:w-1/4 text-right sm:pr-8 space-y-1 mb-4">
       <NavLink title="projects" />
 
+      <NavLink title="failures" />
+
       {/* <NavLink title="photos" />
       
       <NavLink title="writing" /> */}
