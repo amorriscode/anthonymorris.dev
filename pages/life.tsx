@@ -6,7 +6,7 @@ import withLayout from '../components/withLayout';
 function Life() {
   const lifeCalendar = [];
   // Start the date on my birthday
-  let prevDate = new Date('05-06-1990')
+  let prevDate = new Date('1990-05-06')
 
   // Create 88 rows for my 80 years
   for (let i = 0; i < 80; i++) {
