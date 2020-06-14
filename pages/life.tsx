@@ -4,7 +4,6 @@ import { addWeeks, isPast } from 'date-fns';
 import withLayout from '../components/withLayout';
 
 function Life() {
-
   const lifeCalendar = [];
   // Start the date on my birthday
   let prevDate = new Date('05-06-1990')
