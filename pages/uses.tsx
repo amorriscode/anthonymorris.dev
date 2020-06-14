@@ -11,6 +11,10 @@ function Home() {
       </Head>
 
       <main className="space-y-4">
+        <h1 className="leading-none">
+          Uses
+        </h1>
+
         <section>
           <h2>
             Editor &amp; Terminal

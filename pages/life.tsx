@@ -33,6 +33,10 @@ function Life() {
       </Head>
 
       <main className="space-y-4">
+        <h1 className="leading-none">
+          My Life in Weeks
+        </h1>
+
         <p>
           In Meditations Marcus Aurelius said <span className="font-bold">"You could leave life right now. Let that determine what you do and say and think."</span>
         </p>

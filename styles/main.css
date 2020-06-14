@@ -32,9 +32,9 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl mb-4;
+  @apply text-3xl mb-4 font-bold;
 }
 
 h3 {
-  @apply text-2xl mb-4;
+  @apply text-2xl mb-4 font-bold;
 }

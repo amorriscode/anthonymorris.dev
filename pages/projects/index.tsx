@@ -17,6 +17,10 @@ function Projects({ projects }: { projects: Project[] }) {
       </Head>
 
       <main className="space-y-4">
+        <h1 className="leading-none">
+          Projects
+        </h1>
+
         {projects.map(project => <ProjectCard key={project.slug} project={project} />)}
       </main>
     </div>
