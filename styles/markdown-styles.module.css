@@ -7,7 +7,7 @@
 }
 
 .markdown blockquote {
-  @apply border-l-4 border-buzz-green-neon bg-gray-100 p-4 italic;
+  @apply border-l-4 border-buzz-green bg-buzz-white bg-opacity-50 rounded-lg rounded-bl-none rounded-tl-none p-4 italic;
 }
 
 .markdown footer {

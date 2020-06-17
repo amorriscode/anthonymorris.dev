@@ -11,7 +11,9 @@ function Home() {
       </Head>
 
       <main className="space-y-4">
-        <p>Hey there! 👋</p>
+        <h1 className="leading-none">
+          Hey there! 👋
+        </h1>
 
         <p>Welcome to my corner of the interwebs. My personal playground.</p>
 
