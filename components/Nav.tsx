@@ -15,7 +15,7 @@ function NavLink({
 
   return (
     <>
-      <div className="flex items-center justify-end">
+      <div className="flex items-center justify-end relative">
         {isActive && <IoIosReturnRight className="text-buzz-purple-neon mr-1" />}
         
         <div className="nav-item-container">
@@ -46,10 +46,8 @@ function NavLink({
 }
 
 function Nav() {
-
-
   return (
-    <nav className="sm:w-1/4 text-right sm:pr-8 space-y-1 mb-4">
+    <nav className="flex justify-between items-center md:block md:w-40 md:absolute md:-ml-40 md:pr-8 left-0 top-0 text-right py-4 md:py-8 space-y-1">
       <NavLink title="projects" />
 
       <NavLink title="failures" />

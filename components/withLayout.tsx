@@ -6,32 +6,25 @@ function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
     return (
       <>
-        <div className="container mx-auto lg:w-3/5 px-5 pb-5">
-          <header className="text-right text-4xl mb-4">
+        <div className="h-64 bg-buzz-purple-dark text-white flex flex-col justify-end">
+          <header className="text-right text-5xl container mx-auto px-4 md:px-8 lg:w-3/5 xl:w-2/5">
             <Link href="/">
               <a className="header-link">
                 anthony morris
               </a>
             </Link>
-
-            <div className="gradient-line w-full"></div>
-          </header>
-
-          <div className="flex flex-col sm:flex-row">
-            <Nav />
-
-            <div className="lg:w-3/4">
-              <PageComponent {...pageProps} />
-            </div>
-          </div>
+          </header>          
         </div>
 
-        <style jsx>{`
-          .gradient-line {
-            height: 2px;
-            background-image: linear-gradient(90deg, #1f1837, #65285a, #e200b9);
-          }
-        `}</style>
+        <div className="container mx-auto lg:w-3/5 xl:w-2/5 px-4 md:px-8 relative">
+          <div className="sticky top-0 bg-white z-10">
+            <Nav />
+          </div>
+
+          <div className="py-4 md:py-8">
+            <PageComponent {...pageProps} />
+          </div>
+        </div>
       </>
     );
   }
