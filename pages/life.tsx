@@ -47,7 +47,7 @@ function Life() {
           </p>
 
           <p>
-            This is a reminder for me to cherish the life I have. To do the things I want to do and be with the people I want to be with. To let go of the things that don't matter or aren't in my control.
+            This is a reminder for me to cherish the life I have. To do the things I want to do and be with the people I want to be with. To let go of the things that don't matter or aren't in my control. <a href="https://youtu.be/arj7oStGLkU" target="_blank" rel="noopener noreferrer">It's a reminder of the things I am procrastinating on</a>.
           </p>
 
           <p>
