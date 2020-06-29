@@ -20,20 +20,18 @@ function BookPage({ book }: { book: Book }) {
       </Head>
 
       <article>
-        <div className="flex justify-between items-center mb-8">
-          <h1 className="mb-0 leading-none">
-            {book.title}
-          </h1>
+        <h1 className="leading-none">
+          {book.title}
+        </h1>
+        
+        <div className="text-xs">
+            <BookRating rating={book.rating} />
 
-          <div className="text-xs text-right">
-            <div className="border-b inline-block border-buzz-green-neon border-dashed">
-              <BookRating rating={book.rating} />
-            </div>
+          &nbsp;|&nbsp;
 
-            <div className="border-b border-buzz-green-neon border-dashed">
-              finished reading on {format(new Date(book.readDate), 'MMMM do, y')}
-            </div>
-          </div>
+          <span>
+            finished reading on {format(new Date(book.readDate), 'MMMM do, y')}
+          </span>
         </div>
 
         <div

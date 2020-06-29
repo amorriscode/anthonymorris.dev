@@ -21,7 +21,7 @@ function BookCard({ book }: { book: Book }) {
             </div>
 
             <div className="book-read-date hidden text-sm border-b border-buzz-green-neon border-dashed">
-              read on {format(new Date(book.readDate), 'MMMM do, y')}
+              finished on {format(new Date(book.readDate), 'MMMM do, y')}
             </div>
           </div>
 

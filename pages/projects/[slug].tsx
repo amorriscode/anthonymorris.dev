@@ -21,22 +21,24 @@ function ProjectPage({ project }: { project: Project }) {
       <article>
         {project?.image && <img className="mb-4" src={project.image} alt={project.title} />}
 
-        <div className="flex justify-between items-center mb-8">
-          <h1 className="mb-0 leading-none">
-            {project.title}
-          </h1>
+        <h1 className="leading-none">
+          {project.title}
+        </h1>
 
-          <div className="text-xs text-right">
-            <div className="border-b inline-block border-buzz-green-neon border-dashed">
-              {project.status}
-            </div>
+        <div className="text-xs">
+          <span>
+            {project.status}
+          </span>
 
-            {project?.launchDate && (
-              <div className="border-b border-buzz-green-neon border-dashed">
+          {project?.launchDate && (
+            <>
+              &nbsp;|&nbsp;
+
+              <span>
                 launched {format(new Date(project.launchDate), 'MMMM do, y')}
-              </div>
-            )}
-          </div>
+              </span>
+            </>
+          )}
         </div>
 
         <div
