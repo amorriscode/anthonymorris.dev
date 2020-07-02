@@ -19,16 +19,12 @@ function FailurePage({ failure }: { failure: Failure }) {
       </Head>
 
       <article>
-        <div className="flex justify-between items-center mb-8">
-          <h1 className="mb-0 leading-none">
-            {failure.title}
-          </h1>
+        <h1 className="leading-none">
+          {failure.title}
+        </h1>
 
-          <div className="text-xs text-right">
-            <div className="border-b border-buzz-green-neon border-dashed">
-              failed {format(new Date(failure.date), 'MMMM do, y')}
-            </div>
-          </div>
+        <div className="text-xs">
+          failed {format(new Date(failure.date), 'MMMM do, y')}
         </div>
 
         <div
