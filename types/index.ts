@@ -28,3 +28,8 @@ export type Failure = {
   slug: string;
   lessons: string[];
 }
+
+export type Lesson = {
+  title: string;
+  failure: string;
+}

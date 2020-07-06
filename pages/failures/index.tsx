@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { GetStaticProps } from 'next';
+import Link from 'next/link';
 
 import { getAllContent } from '../../lib/api';
 
@@ -33,6 +34,10 @@ function Failures({ failures }: { failures: Failure[] }) {
 
           <p>
             This is a place for me to reflect on my failures. To learn from them. More importantly, it's a place to <span className="italic">forgive myself for my failures</span>. A place to help me shift focus from the past to the <a href="/life">time I have left</a>.
+          </p>
+
+          <p>
+            All of my lessons learned can be viewed in <Link href="/lessons"><a>list form</a></Link>.
           </p>
         </PageSummary>
 

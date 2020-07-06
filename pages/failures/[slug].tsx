@@ -34,7 +34,7 @@ function FailurePage({ failure }: { failure: Failure }) {
           </h3>
 
           <ul className="list-disc pl-5">
-            {failure.lessons.map(lesson => <li>{lesson}</li>)}
+            {failure.lessons.map(lesson => <li key={lesson}>{lesson}</li>)}
           </ul>
         </PageSummary>
 
