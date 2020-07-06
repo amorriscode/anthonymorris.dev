@@ -1,10 +1,11 @@
 ---
 title: "Not Top Talent"
-description: 'I failed to make it onto Toptal and am banned for two years.'
-date: '2020-06-30'
+description: "I failed to make it onto Toptal and am banned for two years."
+date: "2020-06-30"
+lessons: ["Give everything your best shot", "There is always room for improvement", "Tighten the feedback loop on your growth"]
 ---
 
-Earlier this year I left my job at Cisco to [build a startup](/projects/bard). The response has been a little underwhelming so I decided it was time to start looking at jobs. To prepare for that, I started doing a lot of [leetcode](https://leetcode.com) and studying algorithms and data structures. I've never been that good at them (and I'm still not as good as I want to be). I was making improvements though.
+Earlier this year I left my job at Cisco to [build a startup](/projects/bard). The response has been a little underwhelming so I decided it was time to start looking at jobs. To prepare for that, I started doing a lot of [leetcode](https://leetcode.com) and studying algorithms and data structures. I've never been that great at them (and I'm still not as good as I want to be). I was making improvements though.
 
 Last year in October, I had tried to get onto the [Toptal](https://www.toptal.com). I didn't get in so I had to wait a few months before trying again. With COVID and a lack of job opportunities, I decided to give it another shot.
 

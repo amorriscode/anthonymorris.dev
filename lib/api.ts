@@ -2,7 +2,7 @@ import fs from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
 
-import { Project, Book } from '../types';
+import { Project, Book, Failure } from '../types';
 
 const getContentDirectory = (type: string) => join(process.cwd(), `data/${type}`);
 
@@ -44,7 +44,7 @@ export function getContentBySlug(
 export function getAllContent(type: string, fields: string[] = []) {
   const slugs = getSlugs(getContentDirectory(type));
 
-  const projects = slugs
+  const content = slugs
     .map(slug => getContentBySlug(type, slug, fields))
     // sort by date in descending order
     .sort((a, b) =>{
@@ -53,5 +53,5 @@ export function getAllContent(type: string, fields: string[] = []) {
       return bCreatedAt.getTime() - aCreatedAt.getTime();
     });
 
-  return projects;
+  return content as (Project | Book | Failure)[];
 }

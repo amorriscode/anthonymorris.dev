@@ -1,7 +1,8 @@
 ---
-title: 'High School'
-description: 'I never made it through high school. This is probably my biggest failure.'
-date: '2008-06-01'
+title: "High School"
+description: "I never made it through high school. This is probably my biggest failure."
+date: "2008-06-01"
+lessons: ["Knowledge is power", "We have the power to overcome great difficulties", "Optimize for mental health", "It's never too late"]
 ---
 
 When I was in high school, I suffered from depression. It crippled me. On most days I had a hard time getting out of bed to face the world.

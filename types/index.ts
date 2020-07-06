@@ -26,4 +26,5 @@ export type Failure = {
   date: string;
   content: string;
   slug: string;
+  lessons: string[];
 }

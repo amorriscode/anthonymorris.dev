@@ -9,6 +9,7 @@ import markdownToHtml from '../../lib/markdownToHtml';
 import { getContentBySlug, getAllContent } from '../../lib/api';
 
 import withLayout from '../../components/withLayout';
+import PageSummary from '../../components/PageSummary';
 
 function FailurePage({ failure }: { failure: Failure }) {
   return (
@@ -23,9 +24,19 @@ function FailurePage({ failure }: { failure: Failure }) {
           {failure.title}
         </h1>
 
-        <div className="text-xs">
+        <div className="text-xs pb-2">
           failed {format(new Date(failure.date), 'MMMM do, y')}
         </div>
+
+        <PageSummary>
+          <h3>
+            Lessons Learned
+          </h3>
+
+          <ul className="list-disc pl-5">
+            {failure.lessons.map(lesson => <li>{lesson}</li>)}
+          </ul>
+        </PageSummary>
 
         <div
           className={markdownStyles['markdown']}
@@ -42,6 +53,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     'date',
     'slug',
     'content',
+    'lessons',
   ]);
 
   const content = await markdownToHtml(failure.content || '');
