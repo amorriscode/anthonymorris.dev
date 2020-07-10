@@ -6,7 +6,6 @@ import { Book } from '../types';
 import BookRating from './BookRating';
 
 function BookCard({ book }: { book: Book }) {
-
   return (
     <>
       <Link href="/books/[slug]" as={`/books/${book.slug}`} passHref>
@@ -25,8 +24,12 @@ function BookCard({ book }: { book: Book }) {
             </div>
           </div>
 
-          <div className="text-sm">
+          <div className="book-description text-sm">
             {book.description}
+          </div>
+
+          <div className="book-author hidden text-sm">
+            written by {book.author}
           </div>
         </a>
       </Link>
@@ -40,11 +43,13 @@ function BookCard({ book }: { book: Book }) {
           color: #e200b9;
         }
 
-        .content-card:hover .book-rating {
+        .content-card:hover .book-rating,
+        .content-card:hover .book-description {
           display: none;
         }
 
-        .content-card:hover .book-read-date {
+        .content-card:hover .book-read-date,
+        .content-card:hover .book-author {
           display: block;
         }
       `}</style>

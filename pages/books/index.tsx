@@ -8,6 +8,7 @@ import { Book } from '../../types';
 import withLayout from '../../components/withLayout';
 import BookCard from '../../components/BookCard';
 import PageSummary from '../../components/PageSummary';
+import CurrentlyReading from '../../components/CurrentlyReading';
 
 function Books({ books }: { books: Book[] }) {
   return (
@@ -36,6 +37,8 @@ function Books({ books }: { books: Book[] }) {
           </p>
         </PageSummary>
 
+        <CurrentlyReading />
+
         {books.map(book => <BookCard key={book.slug} book={book} />)}
       </main>
     </div>
@@ -50,6 +53,7 @@ export const getStaticProps: GetStaticProps = async () => {
     'description',
     'rating',
     'readDate',
+    'author',
   ]);
 
   return {
