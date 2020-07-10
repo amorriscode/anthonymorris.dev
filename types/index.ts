@@ -33,3 +33,10 @@ export type Lesson = {
   title: string;
   failure: string;
 }
+
+export type CurrentlyReadingBook = {
+  title: string;
+  author: string;
+  startedDate: string;
+  goodreadsUrl: string;
+}
