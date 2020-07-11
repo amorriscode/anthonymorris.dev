@@ -38,3 +38,7 @@ h2 {
 h3 {
   @apply text-2xl mb-4 font-bold;
 }
+
+img {
+  @apply rounded-lg;
+}

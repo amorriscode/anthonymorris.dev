@@ -53,7 +53,7 @@ function Home() {
             </li>
 
             <li>
-              I journal daily with either <a href="https://apps.apple.com/us/app/stoic-mental-health-training/id1312926037">stoic.</a> or <a href="https://writewithwrabit.com">Wrabit</a>.
+              I journal daily with <a href="https://writewithwrabit.com">Wrabit</a>.
             </li>
 
             <li>
