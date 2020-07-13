@@ -47,7 +47,7 @@ function NavLink({
 
 function Nav() {
   return (
-    <nav className="flex justify-between items-center md:block md:w-40 md:absolute md:-ml-40 md:pr-8 left-0 top-0 text-right py-4 md:py-8 space-y-1">
+    <nav className="flex uppercase font-extrabold text-sm justify-between items-center md:block md:w-40 md:absolute md:-ml-40 md:pr-8 left-0 top-0 text-right py-4 md:py-8 space-y-1">
       <NavLink title="projects" />
 
       <NavLink title="failures" />

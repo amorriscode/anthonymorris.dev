@@ -7,9 +7,9 @@ function withLayout(PageComponent: any) {
     return (
       <>
         <div className="h-64 bg-buzz-purple-dark text-white flex flex-col justify-end">
-          <header className="text-right text-5xl container mx-auto px-4 md:px-8 lg:w-3/5 xl:w-2/5">
+          <header className="text-right container mx-auto px-4 md:px-8 lg:w-3/5 xl:w-2/5">
             <Link href="/">
-              <a className="header-link">
+              <a className="header-link text-4xl uppercase font-extrabold">
                 anthony morris
               </a>
             </Link>
