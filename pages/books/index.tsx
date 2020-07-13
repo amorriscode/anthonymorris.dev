@@ -14,7 +14,7 @@ function Books({ books }: { books: Book[] }) {
   return (
     <div className="container">
       <Head>
-        <title>books | anthony morris</title>
+        <title>Books | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 

@@ -13,7 +13,7 @@ function Projects({ projects }: { projects: Project[] }) {
   return (
     <div className="container">
       <Head>
-        <title>projects | anthony morris</title>
+        <title>Projects | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 

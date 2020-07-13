@@ -15,7 +15,7 @@ function BookPage({ book }: { book: Book }) {
   return (
     <>
       <Head>
-        <title>{book.title.toLowerCase()} | anthony morris</title>
+        <title>{book.title} | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 

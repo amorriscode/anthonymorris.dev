@@ -6,7 +6,7 @@ function Photos() {
   return (
     <div className="container">
       <Head>
-        <title>photos | anthony morris</title>
+        <title>Photos | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 

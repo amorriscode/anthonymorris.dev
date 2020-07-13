@@ -13,7 +13,7 @@ function Lessons({ lessons }: { lessons: Lesson[] }) {
   return (
     <div className="container">
       <Head>
-        <title>lessons | anthony morris</title>
+        <title>Lessons | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 

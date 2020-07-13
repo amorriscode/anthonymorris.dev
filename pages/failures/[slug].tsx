@@ -15,7 +15,7 @@ function FailurePage({ failure }: { failure: Failure }) {
   return (
     <>
       <Head>
-        <title>{failure.title.toLowerCase()} | anthony morris</title>
+        <title>{failure.title} | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 

@@ -14,7 +14,7 @@ function ProjectPage({ project }: { project: Project }) {
   return (
     <>
       <Head>
-        <title>{project.title.toLowerCase()} | anthony morris</title>
+        <title>{project.title} | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 

@@ -6,7 +6,7 @@ function Writing() {
   return (
     <div className="container">
       <Head>
-        <title>writing | anthony morris</title>
+        <title>Writing | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 

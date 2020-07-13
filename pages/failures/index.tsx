@@ -14,7 +14,7 @@ function Failures({ failures }: { failures: Failure[] }) {
   return (
     <div className="container">
       <Head>
-        <title>failures | anthony morris</title>
+        <title>Failures | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
