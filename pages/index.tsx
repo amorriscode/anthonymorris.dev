@@ -23,13 +23,9 @@ function Home() {
 
         <p>Some other things you might find me talk about are space, books, science, awareness, fitness, Dungeons &amp; Dragons, and making music. If you like these things, we should chat.</p>
 
-        <p>You can @ me on <a href="http://twitter.com/amorriscode" target="_blank" rel="noopener noreferrer">Twitter</a>, connect on <a href="https://www.linkedin.com/in/amorriscode" target="_blank" rel="noopener noreferrer">LinkedIn</a>, or fork me on <a href="https://github.com/amorriscode" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
-
         <hr />
 
-        <p className="text-xs ">This website was built using <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer">Next.js</a> with deployments handled by <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a>.</p>
-
-        <p className="text-xs"><a href="https://github.com/sponsors/amorriscode" target="_blank" rel="noopener noreferrer">Support me on GitHub</a></p>
+        <p className="text-sm"><span className="font-bold">Looking for something else?</span> You can @ me on <a href="http://twitter.com/amorriscode" target="_blank" rel="noopener noreferrer">Twitter</a>, connect on <a href="https://www.linkedin.com/in/amorriscode" target="_blank" rel="noopener noreferrer">LinkedIn</a>, or fork me on <a href="https://github.com/amorriscode" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
       </main>
     </div>
   )

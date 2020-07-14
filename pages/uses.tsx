@@ -88,6 +88,26 @@ function Home() {
 
         <section>
           <h2>
+            Website
+          </h2>
+
+          <ul className="pl-6 list-disc -mt-4">
+            <li>
+              Hacked together with <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">React</a> and <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer">Next.js</a>
+            </li>
+
+            <li>
+              I use <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">Tailwind CSS</a> to make things pretty
+            </li>
+
+            <li>
+              Deployed on <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel's</a> edge network
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>
             Misc
           </h2>
 
