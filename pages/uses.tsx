@@ -18,7 +18,7 @@ function Home() {
 
         <PageSummary>
           <p>
-            Developers lover <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer">talking about their tools</a>. These are the tools I like to use to be productive and have fun.
+            Developers love <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer">talking about their tools</a>. These are the tools I like to use to be productive and have fun.
           </p>
         </PageSummary>
 
@@ -112,6 +112,10 @@ function Home() {
           </h2>
 
           <ul className="pl-6 list-disc -mt-4">
+            <li>
+              I try to lessen my environmental impact by donating to <a href="https://projectwren.com/profile/anthonymorris">Project Wren</a>
+            </li>
+
             <li>
               I love paper notebooks but my <a href="https://remarkable.com">reMarkable</a> has been a good replacement. I love the ability to organize and not waste paper. But I miss my notebooks.
             </li>
