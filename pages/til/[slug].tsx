@@ -62,7 +62,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const learnings = getAllContent('learnings', ['slug']) as Failure[];
+  const learnings = getAllContent('learnings', ['slug']) as Learning[];
 
   return {
     paths: learnings.map(failure => {
