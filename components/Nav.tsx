@@ -52,13 +52,11 @@ function Nav() {
 
       <NavLink title="failures" />
 
-      {/* <NavLink title="photos" />
-      
-      <NavLink title="writing" /> */}
-
       <NavLink title="books" />
 
       <NavLink title="uses" />
+
+      <NavLink title="til" />
 
       <NavLink title="💀" path="/life" />
     </nav>

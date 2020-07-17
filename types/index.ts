@@ -40,3 +40,12 @@ export type CurrentlyReadingBook = {
   startedDate: string;
   goodreadsUrl: string;
 }
+
+export type Learning = {
+  title: string;
+  description: string;
+  date: string;
+  content: string;
+  slug: string;
+  tags: string[];
+}
