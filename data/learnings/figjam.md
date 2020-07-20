@@ -1,7 +1,7 @@
 ---
 title: "FIGJAM"
 description: "A fantastic Australian acronym."
-date: "2020-07-17"
+date: "2020-07-20"
 tags: ["Words", "Podcast"]
 ---
 
