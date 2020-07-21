@@ -37,7 +37,7 @@ function withLayout(PageComponent: any) {
           }
 
           header:hover .memoji {
-            top: ${randomMemoji === 'mindblown' ? '80px' : '90px'};
+            top: 90px;
           }
 
           .memoji {
