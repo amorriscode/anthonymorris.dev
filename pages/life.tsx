@@ -39,7 +39,7 @@ function Life() {
 
         <PageSummary>
           <p>
-            In Meditations Marcus Aurelius said <span className="font-bold">"You could leave life right now. Let that determine what you do and say and think."</span>
+            In Meditations Marcus Aurelius said, <span className="font-bold">"You could leave life right now. Let that determine what you do and say and think."</span>
           </p>
 
           <p>
