@@ -49,3 +49,12 @@ export type Learning = {
   slug: string;
   tags: string[];
 }
+
+export type Writing = {
+  title: string;
+  description: string;
+  date: string;
+  content: string;
+  slug: string;
+  tags: string[];
+}

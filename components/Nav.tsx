@@ -52,6 +52,8 @@ function Nav() {
 
       <NavLink title="failures" />
 
+      <NavLink title="words" />
+
       <NavLink title="books" />
 
       <NavLink title="uses" />
