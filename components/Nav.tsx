@@ -15,10 +15,10 @@ function NavLink({
 
   return (
     <>
-      <div className="flex items-center justify-end relative">
-        {isActive && <IoIosReturnRight className="text-buzz-purple-neon mr-1" />}
+      <div className="inline-block mx-4 my-2 md:m-0 md:flex items-center justify-end relative">
+        {isActive && <IoIosReturnRight className="inline text-buzz-purple-neon mr-1" />}
         
-        <div className="nav-item-container">
+        <div className="inline nav-item-container">
           <Link href={linkPath}>
             <a className="nav-item text-buzz-purple-dark">
               {title}
@@ -47,7 +47,7 @@ function NavLink({
 
 function Nav() {
   return (
-    <nav className="flex uppercase font-extrabold text-sm justify-between items-center md:block md:w-40 md:absolute md:-ml-40 md:pr-8 left-0 top-0 text-right py-4 md:py-8 space-y-1">
+    <nav className="uppercase font-extrabold text-sm md:w-40 md:absolute md:-ml-40 md:pr-8 left-0 top-0 text-center md:text-right py-4 md:py-8 md:space-y-1">
       <NavLink title="projects" />
 
       <NavLink title="failures" />
