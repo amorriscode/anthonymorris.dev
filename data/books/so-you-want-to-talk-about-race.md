@@ -1,6 +1,6 @@
 ---
 title: 'So You Want To Talk About Race'
-description: 'A modern-day guide to Stoic wisdom from the perspective of Marcus Aurelius.'
+description: 'A difficult but essential start to learning about systemic racism.'
 date: '2020-07-26'
 readDate: '2020-06-18'
 rating: 4
