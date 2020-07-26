@@ -13,7 +13,7 @@ One of the things I love about Stoicism is how practical the ideas are. It is [a
 
 Donald weaves the story of Marcus Aurelius' life with the practical ideas of Stoicism. Ever since I read Sapiens, I've been wanting to read more history, so I enjoyed that perspective. It doesn't have the exact same affect as reading Marcus' own words, but it's definitely more accessible.
 
-> Waste no more time arguing about what a good man should be; be one. </br> ~ Marcus Aurelius
+> Waste no more time arguing about what a good man should be; be one. <br> ~ Marcus Aurelius
 
 Marcus makes being a good person sound easy. Our human instincts make sure that isn't the case. But, we can apply the ideas of Stoicism on a daily basis. Stoicism is similar to meditation. It's a _practice_. It takes time to get complete control of ourselves.
 
