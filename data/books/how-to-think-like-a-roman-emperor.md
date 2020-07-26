@@ -37,7 +37,7 @@ If you have other great Stoic recommendations, <a href="mailto:anthony@amorrisso
 
 <footer>
 
-**How to Think Like a Roman Emperor** was written by [Donald J. Robertson](https://twitter.com/DonJRobertson)
+[Donald J. Robertson on Twitter](https://twitter.com/DonJRobertson)
 
 [Add the book on Goodreads](https://www.goodreads.com/book/show/39863499-how-to-think-like-a-roman-emperor)
 

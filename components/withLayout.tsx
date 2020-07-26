@@ -12,7 +12,7 @@ function withLayout(PageComponent: any) {
       <>
         <div className="h-40 md:h-64 bg-buzz-purple-dark text-white flex flex-col justify-end">
           <header className="container mx-auto px-4 md:px-8 lg:w-3/5 xl:w-2/5 relative flex justify-center md:justify-end items-end overflow-hidden">
-            <img src={`assets/memojis/${randomMemoji}.png`} className="memoji absolute" />
+            <img src={`/assets/memojis/${randomMemoji}.png`} className="memoji absolute" />
             <Link href="/">
               <a className="header-link text-4xl uppercase font-extrabold">
                 anthony morris

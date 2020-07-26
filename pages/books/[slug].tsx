@@ -23,6 +23,10 @@ function BookPage({ book }: { book: Book }) {
         <h1 className="leading-none">
           {book.title}
         </h1>
+
+        <h2 className="leading-none text-base">
+          written by {book.author}
+        </h2>
         
         <div className="text-xs">
             <BookRating rating={book.rating} />
@@ -50,6 +54,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     'slug',
     'content',
     'rating',
+    'author',
   ]);
 
   const content = await markdownToHtml(book.content || '');
