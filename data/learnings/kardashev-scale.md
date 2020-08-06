@@ -17,8 +17,6 @@ Kardashev defined three levels of civilization:
 
 The scale has been extended to include Type 0, Type IV, and more! We are Type 0; we haven't quite mastered our planet yet. I wonder if we'll survive long enough to make or surpass Type I...
 
-Parallel Worlds
-
 ---
 
 <footer>
