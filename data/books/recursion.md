@@ -1,7 +1,7 @@
 ---
 title: 'Recursion'
 description: 'A reality-bending sci-fi journey.'
-date: '2020-07-26'
+date: '2020-07-25'
 readDate: '2020-07-25'
 rating: 4
 author: 'Blake Crouch'
