@@ -17,3 +17,11 @@
 .markdown img {
   @apply mx-auto;
 }
+
+.markdown ul {
+  @apply px-5;
+}
+
+.markdown ul li {
+  @apply list-disc;
+}
