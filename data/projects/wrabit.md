@@ -14,7 +14,7 @@ I found inspiration [750words.com](https://750words.com) and [The Artist's Way](
 
 The idea is that writing every day is beneficial to our mental health. If we are able to dump a stream of consciousness to the page, we will learn more about ourselves and feel better overall. I tried the practice with pen and paper and found it beneficial.
 
-![Screenshot of the simplistic Wrabit editor](/assets/projects/wrabit-screen.jpg)
+![Screenshot of the simplistic Wrabit editor](/assets/projects/wrabit/screen.jpg)
 
 <div class="text-xs text-center">A look at Wrabit's simplistic editor</div>
 

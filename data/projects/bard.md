@@ -14,7 +14,7 @@ Somehow I shared the idea with my friend Alain. He was looking for something to 
 
 Bard is a place for writers from all over the world to share their work. They can build an audience to support them while they focus on what matters, the writing. Imagine if Medium and Patreon had a baby.
 
-![Screenshot of Bard's discover page](/assets/projects/bard-screen-1.jpg)
+![Screenshot of Bard's discover page](/assets/projects/bard/screen-1.jpg)
 
 <div class="text-xs text-center">A look at Bard's discover page</div>
 
@@ -22,7 +22,7 @@ We felt that Medium was a bit overcrowded and doesn't support the writers enough
 
 We built Bard in hopes that we could make supporting great writers frictionless. If you read something you like, you can support it right away. No leaving the platform. No leaving the article. You can subscribe to writers too and explore topics that interest you.
 
-![Screenshot of Bard's editor](/assets/projects/bard-screen-2.jpg)
+![Screenshot of Bard's editor](/assets/projects/bard/screen-2.jpg)
 
 <div class="text-xs text-center">Bard's simplistic editor makes it easy to write</div>
 
