@@ -6,6 +6,7 @@ import { Book } from '../types';
 import BookRating from './BookRating';
 
 function BookCard({ book }: { book: Book }) {
+  console.log(book.readDate);
   return (
     <>
       <Link href="/books/[slug]" as={`/books/${book.slug}`} passHref>
@@ -20,7 +21,7 @@ function BookCard({ book }: { book: Book }) {
             </div>
 
             <div className="book-read-date hidden text-sm border-b border-buzz-green-neon border-dashed">
-              finished on {format(new Date(book.readDate), 'MMMM do, y')}
+              finished on {format(new Date(`${book.readDate}`), 'MMMM do, y')}
             </div>
           </div>
 

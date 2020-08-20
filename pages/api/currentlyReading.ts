@@ -16,7 +16,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     currentlyReading.push({
       title: review?.book[0]?.title_without_series[0].split(':')[0],
       author: review?.book[0]?.authors[0]?.author[0]?.name[0],
-      startedDate: review?.started_at[0],
+      startedDate: new Date(review?.started_at[0]).toDateString(),
       goodreadsUrl: review?.book[0]?.link[0],
     })
   });
