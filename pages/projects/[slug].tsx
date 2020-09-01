@@ -1,14 +1,14 @@
-import Head from 'next/head';
-import { GetStaticProps, GetStaticPaths } from 'next';
-import { format } from 'date-fns';
+import Head from "next/head";
+import { GetStaticProps, GetStaticPaths } from "next";
+import { format } from "date-fns";
 
-import { Project } from '../../types';
+import { Project } from "../../types";
 
-import markdownStyles from '../../styles/markdown-styles.module.css';
-import markdownToHtml from '../../lib/markdownToHtml';
-import { getContentBySlug, getAllContent } from '../../lib/api';
+import markdownStyles from "../../styles/markdown-styles.module.css";
+import markdownToHtml from "../../lib/markdownToHtml";
+import { getContentBySlug, getAllContent } from "../../lib/api";
 
-import withLayout from '../../components/withLayout';
+import withLayout from "../../components/withLayout";
 
 function ProjectPage({ project }: { project: Project }) {
   return (
@@ -18,50 +18,49 @@ function ProjectPage({ project }: { project: Project }) {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <article>
-        {project?.image && <img className="mb-4" src={project.image} alt={project.title} />}
+      <main>
+        {project?.image && (
+          <img className="mb-4" src={project.image} alt={project.title} />
+        )}
 
-        <h1 className="leading-none">
-          {project.title}
-        </h1>
+        <h1 className="leading-none">{project.title}</h1>
 
-        <div className="text-xs">
-          <span>
-            {project.status}
-          </span>
+        <article className="space-y-8">
+          <div className="text-xs">
+            <span>{project.status}</span>
 
-          {project?.launchDate && (
-            <>
-              &nbsp;|&nbsp;
+            {project?.launchDate && (
+              <>
+                &nbsp;|&nbsp;
+                <span>
+                  launched {format(new Date(project.launchDate), "MMMM do, y")}
+                </span>
+              </>
+            )}
+          </div>
 
-              <span>
-                launched {format(new Date(project.launchDate), 'MMMM do, y')}
-              </span>
-            </>
-          )}
-        </div>
-
-        <div
-          className={markdownStyles['markdown']}
-          dangerouslySetInnerHTML={{ __html: project.content }}
-        />
-      </article>
+          <div
+            className={markdownStyles["markdown"]}
+            dangerouslySetInnerHTML={{ __html: project.content }}
+          />
+        </article>
+      </main>
     </>
   );
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const project = getContentBySlug('projects', params?.slug as string, [
-    'title',
-    'date',
-    'launchDate',
-    'slug',
-    'content',
-    'image',
-    'status',
+  const project = getContentBySlug("projects", params?.slug as string, [
+    "title",
+    "date",
+    "launchDate",
+    "slug",
+    "content",
+    "image",
+    "status",
   ]);
 
-  const content = await markdownToHtml(project.content || '');
+  const content = await markdownToHtml(project.content || "");
 
   return {
     props: {
@@ -70,22 +69,22 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         content,
       },
     },
-  }
-}
+  };
+};
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const projects = getAllContent('projects', ['slug']) as Project[];
+  const projects = getAllContent("projects", ["slug"]) as Project[];
 
   return {
-    paths: projects.map(project => {
+    paths: projects.map((project) => {
       return {
         params: {
           slug: project.slug,
         },
-      }
+      };
     }),
     fallback: false,
-  }
-}
+  };
+};
 
 export default withLayout(ProjectPage);

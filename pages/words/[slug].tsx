@@ -1,14 +1,14 @@
-import Head from 'next/head';
-import { GetStaticProps, GetStaticPaths } from 'next';
-import { format } from 'date-fns';
+import Head from "next/head";
+import { GetStaticProps, GetStaticPaths } from "next";
+import { format } from "date-fns";
 
-import { Writing } from '../../types';
+import { Writing } from "../../types";
 
-import markdownStyles from '../../styles/markdown-styles.module.css';
-import markdownToHtml from '../../lib/markdownToHtml';
-import { getContentBySlug, getAllContent } from '../../lib/api';
+import markdownStyles from "../../styles/markdown-styles.module.css";
+import markdownToHtml from "../../lib/markdownToHtml";
+import { getContentBySlug, getAllContent } from "../../lib/api";
 
-import withLayout from '../../components/withLayout';
+import withLayout from "../../components/withLayout";
 
 function WordPage({ writing }: { writing: Writing }) {
   return (
@@ -18,34 +18,34 @@ function WordPage({ writing }: { writing: Writing }) {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <article>
-        <h1 className="leading-none">
-          {writing.title}
-        </h1>
+      <main>
+        <h1 className="leading-none">{writing.title}</h1>
 
-        <div className="text-xs pb-2">
-          written {format(new Date(writing.date), 'MMMM do, y')}
-        </div>
+        <article className="space-y-8">
+          <div className="text-xs pb-2">
+            written {format(new Date(writing.date), "MMMM do, y")}
+          </div>
 
-        <div
-          className={markdownStyles['markdown']}
-          dangerouslySetInnerHTML={{ __html: writing.content }}
-        />
-      </article>
+          <div
+            className={markdownStyles["markdown"]}
+            dangerouslySetInnerHTML={{ __html: writing.content }}
+          />
+        </article>
+      </main>
     </>
   );
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const writing = getContentBySlug('words', params?.slug as string, [
-    'title',
-    'date',
-    'slug',
-    'content',
-    'tags',
+  const writing = getContentBySlug("words", params?.slug as string, [
+    "title",
+    "date",
+    "slug",
+    "content",
+    "tags",
   ]);
 
-  const content = await markdownToHtml(writing.content || '');
+  const content = await markdownToHtml(writing.content || "");
 
   return {
     props: {
@@ -54,22 +54,22 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         content,
       },
     },
-  }
-}
+  };
+};
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const words = getAllContent('words', ['slug']) as Writing[];
+  const words = getAllContent("words", ["slug"]) as Writing[];
 
   return {
-    paths: words.map(writing => {
+    paths: words.map((writing) => {
       return {
         params: {
           slug: writing.slug,
         },
-      }
+      };
     }),
     fallback: false,
-  }
-}
+  };
+};
 
 export default withLayout(WordPage);

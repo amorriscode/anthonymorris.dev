@@ -1,14 +1,8 @@
-import { useRouter } from 'next/router';
-import Link from 'next/link';
-import { IoIosReturnRight } from 'react-icons/io';
+import { useRouter } from "next/router";
+import Link from "next/link";
+import { IoIosReturnRight } from "react-icons/io";
 
-function NavLink({
-  title,
-  path,
-}: {
-  title: string;
-  path?: string;
-}) {
+function NavLink({ title, path }: { title: string; path?: string }) {
   const router = useRouter();
   const linkPath = path || `/${title}`;
   const isActive = router.pathname.includes(linkPath);
@@ -16,13 +10,13 @@ function NavLink({
   return (
     <>
       <div className="inline-block mx-4 my-2 md:m-0 md:flex items-center justify-end relative">
-        {isActive && <IoIosReturnRight className="inline text-buzz-purple-neon mr-1" />}
-        
+        {isActive && (
+          <IoIosReturnRight className="inline text-buzz-purple-neon mr-1" />
+        )}
+
         <div className="inline nav-item-container">
           <Link href={linkPath}>
-            <a className="nav-item text-buzz-purple-dark">
-              {title}
-            </a>
+            <a className="nav-item text-buzz-purple-dark">{title}</a>
           </Link>
 
           <div className="gradient-line"></div>
@@ -47,7 +41,7 @@ function NavLink({
 
 function Nav() {
   return (
-    <nav className="uppercase font-extrabold text-sm md:w-40 md:absolute md:-ml-40 md:pr-8 left-0 top-0 text-center md:text-right py-4 md:py-8 md:space-y-1">
+    <nav className="uppercase font-extrabold text-sm md:w-40 md:absolute md:-ml-40 md:pr-12 left-0 top-0 text-center md:text-right py-4 md:py-12 md:space-y-1">
       <NavLink title="projects" />
 
       <NavLink title="failures" />
@@ -62,7 +56,7 @@ function Nav() {
 
       <NavLink title="💀" path="/life" />
     </nav>
-  )
+  );
 }
 
 export default Nav;

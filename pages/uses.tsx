@@ -1,7 +1,7 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-import withLayout from '../components/withLayout';
-import PageSummary from '../components/PageSummary';
+import withLayout from "../components/withLayout";
+import PageSummary from "../components/PageSummary";
 
 function Home() {
   return (
@@ -11,127 +11,185 @@ function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main className="space-y-4">
-        <h1 className="leading-none">
-          Uses
-        </h1>
+      <main>
+        <h1 className="leading-none">Uses</h1>
 
-        <PageSummary>
-          <p>
-            Developers love <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer">talking about their tools</a>. These are the tools I like to use to be productive and have fun.
-          </p>
-        </PageSummary>
+        <article className="space-y-8">
+          <PageSummary>
+            <p>
+              Developers love{" "}
+              <a
+                href="https://uses.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                talking about their tools
+              </a>
+              . These are the tools I like to use to be productive and have fun.
+            </p>
+          </PageSummary>
 
-        <section>
-          <h2>
-            Editor &amp; Terminal
-          </h2>
+          <section>
+            <h2>Editor &amp; Terminal</h2>
 
-          <ul className="pl-6 list-disc -mt-4">
-            <li>
-              I wish I were a vim power user but alas I use <a href="https://code.visualstudio.com">Visual Studio Code</a>.
-            </li>
+            <ul className="pl-6 list-disc -mt-4">
+              <li>
+                I wish I were a vim power user but alas I use{" "}
+                <a href="https://code.visualstudio.com">Visual Studio Code</a>.
+              </li>
 
-            <li>
-              I use the <a href="https://draculatheme.com">Dracula theme</a> everywhere possible.
-            </li>
+              <li>
+                I use the <a href="https://draculatheme.com">Dracula theme</a>{" "}
+                everywhere possible.
+              </li>
 
-            <li>
-              I'm using <a href="https://starship.rs">starship</a> as my prompt.
-            </li>
-          </ul>
-        </section>
+              <li>
+                I'm using <a href="https://starship.rs">starship</a> as my
+                prompt.
+              </li>
+            </ul>
+          </section>
 
-        <section>
-          <h2>
-            Apps
-          </h2>
+          <section>
+            <h2>Apps</h2>
 
-          <ul className="pl-6 list-disc -mt-4">
-            <li>
-              <a href="https://culturedcode.com/things">Things 3</a> keeps me focused and accountable.
-            </li>
+            <ul className="pl-6 list-disc -mt-4">
+              <li>
+                <a href="https://culturedcode.com/things">Things 3</a> keeps me
+                focused and accountable.
+              </li>
 
-            <li>
-              I journal daily with <a href="https://writewithwrabit.com">Wrabit</a>.
-            </li>
+              <li>
+                I journal daily with{" "}
+                <a href="https://writewithwrabit.com">Wrabit</a>.
+              </li>
 
-            <li>
-              <a href="https://mochi.cards">Mochi</a> helps me remember things.
-            </li>
+              <li>
+                <a href="https://mochi.cards">Mochi</a> helps me remember
+                things.
+              </li>
 
-            <li>
-              I like using <a href="https://www.oakmeditation.com">Oak</a> to practice mindfulness but have also been using <a href="https://wakingup.com">Waking Up</a>.
-            </li>
+              <li>
+                I like using <a href="https://www.oakmeditation.com">Oak</a> to
+                practice mindfulness but have also been using{" "}
+                <a href="https://wakingup.com">Waking Up</a>.
+              </li>
 
-            <li>
-              I subscribe to way too many podcasts on <a href="https://www.pocketcasts.com">Pocket Casts</a>.
-            </li>
-          </ul>
-        </section>
+              <li>
+                I subscribe to way too many podcasts on{" "}
+                <a href="https://www.pocketcasts.com">Pocket Casts</a>.
+              </li>
+            </ul>
+          </section>
 
-        <section>
-          <h2>
-            Desk
-          </h2>
+          <section>
+            <h2>Desk</h2>
 
-          <ul className="pl-6 list-disc -mt-4">
-            <li>
-              Sometimes I stand with my <a href="https://www.fully.com/standing-desks/jarvis.html">Fully Jarvis</a> standing desk.
-            </li>
+            <ul className="pl-6 list-disc -mt-4">
+              <li>
+                Sometimes I stand with my{" "}
+                <a href="https://www.fully.com/standing-desks/jarvis.html">
+                  Fully Jarvis
+                </a>{" "}
+                standing desk.
+              </li>
 
-            <li>
-              Otherwise I'm sitting on my <a href="https://www.fully.com/chairs/for-standing-desks/hag-capisco-puls-chair.html">Capisco Puls</a>.
-            </li>
-          </ul>
-        </section>
+              <li>
+                Otherwise I'm sitting on my{" "}
+                <a href="https://www.fully.com/chairs/for-standing-desks/hag-capisco-puls-chair.html">
+                  Capisco Puls
+                </a>
+                .
+              </li>
+            </ul>
+          </section>
 
-        <section>
-          <h2>
-            Website
-          </h2>
+          <section>
+            <h2>Website</h2>
 
-          <ul className="pl-6 list-disc -mt-4">
-            <li>
-              Hacked together with <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">React</a> and <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer">Next.js</a>
-            </li>
+            <ul className="pl-6 list-disc -mt-4">
+              <li>
+                Hacked together with{" "}
+                <a
+                  href="https://reactjs.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  React
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://nextjs.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Next.js
+                </a>
+              </li>
 
-            <li>
-              I use <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">Tailwind CSS</a> to make things pretty
-            </li>
+              <li>
+                I use{" "}
+                <a
+                  href="https://tailwindcss.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tailwind CSS
+                </a>{" "}
+                to make things pretty
+              </li>
 
-            <li>
-              Deployed on <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel's</a> edge network
-            </li>
-          </ul>
-        </section>
+              <li>
+                Deployed on{" "}
+                <a
+                  href="https://vercel.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Vercel's
+                </a>{" "}
+                edge network
+              </li>
+            </ul>
+          </section>
 
-        <section>
-          <h2>
-            Misc
-          </h2>
+          <section>
+            <h2>Misc</h2>
 
-          <ul className="pl-6 list-disc -mt-4">
-            <li>
-              I try to lessen my environmental impact by donating to <a href="https://projectwren.com/profile/anthonymorris">Project Wren</a>
-            </li>
+            <ul className="pl-6 list-disc -mt-4">
+              <li>
+                I try to lessen my environmental impact by donating to{" "}
+                <a href="https://projectwren.com/profile/anthonymorris">
+                  Project Wren
+                </a>
+              </li>
 
-            <li>
-              I love paper notebooks but my <a href="https://remarkable.com">reMarkable</a> has been a good replacement. I love the ability to organize and not waste paper. But I miss my notebooks.
-            </li>
+              <li>
+                I love paper notebooks but my{" "}
+                <a href="https://remarkable.com">reMarkable</a> has been a good
+                replacement. I love the ability to organize and not waste paper.
+                But I miss my notebooks.
+              </li>
 
-            <li>
-              I take photographs with a <a href="https://en.wikipedia.org/wiki/Canon_A-1">Canon A-1</a> film camera.
-            </li>
+              <li>
+                I take photographs with a{" "}
+                <a href="https://en.wikipedia.org/wiki/Canon_A-1">Canon A-1</a>{" "}
+                film camera.
+              </li>
 
-            <li>
-              I make loud noises with my purple <a href="https://strandbergguitars.com/product-category/body-style/boden">.strandberg Boden</a> guitar.
-            </li>
-          </ul>
-        </section>
+              <li>
+                I make loud noises with my purple{" "}
+                <a href="https://strandbergguitars.com/product-category/body-style/boden">
+                  .strandberg Boden
+                </a>{" "}
+                guitar.
+              </li>
+            </ul>
+          </section>
+        </article>
       </main>
     </div>
-  )
-};
+  );
+}
 
 export default withLayout(Home);

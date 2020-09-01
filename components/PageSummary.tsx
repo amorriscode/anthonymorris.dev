@@ -1,6 +1,8 @@
-function PageSummary({ children }: React.PropsWithChildren<{}>): React.ReactElement {
+function PageSummary({
+  children,
+}: React.PropsWithChildren<{}>): React.ReactElement {
   return (
-    <div className="space-y-4 bg-buzz-white bg-opacity-50 rounded-lg rounded-bl-none rounded-br-none border-b-4 border-buzz-green p-4">
+    <div className="space-y-4 bg-buzz-white bg-opacity-50 rounded-lg rounded-bl-none rounded-br-none border-b-4 border-buzz-green p-8">
       {children}
     </div>
   );

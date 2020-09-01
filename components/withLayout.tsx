@@ -1,8 +1,8 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import Nav from './Nav';
+import Nav from "./Nav";
 
-const memojis = ['joy', 'mindblown', 'think', 'wink'];
+const memojis = ["joy", "mindblown", "think", "wink"];
 
 function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
@@ -12,13 +12,16 @@ function withLayout(PageComponent: any) {
       <>
         <div className="h-40 md:h-64 bg-buzz-purple-dark text-white flex flex-col justify-end">
           <header className="container mx-auto px-4 md:px-8 lg:w-3/5 xl:w-2/5 relative flex justify-center md:justify-end items-end overflow-hidden">
-            <img src={`/assets/memojis/${randomMemoji}.png`} className="memoji absolute" />
+            <img
+              src={`/assets/memojis/${randomMemoji}.png`}
+              className="memoji absolute"
+            />
             <Link href="/">
               <a className="header-link text-4xl uppercase font-extrabold">
                 anthony morris
               </a>
             </Link>
-          </header>          
+          </header>
         </div>
 
         <div className="container mx-auto lg:w-3/5 xl:w-2/5 px-4 md:px-8 relative">
@@ -26,7 +29,7 @@ function withLayout(PageComponent: any) {
             <Nav />
           </div>
 
-          <div className="py-4 md:py-8">
+          <div className="py-4 md:py-12">
             <PageComponent {...pageProps} />
           </div>
         </div>
@@ -49,7 +52,7 @@ function withLayout(PageComponent: any) {
         `}</style>
       </>
     );
-  }
+  };
 
   return PageComponentWithLayout;
 }

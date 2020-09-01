@@ -7,7 +7,7 @@
 }
 
 .markdown blockquote {
-  @apply border-l-4 border-buzz-green bg-buzz-white bg-opacity-50 rounded-lg rounded-bl-none rounded-tl-none p-4 italic;
+  @apply border-l-4 border-buzz-green bg-buzz-white bg-opacity-50 rounded-lg rounded-bl-none rounded-tl-none p-6 italic;
 }
 
 .markdown footer {
@@ -15,7 +15,7 @@
 }
 
 .markdown img {
-  @apply mx-auto;
+  @apply mx-auto shadow-inner;
 }
 
 .markdown ul {
