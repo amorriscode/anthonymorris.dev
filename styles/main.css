@@ -42,3 +42,7 @@ h3 {
 img {
   @apply rounded-lg;
 }
+
+.katex-display {
+  @apply inline-block my-0 !important;
+}
