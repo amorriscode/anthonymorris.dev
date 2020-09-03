@@ -39,7 +39,7 @@ function Words({ words }: { words: Writing[] }) {
             </p>
 
             <p>
-              I don't write nearly enough to be good. This is my place to
+              I don't write nearly enough to be good but this is my place to
               practice. You might find short stories, poems, how-tos, or essays.
               Long and short, serious and fun, good and bad.
             </p>

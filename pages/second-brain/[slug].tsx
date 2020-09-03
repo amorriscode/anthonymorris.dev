@@ -18,6 +18,10 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
       </Head>
 
       <main>
+        <div>
+          <span title="Part of my second brain">🧠</span>
+        </div>
+
         <div
           className={markdownStyles["markdown"]}
           dangerouslySetInnerHTML={{ __html: brainEntry.content }}

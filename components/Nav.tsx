@@ -54,6 +54,8 @@ function Nav() {
 
       <NavLink title="til" />
 
+      <NavLink title="🧠" path="/second-brain" />
+
       <NavLink title="💀" path="/life" />
     </nav>
   );

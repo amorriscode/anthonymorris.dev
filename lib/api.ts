@@ -33,7 +33,7 @@ export function getContentBySlug(
     if (field === 'content') {
       items[field] = content
         .replace(/\[\[(.*?)\]\]/g, (match, text) => {
-          return `[${text}](/second-brain/${text.toLowerCase().replace(/(\ )/g, '-')})`
+          return `[${text} 🧠](/second-brain/${text.toLowerCase().replace(/(\ )/g, '-')})`
         })
     }
 

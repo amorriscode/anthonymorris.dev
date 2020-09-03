@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 import withLayout from "../components/withLayout";
 
@@ -22,16 +23,31 @@ function Home() {
         </p>
 
         <p>
-          I'm fascinated with the world around us. I intend to write about
-          various things I learn in hopes of improving my understanding.
-          Currently, I'm focusing on computer science and building products that
-          have a positive impact on the world.
+          I'm fascinated with the world around us. I intend to{" "}
+          <Link href="/words">
+            <a>write</a>
+          </Link>{" "}
+          about various things I learn in hopes of improving my understanding.
+          Currently, I'm focusing on computer science and{" "}
+          <Link href="/projects">
+            <a>building products</a>
+          </Link>{" "}
+          that have a positive impact on the world.
         </p>
 
         <p>
           Some other things you might find me talk about are space, books,
           science, awareness, fitness, Dungeons &amp; Dragons, and making music.
           If you like these things, we should chat.
+        </p>
+
+        <p>
+          This website also serves as my{" "}
+          <Link href="/second-brain">
+            <a>second brain 🧠</a>
+          </Link>
+          . I think that it'll prove to be a pretty neat web experience over
+          time.
         </p>
 
         <hr />

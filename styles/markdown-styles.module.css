@@ -22,6 +22,10 @@
   @apply px-5;
 }
 
+.markdown ul ul {
+  @apply my-0;
+}
+
 .markdown ul li {
   @apply list-disc;
 }
