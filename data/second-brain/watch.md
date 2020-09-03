@@ -1,0 +1,10 @@
+# Read
+
+Articles from around the web.
+
+Have you seen something interesting lately? [Share it with me](https://github.com/amorriscode/second-brain/issues/new)!
+
+If you've seen any good conference talks, I'd love to write about them for [[We Watch Tech]] so [let me know about those too](https://github.com/amorriscode/second-brain/issues/new)!
+
+- [DEF CON® 28 Safe Mode Talk Schedule](https://defcon.org/html/defcon-safemode/dc-safemode-schedule.html)
+- ['Heading for Extinction' - Oxford Extinction Rebellion talk with George Monbiot and friends. - YouTube](https://www.youtube.com/watch?v=n__y1FXK_jE)
