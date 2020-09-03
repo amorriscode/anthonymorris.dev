@@ -12,9 +12,14 @@ import withLayout from "../../components/withLayout";
 
 function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
   useEffect(() => {
-    //@ts-ignore
-    window?.renderMathInElement(document.body);
+    try {
+      // @ts-ignore
+      window.renderMathInElement(document.body);
+    } catch (e) {
+      console.error("Katex is not loaded");
+    }
   }, []);
+
   return (
     <>
       <Head>

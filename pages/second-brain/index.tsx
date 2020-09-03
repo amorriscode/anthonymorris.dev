@@ -66,7 +66,8 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
           {brainEntries.map((brainEntry) => (
             <Link
               key={brainEntry.slug}
-              href={`second-brain/${brainEntry.slug}`}
+              href="/second-brain/[slug]"
+              as={`second-brain/${brainEntry.slug}`}
             >
               <a className="m-2">{brainEntry.slug}</a>
             </Link>
