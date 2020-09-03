@@ -54,7 +54,9 @@ export function getAllContent(type: string, fields: string[] = []) {
   // sort by date in descending order
   if (type !== 'second-brain') {
     content = content.sort((a, b) => {
+      // @ts-ignore
       const aCreatedAt = new Date(a.date)
+      // @ts-ignore
       const bCreatedAt = new Date(b.date)
       return bCreatedAt.getTime() - aCreatedAt.getTime()
     });
