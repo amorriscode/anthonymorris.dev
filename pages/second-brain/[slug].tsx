@@ -12,6 +12,7 @@ import withLayout from "../../components/withLayout";
 
 function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
   useEffect(() => {
+    //@ts-ignore
     window.renderMathInElement(document.body);
   }, []);
   return (
