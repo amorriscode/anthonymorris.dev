@@ -2,7 +2,7 @@
 
 A list of things from around the web that I want to read. For my horrendously large book list, [check GoodReads](https://www.goodreads.com/review/list/5171404?shelf=to-read).
 
-Have you read something interesting lately? [Share it with me](https://github.com/amorriscode/second-brain/issues/new)!
+**Have you read something interesting lately? [Share it with me](https://github.com/amorriscode/anthonymorris.dev/issues/new)!**
 
 - [A step-by-step guide of how I would build a SaaS company right now - part 1 : startups](https://www.reddit.com/r/startups/comments/gmrgh0/a_stepbystep_guide_of_how_i_would_build_a_saas/)
 - [Mastering Metacognition](https://fs-lc.s3.amazonaws.com/Updated+Knowledge+Library/Mastering+Metacognition+yt64b2.pdf)
