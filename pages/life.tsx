@@ -23,8 +23,6 @@ function Life() {
     lifeCalendar.push(year);
   }
 
-  // console.log(lifeCalendar);
-
   return (
     <div className="container">
       <Head>

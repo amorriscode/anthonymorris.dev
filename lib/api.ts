@@ -1,57 +1,64 @@
-import fs from 'fs';
-import { join } from 'path';
-import matter from 'gray-matter';
+import fs from 'fs'
+import { join } from 'path'
+import matter from 'gray-matter'
 
-import { Project, Book, Failure, Learning } from '../types';
+import { Project, Book, Failure, Learning, BrainEntry } from '../types'
 
-const getContentDirectory = (type: string) => join(process.cwd(), `data/${type}`);
+const getContentDirectory = (type: string) => join(process.cwd(), `data/${type}`)
 
 export function getSlugs(dir: string) {
-  return fs.readdirSync(dir);
+  const files = fs.readdirSync(dir).filter(file => file.includes('.md'))
+  return files
 }
 
 export function getContentBySlug(
   type: string,
   slug: string,
   fields: string[] = [],
-): Project | Book | Failure | Learning {
-  const realSlug = slug.replace(/\.md$/, '');
-  const fullPath = join(getContentDirectory(type), `${realSlug}.md`);
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
-  const { data, content } = matter(fileContents);
+): Project | Book | Failure | Learning | BrainEntry {
+  const realSlug = slug.replace(/\.md$/, '')
+  const fullPath = join(getContentDirectory(type), `${realSlug}.md`)
+  const fileContents = fs.readFileSync(fullPath, 'utf8')
+  const { data, content } = matter(fileContents)
 
   const items: {
-    [key: string]: string;
-  } = {};
+    [key: string]: string
+  } = {}
 
   // Ensure only the minimal needed data is exposed
   fields.forEach(field => {
     if (field === 'slug') {
-      items[field] = realSlug;
+      items[field] = realSlug
     }
     if (field === 'content') {
-      items[field] = content;
+      items[field] = content
+        .replace(/\[\[(.*?)\]\]/g, (match, text) => {
+          return `[${text}](/second-brain/${text.toLowerCase().replace(/(\ )/g, '-')})`
+        })
     }
 
     if (data[field]) {
-      items[field] = data[field];
+      items[field] = data[field]
     }
   })
 
-  return items as Project | Book | Failure | Learning;
+  return items as Project | Book | Failure | Learning | BrainEntry
 }
 
 export function getAllContent(type: string, fields: string[] = []) {
-  const slugs = getSlugs(getContentDirectory(type));
+  const slugs = getSlugs(getContentDirectory(type))
 
-  const content = slugs
+  let content = slugs
     .map(slug => getContentBySlug(type, slug, fields))
-    // sort by date in descending order
-    .sort((a, b) =>{
-      const aCreatedAt = new Date(a.date);
-      const bCreatedAt = new Date(b.date);
-      return bCreatedAt.getTime() - aCreatedAt.getTime();
-    });
 
-  return content as (Project | Book | Failure | Learning)[];
+  // sort by date in descending order
+  if (type !== 'second-brain') {
+    content = content.sort((a, b) => {
+      const aCreatedAt = new Date(a.date)
+      const bCreatedAt = new Date(b.date)
+      return bCreatedAt.getTime() - aCreatedAt.getTime()
+    });
+  }
+
+  return content as (Project | Book | Failure | Learning | BrainEntry)[]
 }

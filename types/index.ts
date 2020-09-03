@@ -58,3 +58,8 @@ export type Writing = {
   slug: string;
   tags: string[];
 }
+
+export type BrainEntry = {
+  slug: string;
+  content: string;
+}
