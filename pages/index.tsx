@@ -14,7 +14,13 @@ function Home() {
       <main className="space-y-4">
         <h1 className="leading-none">Hey there! 👋</h1>
 
-        <p>Welcome to my corner of the interwebs. My personal playground.</p>
+        <p>
+          Welcome to my corner of the interwebs. My{" "}
+          <Link href="/second-brain/digital-garden">
+            <a>digital garden 🧠</a>
+          </Link>
+          .
+        </p>
 
         <p>
           A place for my words, photos, projects, and experiments. There might

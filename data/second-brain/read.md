@@ -25,4 +25,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [To design and develop an interactive globe](https://stripe.com/blog/globe)
 - [What will drive computer performance after Moore's Law?](https://www.gwern.net/docs/cs/2020-leiserson.pdf)
 - [What Every Programmer Should Know About Memory](https://www.gwern.net/docs/cs/2007-drepper.pdf)
-- [ Nick Craver - What it takes to run Stack Overflow](https://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/)
+- [What it takes to run Stack Overflow](https://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/)
