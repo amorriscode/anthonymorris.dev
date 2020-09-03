@@ -12,7 +12,7 @@ Enter [[We Watch Tech]].
 
 ![Screenshot of We Watch Tech's landing page](/assets/projects/we-watch-tech/landing-page.png)
 
-<div class="text-xs text-center">[[We Watch Tech]]'s landing page</div>
+<div class="text-xs text-center">We Watch Tech's landing page</div>
 
 One reason I love my personal website is because it allows me to write. [[We Watch Tech]] does the same but with a more technical focus. I watch tech talks and summarize them in an easy to understand way. If people prefer reading over watching videos, then [[We Watch Tech]] would be a good option for them!
 
