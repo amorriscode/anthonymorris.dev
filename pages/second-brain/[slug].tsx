@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
-import { useEffect } from "react";
 
 import { BrainEntry } from "../../types";
 
@@ -11,15 +10,6 @@ import { getContentBySlug, getAllContent } from "../../lib/api";
 import withLayout from "../../components/withLayout";
 
 function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
-  useEffect(() => {
-    try {
-      // @ts-ignore
-      window.renderMathInElement(document.body);
-    } catch (e) {
-      console.error("Katex is not loaded");
-    }
-  }, []);
-
   return (
     <>
       <Head>
