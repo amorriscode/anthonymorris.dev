@@ -27,5 +27,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [What Every Programmer Should Know About Memory](https://www.gwern.net/docs/cs/2007-drepper.pdf)
 - [What it takes to run Stack Overflow](https://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/)
 - [A survey of git best practices](https://xdg.me/blog/a-survey-of-git-best-practices)
-- [React is becoming a black box](https://jaredpalmer.com/blog/react-is-becoming-a-black-box)
 - [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f)
