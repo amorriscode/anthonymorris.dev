@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
+import Link from "next/link";
 
 import { BrainEntry } from "../../types";
 
@@ -44,6 +45,23 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
           className={markdownStyles["markdown"]}
           dangerouslySetInnerHTML={{ __html: brainEntry.content }}
         />
+
+        {!!brainEntry.backlinks.length && (
+          <div className="mt-8 space-y-4 bg-buzz-white bg-opacity-50 rounded-lg rounded-tl-none rounded-tr-none border-t-4 border-buzz-green p-6 md:p-8">
+            <h3>Backlinks</h3>
+
+            <div className="flex flex-wrap justify-between">
+              {brainEntry.backlinks.map((backlink) => (
+                <Link
+                  href="/second-brain/[slug]"
+                  as={`/second-brain/${backlink}`}
+                >
+                  <a className="m-2">{backlink}</a>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </main>
     </>
   );
@@ -53,6 +71,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const brainEntry = getContentBySlug("second-brain", params?.slug as string, [
     "slug",
     "content",
+    "backlinks",
   ]);
 
   const content = await markdownToHtml(brainEntry.content || "");

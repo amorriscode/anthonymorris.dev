@@ -22,7 +22,7 @@ export function getContentBySlug(
   const { data, content } = matter(fileContents)
 
   const items: {
-    [key: string]: string
+    [key: string]: string | (string | null)[]
   } = {}
 
   // Ensure only the minimal needed data is exposed
@@ -30,12 +30,24 @@ export function getContentBySlug(
     if (field === 'slug') {
       items[field] = realSlug
     }
+
     if (field === 'content') {
       items[field] = content
         // Replace all latex for the web
         // .replace(/\$(.*?)\$/g, (match, text) => `$$${text}$$`)
         // Replace all second brain links
         .replace(/\[\[(.*?)\]\]/g, (match, text) => `[${text} 🧠](/second-brain/${text.toLowerCase().replace(/(\ )/g, '-')})`)
+    }
+
+    if (type === 'second-brain' && field === 'backlinks') {
+      const slugs = getSlugs(getContentDirectory(type))
+      items[field] = slugs
+        .map(slug => {
+          const slugContent = getContentBySlug(type, slug, ['content'])
+          const regexString = `\\[${realSlug}\\]`
+          const regex = new RegExp(regexString, 'im')
+          return slugContent.content.match(regex) ? slug.replace(/\.md$/, '') : null
+        }).filter(Boolean)
     }
 
     if (data[field]) {

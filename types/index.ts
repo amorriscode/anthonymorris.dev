@@ -62,4 +62,5 @@ export type Writing = {
 export type BrainEntry = {
   slug: string;
   content: string;
+  backlinks: string[];
 }

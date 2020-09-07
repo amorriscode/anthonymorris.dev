@@ -62,7 +62,7 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
           </p>
         </PageSummary>
 
-        <div className="flex flex-wrap justify-between items-center">
+        <div className="flex flex-wrap justify-between">
           {brainEntries.map((brainEntry) => (
             <Link
               key={brainEntry.slug}
