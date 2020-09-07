@@ -17,7 +17,7 @@ function Home() {
         <p>
           Welcome to my corner of the interwebs. My{" "}
           <Link href="/second-brain/digital-garden">
-            <a>digital garden 🧠</a>
+            <a>digital garden</a>
           </Link>
           .
         </p>
@@ -50,7 +50,7 @@ function Home() {
         <p>
           This website also serves as my{" "}
           <Link href="/second-brain">
-            <a>second brain 🧠</a>
+            <a>second brain</a>
           </Link>
           . I think that it'll prove to be a pretty neat web experience over
           time.
