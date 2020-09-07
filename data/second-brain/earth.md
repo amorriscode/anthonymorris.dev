@@ -2,7 +2,7 @@
 
 - 13,000 kilometers in diameter
 - The [[Moon]] is the nearest astronomical neighbour
-  ![Earth and Moon, drawn to scale](2020-09-06-21-03-09.png)
+  ![Earth and Moon, drawn to scale](/assets/second-brain/2020-09-06-21-03-09.png)
 - The [[Sun]] is about 150 million kilometers away
   - About 400 times as far away from us as the [[Moon]]
   - This distance is an [[astronomical unit]]

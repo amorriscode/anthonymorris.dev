@@ -1,6 +1,6 @@
 # The Solar System
 
-![Our solar family](2020-09-06-21-10-47.png)
+![Our solar family](/assets/second-brain/2020-09-06-21-10-47.png)
 
 - Our local [[solar system]]
 - [[Planets]]
