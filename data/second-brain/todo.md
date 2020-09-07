@@ -7,3 +7,4 @@
     1. Just diagram overall architecture. Here's a good image: https://community.redwoodjs.com/t/the-redwood-architecture-diagram-from-toms-talk/9841
     2. Show how easy it is to work with an API using Redwood
     3. Probably give a high-level on designed for "edge-ready" deployment. E.g. API as functions on AWS Lambda and Web as static assets on CDN. Buzzword = full-stack Jamstack
+- [ ] Add canonical link on my website `<link rel="canonical" href="https://domain.com/blog/slug-of-your-post" />`

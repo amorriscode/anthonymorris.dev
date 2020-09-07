@@ -47,12 +47,13 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
         />
 
         {!!brainEntry.backlinks.length && (
-          <div className="mt-8 space-y-4 bg-buzz-white bg-opacity-50 rounded-lg rounded-tl-none rounded-tr-none border-t-4 border-buzz-green p-6 md:p-8">
+          <div className="mt-8 bg-buzz-white bg-opacity-50 rounded-lg rounded-tl-none rounded-tr-none border-t-4 border-buzz-green p-6 md:p-8">
             <h3>Backlinks</h3>
 
             <div className="flex flex-wrap justify-between">
               {brainEntry.backlinks.map((backlink) => (
                 <Link
+                  key={backlink}
                   href="/second-brain/[slug]"
                   as={`/second-brain/${backlink}`}
                 >
