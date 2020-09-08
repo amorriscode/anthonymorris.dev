@@ -3,8 +3,11 @@
 - The study of the objects that lie beyond [[Earth]] and the process by which these objects interact with one another
   - My definition:
     The study of celestial objects beyond Earth and how they interact with one another.
-- An _observational science_ because any hypotheses must be tested by observing many samples of the objects being studies
+- An _observational science_
+  - Rarely setup traditional experiments
+  - Any hypotheses must be tested by observing many samples of the objects being studies
   - We note how different samples vary
+- [[Light]] is basically the only information we have access to
 
 ## Light-year
 
