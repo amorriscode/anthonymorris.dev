@@ -1,6 +1,8 @@
 # Sun
 
 - Diameter is about 1.5 million kilometers
+- Orbits around the center of the [[Milky Way Galaxy]] around 225-250 million terrestrial years
+  - Known as a **galactic** or **cosmic** years
 
 [[Space]] [[Astronomy]]
 

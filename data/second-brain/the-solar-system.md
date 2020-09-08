@@ -12,6 +12,7 @@
   - [[Saturn]]
   - [[Uranus]]
   - [[Neptune]]
+- Traveling at 230 km/s
 
 [[Space]] [[Astronomy]]
 
