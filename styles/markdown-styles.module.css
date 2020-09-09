@@ -18,7 +18,8 @@
   @apply mx-auto shadow-inner;
 }
 
-.markdown ul {
+.markdown ul,
+.markdown ol {
   @apply px-5;
 }
 
@@ -28,4 +29,8 @@
 
 .markdown ul li {
   @apply list-disc;
+}
+
+.markdown ol li {
+  @apply list-decimal;
 }

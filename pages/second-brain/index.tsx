@@ -13,7 +13,7 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
   return (
     <div className="container">
       <Head>
-        <title>SecondBrain | Anthony Morris</title>
+        <title>Second Brain | Anthony Morris</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
