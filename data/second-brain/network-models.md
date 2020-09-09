@@ -14,7 +14,7 @@
 
 ## Peer-to-Peer Network Model
 
-![Peer-to-peer network diagram](assets/second-brain/2020-09-08-21-00-31.png)
+![Peer-to-peer network diagram](/assets/second-brain/2020-09-08-21-00-31.png)
 
 - OS of each computer on the network is responsible for controlling access to its resources
   - No centralized control
@@ -35,7 +35,7 @@
 
 ## Client-Server Network Model
 
-![Client-Server network diagram](assets/second-brain/2020-09-08-21-03-37.png)
+![Client-Server network diagram](/assets/second-brain/2020-09-08-21-03-37.png)
 
 - Resources managed by NOS via centralized database
   - In Windows it's Active Directory

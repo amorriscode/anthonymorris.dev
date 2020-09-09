@@ -1,6 +1,6 @@
 # OSI Model
 
-![OSI Model](assets/second-brain/2020-09-08-21-22-35.png)
+![OSI Model](/assets/second-brain/2020-09-08-21-22-35.png)
 
 - Open Systems Interconnection (OSI) reference model
   - Seven-layer model
@@ -8,7 +8,7 @@
 
 ## Layers
 
-![Network layers working together](assets/second-brain/2020-09-08-21-37-28.png)
+![Network layers working together](/assets/second-brain/2020-09-08-21-37-28.png)
 
 - Application, Presentation, and Session layers are often intertwined
   - Can be hard to distinguish between them
@@ -25,7 +25,7 @@
 
 - Technical name for bits moving from one layer to the next
 
-![PDUs across the network](assets/second-brain/2020-09-08-21-36-31.png)
+![PDUs across the network](/assets/second-brain/2020-09-08-21-36-31.png)
 
 [[Computer Science]] [[Networking]]
 
