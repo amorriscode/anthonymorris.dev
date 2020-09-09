@@ -12,6 +12,10 @@
   - [[Saturn]]
   - [[Uranus]]
   - [[Neptune]]
+  - Our week has 7 days because there are 7 observable moving objects in the sky
+    - [[Moon]], [[Mercury]], [[Venus]], [[Mars]], [[Jupiter]], [[Saturn]], [[Uranus]]
+  - Our month is based on how long the [[Moon]] takes to complete a trip around the sky
+    - _Moonth_
 - Traveling at 230 km/s
 - The nearest star to us is [[Proxima Centauri]]
 
@@ -28,6 +32,7 @@
 [Saturn]: saturn "Saturn ♄"
 [Uranus]: uranus "Uranus ⛢"
 [Neptune]: neptune "Neptune ♆"
+[Moon]: moon "Moon"
 [Proxima Centauri]: proxima-centauri "Proxima Centauri"
 [Space]: space "Space"
 [Astronomy]: astronomy "Astronomy"
