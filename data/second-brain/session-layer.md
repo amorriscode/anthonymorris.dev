@@ -1,7 +1,6 @@
 # Session Layer
 
 - How data between applications is synced and recovered if messages don't arrive intact
--
 
 [[Computer Science]] [[Networking]] [[OSI Model]]
 
