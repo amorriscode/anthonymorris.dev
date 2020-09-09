@@ -1,4 +1,4 @@
-# Mars
+# Mars ♂
 
 - Valles Marineris
   - Mariner Valley

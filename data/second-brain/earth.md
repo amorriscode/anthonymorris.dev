@@ -1,4 +1,4 @@
-# Earth
+# Earth 🜨
 
 - 13,000 kilometers in diameter
 - The [[Moon]] is the nearest astronomical neighbour

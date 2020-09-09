@@ -1,1 +1,1 @@
-# Mercury
+# Mercury ☿
