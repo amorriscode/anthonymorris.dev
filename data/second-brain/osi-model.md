@@ -4,7 +4,9 @@
 
 - Open Systems Interconnection (OSI) reference model
   - Seven-layer model
-  - Developed to categorize layers of communication
+- Describes how applications communicate over the network
+- Typically described from top --> down
+- Meant to make developing communication products easier
 
 ## Layers
 
