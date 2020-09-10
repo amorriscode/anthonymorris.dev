@@ -2,6 +2,7 @@
 
 - Fundamental questions about the nature of arguments
 - Can be approached in a mathematical way (or not)
+- The exact boundaries of logic aren't well defined
 
 [[Philosophy]]
 
