@@ -8,3 +8,5 @@
     2. Show how easy it is to work with an API using Redwood
     3. Probably give a high-level on designed for "edge-ready" deployment. E.g. API as functions on AWS Lambda and Web as static assets on CDN. Buzzword = full-stack Jamstack
 - [ ] Add canonical link on my website `<link rel="canonical" href="https://domain.com/blog/slug-of-your-post" />`
+- [ ] Test [Apollo v3 in Redwood](https://community.redwoodjs.com/t/help-us-test-apollo-graphql-v3/1168)
+- [ ] Make flash cards from the weeks notes
