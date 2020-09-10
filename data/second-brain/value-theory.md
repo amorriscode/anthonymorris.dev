@@ -3,6 +3,7 @@
 - Fundamental questions about the nature of values
   - Ethics
   - Social and political philosophy
+  - Moral claims
   - Aesthetics
     - Works of art or works of nature (eg. the Grand Canyon)
 
