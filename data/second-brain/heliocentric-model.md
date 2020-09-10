@@ -1,0 +1,1 @@
+# Heliocentric Model
