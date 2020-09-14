@@ -2,6 +2,8 @@
 
 ![OSI Model](/assets/second-brain/2020-09-08-21-22-35.png)
 
+![OSI Model with Mnemonic](/assets/second-brain/2020-09-14-10-28-36.png)
+
 - Open Systems Interconnection (OSI) reference model
   - Seven-layer model
 - Describes how applications communicate over the network
