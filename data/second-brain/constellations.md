@@ -3,6 +3,7 @@
 - Sectors of the sky, similar to provinces or states
 - 88 sectors in total
 - Named after [[Greek]] star patterns that lie within them
+- Used as a guide for orienting yourself
 
 [[Space]] [[Astronomy]]
 

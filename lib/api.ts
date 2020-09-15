@@ -33,8 +33,6 @@ export function getContentBySlug(
 
     if (field === 'content') {
       items[field] = content
-        // Replace all latex for the web
-        // .replace(/\$(.*?)\$/g, (match, text) => `$$${text}$$`)
         // Replace all second brain links
         .replace(/\[\[(.*?)\]\]/g, (match, text) => `[${text}](/second-brain/${text.toLowerCase().replace(/(\ )/g, '-')})`)
     }
