@@ -43,10 +43,11 @@
   - **Inductive**
     - Pattern probably holds in general based on an existing observation
   - **Abductive**
-    - A theory is probably true because the theory is the best that exists for the conclusion
+    - A theory is _probably_ true because the theory is the best that exists for the conclusion
     - Compared to the alternatives the argument is best
     - _Inference to the best explanation_
     - Many philosophers think scientific theories are commonly supposed by abduction
+    - Does not positively verify the conclusion
 - A non-deductive argument providing probable support is **strong**
   - Strength comes in degrees
 - A **strong** argument with true premises is **cogent**
