@@ -1,4 +1,4 @@
-# C
+# C++
 
 [[Computer Science]] [[Programming Language]]
 

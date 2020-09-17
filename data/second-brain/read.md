@@ -29,3 +29,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [A survey of git best practices](https://xdg.me/blog/a-survey-of-git-best-practices)
 - [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f)
 - [Dealing with Impostor Syndrome](https://chrysolorasofcorsica.squarespace.com/articles/dealing-with-impostor-syndrome)
+- [Guide to Web Authentication](https://webauthn.guide/)
