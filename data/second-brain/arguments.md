@@ -21,12 +21,12 @@
 - If _premises_ provided are true, the _conclusion_ must be true
   - Are premises true?
   - Do the premises lead to this conclusion?
-- True premises aren't enough
+- True premises aren't enough (must be valid)
   - Gasoline is poison (true)
   - Bleach is poison (true)
   - **Conclusion:** gasoline is bleach (false)
 - Deductively valid arguments with true premises are **sound**
-  - Valid arguments are no necessarily true (sound)!
+  - Valid arguments are not necessarily true (sound)!
 
 #### Example
 
