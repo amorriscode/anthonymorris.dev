@@ -3,18 +3,20 @@
 - Path of an object through space is called an [[orbit]]
 - [[Ptolemy]]'s [[geocentric model]] was accepted until [[Copernicus]]' [[heliocentric model]] finally got adopted
 
-## Kepler's Three Laws
+## [[Johannes Kepler]]'s Three Laws of [[Orbit]]s
 
 1. Each planet [[orbit]]s the [[Sun]] in an [[ellipse]]
    - Circular [[orbit]]s didn't fit the observations made by [[Tycho Brahe]]
    - Discovered [[orbit]]s had a flattened shape ([[ellipse]])
+   - [[Sun]] is at one focus of the [[ellipse]]
 2. Straight line joining a planet and the [[Sun]] sweeps out equal areas in space and equal areas in time
-   - Eg. in 60 days a planet with move the same amount of area, no matter how close it is to the body it orbits
+   - Eg. in 60 days a planet will move the same amount of area, no matter how close it is to the body it orbits
    - The Law of Equal Areas
    - ![The Law of Equal Areas](/assets/second-brain/2020-09-12-08-51-35.png)
    - Discovered by observing [[orbit]]s speeding up as a planet gets closer to the [[Sun]]
    - Consequence of the conservation of [[angular momentum]]
-3. A planet's orbital period ($P$) squared is proportional to the semimajor axis ($a$) of its orbit cubed
+   - _Figure skater law_
+3. A planet's orbital period ($P$) squared is proportional to the semi-major axis ($a$) of its orbit cubed
    - $P^2 \propto a^3$
    - When $P$ is measured in years and $a$ is measured in [[astronomical unit]]s, the two sides are equal
    - Applies to all objects orbiting the [[Sun]]
@@ -36,6 +38,7 @@
 [geocentric model]: geocentric-model "Geocentric Model"
 [Copernicus]: copernicus "Copernicus"
 [heliocentric model]: heliocentric-model "Heliocentric Model"
+[Johannes Kepler]: johannes-kepler "Johannes Kepler"
 [Sun]: sun "Sun"
 [ellipse]: ellipse "Ellipse"
 [Tycho Brahe]: tycho-brahe "Tycho Brahe"

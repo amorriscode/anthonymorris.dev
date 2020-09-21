@@ -52,7 +52,7 @@
   - Strength comes in degrees
 - A **strong** argument with true premises is **cogent**
   - Cogency runs parallel to soundness
-  - Cogent arguments have false conclusions
+  - Cogent arguments can have false conclusions
 
 ## Reconstructing Arguments
 
