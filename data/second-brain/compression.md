@@ -2,6 +2,12 @@
 
 - The act of making something smaller
 - Often used to store/transmit efficiently
+- Reduction in the amount of space needed to store a piece of data or the bandwidth to transmit it
+- Compression ratio
+  - Size compressed data / size of original data
+- Can be lossy or lossless
+  - Lossless --> compression where _no_ data is lost
+  - Lossy --> compression where _some_ data is lost
 
 ## Text Compression
 
@@ -45,7 +51,14 @@ becomes...
 - Uses variable-length bit strings to represent each characters
 - Frequently used characters have short codes
   - Saves space
-- Every bit string representing a character must have a unique prefix
+- Every bit string representing a character must have a _unique prefix_
+  - Allows you to decode
+
+### Decoding
+
+- Look for match left --> right (bit by bit)
+- Replace when match found
+- Repeat until decoded
 
 ### Huffman Encoding Example
 

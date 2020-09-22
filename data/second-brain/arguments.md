@@ -77,17 +77,13 @@
   - Are the premises of this argument true?
   - Assuming the premises are true, to what extend do they support the conclusion?
 - Look out for faulty reasoning
-  - A fallacy
+  - A [[fallacy]]
   - Error in reasoning that commonly persuades people
 
 ### Begging the Question
 
 - Attempt to establish conclusion of an argument by using the conclusion as a premise
 - Usually some disguised version of the conclusion is a premise
-
-### Straw Man Fallacy
-
-- Distorting, weakening, or oversimplifying someone's position so it can be more easily attacked or refuted
 
 [[Philosophy]]
 
