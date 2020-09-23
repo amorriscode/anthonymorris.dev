@@ -91,7 +91,7 @@ becomes...
 ## Spatial Compression
 
 - Removes redundant information within a frame
-- Similar to issue faces with compression still images
+- Similar issues faced by compression still images
 - Group pixels into blocks that have same color
   - Instead of storing each pixel, color and coordinates are stored
   - Similar to [run-length encoding](#run-length-encoding)
