@@ -37,19 +37,27 @@
   - Computer names
   - Host names
 
-### Address Translation
+### Network Address Translation (NAT)
 
 - Gateway device substitutes private IP with its own public IP
   - When computers need access to other networks on the internet
-- Network Address Translation (NAT)
-  - Designed to conserve public IP addresses needed by a network
-  - Variations:
-    - Static/Source Network Address Translation (SNAT)
-      - Gateway assigns same public IP to host each time it makes a request to access the Internet
-    - Dynamic Network Address Translation (DNAT)
-      - Gateway has pool of public addresses it assigns to local host when it makes a request to access the Internet
+- Uses a NAT table to do the translation
+  - Different variations handle the translation
+- Translate one IP --> another IP
+  - Private --> public
+  - Public --> private
+- Designed to conserve public IP addresses needed by a network
+
+#### Variations
+
+- Static/Source Network Address Translation (SNAT)
+  - Gateway assigns same public IP to host each time it makes a request to access the Internet
+- Dynamic Network Address Translation (DNAT)
+  - Gateway has pool of public addresses it assigns to local host when it makes a request to access the Internet
 - Port Address Translation (PAT)
+  - Most popular form of NAT
   - Process of assigning TCP port number to each ongoing session between local host and Internet host
+  - Which device and port should the traffic go to?
 
 ## Ports and Sockets
 
