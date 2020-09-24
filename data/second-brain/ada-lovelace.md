@@ -1,6 +1,7 @@
 # Ada Lovelace
 
 - First programmer
+- Made the first loop
 
 [[People]] [[Computer Science]]
 
