@@ -30,3 +30,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f)
 - [Dealing with Impostor Syndrome](https://chrysolorasofcorsica.squarespace.com/articles/dealing-with-impostor-syndrome)
 - [Guide to Web Authentication](https://webauthn.guide/)
+- [How Discord Handles Two and a Half Million Concurrent Voice Users](https://blog.discord.com/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429)
