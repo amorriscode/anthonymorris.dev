@@ -56,6 +56,7 @@
 
 ## Ontological
 
+- Typically refers to [[Anelm]]'s original argument for the existence of [[God]]
 - Attempts to establish that [[God]] exists from reason alone
   - No reliance of empirical observation or experiment
   - Arguments like this can be said to be [[a priori]]
