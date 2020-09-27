@@ -1,12 +1,17 @@
 import Link from "next/link";
 
 import Nav from "./Nav";
+import { useKonamiState } from "../context/KonamiContext";
 
 const memojis = ["joy", "mindblown", "think", "wink"];
 
 function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
-    const randomMemoji = memojis[Math.floor(Math.random() * memojis.length)];
+    const { activated: konamiActivated } = useKonamiState();
+
+    const randomMemoji = konamiActivated
+      ? "pixeldude"
+      : memojis[Math.floor(Math.random() * memojis.length)];
 
     return (
       <>
@@ -40,7 +45,7 @@ function withLayout(PageComponent: any) {
           }
 
           header:hover .memoji {
-            top: 90px;
+            top: ${konamiActivated ? "70px" : "90px"};
           }
 
           .memoji {
