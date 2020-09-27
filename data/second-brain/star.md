@@ -1,4 +1,4 @@
-# Stars
+# Star
 
 ## Distance from the [[Earth]]
 
