@@ -68,7 +68,17 @@
   - 24 standardized global time zones
   - Each zone keep the same standard time with the local mean solar time running through the middle of each zone
   - Travelers change their watches only when time change is >= one hour
-- 
+
+## Tidal Force
+
+![Tidal bulges](/assets/second-brain/2020-09-27-07-29-51.png)
+
+- The [[Moon]] pulls on the Earth, making tidal bulges in the oceans
+- Water on the side facing the [[Moon]] flows toward it
+- Water on the side away from the [[Moon]] has weak influence so tides are high
+- Bulges out on the side facing the [[Moon]] as well as the side facing away from it
+  - This causes two high/low tides per day
+  - Once when away from the [[Moon]], and once when facing it
 
 [[Space]] [[Astronomy]]
 
