@@ -27,6 +27,9 @@
   - Angle from the horizon to a point on the sphere
   - Zenith is 90˚
   - Altitude of [[Polaris]] with give you the latitude of where you are on [[Earth]]
+- Azimuth
+  - Angle measured clockwise around observer's horizon from north
+  - Object due north has azimuth of 0˚
 
 ### Relative to Viewer
 

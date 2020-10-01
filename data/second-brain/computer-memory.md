@@ -35,6 +35,16 @@
 - Cannot hold much data
 - Requires you to scrub to find data in the middle
   - Not efficient
+- Four measures of efficiency
+  - Seek time
+    - Time it takes for read/write head to get positioned over specified track
+  - Latency
+    - Time it takes for specified sector to spin to read/write head
+  - Access time
+    - Time it takes for block to start being read
+    - Sum of seek time and latency
+  - Transfer rate
+    - Rate at which data moves from the disk to memory
 
 ### Magnetic Disks
 
