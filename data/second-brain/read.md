@@ -18,7 +18,6 @@ A list of things from around the web that I want to read. For my horrendously la
 - [Emergency on Planet Earth](https://extinctionrebellion.uk/the-truth/the-emergency)
 - [6 ways to improve your debugging skills](https://www.functionize.com/blog/6-ways-to-improve-your-debugging-skills)
 - [Amelia Wattenberger](https://wattenberger.com/blog/css-percents)
-- [Lights and Shadows](https://ciechanow.ski/lights-and-shadows/)
 - [Your Circuit Breaker is Misconfigured – Shopify Engineering](https://engineering.shopify.com/blogs/engineering/circuit-breaker-misconfigured)
 - [10 grand challenges we'll face by 2050 - BBC Future](https://www.bbc.com/future/article/20170713-what-will-the-challenges-of-2050-be)
 - [The Internet explained from first principles](https://explained-from-first-principles.com/internet)
