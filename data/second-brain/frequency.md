@@ -1,7 +1,8 @@
-# Wavelength
+# Frequency
 
-- $\lamba$
-- Horizontal length covered by one cycle of a wave
+- $f$
+- Number of wave cycles that pass per second
+- Hertz (Hz)
 
 [[Physics]] [[Wave]]
 

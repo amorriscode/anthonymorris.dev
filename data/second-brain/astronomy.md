@@ -22,7 +22,7 @@
 | speed of light ($c$)                   | $2.9979 \times 10^8 m/s$                      |
 | gravitational constant ($G$)           | $6.674 \times 10^{-11} m3/(kg s^2)$           |
 | Planck’s constant ($h$)                | $6.626 \times 10^{−34} J-s$                   |
-| mass of a hydrogen atom ($M_H$)        | $1.673 \times 10^{−27} kg$                    |
+| mass of a hydrogen [[atom]] ($M_H$)    | $1.673 \times 10^{−27} kg$                    |
 | mass of an electron ($M_e$)            | $9.109 \times 10^{−31} kg$                    |
 | Rydberg constant ($R \inf$)            | $1.0974 \times 10^7 m^{−1}$                   |
 | Stefan-Boltzmann constant (σ)          | $5.670 \times 10^{−8} J/(s \times m^2 deg^4)$ |
