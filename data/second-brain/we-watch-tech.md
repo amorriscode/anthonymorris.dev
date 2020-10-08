@@ -12,6 +12,7 @@ Have you seen any good conference talks? [Share them with me](https://github.com
 - [RustConf 2018 - Closing Keynote by Catherine West - YouTube](https://www.youtube.com/watch?v=P9u8x13W7UE)
 - [Twitter thread with some talks](https://twitter.com/jimcalliu/status/1289953770063839234?s=20)
 - [The Future of the Web // Mikeal Rogers // CascadiaJS 2018 - YouTube](https://www.youtube.com/watch?v=83Gws-dPL8A)
+- [Jake Archibald: In The Loop](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
 
 [[Project]]
 
