@@ -5,7 +5,7 @@
 - The value of philosophy
   - Instrumental value
     - Valuable because it can bring us something we want
-      - Ex. money is valuable because of the purchasing power we give it
+      - E.g. money is valuable because of the purchasing power we give it
     - Philosophical assumptions made by us can shape our world
       - Cause us to act
     - Can lead us to be better thinkers, readers, and writers

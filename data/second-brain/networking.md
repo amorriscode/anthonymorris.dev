@@ -17,7 +17,7 @@
   - Smallest network
   - Phone --> computer
 - LAN (Local Area Network)
-  - Small network (Ex. office, home, or building)
+  - Small network (E.g. office, home, or building)
 - MAN (Metropolitan Area Network)
   - Group of LANs in the same geographical area
   - Sometimes called a Campus Area Network (CAN)

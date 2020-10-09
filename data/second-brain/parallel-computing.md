@@ -14,7 +14,7 @@
     - Single set of instructions can be run on different data sets at the same time
     - Relies on [[control unit]] directing multiple [[arithmetic logic unit]]s to carry out same operation
     - Effective when same process needs to be applied to many data sets
-      - Ex. increasing the brightness of an image involves adding a value to every pixel
+      - E.g. increasing the brightness of an image involves adding a value to every pixel
   - Task level
     - Multiple-instruction, multiple-data-stream (MIMD)
     - Different processors can execute different tasks on the same or different data set

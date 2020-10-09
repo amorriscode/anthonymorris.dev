@@ -1,5 +1,6 @@
 # Arithmetic Logic Unit
 
+- Mathematical brain --> all computation
 - Computer component that performs arithmetic and logical operations
   - Arithmetic ops:
     - Addition, subtraction, multiplication, division, etc.
