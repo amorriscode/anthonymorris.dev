@@ -56,12 +56,12 @@
   - Time determined by the actual position of the [[Sun]]
   - Time shown on sundials
   - Not very convenient for us
-  - First half of the day, the [[Sun]] has not reached the meridian
-    - Before the [[Sun]] reaches the local meridian
+  - First half of the day, the [[Sun]] has not reached the [[meridian]]
+    - Before the [[Sun]] reaches the local [[meridian]]
     - _ante meridiem_ or a.m.
   - Second half of the day, after noon
     - _post meridiem_ or p.m.
-    - After the [[Sun]] reaches the local meridian
+    - After the [[Sun]] reaches the local [[meridian]]
 - Mean solar time
   - Average value of the solar day over the year
   - Exactly 24 hours in a day
@@ -92,6 +92,7 @@
 [astronomical unit]: astronomical-unit "Astronomical Unit"
 [Earth]: earth "Earth 🜨"
 [star]: star "Star"
+[meridian]: meridian "Meridian"
 [gravity]: gravity "Gravity"
 [Space]: space "Space"
 [Astronomy]: astronomy "Astronomy"

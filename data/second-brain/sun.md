@@ -9,7 +9,15 @@
 
 ![Calculating positions in the sky](/assets/second-brain/2020-10-01-11-06-46.png)
 
+![The Sun in the sky depending on the season](/assets/second-brain/2020-10-10-17-47-26.png)
+
+- Rises East --> sets West
 - Depending on the time of year, we can use the altitude to calculate the Sun's position in the sky
+- Maximum height when crossing the meridian at local noon
+- Local noon
+  - Northern hemisphere --> due south
+  - Southern hemisphere --> due north
+  - Equator --> either north or south depending on time of year
 
 [[Space]] [[Astronomy]]
 
