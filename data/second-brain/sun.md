@@ -11,6 +11,7 @@
 
 ![The Sun in the sky depending on the season](/assets/second-brain/2020-10-10-17-47-26.png)
 
+- [Motions of the Sun Simulator](https://astro.unl.edu/naap/motion3/animations/sunmotions.html)
 - Rises East --> sets West
 - Depending on the time of year, we can use the altitude to calculate the Sun's position in the sky
 - Maximum height when crossing the meridian at local noon
@@ -18,6 +19,7 @@
   - Northern hemisphere --> due south
   - Southern hemisphere --> due north
   - Equator --> either north or south depending on time of year
+- Declination ranges between -23.5˚ and +23.5˚
 
 [[Space]] [[Astronomy]]
 

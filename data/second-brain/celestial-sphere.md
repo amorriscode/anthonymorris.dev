@@ -15,10 +15,12 @@
 
 ## Coordinate System
 
-- Declination
+- **Declination**
+  - Vertical position of an object
   - Celestial equivalent of [[latitude]]
   - Degrees, arcmin, arcsec
-- Right ascension
+- **Right ascension**
+  - Horizontal position of an object
   - Celestial equivalent of [[longitude]]
   - Expressed as either degrees or units of time
     - Celestial sphere turns around the [[Earth]] once a day
@@ -27,11 +29,13 @@
       - 15˚ arc is equal to 1 hour
     - Hours, mins, sec
   - Starts getting counted at the [[vernal equinox]]
-- Altitude
+- **Altitude**
+  - Vertical position of an object
   - Angle from the horizon to a point on the sphere
   - Zenith is 90˚
   - Altitude of [[Polaris]] with give you the [[latitude]] of where you are on [[Earth]]
-- Azimuth
+- **Azimuth**
+  - Horizontal position of an object
   - Angle measured clockwise around observer's horizon from north
   - Object due north has azimuth of 0˚
 
