@@ -6,6 +6,7 @@
     - Weight causes sagging
     - Air bubbles distort
     - Opaque at some wavelengths
+  - Largest visible-light telescopes today have 8 to 10 meter mirrors
 - On ground
   - Stable, controlled
   - Bigger dishes
@@ -16,6 +17,8 @@
   - Difficult to maintain
 
 ## Reflecting Telescopes
+
+![Types of reflecting telescopes](/assets/second-brain/2020-10-13-14-21-50.png)
 
 - Usually have two mirrors
   - Primary
