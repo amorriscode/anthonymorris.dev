@@ -29,7 +29,7 @@
 
 ![Full adder logic diagram](/assets/second-brain/2020-09-26-18-14-14.png)
 
-- Computers the sum of two bits, taking an input carry bit into account
+- Computes the sum of two bits, taking an input carry bit into account
 
 ## Multiplexers
 

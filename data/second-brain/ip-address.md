@@ -21,7 +21,7 @@
 ### Classes
 
 - Dividing line between network and host portions is determined by numerical range IP address falls in
-- Class A, B, and C are available for use on the internet
+- Class A, B, and C are available for use on the [[internet]]
   - Public IP addresses
 - Classes D and E are not available for general use:
   - Class D begins with octets 224-239 --> use for multicasting

@@ -3,7 +3,7 @@
 - [[Arithmetic Logic Unit]] + [[Control Unit]]
   - Used so frequently together
   - Make up the CPU
-- _n_-bit processor 
+- _n_-bit processor
   - _n_ refers to number of bits in the CPU general registers
   - Two _n_-bit numbers can be added with a single instruction
   - Can also refer to the width of the address bus

@@ -23,7 +23,7 @@
   - Using the computer to solve real world problems
 - Communications Layer
   - [[Networking]]
-  - The Internet
+  - The [[Internet]]
   - Cloud computing
 
 ## Prefixes
