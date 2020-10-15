@@ -4,8 +4,7 @@
   - He realized many of the observed motions in the sky could be explained by the [[Earth]] moving around the [[Sun]] while rotating
     - The motion of the [[Sun]]
     - The rotation of the [[celestial sphere]] (the [[Earth]] rotates, not the sphere)
-- Explains retrograde motion by placing the [[Sun]] at the center
-  - Planets move faster the closer they are to the [[Sun]]
+- Explains [[retrograde motion]] by placing the [[Sun]] at the center
 - Less clumsy and has better symmetry than [[Ptolemy]]'s model ([[geocentric model]])
 
 [[Space]] [[Astronomy]] [[Planetary Motion]]
@@ -15,6 +14,7 @@
 [Earth]: earth "Earth 🜨"
 [Sun]: sun "Sun"
 [celestial sphere]: celestial-sphere "Celestial Sphere"
+[retrograde motion]: retrograde-motion "Retrograde Motion"
 [Ptolemy]: ptolemy "Ptolemy"
 [geocentric model]: geocentric-model "Geocentric Model"
 [Space]: space "Space"
