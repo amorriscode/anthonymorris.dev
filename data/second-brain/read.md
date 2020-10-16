@@ -31,3 +31,5 @@ A list of things from around the web that I want to read. For my horrendously la
 - [Dealing with Impostor Syndrome](https://chrysolorasofcorsica.squarespace.com/articles/dealing-with-impostor-syndrome)
 - [Guide to Web Authentication](https://webauthn.guide/)
 - [How Discord Handles Two and a Half Million Concurrent Voice Users](https://blog.discord.com/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429)
+- [Good sleep, good learning, good life](https://supermemo.guru/wiki/Good_sleep,_good_learning,_good_life)
+- [Rust meets the web](https://www.jakobmeier.ch/blogging/Rust_on_the_Web.html)
