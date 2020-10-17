@@ -2,6 +2,7 @@
 
 - [[Pragmatic argument]]
   - Shows it is rational to believe in [[God]] despite a lack of evidence
+    - Our _best bet_
   - Deductive
 - [[Blaise Pascal]]'s definition of [[God]]
   - Assumed a Christian [[God]]
@@ -18,6 +19,7 @@
   - B --> $(-\infty)(0.5) - (finite)(0.50) = -\infty$
 - Expected utility of believing is _infinitely_ better than not believing
 - Possibility of [[God]] existing can be as small as you want but _cannot_ be 0
+- How/why you choose to believe doesn't matter, [[God]] doesn't care
 
 ## The Argument
 
@@ -28,6 +30,9 @@
 5. Best option --> believe in [[God]]
 
 ## Objections
+
+- No practical importance
+  - Someone who doesn't believe can't just become a believer
 
 ## Many-gods Objection
 
@@ -76,7 +81,7 @@
   - Best things are eternal
   - Better off now if we believe this is true
 
-### James' Argument
+### [[William James]]' Argument
 
 - Does not claim agnosticism or atheism is _irrational_
   - Simply concluding religious belief is _rational_
