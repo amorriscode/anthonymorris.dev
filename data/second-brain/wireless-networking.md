@@ -71,6 +71,21 @@
   - Diffraction
     - Split into secondary waves
 
+## Topologies
+
+- Different than wired networks because they are not bound by cabling paths
+- Types
+  - Ad hoc
+    - Small number of nodes closely positioned
+    - No intervening connectivity device
+    - E.g. multiple computers directly communicating
+  - Infrastructure
+    - Uses intervening connectivity device
+      - E.g. WAP or AP
+  - Mesh
+    - Several APs work as peer devices on same network
+    - More fault-tolerant
+
 ## Troubleshooting
 
 - Tools
