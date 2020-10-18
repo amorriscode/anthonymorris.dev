@@ -2,7 +2,7 @@
 title: "Chitin"
 description: "What bees are made of."
 date: "2020-08-13"
-tags: ["Science", "Bees", "Nature"]
+tags: ["Science", "Bee", "Nature"]
 ---
 
 I was [watching a talk for](https://www.youtube.com/watch?v=jl1tGiUiTtI) my [we watch tech](https://wewatch.tech) project and the speaker brought up [chitin](https://en.wikipedia.org/wiki/Chitin). It turns out that chitin is the primary component of cell walls of fungi and exoskeletons of arthropods.
