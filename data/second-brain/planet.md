@@ -1,4 +1,4 @@
-# Planets
+# Planet
 
 - Planet means _wanderer_ in ancient Greek
 

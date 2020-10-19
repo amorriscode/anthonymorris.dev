@@ -9,6 +9,7 @@
 - Surface temperature is ~5800 kelvin
 - Energy produce with [[fusion]]
   - [[Hydrogen]] --> [[helium]]
+- Brighter than ~80% of the stars in the [[Milky Way Galaxy]]
 
 ## Position in the Sky
 

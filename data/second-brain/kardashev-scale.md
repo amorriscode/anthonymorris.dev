@@ -4,7 +4,7 @@
 - Main types:
   - Type I
     - Planetary civilization
-    - Can use and control energy at the scale of its planet ([[planets]])
+    - Can use and control energy at the scale of its planet ([[planet]]s)
   - Type II
     - Stellar civilization
     - Can use and control energy at the scale of its [[solar system]]

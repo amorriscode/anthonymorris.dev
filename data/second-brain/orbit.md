@@ -12,13 +12,13 @@
 - Conjunction
   - With the [[Sun]] as seen from [[Earth]]
   - If you look at the [[Sun]] and you also see the planet
-  - Inferior [[planets]] have two conjunctions
+  - Inferior [[planet]]s have two conjunctions
     - Inferior conjunction --> closer
     - Superior conjunction --> farther
 - Opposition
   - Opposite the [[Sun]] as seen from [[Earth]]
-  - Superior [[planets]] can be in opposition
-  - Inferior [[planets]] cannot be in opposition
+  - Superior [[planet]]s can be in opposition
+  - Inferior [[planet]]s cannot be in opposition
     - [[Mercury]], [[Venus]]
 - Elongation
   - Angle between the [[Sun]] and planet as seen from [[Earth]]
