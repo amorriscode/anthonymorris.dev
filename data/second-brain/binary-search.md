@@ -5,9 +5,10 @@
 
 ## Complexity
 
-- Time
-  - $O(log(n))$
-  - Split the search space by two on every iteration
+| Time                                               | Space |
+| -------------------------------------------------- | ----- |
+| $O(log(n))$                                        |       |
+| _Split the search space by two on every iteration_ |       |
 
 ## Process
 
@@ -21,34 +22,33 @@
 ### JavaScript
 
 ```javascript
-const target = 14;
-const sortedArray = [2, 4, 6, 8, 10, 12, 14, 16];
+function binarySearch(target, sortedArray) {
+  // Start the search space with the entire array
+  let startIndex = 0;
+  let endIndex = sortedArray.length - 1;
 
-// Start the search space with the entire array
-let startIndex = 0;
-let endIndex = sortedArray.length - 1;
+  // While the search space has elements in it...
+  while (startIndex <= endIndex) {
+    // Grab the middle, acounting for a min (startIndex)
+    const middleIndex = startIndex + Math.floor((endIndex - startIndex) / 2);
 
-// While the search space has elements in it...
-while (startIndex <= endIndex) {
-  // Grab the middle, acounting for a min (startIndex)
-  const middleIndex = startIndex + Math.floor((endIndex - startIndex) / 2);
+    // Target found!
+    if (sortedArray[middleIndex] === target) {
+      return middleIndex;
+    }
 
-  // Target found!
-  if (sortedArray[middleIndex] === target) {
-    return middleIndex;
+    if (sortedArray[middleIndex] < target) {
+      // Middle is less than target
+      // Adjust search space to second half of current search space
+      startIndex = middleIndex + 1;
+    } else {
+      // Middle is greater than target
+      // Adjust search space to first half of current space
+      endIndex = middleIndex - 1;
+    }
+
+    return -1;
   }
-
-  if (sortedArray[middleIndex] < target) {
-    // Middle is less than target
-    // Adjust search space to second half of current search space
-    startIndex = middleIndex + 1;
-  } else {
-    // Middle is greater than target
-    // Adjust search space to first half of current space
-    endIndex = middleIndex - 1;
-  }
-
-  return -1;
 }
 ```
 

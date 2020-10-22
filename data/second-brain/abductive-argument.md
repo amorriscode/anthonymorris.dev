@@ -16,7 +16,7 @@
 - Simple IBE
   - If _X_ is the only explanation we have for _Y_, then _X_ is likely true
 - Comparative IBE
-  - If _X_ is more probable than any other explanation for _Y_, then _X_ is likely true 
+  - If _X_ is more probable than any other explanation for _Y_, then _X_ is likely true
 
 [[Philosophy]] [[Argument]]
 
