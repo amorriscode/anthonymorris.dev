@@ -31,13 +31,13 @@ function bubbleSort(array) {
   let swapped = false;
 
   // Start looping through the entire array
-  // Window starts at 1 so we can compare all elements
+  // i keeps track of how many elements are sorted
   for (let i = 1; i < array.length; i++) {
     // Each new element resets the swap tracker
     swapped = false;
 
     // Compare element with all remaining elements in array
-    for (let j = 0; j < array.length - 1; j++) {
+    for (let j = 0; j < array.length - i; j++) {
       // If a smaller element is found, swap in place
       if (array[j + 1] < array[j]) {
         [array[j], array[j + 1]] = [array[j + 1], array[j]];
