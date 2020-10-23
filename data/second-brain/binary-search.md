@@ -1,7 +1,10 @@
 # Binary Search
 
-- Requires array to be sorted
+- List _must be sorted_
 - Divide and conquer
+- Eliminates half the elements every time
+- Maximum steps --> $log_2 n$
+- As input doubles, the maximum number of steps increases by one
 
 ## Complexity
 
@@ -24,32 +27,55 @@
 ```javascript
 function binarySearch(target, sortedArray) {
   // Start the search space with the entire array
-  let startIndex = 0;
-  let endIndex = sortedArray.length - 1;
+  let lowIndex = 0;
+  let highIndex = sortedArray.length - 1;
 
   // While the search space has elements in it...
-  while (startIndex <= endIndex) {
-    // Grab the middle, acounting for a min (startIndex)
-    const middleIndex = startIndex + Math.floor((endIndex - startIndex) / 2);
+  while (lowIndex <= highIndex) {
+    // Grab the middle, acounting for a min (lowIndex)
+    const middleIndex = lowIndex + Math.floor((highIndex - lowIndex) / 2);
+    const guess = sortedArray[middleIndex];
 
     // Target found!
-    if (sortedArray[middleIndex] === target) {
+    if (guess === target) {
       return middleIndex;
     }
 
-    if (sortedArray[middleIndex] < target) {
+    if (guess < target) {
       // Middle is less than target
       // Adjust search space to second half of current search space
-      startIndex = middleIndex + 1;
+      lowIndex = middleIndex + 1;
     } else {
       // Middle is greater than target
       // Adjust search space to first half of current space
-      endIndex = middleIndex - 1;
+      highIndex = middleIndex - 1;
     }
 
     return -1;
   }
 }
+```
+
+### Python
+
+```python
+def binary_search(target, sortedArray):
+  lowIndex = 0
+  highIndex = len(list) - 1
+
+  while lowIndex <= highIndex:
+    middleIndex = (lowIndex + highIndex) / 2
+    guess = sortedArray[middleIndex]
+
+    if guess == target:
+      return middleIndex
+
+    if guess < target:
+      lowIndex = middleIndex + 1
+    else:
+      highIndex = middleIndex - 1
+
+  return None
 ```
 
 [[Computer Science]] [[Algorithm]]
