@@ -29,7 +29,9 @@
 
 ## Atmosphere
 
-- Photosphere
+![Layers of the Sun](/assets/second-brain/2020-10-23-14-09-33.png)
+
+- **Photosphere**
   - First/deepest layer of the atmosphere
   - The sphere of light
     - Light we see from the Sun comes from this layer
@@ -40,20 +42,31 @@
     - Granules ~1000 km in size
       - Dark rings around granule are cooler spots
     - Several million granules cover the solar surface
-- Chromosphere
+    - Lifetime of one granule is only 5-10 minutes
+- **Chromosphere**
   - Sphere of colour
     - Gives sun a reddish glow due to emission of [[hydrogen]] spectral lines
   - Roughly 2000 km thick
-  - Spicules
+  - ~10,000 K
+    - Hotter than the photosphere
+  - **Spicules**
     - Long thing fingers of luminous gas which appear like blades of a huge field of fiery grass
     - Rise to the top of the chromosphere and then sink back down
-- Corona
+  - Contain **plages**
+    - Bright regions around sunspots
+    - Areas within chromosphere with higher temperature and density than their surroundings
+- **Transit region**
+  - 10,000 K - nearly a million degrees
+  - Where the temperature rises rapidly
+- **Corona**
   - Several million kilometres above the chromosphere
   - Very hot
-    - ~10000 K at the top
+    - Million degrees or more
   - Heated by Sun's magnetic field
   - 10 trillion times less dense than the sea level atmosphere on [[Earth]]
   - Gases in this layer get blown into space
+  - Emits about half as much light as the full moon
+    - Only seen during an [[eclipse]] because the photosphere overpowers it
 
 ## Composition
 
@@ -61,15 +74,44 @@
   - People originally believed it must be [[Earth]]-like
   - Analyzed by [[Cecilia Payne-Gaposchkin]]
 - Mostly [[hydrogen]] and [[helium]]
+  - ~73% [[hydrogren]]
+  - ~25% helium
+- Most elements are in the form of atoms
+  - So much heat, many of the atoms are _ionized_
+    - Stripped of one or more of their electrons
+      - Large quantity of free electrons and positively charged ions
+      - An electrically charged environment
+    - Hot ionized gas --> plasma
 - [[Proton-proton Chain]]
 - Core
-  - Where everything happens
+  - Extremely dense
+  - Source of all its energy
+  - Approximately 20% of the interior
+  - Temperature of 15 million K
+    - Hottest part of the Sun
 - Radiative zone
   - [[Photon]]s carry [[energy]] and hit particles transferring [[energy]]
-  - How [[energy]] from inside --> outside
+  - How [[energy]] goes from inside --> outside
+  - Light from the core is transported through this zone very slowly
+    - High density
+    - Photons encounter other particles and change direction or lose some energy
 - Convective zone
-  - Hot blobs of gas moving up
+  - Hot blobs of gas moving out`
+  - Outermost layer of the interior
 - [[Hydrostatic equilibrium]]
+
+## Prominences, Flares, and Coronal Mass Ejections
+
+- **Prominences**
+  - Usually originate near sunspots
+  - Look like loops or eruptions from the surface
+- **Solar flares**
+  - Most violent event on the Sun's surface
+  - Rapid eruption lasting 5-10 minutes
+  - Releases a total amount of energy equal to that of a million [[hydrogen]] bombs
+- **Coronal mass ejection**
+  - Mostly protons and electrons released from the corona
+  - Speeds between 500-1000 km per second
 
 [[Space]] [[Astronomy]]
 
@@ -81,7 +123,9 @@
 [hydrogen]: hydrogen "Hydrogen"
 [fusion]: fusion "Fusion"
 [Earth]: earth "Earth 🜨"
+[eclipse]: eclipse "Eclipse"
 [Cecilia Payne-Gaposchkin]: cecilia-payne-gaposchkin "Cecilia Payne-Gaposchkin"
+[hydrogren]: hydrogren "Hydrogren"
 [Proton-proton Chain]: proton-proton-chain "Proton-Proton Chain"
 [Photon]: photon "Photon"
 [Hydrostatic equilibrium]: hydrostatic-equilibrium "Hydrostatic Equilibrium"
