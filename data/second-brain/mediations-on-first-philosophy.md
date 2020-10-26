@@ -1,2 +1,0 @@
-# Mediations on First Philosophy
-
