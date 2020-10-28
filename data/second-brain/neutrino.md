@@ -11,6 +11,7 @@
 - Neutrinos from the [[Sun]] have mixed quantum states so our detectors couldn't always detect them
   - We were looking for electron neutrinos
   - The neutrinos from the [[Sun]] could propagate into a mixture of electron, muon, and tau neutrinos
+    - Neutrino oscillation
 
 [[Astronomy]] [[Physics]] [[Particle]]
 
