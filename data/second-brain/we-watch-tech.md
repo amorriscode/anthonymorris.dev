@@ -2,7 +2,7 @@
 
 A place for me to [[learn in public]] from conference talks. [Check out the website](https://wewatch.tech)!
 
-Have you seen any good conference talks? [Share them with me](https://github.com/amorriscode/second-brain/issues/new)!
+**Have you watched any good conference talks? [Share them with me](https://github.com/amorriscode/anthonymorris.dev/issues/new)!**
 
 ## Future Articles
 
