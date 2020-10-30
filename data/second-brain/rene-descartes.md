@@ -17,7 +17,9 @@
   - [[Biology]]
   - [[Chemistry]]
   - [[Physics]]
-- Wrote [[Meditations on First Philosophy]]
+- [[Rationalist]]
+- Works
+  - [[Meditations on First Philosophy]]
 
 [[People]]
 
@@ -26,6 +28,7 @@
 [philosopher]: philosopher "Philosopher"
 [philosophy]: philosophy "Philosophy"
 [Aristotle]: aristotle "Aristotle"
+[empiricism]: empiricism "Empiricism"
 [Physics]: physics "Physics"
 [Meditations on First Philosophy]: meditations-on-first-philosophy "Meditations on First Philosophy"
 [People]: people "People"

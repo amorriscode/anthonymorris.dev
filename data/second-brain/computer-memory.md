@@ -1,5 +1,7 @@
 # Computer Memory
 
+- Think of memory like a set of drawers
+  - Each drawer has an address
 - Collection of cells with unique physical addresses
   - Number of bits in each location varies from one machine to the other
   - More common computers are byte addressable
