@@ -9,6 +9,10 @@
   - This is why we only see one side of it
   - Synchronous rotation
   - Tidally-locked rotation
+- Far side of the Moon more heavily cratered
+  - Easier to hit because the other side is always facing [[Earth]]
+- Regolith on the surface of the Moon
+  - Layer of fine powder and rock fragments
 
 ## Moonths
 

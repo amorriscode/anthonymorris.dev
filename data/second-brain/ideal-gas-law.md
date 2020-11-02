@@ -1,0 +1,3 @@
+# Ideal Gas Law
+
+[[Physics]]

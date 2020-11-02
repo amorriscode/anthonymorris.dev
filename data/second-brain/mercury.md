@@ -1,6 +1,10 @@
 # Mercury ☿
 
 - Temperature ranges from 280-430˚ on sunlit site
+- We don't have a lot of data about Mercury
+  - So close to the [[Sun]]
+- Heavily cratered
+- Similar to the [[Moon]]
 
 [[Planet]] [[The Solar System]]
 
