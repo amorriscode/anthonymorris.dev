@@ -14,6 +14,7 @@ A place for me to [[learn in public]] from conference talks. [Check out the webs
 - [The Future of the Web // Mikeal Rogers // CascadiaJS 2018 - YouTube](https://www.youtube.com/watch?v=83Gws-dPL8A)
 - [Jake Archibald: In The Loop](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
 - ["The Mess We're In" by Joe Armstrong](https://www.youtube.com/watch?v=lKXe3HUG2l4)
+- [Maybe Not - Rich Hickey](https://www.youtube.com/watch?v=YR5WdGrpoug)
 
 [[Project]]
 
