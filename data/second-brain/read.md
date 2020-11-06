@@ -34,3 +34,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [Good sleep, good learning, good life](https://supermemo.guru/wiki/Good_sleep,_good_learning,_good_life)
 - [Rust meets the web](https://www.jakobmeier.ch/blogging/Rust_on_the_Web.html)
 - [Lifetimes in Rust](https://blog.thoughtram.io/lifetimes-in-rust/)
+- [The Man Who Carried Computer Science on His Shoulders](https://inference-review.com/article/the-man-who-carried-computer-science-on-his-shoulders)
