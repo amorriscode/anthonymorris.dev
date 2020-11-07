@@ -12,7 +12,7 @@
 - Networking modes
   - Bridged
     - vNIC accesses physical network using host machine's NIC
-    - Obtains own [[IP address]], default gateway, and network mask from [[DHCP]] server on physical LAN
+    - Obtains own [[IP address]], default gateway, and network mask from [[DHCP]] server on physical [[LAN]]
     - Appears to other nodes as a regular client/server on the network
   - NAT
     - vNIC relies on host machine to act as NAT device

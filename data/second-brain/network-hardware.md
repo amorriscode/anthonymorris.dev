@@ -1,8 +1,6 @@
 # Network Hardware
 
-- Network switch
-  - Like an old-school switchboard
-  - Directs network traffic to/from various destinations (ports)
+- [[Network switch]]
 - Network interface card (NIC)
   - Card used to attach a device to a network
 - [[Router]]

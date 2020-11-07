@@ -13,7 +13,7 @@
   - Maximum transmission unit
   - Largest size that [[router]]s in a message's path will allow at [[network layer]]
 - Exceptions on Ethernet frame size limitations:
-  - On a VLAN can have an extra 4 byte field between source address field and type field
+  - On a [[VLAN]] can have an extra 4 byte field between source address field and type field
   - Some special purpose networks use proprietary version of Ethernet allowing for a jumbo frame
     - MTU can be as high as 9198 bytes (depends on Ethernet architecture used)
 

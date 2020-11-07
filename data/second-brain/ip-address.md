@@ -8,7 +8,11 @@
 
 - 32 bits
 - Written as four decimal numbers called octets
+  - Octet --> 8 bits
   - Each octet can be any number from 0 to 255
+- Divided into two parts
+  - Network ID
+  - Host ID
 
 ### Private IPs
 
@@ -27,11 +31,11 @@
   - Class D begins with octets 224-239 --> use for multicasting
   - Class E begins with octets 240-254 --> used for research
 
-| Class | Network octets                 | Approx. number of possible networks | Approx. number of IP addresses in each network |
-| ----- | ------------------------------ | ----------------------------------- | ---------------------------------------------- |
-| A     | `1.x.y.z` to `126.x.y.z`       | 126                                 | 16 million                                     |
-| B     | `128.0.x.y` to `191.255.x.y`   | 16,000                              | 65,000                                         |
-| C     | `192.0.0.x` to `223.255.255.x` | 2 million                           | 254                                            |
+| Class | Network octets                 | Octet Range | Default Mask    | Approx. number of possible networks | Approx. number of IP addresses in each network |
+| ----- | ------------------------------ | ----------- | --------------- | ----------------------------------- | ---------------------------------------------- |
+| A     | `1.x.y.z` to `126.x.y.z`       | 1-126       | `255.0.0.0`     | 126                                 | 16 million                                     |
+| B     | `128.0.x.y` to `191.255.x.y`   | 128-191     | `255.255.0.0`   | 16,000                              | 65,000                                         |
+| C     | `192.0.0.x` to `223.255.255.x` | 192-223     | `255.255.255.0` | 2 million                           | 254                                            |
 
 ### Reserved IPs
 
@@ -46,6 +50,18 @@
 
 - 128 bits
 - Written as eight blocks of hexadecimal numbers
+  - Last four blocks identify the interface
+  - First four blocks identify the network
+    - Serve as the network prefix
+      - Also called site prefix or global routing prefix
+  - Fourth block in the site prefix can be altered to create subnets
+
+## Subnets
+
+- Subnetting is simpler than IPv4
+  - Classes not used
+  - Subnet masks are not used
+- Subnetting helps admins manage the enormous volume of IPv6 addresses
 
 [[Computer Science]] [[Networking]]
 

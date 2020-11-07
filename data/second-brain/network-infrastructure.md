@@ -26,7 +26,7 @@
 ![MDF connecting a network](/assets/second-brain/2020-09-14-10-35-13.png)
 
 - Main distribution frame/facility
-- Centralized point of interconnection for LAN or WAN
+- Centralized point of interconnection for [[LAN]] or WAN
 - Also called MC (main cross connect)
 - Can only be one per campus
 

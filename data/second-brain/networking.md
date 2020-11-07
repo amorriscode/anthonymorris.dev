@@ -8,7 +8,7 @@
 ## Topologies
 
 - Star topology
-  - When all devices connect to one central switch
+  - When all devices connect to one central [[network switch]]
 - Bus topology
   - Multiple switches chained together in a single line
 
@@ -18,15 +18,15 @@
   - A network of personal devices
   - Smallest network
   - Phone --> computer
-- LAN (Local Area Network)
+- [[LAN]] (Local Area Network)
   - Small network (E.g. office, home, or building)
 - MAN (Metropolitan Area Network)
-  - Group of LANs in the same geographical area
+  - Group of [[LAN]]s in the same geographical area
   - Sometimes called a Campus Area Network (CAN)
 - WAN (Wide Area Network)
-  - Group of LANs spread out over a wide geographical area
+  - Group of [[LAN]]s spread out over a wide geographical area
   - The [[Internet]] is the largest WAN
-- WLAN (Wireless LAN)
+- WLAN (Wireless [[LAN]])
   - Networks that transmit signals through air
   - Use [[radio waves]]
 

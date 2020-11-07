@@ -3,7 +3,7 @@
 - Hardware address of source/destination NICs
 - Physical address, hardware address, or data link layer address
 - Embedded on every network adapter
-- Can only be used on a LAN
+- Can only be used on a [[LAN]]
 - 48 bits
 - Written as six hex numbers separated by colons
 - Traditional MAC addresses contain two parts:

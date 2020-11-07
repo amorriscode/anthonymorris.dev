@@ -1,0 +1,27 @@
+# Subnet Mask
+
+![Default IPv4 subnet masks](/assets/second-brain/2020-11-06-11-04-32.png)
+
+- Used so devices can determine which part of an [[IP address]] is network ID and which part is host ID
+  - Number of 1s in subnet mask --> number of bits in [[IP address]] belong to network ID
+    - Example:
+      - [[IP address]]: `192.168.123.132`
+        - Binary: `11000000.10101000.01111011.1000010`
+      - Subnet mask: `255.255.255.0`
+        - Binary: `11111111.111111111.111111111.00000000`
+      - Network ID: `192.168.123.0`
+      - Host ID: `0.0.0.132`
+
+## Subnet Mask Tables
+
+- Class A, Class B, and Class C networks can be subnetted
+  - Each class --> different number of host info bits usable for subnet info
+  - Varies depending on network class and the way subnetting is used
+
+## Variable Length Subnet Mask (VLSM)
+
+- Allows subnets to be further subdivided
+  - Smaller groupings until each subnet is about the same as the necessary [[IP address]] space
+- Referred to as subnetting a subnet
+
+[[Networking]] [[Computer Science]]
