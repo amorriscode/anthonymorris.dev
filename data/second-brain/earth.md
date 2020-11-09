@@ -44,6 +44,7 @@
   - Oozing flow (like [[lava]])
 - Stretches from base of the crust --> 2900 km deep
 - ~84% of Earth's volume
+- Made of rock
 
 ### Core
 
@@ -57,7 +58,7 @@
 - Inner core is probably solid
   - 3400 km
   - Spinning
-  - [[Iron]]
+  - [[Iron]] and [[nickel]]
 
 ## Magnetic Field and Magnetosphere
 
@@ -191,6 +192,7 @@
 [silicon]: silicon "Silicon"
 [star]: star "Star"
 [basalt]: basalt "Basalt"
+[water]: water "Water"
 [ozone]: ozone "Ozone"
 [Earth]: earth "Earth 🜨"
 [meridian]: meridian "Meridian"

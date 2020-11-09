@@ -23,6 +23,7 @@
 - Huge troposphere
   - Region of [[convection]]
   - Extends up to at least 50 km
+  - About 90x the atmospheric pressure of [[Earth]]
 
 ## Surface
 
