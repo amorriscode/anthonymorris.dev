@@ -1,6 +1,7 @@
 # Comparative Planetology
 
 - Comparing/contrasting [[planet]]s
+- Goal is to understand how they are different, why they are different, and what we can learn from the differences
 
 ## Terrestrial Planets
 
