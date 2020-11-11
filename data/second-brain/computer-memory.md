@@ -8,6 +8,12 @@
     - Memory addresses are made up of a certain number of bytes
 - The contents of memory alone aren't too useful
   - Need to know how to interpret the contents
+- Main memory
+  - Active programs and data stored
+  - Volatile
+- Secondary memory
+  - Nonvolatile
+  - Data maintained even with power off
 
 ## RAM
 
@@ -38,14 +44,14 @@
 - Requires you to scrub to find data in the middle
   - Not efficient
 - Four measures of efficiency
-  - Seek time
+  - **Seek time**
     - Time it takes for read/write head to get positioned over specified track
-  - Latency
+  - **Latency**
     - Time it takes for specified sector to spin to read/write head
-  - Access time
+  - **Access time**
     - Time it takes for block to start being read
     - Sum of seek time and latency
-  - Transfer rate
+  - **Transfer rate**
     - Rate at which data moves from the disk to memory
 
 ### Magnetic Disks

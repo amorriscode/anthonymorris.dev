@@ -18,6 +18,9 @@
 - OS performs the following tasks:
   - Track where and how a program resides in memory
   - Convert logical program addresses into actual memory addresses
+- Keeps track of secondary [[computer memory]] in two ways
+  1. Maintains a table indicating which blocks of [[computer memory]] are free
+  2. For each directory, it maintains a table that records information about the files in the directory
 
 ### Single Contiguous Memory Management
 
