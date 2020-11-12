@@ -36,6 +36,7 @@
 - Gas proportions are similar to [[Venus]] but there is a lot less of each gas
 - Thin atmosphere
 - Low [[greenhouse effect]]
+  - Runaway refrigerator effect
 
 ## Surface
 
