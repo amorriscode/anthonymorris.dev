@@ -35,3 +35,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [Rust meets the web](https://www.jakobmeier.ch/blogging/Rust_on_the_Web.html)
 - [Lifetimes in Rust](https://blog.thoughtram.io/lifetimes-in-rust/)
 - [The Man Who Carried Computer Science on His Shoulders](https://inference-review.com/article/the-man-who-carried-computer-science-on-his-shoulders)
+- [Why Rust is the Future of Game Development](https://thefuntastic.com/blog/why-rust-is-the-future-game-dev)

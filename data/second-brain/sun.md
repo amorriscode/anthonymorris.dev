@@ -43,11 +43,12 @@
       - Dark rings around granule are cooler spots
     - Several million granules cover the solar surface
     - Lifetime of one granule is only 5-10 minutes
+  - Around 6000 K
 - **Chromosphere**
   - Sphere of colour
     - Gives sun a reddish glow due to emission of [[hydrogen]] spectral lines
   - Roughly 2000 km thick
-  - ~10,000 K
+  - 10,000 K
     - Hotter than the photosphere
   - **Spicules**
     - Long thing fingers of luminous gas which appear like blades of a huge field of fiery grass
@@ -83,20 +84,20 @@
       - An electrically charged environment
     - Hot ionized gas --> plasma
 - [[Proton-proton Chain]]
-- Core
+- **Core**
   - Extremely dense
   - Source of all its energy
   - Approximately 20% of the interior
   - Temperature of 15 million K
     - Hottest part of the Sun
-- Radiative zone
+- **Radiative zone**
   - [[Photon]]s carry [[energy]] and hit particles transferring [[energy]]
   - How [[energy]] goes from inside --> outside
   - Light from the core is transported through this zone very slowly
     - High density
     - Photons encounter other particles and change direction or lose some energy
-- Convective zone
-  - Hot blobs of gas moving out`
+- **Convective zone**
+  - Hot blobs of gas moving out
   - Outermost layer of the interior
 - [[Hydrostatic equilibrium]]
 
@@ -105,6 +106,7 @@
 - **Prominences**
   - Usually originate near sunspots
   - Look like loops or eruptions from the surface
+  - Ionized gas
 - **Solar flares**
   - Most violent event on the Sun's surface
   - Rapid eruption lasting 5-10 minutes
