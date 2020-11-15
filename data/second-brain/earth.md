@@ -84,24 +84,10 @@
 
 ### Atmospheric Layers
 
-- Exosphere
-- Thermosphere
-  - Warmer as you go up
-    - Heated by the [[Sun]]
-- Mesosphere
-- Stratosphere
-  - ~50-60 km above the surface
-  - Cold and free of clouds
-  - Includes the [[ozone]] layer
-    - Protects Earth from the [[Sun]]'s rays
-  - Warmer as you go up
-- Troposphere
-  - Warm air replaced by currents of cooler air
-    - [[Convection]]
-    - Generates clouds and wind
-  - Weather
-  - Cooler as you go up
-    - Heater by the Earth's surface
+- [[Ionosphere]]
+- [[Mesosphere]]
+- [[Stratosphere]]
+- [[Troposphere]]
 
 ### Greenhouse Effect
 
@@ -193,7 +179,6 @@
 [star]: star "Star"
 [basalt]: basalt "Basalt"
 [water]: water "Water"
-[ozone]: ozone "Ozone"
 [Earth]: earth "Earth 🜨"
 [meridian]: meridian "Meridian"
 [gravity]: gravity "Gravity"

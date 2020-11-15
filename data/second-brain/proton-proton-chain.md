@@ -10,9 +10,15 @@
 ## Steps
 
 1. ${}^1H + {}^1H \rarr {}^2H + e^+ + v_e$
+   - Two protons fuse
+   - Make deuterium, one positron, and one neutrino
 2. ${}^1H + {}^2H \rarr {}^3He + γ$
+   - Deuterium nucleus fuses with a protein
+   - Makes helium-3, gamma ray
 3. ${}^3He + {}^3He \rarr {}^4He + {}^1H + {}^1 H$
    - Step 1 & 2 must happen twice
+   - Two helium-3 nuclei fuse to form helium-4
+   - Two excess protons are released
 
 [[Physics]]
 

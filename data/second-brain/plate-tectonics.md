@@ -11,9 +11,9 @@
 - There are ~12 tectonic plates on [[Earth]]
 - Plates are moved by [[convection]] of the mantle
 - Four basic interactions between plates at their boundaries
-  - Pull apart
-  - One plate burrows under another
-  - Slide alongside each other
+  - Pull apart (rift zone)
+  - One plate burrows under another (subduction zone)
+  - Slide alongside each other (fault zone)
   - Jam together
 - Constantly renews [[Earth]]'s crust and erases cratering events
 
