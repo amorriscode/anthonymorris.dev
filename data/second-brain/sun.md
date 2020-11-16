@@ -31,43 +31,10 @@
 
 ![Layers of the Sun](/assets/second-brain/2020-10-23-14-09-33.png)
 
-- **Photosphere**
-  - First/deepest layer of the atmosphere
-  - The sphere of light
-    - Light we see from the Sun comes from this layer
-  - 400 km thick
-  - Gives the Sun an apparent surface
-    - Boundary between interior and atmosphere of the Sun
-  - Granular surface
-    - Granules ~1000 km in size
-      - Dark rings around granule are cooler spots
-    - Several million granules cover the solar surface
-    - Lifetime of one granule is only 5-10 minutes
-  - Around 6000 K
-- **Chromosphere**
-  - Sphere of colour
-    - Gives sun a reddish glow due to emission of [[hydrogen]] spectral lines
-  - Roughly 2000 km thick
-  - 10,000 K
-    - Hotter than the photosphere
-  - **Spicules**
-    - Long thing fingers of luminous gas which appear like blades of a huge field of fiery grass
-    - Rise to the top of the chromosphere and then sink back down
-  - Contain **plages**
-    - Bright regions around sunspots
-    - Areas within chromosphere with higher temperature and density than their surroundings
-- **Transit region**
-  - 10,000 K - nearly a million degrees
-  - Where the temperature rises rapidly
-- **Corona**
-  - Several million kilometres above the chromosphere
-  - Very hot
-    - Million degrees or more
-  - Heated by Sun's magnetic field
-  - 10 trillion times less dense than the sea level atmosphere on [[Earth]]
-  - Gases in this layer get blown into space
-  - Emits about half as much light as the full moon
-    - Only seen during an [[eclipse]] because the photosphere overpowers it
+- [[Photosphere]]
+- [[Chromosphere]]
+- [[Transit region]]
+- [[Corona]]
 
 ## Composition
 
@@ -130,7 +97,6 @@
 [hydrogen]: hydrogen "Hydrogen"
 [fusion]: fusion "Fusion"
 [Earth]: earth "Earth 🜨"
-[eclipse]: eclipse "Eclipse"
 [Cecilia Payne-Gaposchkin]: cecilia-payne-gaposchkin "Cecilia Payne-Gaposchkin"
 [hydrogren]: hydrogren "Hydrogren"
 [Proton-proton Chain]: proton-proton-chain "Proton-Proton Chain"
