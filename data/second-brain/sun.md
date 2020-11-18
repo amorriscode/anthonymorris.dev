@@ -95,6 +95,7 @@
 [celestial sphere]: celestial-sphere "Celestial Sphere"
 [Solar System]: solar-system "Solar System"
 [hydrogen]: hydrogen "Hydrogen"
+[helium]: helium "Helium"
 [fusion]: fusion "Fusion"
 [Earth]: earth "Earth 🜨"
 [Cecilia Payne-Gaposchkin]: cecilia-payne-gaposchkin "Cecilia Payne-Gaposchkin"
