@@ -40,12 +40,13 @@
 ## Meditation II
 
 - The [[argument]]
-  - I think, [therefore] I exist
+  - I think, *therefore* I exist
     - I think, therefore I am
     - First person proposition
     - Psychological component
   - If I'm thinking, there must be a "me" to do the thinking
   - What is the I that thinks?
+    - Something aware of its own consciousness
 
 [[Philosophy]] [[Rene Descartes]]
 
