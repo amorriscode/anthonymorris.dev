@@ -7,7 +7,7 @@
   - [[Terrestrial planet]]s
   - [[Jovian planet]]s
   - Our week has 7 days because there are 7 observable moving objects in the sky
-    - [[Moon]], [[Mercury]], [[Venus]], [[Mars]], [[Jupiter]], [[Saturn]], [[Uranus]]
+    - [[The Moon]], [[Mercury]], [[Venus]], [[Mars]], [[Jupiter]], [[Saturn]], [[Uranus]]
   - Our month is based on how long the [[Moon]] takes to complete a trip around the sky
     - *Moonth*
 - Traveling at 230 km/s
@@ -42,8 +42,8 @@
   - Examples
     - [[Venus]] upside down
     - [[Uranus]] sideways
-    - [[Moon]] is relatively huge
-      - Largest moon:[[planet]] ratio
+    - [[The Moon]] is relatively huge
+      - Largest [[moon]]:[[planet]] ratio
 
 ## Formation
 
@@ -64,7 +64,7 @@
   - Spectroscopic analysis --> which elements are present
   - [[Sun]], [[Jupiter]], [[Saturn]] --> similar elements
     - Hydrogen-dominated composition
-  - Terrestrial [[planet]]s and our [[Moon]] --> similar elements
+  - Terrestrial [[planet]]s and [[the Moon]] --> similar elements
     - Deficient in light gases and various ices that form from elements like oxygen, carbon, and nitrogen
     - Rarer heavy elements
   - Inner [[planet]]s are made of elements that can survive heat
@@ -98,7 +98,7 @@
   - First few hundred million years
 - Tons of things colliding
 - Mixing of elements
-- Possible formation of our [[Moon]]
+- Possible formation of [[the Moon]]
 - Most of [[Earth]]'s water probably accumulated during this time
 - Most [[planet]]s probably captured moons at this time
 
@@ -109,13 +109,14 @@
 [planet]: planet "Planet"
 [terrestrial-planet]: terrestrial-planet "Terrestrial Planet"
 [jovian-planet]: jovian-planet "Jovian Planet"
-[moon]: moon "Moon"
+[the-moon]: the-moon "The Moon"
 [mercury]: mercury "Mercury ☿"
 [venus]: venus "Venus ♀"
 [mars]: mars "Mars ♂"
 [jupiter]: jupiter "Jupiter ♃"
 [saturn]: saturn "Saturn ♄"
 [uranus]: uranus "Uranus ⛢"
+[moon]: moon "Moon"
 [proxima-centauri]: proxima-centauri "Proxima Centauri"
 [johannes-kepler]: johannes-kepler "Johannes Kepler"
 [planetary-motion]: planetary-motion "Planetary Motion"

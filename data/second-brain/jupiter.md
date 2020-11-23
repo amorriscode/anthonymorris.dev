@@ -6,6 +6,15 @@
   - Could make 318 [[Earth]]s
 - Shorted day of any [[planet]]
   - 9 hours 56 minutes
+- Strongest magnetic sphere in [[the Solar System]] aside from the [[Sun]]
+  - Larger than the apparent size of [[the Moon]]
+
+## Moons
+
+- [[Io]]
+- [[Europa]]
+- [[Ganymede]]
+- [[Callisto]]
 
 [[Space]] [[Astronomy]] [[Jovian Planet]] [[Planet]]
 
@@ -14,6 +23,12 @@
 [orbit]: orbit "Orbit"
 [earth]: earth "Earth 🜨"
 [planet]: planet "Planet"
+[the-solar-system]: the-solar-system "The Solar System"
+[the-moon]: the-moon "The Moon"
+[io]: io "Io"
+[europa]: europa "Europa"
+[ganymede]: ganymede "Ganymede"
+[callisto]: callisto "Callisto"
 [space]: space "Space"
 [astronomy]: astronomy "Astronomy"
 [jovian-planet]: jovian-planet "Jovian Planet"

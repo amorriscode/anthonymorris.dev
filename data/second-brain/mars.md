@@ -24,7 +24,7 @@
   - Thin [[atmosphere]] exists
     - Would've been thicker in the past
   - Existence of liquid [[water]]
-- Experienced extensive volcanic activity at the same time the [[Moon]] did
+- Experienced extensive volcanic activity at the same time [[the Moon]] did
 
 ## Atmosphere
 
@@ -68,7 +68,7 @@
 [iron]: iron "Iron"
 [atmosphere]: atmosphere "Atmosphere"
 [water]: water "Water"
-[moon]: moon "Moon"
+[the-moon]: the-moon "The Moon"
 [venus]: venus "Venus ♀"
 [greenhouse-effect]: greenhouse-effect "Greenhouse Effect"
 [astronomy]: astronomy "Astronomy"

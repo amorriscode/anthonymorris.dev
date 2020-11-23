@@ -7,7 +7,7 @@
 - Heated by [[Sun]]'s magnetic field
 - 10 trillion times less dense than the sea level atmosphere on [[Earth]]
 - Gases in this layer get blown into space
-- Emits about half as much light as the full [[Moon]]
+- Emits about half as much light as [[the Moon]] when it is full
   - Only seen during an [[eclipse]] because the [[photosphere]] overpowers it
 
 
@@ -18,7 +18,7 @@
 [star]: star "Star"
 [chromosphere]: chromosphere "Chromosphere"
 [earth]: earth "Earth 🜨"
-[moon]: moon "Moon"
+[the-moon]: the-moon "The Moon"
 [eclipse]: eclipse "Eclipse"
 [photosphere]: photosphere "Photosphere"
 [atmosphere]: atmosphere "Atmosphere"
