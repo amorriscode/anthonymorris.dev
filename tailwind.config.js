@@ -1,9 +1,6 @@
 // eslint-disable-next-line no-undef
 module.exports = {
-  purge: [
-    './components/**/*.tsx',
-    './pages/**/*.tsx'
-  ],
+  purge: ['./components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
     extend: {
       colors: {
@@ -21,5 +18,4 @@ module.exports = {
     cursor: ['hover'],
   },
   plugins: [],
-};
-  
+}
