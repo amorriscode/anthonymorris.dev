@@ -17,7 +17,7 @@ function withLayout(PageComponent: any) {
 
     return (
       <>
-        <header className="container mx-auto p-4 pb-32">
+        <header className="container mx-auto p-4 md:pb-32">
           <Link href="/">
             <a
               className="header-link text-4xl font-extrabold"
@@ -29,7 +29,7 @@ function withLayout(PageComponent: any) {
           </Link>
         </header>
 
-        <div className="container mx-auto relative grid grid-cols-4 gap-8">
+        <div className="container mx-auto relative px-4 md:grid grid-cols-4 gap-8">
           <div className="col-span-1">
             <Nav />
           </div>
@@ -39,7 +39,7 @@ function withLayout(PageComponent: any) {
           </div>
         </div>
 
-        <footer className="relative overflow-hidden p-8">
+        <footer className="relative overflow-hidden pb-4 md:p-8">
           <img
             src={`/assets/memojis/${randomMemoji}.png`}
             className="memoji fixed"
