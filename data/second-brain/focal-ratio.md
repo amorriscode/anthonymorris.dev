@@ -1,0 +1,2 @@
+# Focal Ratio
+
