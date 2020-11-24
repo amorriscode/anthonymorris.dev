@@ -56,30 +56,30 @@
   - One [[transistor]] = one bit of information
 - Terminal
   - Input/output device with keyboard and screen
-  - Direct access to computer + immediate response
+  - Direct access to [[computer]] + immediate response
 
 ### Fourth Generation Hardware (1971-Present)
 
 - Large-scale integration (LSI)
   - Great advances in chip tech
 - PCs, commercial market, workstations
-  - Computers become affordable
+  - [[Computer]]s become affordable
   - Huge companies like Apple, Sun, Dell, etc.
 - Laptops, tablets, and smart phones
-  - A computer in everyone's hands
+  - A [[computer]] in everyone's hands
 - [[Parallel computing]]
 - [[Networking]]
-  - Ethernet used to connect computers
+  - Ethernet used to connect [[computer]]s
   - Resources can be shared over the network
 - [[Cloud computing]]
-  - Use of computer resources on the [[Internet]]
+  - Use of [[computer]] resources on the [[Internet]]
 
 ## Software
 
 ### First Generation Software (1951-1959)
 
 - [[Machine language]]
-  - Computer programs written in binary
+  - [[Computer]] programs written in binary
 - [[Assembly language]]s and translators
   - Programs written using mnemonics
   - Mnemonics get translated to machine code
@@ -97,7 +97,7 @@
 
 - Systems software
   - Humans were too slow
-  - Put computer resources under control of the _computer_
+  - Put [[computer]] resources under control of the _[[computer]]_
     - [[Operating system]]s decide what to run and when
 - Separation between users and hardware
   - Software is being written for general public
@@ -120,7 +120,7 @@
   - [[Java]], etc.
 - World Wide Web
 - New users
-  - Don't need computer knowledge to benefit
+  - Don't need [[computer]] knowledge to benefit
 
 ![Computing as a Tool](/assets/second-brain/2020-09-14-18-03-29.png)
 
@@ -133,7 +133,7 @@
     - Representation
       - Store data in a way it can be process efficiently
     - [[Programming]]
-      - Algorithmic thinking + Representation --> computer software
+      - Algorithmic thinking + Representation --> [[computer]] software
     - Design
       - Software that serves a purpose
 
@@ -149,6 +149,7 @@
 [transistor]: transistor "Transistor"
 [cpu]: cpu "CPU (Central Processing Unit)"
 [circuit]: circuit "Circuit"
+[computer]: computer "Computer"
 [parallel-computing]: parallel-computing "Parallel Computing"
 [networking]: networking "Networking"
 [cloud-computing]: cloud-computing "Cloud Computing"

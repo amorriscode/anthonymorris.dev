@@ -1,7 +1,7 @@
 # Alan Turing
 
 - English [[mathematician]], [[computer scientist]], [[logician]], [[cryptanalyst]], [[philosopher]], and theoretical biologist
-- Father of theoretical computer science and [[artificial intelligence]]
+- Father of theoretical [[computer science]] and [[artificial intelligence]]
 - Influential in [[computer science]]
   - [[Algorithm]]s
   - Computation with the [[Turing machine]]
@@ -17,8 +17,8 @@
 [logician]: logician "Logician"
 [cryptanalyst]: cryptanalyst "Cryptanalyst"
 [philosopher]: philosopher "Philosopher"
-[artificial-intelligence]: artificial-intelligence "Artificial Intelligence"
 [computer-science]: computer-science "Computer Science"
+[artificial-intelligence]: artificial-intelligence "Artificial Intelligence"
 [algorithm]: algorithm "Algorithm"
 [turing-machine]: turing-machine "Turing Machine"
 [bletchley-park]: bletchley-park "Bletchley Park"
