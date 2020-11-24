@@ -1,65 +1,64 @@
-import Link from "next/link";
+import { useState } from 'react'
+import Link from 'next/link'
 
-import Nav from "./Nav";
-import { useKonamiState } from "../context/KonamiContext";
+import Nav from './Nav'
+import { useKonamiState } from '../context/KonamiContext'
 
-const memojis = ["joy", "mindblown", "think", "wink"];
+const memojis = ['joy', 'mindblown', 'think', 'wink']
 
 function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
-    const { activated: konamiActivated } = useKonamiState();
+    const [showMemoji, setShowMemoji] = useState(false)
+    const { activated: konamiActivated } = useKonamiState()
 
     const randomMemoji = konamiActivated
-      ? "pixeldude"
-      : memojis[Math.floor(Math.random() * memojis.length)];
+      ? 'pixeldude'
+      : memojis[Math.floor(Math.random() * memojis.length)]
 
     return (
       <>
-        <div className="h-40 md:h-64 bg-buzz-purple-dark text-white flex flex-col justify-end">
-          <header className="container mx-auto px-4 md:px-8 lg:w-3/5 xl:w-2/5 relative flex justify-center md:justify-end items-end overflow-hidden">
-            <img
-              src={`/assets/memojis/${randomMemoji}.png`}
-              className="memoji absolute"
-            />
-            <Link href="/">
-              <a className="header-link text-4xl uppercase font-extrabold">
-                anthony morris
-              </a>
-            </Link>
-          </header>
-        </div>
+        <header className="container mx-auto p-4 pb-32">
+          <Link href="/">
+            <a
+              className="header-link text-4xl font-extrabold"
+              onMouseEnter={() => setShowMemoji(true)}
+              onMouseLeave={() => setShowMemoji(false)}
+            >
+              am
+            </a>
+          </Link>
+        </header>
 
-        <div className="container mx-auto lg:w-3/5 xl:w-2/5 px-4 md:px-8 relative">
-          <div className="sticky top-0 bg-white z-10">
+        <div className="container mx-auto relative grid grid-cols-4 gap-8">
+          <div className="col-span-1">
             <Nav />
           </div>
 
-          <div className="py-4 md:py-12">
+          <div className="col-span-2 pt-8">
             <PageComponent {...pageProps} />
           </div>
         </div>
 
+        <footer className="relative overflow-hidden p-8">
+          <img
+            src={`/assets/memojis/${randomMemoji}.png`}
+            className="memoji fixed"
+          />
+        </footer>
+
         <style jsx>{`
-          header {
-            height: 200px;
-          }
-
-          header:hover .memoji {
-            top: ${konamiActivated ? "70px" : "90px"};
-          }
-
           .memoji {
-            top: 200px;
+            bottom: ${showMemoji ? '0' : '-200px'};
             right: 0;
             width: 180px;
-            transition: 300ms top;
+            transition: 300ms bottom;
           }
         `}</style>
       </>
-    );
-  };
+    )
+  }
 
-  return PageComponentWithLayout;
+  return PageComponentWithLayout
 }
 
-export default withLayout;
+export default withLayout

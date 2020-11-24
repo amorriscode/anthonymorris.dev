@@ -1,11 +1,11 @@
-import { useRouter } from "next/router";
-import Link from "next/link";
-import { IoIosReturnRight } from "react-icons/io";
+import { useRouter } from 'next/router'
+import Link from 'next/link'
+import { IoIosReturnRight } from 'react-icons/io'
 
 function NavLink({ title, path }: { title: string; path?: string }) {
-  const router = useRouter();
-  const linkPath = path || `/${title}`;
-  const isActive = router.pathname.includes(linkPath);
+  const router = useRouter()
+  const linkPath = path || `/${title}`
+  const isActive = router.pathname.includes(linkPath)
 
   return (
     <>
@@ -36,12 +36,12 @@ function NavLink({ title, path }: { title: string; path?: string }) {
         }
       `}</style>
     </>
-  );
+  )
 }
 
 function Nav() {
   return (
-    <nav className="uppercase font-extrabold text-sm md:w-40 md:absolute md:-ml-40 md:pr-12 left-0 top-0 text-center md:text-right py-4 md:py-12 md:space-y-1">
+    <nav className="uppercase font-extrabold text-sm sticky top-0 pt-8 text-center md:text-right md:space-y-1">
       <NavLink title="projects" />
 
       <NavLink title="failures" />
@@ -58,7 +58,7 @@ function Nav() {
 
       <NavLink title="💀" path="/life" />
     </nav>
-  );
+  )
 }
 
-export default Nav;
+export default Nav

@@ -1,6 +1,6 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 body {
   @apply text-buzz-gray;
@@ -14,16 +14,16 @@ body {
   @apply bg-buzz-green-neon;
 }
 
-a:not(.nav-item, .header-link, .content-card) {
+a:not(.nav-item):not(.header-link):not(.content-card) {
   @apply border-buzz-purple-light border-b border-dotted;
 }
 
-a:not(.header-link, .content-card) {
+a:not(.header-link):not(.content-card) {
   @apply text-buzz-purple-light;
   transition: color 0.15s ease-in;
 }
 
-a:not(.header-link, .content-card):hover {
+a:not(.header-link):not(.content-card):hover {
   @apply text-buzz-purple-neon border-buzz-purple-neon border-solid;
 }
 
