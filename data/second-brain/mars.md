@@ -66,6 +66,7 @@
 [sun]: sun "Sun"
 [earth]: earth "Earth 🜨"
 [iron]: iron "Iron"
+[eye]: eye "Eye"
 [atmosphere]: atmosphere "Atmosphere"
 [water]: water "Water"
 [the-moon]: the-moon "The Moon"

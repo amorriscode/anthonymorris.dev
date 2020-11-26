@@ -3,6 +3,7 @@
 - [[TCP]] (Transmission Control Protocol)
 - [[IP]] (Internet Protocol)
 - [[TCP]]/[[IP]] suite is used by OSes for communication on a network
+- [[TCP]] rests on top of the [[IP]] foundation
 
 ## Core Protocols
 

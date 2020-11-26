@@ -66,6 +66,8 @@
 [rocket]: rocket "Rocket"
 [earth]: earth "Earth 🜨"
 [pluto]: pluto "Pluto"
+[charon]: charon "Charon"
+[camera]: camera "Camera"
 [electron]: electron "Electron"
 [hydrogen]: hydrogen "Hydrogen"
 [space]: space "Space"
