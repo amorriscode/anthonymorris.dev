@@ -37,3 +37,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [The Man Who Carried Computer Science on His Shoulders](https://inference-review.com/article/the-man-who-carried-computer-science-on-his-shoulders)
 - [Why Rust is the Future of Game Development](https://thefuntastic.com/blog/why-rust-is-the-future-game-dev)
 - [What Gödel Discovered](https://stopa.io/post/269)
+- [The myth of the decentralized internet](https://policyreview.info/articles/analysis/myth-decentralised-internet)
