@@ -11,21 +11,32 @@
 - Spin axis is tilted by 98˚
   - On its side
   - In the plane of [[the Solar System]]
+  - Ring and [[moon]] system are on the same tilt
 - Magnetic field does not line up with its rotational axis
 - Rings and moons are in line with its [[equator]]
 - Seasons are the most extreme in [[the Solar System]]
   - One hemisphere will see the [[Sun]] for 42 years
   - Due to its tilt
 
-## Moons
+## [[Moon]]s
 
-- 27 of them
+- 27 known [[moon]]s
 - Largest is 1/2 the size of [[the Moon]]
-- Major [[moon]]
-  - Miranda, Ariel, Umbriel, Titania, and Oberson
 - Inner [[moon]]s and irregular [[moon]]s
   - Destroyed [[moon]]s
   - Captured [[moon]]s
+- Members:
+  - Miranda
+  - Ariel
+  - Umbriel
+  - Titania
+  - Oberson
+
+## [[Ring System]]
+
+- Very narrow and black
+  - Almost invisible from [[Earth]]
+- 9 main rings
 
 [[Space]] [[Astronomy]] [[Jovian Planet]] [[Planet]]
 
@@ -37,9 +48,11 @@
 [sun]: sun "Sun"
 [orbit]: orbit "Orbit"
 [the-solar-system]: the-solar-system "The Solar System"
+[moon]: moon "Moon"
 [equator]: equator "Equator"
 [the-moon]: the-moon "The Moon"
-[moon]: moon "Moon"
+[ring-system]: ring-system "Ring System"
+[earth]: earth "Earth 🜨"
 [space]: space "Space"
 [astronomy]: astronomy "Astronomy"
 [jovian-planet]: jovian-planet "Jovian Planet"

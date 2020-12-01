@@ -20,7 +20,7 @@
 - Hold most of the [[mass]] in our planetary system
 - Named after [[Jove]]
   - Another name for [[Jupiter]] in [[mythology]]
-- All have ring systems made up of countless small bodies
+- All have [[ring system]]s made up of countless small bodies
   - Range from size of mountains --> grains of dust
 - Cool further from the [[Sun]]
   - Easier to hold onto gases
@@ -62,8 +62,10 @@
 [hydrogen]: hydrogen "Hydrogen"
 [helium]: helium "Helium"
 [water]: water "Water"
+[methane]: methane "Methane"
 [mass]: mass "Mass"
 [jupiter]: jupiter "Jupiter ♃"
+[ring-system]: ring-system "Ring System"
 [sun]: sun "Sun"
 [saturn]: saturn "Saturn ♄"
 [uranus]: uranus "Uranus ⛢"

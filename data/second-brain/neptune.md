@@ -11,11 +11,17 @@
 - Takes 165 years to [[orbit]] the [[Sun]]
 - Magnetic field does not line up with its rotational axis
 
-## Moons
+## [[Moon]]s
 
-- 13 [[moon]]s
+- 13 known [[moon]]s
 - Only one is large enough to be spherical
-- [[Triton]]
+  - [[Triton]]
+
+## [[Ring System]]
+
+- Similar to [[Uranus]]' [[ring system]]
+- 4 rings
+- Particles are not uniformly distributed along their lengths
 
 [[Space]] [[Astronomy]] [[Jovian Planet]] [[Planet]]
 
@@ -31,6 +37,7 @@
 [sun]: sun "Sun"
 [moon]: moon "Moon"
 [triton]: triton "Triton"
+[ring-system]: ring-system "Ring System"
 [space]: space "Space"
 [astronomy]: astronomy "Astronomy"
 [jovian-planet]: jovian-planet "Jovian Planet"

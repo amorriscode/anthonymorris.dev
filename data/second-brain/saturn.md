@@ -9,17 +9,22 @@
 
 ## Moons
 
-- [[Titan]]
+- 62 known [[moon]]s
+- Members:
+  - [[Titan]]
+  - [[Enceladus]]
 
-## Rings
+## [[Ring System]]
 
 - Very thin
   - 270 million metres x 20 m
 - Collisions act to smooth everything out
 - Icy rocks
+  - Typically the size of ping-pong balls, [[tennis]] balls, and basketballs
 - Some gaps from [[moon]]s
 - It's unlikely the rings were a destroyed [[moon]]
 - Being close to Saturn's tidal forces prevents the formation of larger bodies
+- E ring appears to be continually replenished by [[Enceladus]]
 
 [[Space]] [[Astronomy]] [[Jovian Planet]] [[Planet]]
 
@@ -27,8 +32,10 @@
 [sun]: sun "Sun"
 [orbit]: orbit "Orbit"
 [planet]: planet "Planet"
-[titan]: titan "Titan"
 [moon]: moon "Moon"
+[titan]: titan "Titan"
+[enceladus]: enceladus "Enceladus"
+[ring-system]: ring-system "Ring System"
 [space]: space "Space"
 [astronomy]: astronomy "Astronomy"
 [jovian-planet]: jovian-planet "Jovian Planet"

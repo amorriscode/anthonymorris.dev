@@ -11,10 +11,20 @@
 
 ## Moons
 
-- [[Io]]
-- [[Europa]]
-- [[Ganymede]]
-- [[Callisto]]
+- 67 known [[moon]]s
+- Majority are in retrograde [[orbit]]s more than 20 km from Jupiter
+  - Probably small captured [[asteroid]]s
+- Members:
+  - Galilean [[moon]]s (discovered by [[Galileo]])
+    - [[Io]]
+    - [[Europa]]
+    - [[Ganymede]]
+    - [[Callisto]]
+
+## Ring System
+
+- Very faint
+- Originally photographed by the [[Voyager mission]]
 
 [[Space]] [[Astronomy]] [[Jovian Planet]] [[Planet]]
 
@@ -25,10 +35,14 @@
 [planet]: planet "Planet"
 [the-solar-system]: the-solar-system "The Solar System"
 [the-moon]: the-moon "The Moon"
+[moon]: moon "Moon"
+[asteroid]: asteroid "Asteroid"
+[galileo]: galileo "Galileo"
 [io]: io "Io"
 [europa]: europa "Europa"
 [ganymede]: ganymede "Ganymede"
 [callisto]: callisto "Callisto"
+[voyager-mission]: voyager-mission "Voyager Mission"
 [space]: space "Space"
 [astronomy]: astronomy "Astronomy"
 [jovian-planet]: jovian-planet "Jovian Planet"
