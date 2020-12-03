@@ -1,8 +1,8 @@
 ---
 title: 'The Mom Test'
 description: 'A quick read on the customer conversation and validating startup ideas.'
-date: '2020-05-19'
-readDate: '2020-05-19'
+date: '2020-05-19 00:00:00'
+readDate: '2020-05-19 00:00:00'
 rating: 5
 author: 'Rob Fitzpatrick'
 ---

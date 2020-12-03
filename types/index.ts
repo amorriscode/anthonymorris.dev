@@ -3,6 +3,7 @@ export type Project = {
   description: string;
   date: string;
   launchDate: string;
+  sunsetDate: string;
   content: string;
   slug: string;
   image: string;

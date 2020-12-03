@@ -1,7 +1,7 @@
 ---
 title: "High School"
 description: "I never made it through high school. This is probably my biggest failure."
-date: "2008-06-01"
+date: "2008-06-01 00:00:00"
 lessons: ["Knowledge is power", "We have the power to overcome great difficulties", "Optimize for mental health", "It's never too late"]
 ---
 

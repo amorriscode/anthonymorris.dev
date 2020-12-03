@@ -1,8 +1,8 @@
 ---
 title: "Why (and How) to Study Philosophy"
 description: "Reflecting on Paul Graham's thoughts on philosophy."
-date: "2020-09-11"
-tags: ["Essay", "Thoughts"]
+date: "2020-09-11 00:00:00"
+tags: ["Essay", "Opinion"]
 ---
 
 I started studying [[computer science]] full time this week. One of the classes I'm taking is Introduction to [[Philosophy]]: Knowledge and Reality.

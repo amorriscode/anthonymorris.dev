@@ -1,15 +1,18 @@
-import Head from "next/head";
-import { GetStaticProps } from "next";
+import Head from 'next/head'
+import { GetStaticProps } from 'next'
+import Link from 'next/link'
 
-import { getAllContent } from "../../lib/api";
+import { getAllContent } from '../../lib/api'
 
-import { Project } from "../../types";
+import { Project } from '../../types'
 
-import withLayout from "../../components/withLayout";
-import ProjectCard from "../../components/ProjectCard";
-import PageSummary from "../../components/PageSummary";
+import withLayout from '../../components/withLayout'
+import ProjectCard from '../../components/ProjectCard'
+import PageSummary from '../../components/PageSummary'
 
 function Projects({ projects }: { projects: Project[] }) {
+  projects.sort((a, b) => b.status.localeCompare(a.status))
+
   return (
     <div className="container">
       <Head>
@@ -30,13 +33,17 @@ function Projects({ projects }: { projects: Project[] }) {
 
             <p>
               I never got that gift. I was awkward, clumsy, and preferred
-              playing on the computer. This lead me to programming.{" "}
-              <span className="italic">That is where I learned to build</span>.
+              playing on the computer. This lead me to{' '}
+              <Link href="/second-brain/programming">
+                <a>programming</a>
+              </Link>{' '}
+              . <span className="italic">That is where I learned to build</span>
+              .
             </p>
 
             <p>
               This is my collection of projects. Big and small. Software and
-              hardware. It's kind of like my very{" "}
+              hardware. It's kind of like my very{' '}
               <a
                 href="https://killedbygoogle.com/"
                 target="_blank"
@@ -54,23 +61,23 @@ function Projects({ projects }: { projects: Project[] }) {
         </article>
       </main>
     </div>
-  );
+  )
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const projects = getAllContent("projects", [
-    "title",
-    "date",
-    "slug",
-    "description",
-    "status",
-  ]);
+  const projects = getAllContent('projects', [
+    'title',
+    'date',
+    'slug',
+    'description',
+    'status',
+  ])
 
   return {
     props: {
       projects,
     },
-  };
-};
+  }
+}
 
-export default withLayout(Projects);
+export default withLayout(Projects)
