@@ -1,8 +1,8 @@
 ---
 title: 'The Name of the Wind'
 description: 'The first book in a trilogy about a young wizard fumbling through University.'
-date: '2020-07-04'
-readDate: '2020-07-04'
+date: '2020-07-04 00:00:00'
+readDate: '2020-07-04 00:00:00'
 rating: 5
 author: 'Patrick Rothfuss'
 ---

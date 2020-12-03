@@ -1,7 +1,7 @@
 ---
 title: "Games Buddha Wouldn't Play"
 description: "Buddha believed these games would cause negligence."
-date: "2020-09-02"
+date: "2020-09-02 00:00:00"
 tags: ["Buddhism", "Spirituality", "Religion", "Game"]
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: 'Wrabit'
 description: 'A writing platform that helps you build a writing habit while contributing to mental health research.'
-date: '2019-12-01'
-launchDate: '2019-12-01'
-status: 'live'
+date: '2019-12-01 00:00:00'
+launchDate: '2019-12-01 00:00:00'
+sunsetDate: '2020-12-01 00:00:00'
+status: 'dead'
+postmortem: '/failures/2020-product-failures'
 ---
 
 In 2019 I started to really thing about _why_ I code. What do I want to do with the knowledge I have obtained? It was clear to me that I wanted to use my abilities for good. On top of that, I wasn't feeling satisfied with my job.
@@ -28,7 +30,7 @@ When a user writers seven days in a row, $1 from their monthly fee is donated to
 
 [Build a writing habit today](https://writewithwrabit.com)
 
-[Support Wrabit on Product Hunt](https://www.producthunt.com/posts/wrabit)
+[Wrabit on Product Hunt](https://www.producthunt.com/posts/wrabit)
 
 [View the code on GitHub](https://github.com/writewithwrabit)
 

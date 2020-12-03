@@ -1,7 +1,7 @@
 ---
 title: "Not Top Talent"
 description: "I failed to make it onto Toptal and am banned for two years."
-date: "2020-06-30"
+date: "2020-06-30 00:00:00"
 lessons: ["Give everything your best shot", "There is always room for improvement", "Tighten the feedback loop on your growth"]
 ---
 

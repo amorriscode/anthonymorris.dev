@@ -1,21 +1,16 @@
-import Head from "next/head";
-import Link from "next/link";
+import Head from 'next/head'
+import Link from 'next/link'
 
-import withLayout from "../components/withLayout";
+import withLayout from '../components/withLayout'
 
 function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Anthony Morris</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
-      </Head>
-
       <main className="space-y-4">
         <h1 className="leading-none">Hey there! 👋</h1>
 
         <p>
-          Welcome to my corner of the interwebs. My{" "}
+          Welcome to my corner of the interwebs. My{' '}
           <Link href="/second-brain/digital-garden">
             <a>digital garden</a>
           </Link>
@@ -29,15 +24,15 @@ function Home() {
         </p>
 
         <p>
-          I'm fascinated with the world around us. I intend to{" "}
+          I'm fascinated with the world around us. I intend to{' '}
           <Link href="/words">
             <a>write</a>
-          </Link>{" "}
+          </Link>{' '}
           about various things I learn in hopes of improving my understanding.
-          Currently, I'm focusing on computer science and{" "}
+          Currently, I'm focusing on computer science and{' '}
           <Link href="/projects">
             <a>building products</a>
-          </Link>{" "}
+          </Link>{' '}
           that have a positive impact on the world.
         </p>
 
@@ -48,7 +43,7 @@ function Home() {
         </p>
 
         <p>
-          This website also serves as my{" "}
+          This website also serves as my{' '}
           <Link href="/second-brain">
             <a>second brain</a>
           </Link>
@@ -60,7 +55,7 @@ function Home() {
 
         <p className="text-sm">
           <span className="font-bold">Looking for something else?</span> You can
-          @ me on{" "}
+          @ me on{' '}
           <a
             href="http://twitter.com/amorriscode"
             target="_blank"
@@ -68,7 +63,7 @@ function Home() {
           >
             Twitter
           </a>
-          , connect on{" "}
+          , connect on{' '}
           <a
             href="https://www.linkedin.com/in/amorriscode"
             target="_blank"
@@ -76,7 +71,7 @@ function Home() {
           >
             LinkedIn
           </a>
-          , or fork me on{" "}
+          , or fork me on{' '}
           <a
             href="https://github.com/amorriscode"
             target="_blank"
@@ -88,7 +83,7 @@ function Home() {
         </p>
       </main>
     </div>
-  );
+  )
 }
 
-export default withLayout(Home);
+export default withLayout(Home)

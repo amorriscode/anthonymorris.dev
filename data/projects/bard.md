@@ -1,9 +1,11 @@
 ---
 title: 'Bard'
 description: 'A place to read great content while directly supporting the writers that made it.'
-date: '2020-06-14'
+date: '2020-06-14 00:00:00'
 launchDate: '2020-04-20'
-status: 'live'
+sunsetDate: '2020-12-01'
+status: 'dead'
+postmortem: '/failures/2020-product-failures'
 ---
 
 Coming off of 2019, I was feeling really good about building products. I had launched [Wrabit](/projects/wrabit) and [Social Media Death Clock](/projects/social-media-death-clock). There's nothing like the feeling you get when you release a product to the world. My projects weren't necessarily massive successes, but I was building things and _finishing them_. That was important to me.
@@ -34,6 +36,6 @@ We've learned a lot of lessons since launch. Some of which came from reading [Th
 
 [Share your words on Bard](https://getbard.com)
 
-[Support Bard on Product Hunt](https://www.producthunt.com/posts/bard)
+[Bard on Product Hunt](https://www.producthunt.com/posts/bard)
 
 </footer>

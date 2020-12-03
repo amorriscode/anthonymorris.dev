@@ -1,8 +1,8 @@
 ---
 title: 'So You Want To Talk About Race'
 description: 'A difficult but essential start to learning about systemic racism.'
-date: '2020-06-18'
-readDate: '2020-06-18'
+date: '2020-06-18 00:00:00'
+readDate: '2020-06-18 00:00:00'
 rating: 4
 author: 'Ijeoma Oluo'
 ---

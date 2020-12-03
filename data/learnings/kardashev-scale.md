@@ -1,7 +1,7 @@
 ---
 title: "Civilizations and Technology"
 description: "A method for measuring a civilization's technological advancement."
-date: "2020-08-05"
+date: "2020-08-05 00:00:00"
 tags: ["Science", "Space", "Energy", "Technology"]
 ---
 

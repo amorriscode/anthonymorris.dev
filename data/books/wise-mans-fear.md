@@ -1,8 +1,8 @@
 ---
 title: "Wise Man's Fear"
 description: "Kvothe's story continues!"
-date: '2020-08-04'
-readDate: '2020-08-04'
+date: '2020-08-04 00:00:00'
+readDate: '2020-08-04 00:00:00'
 rating: 5
 author: 'Patrick Rothfuss'
 ---
