@@ -1,7 +1,7 @@
-import Head from 'next/head'
 import { GetStaticProps, GetStaticPaths } from 'next'
 import Link from 'next/link'
 import { format } from 'date-fns'
+import { NextSeo } from 'next-seo'
 
 import { Project } from '../../types'
 
@@ -15,9 +15,7 @@ import PageSummary from '../../components/PageSummary'
 function ProjectPage({ project }: { project: Project }) {
   return (
     <>
-      <Head>
-        <title>{project.title} | Anthony Morris</title>
-      </Head>
+      <NextSeo title={project.title} />
 
       <main>
         {project?.image && (

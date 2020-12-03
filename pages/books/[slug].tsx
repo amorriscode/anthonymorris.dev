@@ -1,6 +1,6 @@
-import Head from 'next/head'
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { format } from 'date-fns'
+import { NextSeo } from 'next-seo'
 
 import { Book } from '../../types'
 
@@ -14,10 +14,7 @@ import BookRating from '../../components/BookRating'
 function BookPage({ book }: { book: Book }) {
   return (
     <>
-      <Head>
-        <title>{book.title} | Anthony Morris</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
-      </Head>
+      <NextSeo title={book.title} />
 
       <main>
         <h1 className="leading-none">{book.title}</h1>

@@ -1,28 +1,25 @@
-import Head from "next/head";
-import { GetStaticProps, GetStaticPaths } from "next";
-import { format } from "date-fns";
+import { GetStaticProps, GetStaticPaths } from 'next'
+import { format } from 'date-fns'
+import { NextSeo } from 'next-seo'
 
-import { Learning } from "../../types";
+import { Learning } from '../../types'
 
-import markdownStyles from "../../styles/markdown-styles.module.css";
-import markdownToHtml from "../../lib/markdownToHtml";
-import { getContentBySlug, getAllContent } from "../../lib/api";
+import markdownStyles from '../../styles/markdown-styles.module.css'
+import markdownToHtml from '../../lib/markdownToHtml'
+import { getContentBySlug, getAllContent } from '../../lib/api'
 
-import withLayout from "../../components/withLayout";
+import withLayout from '../../components/withLayout'
 
 function LearningPage({ learning }: { learning: Learning }) {
   return (
     <>
-      <Head>
-        <title>{learning.title} | Anthony Morris</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
-      </Head>
+      <NextSeo title={learning.title} />
 
       <main>
         <h1 className="leading-none">{learning.title}</h1>
 
         <div className="text-xs pb-2">
-          learned {format(new Date(learning.date), "MMMM do, y")}
+          learned {format(new Date(learning.date), 'MMMM do, y')}
         </div>
 
         <article className="space-y-8">
@@ -38,25 +35,25 @@ function LearningPage({ learning }: { learning: Learning }) {
           </div>
 
           <div
-            className={markdownStyles["markdown"]}
+            className={markdownStyles['markdown']}
             dangerouslySetInnerHTML={{ __html: learning.content }}
           />
         </article>
       </main>
     </>
-  );
+  )
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const learning = getContentBySlug("learnings", params?.slug as string, [
-    "title",
-    "date",
-    "slug",
-    "content",
-    "tags",
-  ]);
+  const learning = getContentBySlug('learnings', params?.slug as string, [
+    'title',
+    'date',
+    'slug',
+    'content',
+    'tags',
+  ])
 
-  const content = await markdownToHtml(learning.content || "");
+  const content = await markdownToHtml(learning.content || '')
 
   return {
     props: {
@@ -65,11 +62,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         content,
       },
     },
-  };
-};
+  }
+}
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const learnings = getAllContent("learnings", ["slug"]) as Learning[];
+  const learnings = getAllContent('learnings', ['slug']) as Learning[]
 
   return {
     paths: learnings.map((failure) => {
@@ -77,10 +74,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
         params: {
           slug: failure.slug,
         },
-      };
+      }
     }),
     fallback: false,
-  };
-};
+  }
+}
 
-export default withLayout(LearningPage);
+export default withLayout(LearningPage)
