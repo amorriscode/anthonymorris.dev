@@ -17,7 +17,6 @@ function Projects({ projects }: { projects: Project[] }) {
     <div className="container">
       <Head>
         <title>Projects | Anthony Morris</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main>

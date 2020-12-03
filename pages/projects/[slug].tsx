@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { GetStaticProps, GetStaticPaths } from 'next'
+import Link from 'next/link'
 import { format } from 'date-fns'
 
 import { Project } from '../../types'
@@ -9,13 +10,13 @@ import markdownToHtml from '../../lib/markdownToHtml'
 import { getContentBySlug, getAllContent } from '../../lib/api'
 
 import withLayout from '../../components/withLayout'
+import PageSummary from '../../components/PageSummary'
 
 function ProjectPage({ project }: { project: Project }) {
   return (
     <>
       <Head>
         <title>{project.title} | Anthony Morris</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main>
@@ -48,6 +49,21 @@ function ProjectPage({ project }: { project: Project }) {
             )}
           </div>
 
+          {project?.sunsetDate && (
+            <PageSummary>
+              {project.title} has been laid to rest in my product graveyard.
+              {project?.postmortem && (
+                <>
+                  {' '}
+                  <Link href={project.postmortem}>
+                    <a>Read the postmortem</a>
+                  </Link>
+                  .
+                </>
+              )}
+            </PageSummary>
+          )}
+
           <div
             className={markdownStyles['markdown']}
             dangerouslySetInnerHTML={{ __html: project.content }}
@@ -68,6 +84,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     'content',
     'image',
     'status',
+    'postmortem',
   ])
 
   const content = await markdownToHtml(project.content || '')

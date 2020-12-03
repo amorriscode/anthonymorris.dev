@@ -8,6 +8,7 @@ export type Project = {
   slug: string;
   image: string;
   status: string;
+  postmortem: string;
 }
 
 export type Book = {
