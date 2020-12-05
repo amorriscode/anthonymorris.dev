@@ -85,7 +85,6 @@
 [mind]: mind "Mind"
 [water]: water "Water"
 [Shannon Lee]: shannon-lee "Shannon Lee"
-[Awareness]: awareness "Awareness"
 [awareness]: awareness "Awareness"
 [meditation]: meditation "Meditation"
 [knowledge]: knowledge "Knowledge"
