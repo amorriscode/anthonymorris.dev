@@ -1,4 +1,4 @@
-=# Be Water, My Friend
+# Be Water, My Friend
 
 *Empty your [[mind]].*
 *Be formless, shapeless, like [[water]].*
@@ -78,6 +78,112 @@
 - [[Self-help]] is about [[ownership]] of our lives
   - The only help is the help we give to ourselves
   - We must work on ourselves every day
+
+## Chapter 4 - The Opponent
+
+- To compete is to be focused on what is happening outside yourself
+  - Our potential can never be fully realized, we become too focused on winning
+- We should focus on ourselves
+  - Bettering ourselves
+  - Keeping ourselves accountable
+- Six diseases of life
+  - Come from [[ego]]
+  - Desires related to impressing others or upholding a certain image
+  - The diseases
+    - Desire for victory
+    - Desire to resort to technical cunning
+    - Desire to display all that has been learned
+    - Desire to awe the enemy
+    - Desire to play the passive role
+      - Put things aside to appear likable and wonderful to others
+    - Desire to rid oneself of whatever disease on is affected by
+      - The [[self-help]] trap
+- We need to be less obsessed with outcomes and commit to expressing ourselves fully
+- We should take responsibility for our actions
+
+> There is a powerful craving in most of us to see ourselves as instruments in the hands of others and thus free ourselves from the responsibility for actions, which are prompted by our own questionable impulses and inclinations.
+
+- Try to be objective
+
+## Chapter 5 - The Tools
+
+- Immense growth comes from persistence and dedication
+
+### Take Aim
+
+- Build a clear vision for yourself
+- If the vision is not clear, progress will be nearly impossible
+- A north star to guide you
+
+### Take Action
+
+- Having a vision isn't enough
+- Vision without action leads to stagnation
+
+> An object at rest stays at rest and an object in motion stays in motion. ~ [[Isaac- Newton]]
+
+- We have to be optimistic too
+  - Pessimism blunts the tools you need to succeed
+- Take whatever small step you can toward your vision, it is still action
+
+### Affirm
+
+- Affirmations help reinforce your beliefs
+- It helps cultivate the optimism required to push through struggle
+- We are planting seeds in our [[subconscious]] [[mind]]
+
+### Be Symbolic
+
+- Use symbols to help remind yourself of important lessons
+- These symbols can help bring us back to our path when we have strayed
+  - For example, when we lose our temper
+
+### Journal
+
+- Introspection helps us learn lessons we may not have noticed in the moment
+- A journal is a place to discover ourselves
+
+### Get Physical
+
+- We are physical beings
+- Staying in touch with our physical self is as important as the mental aspect if we want to be well rounded
+- It doesn't matter what form of activity we do, we should keep in touch with our body
+
+### Embrace the Process
+
+- Change takes time
+- Related to [Chapter 4](#chapter-4---the-opponent), we shouldn't be obsessed with outcomes
+- Goals give us something to lean into but aren't necessarily things that we *must* reach
+- Maximizing our potential isn't tallying accomplishments but the continual engagement in life as a process of growth
+
+## Chapter 6 - The Obstacle
+
+- [[The Obstacle is the Way]]
+- We will never avoid difficulties in life, so how can we embrace them?
+- The obstacle itself isn't important, how we react to it is
+  - Our mental attitude determines how difficult obstacles are to overcome
+
+> Defeat is a state of mind; no one is defeated until defeat has been accepted as a reality.
+
+- When we are powerful enough to assign our own meaning to the world, we don't need to make up a story about what kind of person we will be seen as
+  - Worrying too much about how others sees us holds us back
+  - Don't let our obstacles define who we are
+
+## Chapter 7 - The Rainstorm
+
+> The medicine for my suffering I had within me from the very beginning, but I did not take it. My ailment came from within myself, but I did not observe it until this moment.
+
+- The hardest obstacles in life can only be overcome by us
+  - Our attitudes, our actions, cannot be determined by anyone else
+- We should take healing into our own hands
+- The [[Eightfold Path]] of [[Buddhism]]
+
+## Chapter 8 - The Living Void
+
+- Living without attachment
+  - No good/bad
+  - No right/wrong
+- We must approach every experience without prejudice
   
 [[Book]] [[Bruce Lee]] [[Memoir]] [[Self-Help]] [[Philosophy]]
 
@@ -88,7 +194,7 @@
 [awareness]: awareness "Awareness"
 [meditation]: meditation "Meditation"
 [knowledge]: knowledge "Knowledge"
-[Ego]: ego "Ego"
+[ego]: ego "Ego"
 [ownership]: ownership "Ownership"
 [Book]: book "Book"
 [Bruce Lee]: bruce-lee "Bruce Lee"
