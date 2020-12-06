@@ -15,8 +15,4 @@ Nature is amazing. Ants are amazing.
 
 ---
 
-<footer>
-
 **Further Watching:** [The Warrior Kingdoms of the Weaver Ant by Kurzgesagt](https://www.youtube.com/watch?v=B3QTAgHlwEg)
-
-</footer>

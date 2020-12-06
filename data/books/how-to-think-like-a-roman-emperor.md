@@ -35,10 +35,6 @@ If you have other great Stoic recommendations, <a href="mailto:anthony@amorrisso
 
 ---
 
-<footer>
-
 [Donald J. Robertson on Twitter](https://twitter.com/DonJRobertson)
 
 [Add the book on Goodreads](https://www.goodreads.com/book/show/39863499-how-to-think-like-a-roman-emperor)
-
-</footer>

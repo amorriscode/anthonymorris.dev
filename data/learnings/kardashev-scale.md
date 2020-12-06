@@ -19,8 +19,4 @@ The scale has been extended to include Type 0, Type IV, and more! We are Type 0;
 
 ---
 
-<footer>
-
 **Further Reading:** [Parallel Worlds by Michio Kaku](https://www.goodreads.com/book/show/33418.Parallel_Worlds)
-
-</footer>

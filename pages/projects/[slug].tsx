@@ -5,7 +5,6 @@ import { NextSeo } from 'next-seo'
 
 import { Project } from '../../types'
 
-import markdownStyles from '../../styles/markdown-styles.module.css'
 import markdownToHtml from '../../lib/markdownToHtml'
 import { getContentBySlug, getAllContent } from '../../lib/api'
 
@@ -63,7 +62,7 @@ function ProjectPage({ project }: { project: Project }) {
           )}
 
           <div
-            className={markdownStyles['markdown']}
+            className="prose"
             dangerouslySetInnerHTML={{ __html: project.content }}
           />
         </article>

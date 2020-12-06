@@ -27,11 +27,7 @@ These tools are useful for improving the user experience of our page load times.
 
 ---
 
-<footer>
-
 **Further Reading:**
 
 - [Script element on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 - [Scripts: async, defer](https://javascript.info/script-async-defer)
-
-</footer>

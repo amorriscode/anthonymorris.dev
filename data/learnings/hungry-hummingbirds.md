@@ -11,8 +11,4 @@ Apparently the birds become motionless at this time. You wouldn't even be able t
 
 ---
 
-<footer>
-
 **Further Reading:** [To survive frigid nights, hummingbirds cool themselves to record-low temperatures](https://www.sciencemag.org/news/2020/09/survive-frigid-nights-hummingbirds-cool-themselves-record-low-temperatures)
-
-</footer>

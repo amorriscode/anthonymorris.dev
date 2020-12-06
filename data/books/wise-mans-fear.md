@@ -19,10 +19,6 @@ Again, I'm glad I came to the series late. This book was released in 2011 and th
 
 ---
 
-<footer>
-
 [Patrick Rothfuss' website](https://www.patrickrothfuss.com)
 
 [Add the book on Goodreads](https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind)
-
-</footer>

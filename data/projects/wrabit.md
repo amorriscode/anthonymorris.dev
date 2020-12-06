@@ -26,12 +26,8 @@ When a user writers seven days in a row, $1 from their monthly fee is donated to
 
 ---
 
-<footer>
-
 [Build a writing habit today](https://writewithwrabit.com)
 
 [Wrabit on Product Hunt](https://www.producthunt.com/posts/wrabit)
 
 [View the code on GitHub](https://github.com/writewithwrabit)
-
-</footer>

@@ -1,14 +1,13 @@
-import Head from "next/head";
-import { GetStaticProps, GetStaticPaths } from "next";
-import Link from "next/link";
+import Head from 'next/head'
+import { GetStaticProps, GetStaticPaths } from 'next'
+import Link from 'next/link'
 
-import { BrainEntry } from "../../types";
+import { BrainEntry } from '../../types'
 
-import markdownStyles from "../../styles/markdown-styles.module.css";
-import markdownToHtml from "../../lib/markdownToHtml";
-import { getContentBySlug, getAllContent } from "../../lib/api";
+import markdownToHtml from '../../lib/markdownToHtml'
+import { getContentBySlug, getAllContent } from '../../lib/api'
 
-import withLayout from "../../components/withLayout";
+import withLayout from '../../components/withLayout'
 
 function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
   return (
@@ -36,15 +35,12 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main>
+      <main className="prose">
         <div>
           <span title="Part of my second brain">🧠</span>
         </div>
 
-        <div
-          className={markdownStyles["markdown"]}
-          dangerouslySetInnerHTML={{ __html: brainEntry.content }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: brainEntry.content }} />
 
         {!!brainEntry.backlinks.length && (
           <div className="mt-8 bg-buzz-white bg-opacity-50 rounded-lg rounded-tl-none rounded-tr-none border-t-4 border-buzz-green p-6 md:p-8">
@@ -65,17 +61,17 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
         )}
       </main>
     </>
-  );
+  )
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const brainEntry = getContentBySlug("second-brain", params?.slug as string, [
-    "slug",
-    "content",
-    "backlinks",
-  ]);
+  const brainEntry = getContentBySlug('second-brain', params?.slug as string, [
+    'slug',
+    'content',
+    'backlinks',
+  ])
 
-  const content = await markdownToHtml(brainEntry.content || "");
+  const content = await markdownToHtml(brainEntry.content || '')
 
   return {
     props: {
@@ -84,11 +80,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         content,
       },
     },
-  };
-};
+  }
+}
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const brainEntries = getAllContent("second-brain", ["slug"]) as BrainEntry[];
+  const brainEntries = getAllContent('second-brain', ['slug']) as BrainEntry[]
 
   return {
     paths: brainEntries.map((brainEntry) => {
@@ -96,10 +92,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
         params: {
           slug: brainEntry.slug,
         },
-      };
+      }
     }),
     fallback: false,
-  };
-};
+  }
+}
 
-export default withLayout(BrainEntryPage);
+export default withLayout(BrainEntryPage)

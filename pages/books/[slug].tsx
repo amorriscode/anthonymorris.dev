@@ -4,7 +4,6 @@ import { NextSeo } from 'next-seo'
 
 import { Book } from '../../types'
 
-import markdownStyles from '../../styles/markdown-styles.module.css'
 import markdownToHtml from '../../lib/markdownToHtml'
 import { getContentBySlug, getAllContent } from '../../lib/api'
 
@@ -36,7 +35,7 @@ function BookPage({ book }: { book: Book }) {
           </div>
 
           <div
-            className={markdownStyles['markdown']}
+            className="prose"
             dangerouslySetInnerHTML={{ __html: book.content }}
           />
         </div>

@@ -19,10 +19,6 @@ I'm glad I'm a late comer to the series... [maybe the third book will be out](ht
 
 ---
 
-<footer>
-
 [Patrick Rothfuss' website](https://www.patrickrothfuss.com)
 
 [Add the book on Goodreads](https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind)
-
-</footer>

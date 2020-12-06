@@ -15,12 +15,12 @@ body {
 }
 
 a:not(.nav-item):not(.header-link):not(.content-card) {
-  @apply border-buzz-purple-light border-b border-dotted;
+  @apply border-buzz-purple-light border-b border-dotted no-underline;
 }
 
 a:not(.header-link):not(.content-card) {
   @apply text-buzz-purple-light;
-  transition: color 0.15s ease-in;
+  transition: border color 0.15s ease-in;
 }
 
 a:not(.header-link):not(.content-card):hover {

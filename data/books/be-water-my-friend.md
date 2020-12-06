@@ -33,12 +33,8 @@ The book loses a bit of momentum in the closing chapters. That being said, it wa
 
 ---
 
-<footer>
-
 [Notes on Be Water, My Friend](/second-brain/be-water-my-friend)
 
 [The Bruce Lee Company on Twitter (run by Shannon Lee)](https://twitter.com/brucelee)
 
 [Add the book on Goodreads](https://www.goodreads.com/book/show/49247089-be-water-my-friend)
-
-</footer>

@@ -12,10 +12,42 @@ module.exports = {
         'buzz-white': '#f6f6f6',
         'buzz-gray': '#2f2f2f',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            'max-width': '100%',
+            h2: {
+              color: '#1f1837',
+            },
+            h3: {
+              color: '#1f1837',
+            },
+            'ul > li::before': {
+              'background-color': '#e200b9',
+            },
+            blockquote: {
+              'border-color': '#a6f673',
+              background: '#f6f6f6',
+              'background-opacity': '50%',
+              'border-radius': '0.5rem',
+              'border-top-left-radius': '0px',
+              'border-bottom-left-radius': '0px',
+              padding: '0.5rem 1.0rem',
+            },
+            img: {
+              'border-radius': '0.5rem',
+              '--tw-shadow':
+                '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+              'box-shadow':
+                'var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)',
+            },
+          },
+        },
+      },
     },
   },
   variants: {
     cursor: ['hover'],
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }

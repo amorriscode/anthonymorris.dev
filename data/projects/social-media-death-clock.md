@@ -25,10 +25,6 @@ The extension has a little under 600 users, most of which are from Ukraine.
 
 ---
 
-<footer>
-
 [Get the extension in the Chrome web store](https://chrome.google.com/webstore/detail/jjmjickedeooblgpimknfghpfffncfhb/publish-accepted?authuser=1&hl=en-GB)
 
 [View the code on GitHub](https://github.com/amorriscode/social-media-death-clock)
-
-</footer>

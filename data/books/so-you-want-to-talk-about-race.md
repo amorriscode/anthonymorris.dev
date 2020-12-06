@@ -25,10 +25,6 @@ I have a lot more reading to do. A lot more to uncover. But I'm grateful that I 
 
 ---
 
-<footer>
-
 [Ijeoma Oluo's website](http://www.ijeomaoluo.com)
 
 [Add the book on Goodreads](https://www.goodreads.com/book/show/35099718-so-you-want-to-talk-about-race)
-
-</footer>

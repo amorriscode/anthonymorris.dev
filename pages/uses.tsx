@@ -30,10 +30,10 @@ function Home() {
             </p>
           </PageSummary>
 
-          <section>
+          <section className="prose">
             <h2>Editor &amp; Terminal</h2>
 
-            <ul className="pl-6 list-disc -mt-4">
+            <ul>
               <li>
                 I wish I were a vim power user but alas I use{' '}
                 <a href="https://code.visualstudio.com">Visual Studio Code</a>.
@@ -51,10 +51,10 @@ function Home() {
             </ul>
           </section>
 
-          <section>
+          <section className="prose">
             <h2>Apps</h2>
 
-            <ul className="pl-6 list-disc -mt-4">
+            <ul>
               <li>
                 <a href="https://mochi.cards">Mochi</a> helps me remember
                 things.
@@ -73,10 +73,10 @@ function Home() {
             </ul>
           </section>
 
-          <section>
+          <section className="prose">
             <h2>Desk</h2>
 
-            <ul className="pl-6 list-disc -mt-4">
+            <ul>
               <li>
                 Sometimes I stand with my{' '}
                 <a href="https://www.fully.com/standing-desks/jarvis.html">
@@ -95,10 +95,10 @@ function Home() {
             </ul>
           </section>
 
-          <section>
+          <section className="prose">
             <h2>Website</h2>
 
-            <ul className="pl-6 list-disc -mt-4">
+            <ul>
               <li>
                 Hacked together with{' '}
                 <a
@@ -161,10 +161,10 @@ function Home() {
             </ul>
           </section>
 
-          <section>
+          <section className="prose">
             <h2>Misc</h2>
 
-            <ul className="pl-6 list-disc -mt-4">
+            <ul>
               <li>
                 I try to lessen my environmental impact by donating to{' '}
                 <a href="https://projectwren.com/profile/anthonymorris">

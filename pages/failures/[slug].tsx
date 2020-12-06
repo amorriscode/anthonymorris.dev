@@ -4,7 +4,6 @@ import { NextSeo } from 'next-seo'
 
 import { Failure } from '../../types'
 
-import markdownStyles from '../../styles/markdown-styles.module.css'
 import markdownToHtml from '../../lib/markdownToHtml'
 import { getContentBySlug, getAllContent } from '../../lib/api'
 
@@ -27,7 +26,7 @@ function FailurePage({ failure }: { failure: Failure }) {
           <PageSummary>
             <h3>Lessons Learned</h3>
 
-            <ul className="list-disc pl-5">
+            <ul>
               {failure.lessons.map((lesson) => (
                 <li key={lesson}>{lesson}</li>
               ))}
@@ -35,7 +34,7 @@ function FailurePage({ failure }: { failure: Failure }) {
           </PageSummary>
 
           <div
-            className={markdownStyles['markdown']}
+            className="prose"
             dangerouslySetInnerHTML={{ __html: failure.content }}
           />
         </article>

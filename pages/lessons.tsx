@@ -1,13 +1,13 @@
-import Head from "next/head";
-import { GetStaticProps } from "next";
-import Link from "next/link";
+import Head from 'next/head'
+import { GetStaticProps } from 'next'
+import Link from 'next/link'
 
-import { getAllContent } from "../lib/api";
+import { getAllContent } from '../lib/api'
 
-import { Failure, Lesson } from "../types";
+import { Failure, Lesson } from '../types'
 
-import withLayout from "../components/withLayout";
-import PageSummary from "../components/PageSummary";
+import withLayout from '../components/withLayout'
+import PageSummary from '../components/PageSummary'
 
 function Lessons({ lessons }: { lessons: Lesson[] }) {
   return (
@@ -22,7 +22,7 @@ function Lessons({ lessons }: { lessons: Lesson[] }) {
 
         <PageSummary>
           <p>
-            This is a collection of lessons learned pulled from my{" "}
+            This is a collection of lessons learned pulled from my{' '}
             <Link href="/failures">
               <a>failures</a>
             </Link>
@@ -30,41 +30,43 @@ function Lessons({ lessons }: { lessons: Lesson[] }) {
           </p>
         </PageSummary>
 
-        <ul className="list-disc pl-5">
-          {lessons.map((lesson) => (
-            <li key={lesson.title}>
-              <Link href={`failures/${lesson.failure}`}>
-                <a>{lesson.title}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <section className="prose">
+          <ul>
+            {lessons.map((lesson) => (
+              <li key={lesson.title}>
+                <Link href={`failures/${lesson.failure}`}>
+                  <a>{lesson.title}</a>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       </main>
     </div>
-  );
+  )
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const failures = getAllContent("failures", ["slug", "lessons"]) as Failure[];
+  const failures = getAllContent('failures', ['slug', 'lessons']) as Failure[]
 
-  const lessons = [] as Lesson[];
+  const lessons = [] as Lesson[]
 
   failures.forEach((failure) => {
     failure.lessons.forEach((lesson) => {
       lessons.push({
         title: lesson,
         failure: failure.slug,
-      });
-    });
-  });
+      })
+    })
+  })
 
-  lessons.sort((a, b) => a.title.localeCompare(b.title));
+  lessons.sort((a, b) => a.title.localeCompare(b.title))
 
   return {
     props: {
       lessons,
     },
-  };
-};
+  }
+}
 
-export default withLayout(Lessons);
+export default withLayout(Lessons)

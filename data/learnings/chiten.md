@@ -11,8 +11,4 @@ If we look at [bee anatomy](https://animals.howstuffworks.com/insects/bee1.htm),
 
 ---
 
-<footer>
-
 **Further Reading:** [How Bees Work by HowStuffWorks](https://animals.howstuffworks.com/insects/bee.htm)
-
-</footer>

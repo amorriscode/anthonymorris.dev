@@ -47,10 +47,6 @@ Now go forth and ~~build~~ talk to your customers!
 
 ---
 
-<footer>
-
 [Rob Fitzpatrick on Twitter](https://twitter.com/robfitz)
 
 [Add the book on Goodreads](https://www.goodreads.com/book/show/18529000-the-mom-test)
-
-</footer>

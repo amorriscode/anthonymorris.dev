@@ -11,8 +11,4 @@ When I was younger (and didn't do much other than surf the internet) I experienc
 
 ---
 
-<footer>
-
 **Further Reading:** [ELI5: Why does saliva taste like blood when you exhaust yourself?](https://www.reddit.com/r/explainlikeimfive/comments/io2wdg/eli5_why_does_saliva_taste_like_blood_when_you/)
-
-</footer>

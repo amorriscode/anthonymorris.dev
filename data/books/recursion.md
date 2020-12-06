@@ -29,10 +29,6 @@ We cannot redo the past but we can learn from it. I think it's best we own our f
 
 ---
 
-<footer>
-
 [Blake Crouch's website](http://www.blakecrouch.com)
 
 [Add the book on Goodreads](https://www.goodreads.com/book/show/42046112-recursion)
-
-</footer>

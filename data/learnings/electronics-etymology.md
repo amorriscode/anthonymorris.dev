@@ -11,8 +11,4 @@ A lot of our technology is made up of parts that are just moving electrons aroun
 
 ---
 
-<footer>
-
 **Side note:** etymology is really cool. There are so many things we "know" but when you actually ask yourself what you know, it's very easy to find gaps in your knowledge. The root of words seems like a good place to start when exploring!
-
-</footer>

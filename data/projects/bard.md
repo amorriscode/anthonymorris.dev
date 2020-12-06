@@ -32,10 +32,6 @@ We've learned a lot of lessons since launch. Some of which came from reading [Th
 
 ---
 
-<footer>
-
 [Share your words on Bard](https://getbard.com)
 
 [Bard on Product Hunt](https://www.producthunt.com/posts/bard)
-
-</footer>
