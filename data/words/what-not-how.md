@@ -1,7 +1,7 @@
 ---
 title: "What Not How"
 description: "Putting the ego aside and focusing on users."
-date: "2020-09-04 00:00:00"
+date: "2020-09-04T00:00:00"
 tags: ["Essay", "Opinion"]
 ---
 

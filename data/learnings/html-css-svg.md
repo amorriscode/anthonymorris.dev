@@ -1,7 +1,7 @@
 ---
 title: "HTML/CSS In SVG"
 description: "Embed HMTL and CSS directly in SVG."
-date: "2020-07-21 00:00:00"
+date: "2020-07-21T00:00:00"
 tags: ["Web Development", "HTML", "CSS", "SVG"]
 ---
 

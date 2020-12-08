@@ -1,6 +1,6 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
-import { Project } from '../types';
+import { Project } from '../types'
 
 function ProjectCard({ project }: { project: Project }) {
   return (
@@ -17,9 +17,7 @@ function ProjectCard({ project }: { project: Project }) {
             </div>
           </div>
 
-          <div className="text-sm">
-            {project.description}
-          </div>
+          <div className="text-sm">{project.description}</div>
         </a>
       </Link>
 
@@ -33,7 +31,7 @@ function ProjectCard({ project }: { project: Project }) {
         }
       `}</style>
     </>
-  );
+  )
 }
 
-export default ProjectCard;
+export default ProjectCard

@@ -1,7 +1,7 @@
 ---
 title: "Weaver Ants"
 description: "The most interesting ant around."
-date: "2020-09-01 00:00:00"
+date: "2020-09-01T00:00:00"
 tags: ["Science", "Ant", "Nature", "Kurzgesagt"]
 ---
 

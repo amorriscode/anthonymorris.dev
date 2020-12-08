@@ -1,7 +1,7 @@
 ---
 title: "Elon's BTC Drop"
 description: "I got a little greedy and sent off some Bitcoin to a scammer."
-date: "2020-06-13 00:00:00"
+date: "2020-06-13T00:00:00"
 lessons: ["Always be skeptical", "Do your research", "Don't trust strangers on the internet", "Watch out for blind spots created by greed and ego"]
 ---
 

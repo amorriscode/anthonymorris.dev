@@ -1,7 +1,7 @@
 ---
 title: "2020 Product Failures"
 description: "After releasing two products, I put them both to rest."
-date: "2020-12-01 00:00:00"
+date: "2020-12-01T00:00:00"
 lessons: ["Don't quit early", "Friends don't always make great cofounders", "Relationships are built on communication", "If you build it, they won't come"]
 ---
 

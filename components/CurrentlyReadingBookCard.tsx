@@ -1,6 +1,6 @@
-import { format } from 'date-fns';
+import { format } from 'date-fns'
 
-import { CurrentlyReadingBook } from '../types';
+import { CurrentlyReadingBook } from '../types'
 
 function CurrentlyReadingBookCard({ book }: { book: CurrentlyReadingBook }) {
   return (
@@ -12,18 +12,14 @@ function CurrentlyReadingBookCard({ book }: { book: CurrentlyReadingBook }) {
         className="content-card block hover:cursor-pointer"
       >
         <div className="flex justify-between items-center">
-          <div className="book-title text-lg font-bold mb-1">
-            {book.title}
-          </div>
+          <div className="book-title text-lg font-bold mb-1">{book.title}</div>
 
           <div className="text-sm border-b border-buzz-green-neon border-dashed">
             started on {format(new Date(book.startedDate), 'MMMM do, y')}
           </div>
         </div>
 
-        <div className="text-sm">
-          written by {book.author}
-        </div>
+        <div className="text-sm">written by {book.author}</div>
       </a>
 
       <style jsx>{`
@@ -36,7 +32,7 @@ function CurrentlyReadingBookCard({ book }: { book: CurrentlyReadingBook }) {
         }
       `}</style>
     </>
-  );
+  )
 }
 
-export default CurrentlyReadingBookCard;
+export default CurrentlyReadingBookCard

@@ -1,8 +1,8 @@
 ---
 title: 'Social Media Death Clock'
 description: 'A Chrome extension to remind us of our mortality.'
-date: '2019-06-07 00:00:00'
-launchDate: '2019-06-07 00:00:00'
+date: '2019-06-07T00:00:00'
+launchDate: '2019-06-07T00:00:00'
 image: '/assets/projects/smdc/card.jpg'
 status: 'live'
 ---

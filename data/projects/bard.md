@@ -1,9 +1,9 @@
 ---
 title: 'Bard'
 description: 'A place to read great content while directly supporting the writers that made it.'
-date: '2020-06-14 00:00:00'
-launchDate: '2020-04-20'
-sunsetDate: '2020-12-01'
+date: '2020-06-14T00:00:00'
+launchDate: '2020-04-20T00:00:00'
+sunsetDate: '2020-12-01T00:00:00'
 status: 'dead'
 postmortem: '/failures/2020-product-failures'
 ---

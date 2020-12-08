@@ -1,8 +1,8 @@
 ---
 title: 'How to Think Like a Roman Emperor'
 description: 'A modern-day guide to Stoic wisdom from the perspective of Marcus Aurelius.'
-date: '2020-05-20 00:00:00'
-readDate: '2020-05-20 00:00:00'
+date: '2020-05-20T00:00:00'
+readDate: '2020-05-20T00:00:00'
 rating: 5
 author: 'Donald J. Robertson'
 ---

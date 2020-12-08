@@ -1,7 +1,7 @@
 ---
 title: "Electronics Etymology"
 description: "What does it even mean?"
-date: "2020-07-17 00:00:00"
+date: "2020-07-17T00:00:00"
 tags: ["Science", "Electronics", "Etymology"]
 ---
 

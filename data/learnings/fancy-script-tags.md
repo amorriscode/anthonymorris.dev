@@ -1,7 +1,7 @@
 ---
 title: "Fancy Script Tags"
 description: "Using async and defer in your script tags."
-date: "2020-10-08 00:00:00"
+date: "2020-10-08T00:00:00"
 tags: ["HTML", "JavaScript", "Web Development"]
 ---
 

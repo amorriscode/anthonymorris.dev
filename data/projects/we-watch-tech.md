@@ -1,8 +1,8 @@
 ---
 title: "We Watch Tech"
 description: "Great tech talks distilled."
-date: "2020-08-19 00:00:00"
-launchDate: "2020-08-18 00:00:00"
+date: "2020-08-19T00:00:00"
+launchDate: "2020-08-18T00:00:00"
 status: "live"
 ---
 

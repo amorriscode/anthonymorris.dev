@@ -1,7 +1,7 @@
 ---
 title: "Space Shuttle Rocket Ignition"
 description: "A final test before liftoff."
-date: "2020-07-21 00:00:00"
+date: "2020-07-21T00:00:00"
 tags: ["Science", "Space", "Rocket"]
 ---
 

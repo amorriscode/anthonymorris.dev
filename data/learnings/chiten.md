@@ -1,7 +1,7 @@
 ---
 title: "Chitin"
 description: "What bees are made of."
-date: "2020-08-13 00:00:00"
+date: "2020-08-13T00:00:00"
 tags: ["Science", "Bee", "Nature"]
 ---
 

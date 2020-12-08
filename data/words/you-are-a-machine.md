@@ -1,7 +1,7 @@
 ---
 title: "You, The Machine"
 description: "When's the last time you refactored your code base?"
-date: "2020-07-23 00:00:00"
+date: "2020-07-23T00:00:00"
 tags: ["Essay"]
 ---
 

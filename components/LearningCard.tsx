@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import { format } from 'date-fns';
+import Link from 'next/link'
+import { format } from 'date-fns'
 
-import { Learning } from '../types';
+import { Learning } from '../types'
 
 function LearningCard({ learning }: { learning: Learning }) {
   return (
@@ -18,9 +18,7 @@ function LearningCard({ learning }: { learning: Learning }) {
             </div>
           </div>
 
-          <div className="text-sm">
-            {learning.description}
-          </div>
+          <div className="text-sm">{learning.description}</div>
         </a>
       </Link>
 
@@ -34,7 +32,7 @@ function LearningCard({ learning }: { learning: Learning }) {
         }
       `}</style>
     </>
-  );
+  )
 }
 
-export default LearningCard;
+export default LearningCard

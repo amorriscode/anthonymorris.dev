@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import { format } from 'date-fns';
+import Link from 'next/link'
+import { format } from 'date-fns'
 
-import { Writing } from '../types';
+import { Writing } from '../types'
 
 function WritingCard({ writing }: { writing: Writing }) {
   return (
@@ -18,9 +18,7 @@ function WritingCard({ writing }: { writing: Writing }) {
             </div>
           </div>
 
-          <div className="text-sm">
-            {writing.description}
-          </div>
+          <div className="text-sm">{writing.description}</div>
         </a>
       </Link>
 
@@ -34,7 +32,7 @@ function WritingCard({ writing }: { writing: Writing }) {
         }
       `}</style>
     </>
-  );
+  )
 }
 
-export default WritingCard;
+export default WritingCard

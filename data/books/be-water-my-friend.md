@@ -1,8 +1,8 @@
 ---
 title: 'Be Water, My Friend'
 description: 'The teachings of Bruce Lee told through the lens of his daughter Shannon.'
-date: '2020-12-05 00:00:00'
-readDate: '2020-12-05 00:00:00'
+date: '2020-12-05T00:00:00'
+readDate: '2020-12-05T00:00:00'
 rating: 4
 author: 'Shannon Lee'
 ---

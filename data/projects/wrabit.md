@@ -1,9 +1,9 @@
 ---
 title: 'Wrabit'
 description: 'A writing platform that helps you build a writing habit while contributing to mental health research.'
-date: '2019-12-01 00:00:00'
-launchDate: '2019-12-01 00:00:00'
-sunsetDate: '2020-12-01 00:00:00'
+date: '2019-12-01T00:00:00'
+launchDate: '2019-12-01T00:00:00'
+sunsetDate: '2020-12-01T00:00:00'
 status: 'dead'
 postmortem: '/failures/2020-product-failures'
 ---
