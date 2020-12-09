@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { IoMoon, IoSunny } from 'react-icons/io5'
 
 import Nav from './Nav'
 import { useKonamiState } from '../context/KonamiContext'
@@ -24,25 +25,56 @@ const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)]
 function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
     const [showMemoji, setShowMemoji] = useState(false)
+    const [isDarkMode, setIsDarkMode] = useState(false)
     const { activated: konamiActivated } = useKonamiState()
 
     const memoji = konamiActivated ? 'pixeldude' : randomMemoji
+
+    useEffect(() => {
+      setIsDarkMode(
+        window.localStorage.theme === 'dark' ||
+          (!('theme' in localStorage) &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches)
+      )
+
+      if (isDarkMode) {
+        document.querySelector('html')?.classList.add('dark')
+      } else {
+        document.querySelector('html')?.classList.remove('dark')
+      }
+    }, [isDarkMode])
+
+    const setTheme = (theme: string) => {
+      window.localStorage.setItem('theme', theme)
+      setIsDarkMode(theme === 'dark')
+    }
 
     return (
       <>
         <header className="container mx-auto md:pb-24 md:grid px-4 grid-cols-4 gap-8">
           <div className="col-span-1"></div>
 
-          <div className="col-span-2 py-4">
+          <div className="col-span-2 py-4 flex justify-between items-center">
             <Link href="/">
               <a
-                className="header-link uppercase font-extrabold text-buzz-purple-light"
+                className="header-link uppercase font-extrabold text-buzz-purple-light dark:text-buzz-purple-neon"
                 onMouseEnter={() => setShowMemoji(true)}
                 onMouseLeave={() => setShowMemoji(false)}
               >
                 {randomGreeting} anthony morris
               </a>
             </Link>
+
+            <div className="hover:text-buzz-purple-neon hover:cursor-pointer">
+              <IoMoon
+                className="hidden dark:block"
+                onClick={() => setTheme('light')}
+              />
+              <IoSunny
+                className="dark:hidden"
+                onClick={() => setTheme('dark')}
+              />
+            </div>
           </div>
         </header>
 

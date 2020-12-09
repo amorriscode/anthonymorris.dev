@@ -1,18 +1,18 @@
-import useSWR from "swr";
+import useSWR from 'swr'
 
-import fetcher from "../lib/fetcher";
+import fetcher from '../lib/fetcher'
 
-import { CurrentlyReadingBook } from "../types";
+import { CurrentlyReadingBook } from '../types'
 
-import CurrentlyReadingBookCard from "./CurrentlyReadingBookCard";
+import CurrentlyReadingBookCard from './CurrentlyReadingBookCard'
 
 function CurrentlyReading() {
-  const { data } = useSWR("/api/currentlyReading", fetcher);
+  const { data } = useSWR('/api/currentlyReading', fetcher)
 
-  if (!data?.currentlyReading.length) return <></>;
+  if (!data?.currentlyReading.length) return <></>
 
   return (
-    <div className="bg-buzz-white bg-opacity-50 rounded-lg p-6">
+    <div className="bg-buzz-white bg-opacity-50 dark:bg-opacity-100 dark:text-buzz-gray rounded-lg p-6">
       <h3>Currently Reading</h3>
 
       <div className="space-y-6">
@@ -21,7 +21,7 @@ function CurrentlyReading() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-export default CurrentlyReading;
+export default CurrentlyReading
