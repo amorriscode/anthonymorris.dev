@@ -47,3 +47,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [Humanity is stuck in short-term thinking. Here’s how we escape.](https://www.technologyreview.com/2020/10/21/1009443/short-term-vs-long-term-thinking/)
 - [Meditations On Moloch](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
 - [How Netflix Scales its API with GraphQL Federation](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-1-ae3557c187e2)
+- [Ask HN: What's the best paper you've read in 2020?](https://news.ycombinator.com/item?id=25346456)
