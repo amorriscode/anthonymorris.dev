@@ -17,10 +17,6 @@ body {
   @apply dark:text-buzz-white;
 }
 
-.page-summary.prose {
-  @apply dark:text-buzz-gray;
-}
-
 .backlink-container.prose h3 {
   @apply dark:text-buzz-gray;
 }

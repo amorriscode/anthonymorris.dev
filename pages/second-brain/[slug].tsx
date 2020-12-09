@@ -43,7 +43,7 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
         <div dangerouslySetInnerHTML={{ __html: brainEntry.content }} />
 
         {!!brainEntry.backlinks.length && (
-          <div className="backlink-container mt-8 bg-buzz-white bg-opacity-50 dark:bg-opacity-100 rounded-lg rounded-tl-none rounded-tr-none border-t-4 border-buzz-green dark:border-buzz-green-neon dark:text-buzz-gray prose p-6 md:p-8">
+          <div className="mt-8 bg-buzz-white bg-opacity-50 dark:bg-opacity-25 dark:bg-buzz-purple-light rounded-lg rounded-tl-none rounded-tr-none border-t-4 border-buzz-green dark:border-buzz-green-neon dark:text-buzz-gray prose p-6 md:p-8">
             <h3>Backlinks</h3>
 
             <div className="flex flex-wrap justify-between">

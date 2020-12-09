@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { IoMoon, IoSunny } from 'react-icons/io5'
+import { useTheme } from 'next-themes'
 
 import Nav from './Nav'
 import { useKonamiState } from '../context/KonamiContext'
@@ -25,29 +26,17 @@ const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)]
 function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
     const [showMemoji, setShowMemoji] = useState(false)
-    const [isDarkMode, setIsDarkMode] = useState(false)
+    const [mounted, setMounted] = useState(false)
+    const { setTheme } = useTheme()
     const { activated: konamiActivated } = useKonamiState()
 
     const memoji = konamiActivated ? 'pixeldude' : randomMemoji
 
     useEffect(() => {
-      setIsDarkMode(
-        window.localStorage.theme === 'dark' ||
-          (!('theme' in localStorage) &&
-            window.matchMedia('(prefers-color-scheme: dark)').matches)
-      )
+      setMounted(true)
+    }, [])
 
-      if (isDarkMode) {
-        document.querySelector('html')?.classList.add('dark')
-      } else {
-        document.querySelector('html')?.classList.remove('dark')
-      }
-    }, [isDarkMode])
-
-    const setTheme = (theme: string) => {
-      window.localStorage.setItem('theme', theme)
-      setIsDarkMode(theme === 'dark')
-    }
+    if (!mounted) return null
 
     return (
       <>
