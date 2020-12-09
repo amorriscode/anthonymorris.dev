@@ -1,5 +1,7 @@
 # Realism
 
+![Realism or Idealism?](/assets/second-brain/2020-12-08-12-01-43.png)
+
 - View about the nature of [[reality]]
   - The world exists independent of the [[mind]]
 - Can we prove [[idealism]] is false?

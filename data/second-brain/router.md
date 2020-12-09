@@ -15,6 +15,8 @@
     - Such as power supplies
   - Monitor network traffic and report stats
   - Diagnose internal connectivity problems and trigger alarms
+- Act as a broadcast boundary
+  - Don't forward broadcast traffic
 
 ## Routing Table
 
