@@ -38,9 +38,9 @@ function withLayout(PageComponent: any) {
       )
 
       if (isDarkMode) {
-        document.querySelector('html').classList.add('dark')
+        document.querySelector('html')?.classList.add('dark')
       } else {
-        document.querySelector('html').classList.remove('dark')
+        document.querySelector('html')?.classList.remove('dark')
       }
     }, [isDarkMode])
 
