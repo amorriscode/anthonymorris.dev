@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   purge: ['./components/**/*.tsx', './pages/**/*.tsx'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -47,7 +48,11 @@ module.exports = {
     },
   },
   variants: {
-    cursor: ['hover'],
+    extend: {
+      cursor: ['hover'],
+      backgroundOpacity: ['dark'],
+      display: ['dark'],
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 }

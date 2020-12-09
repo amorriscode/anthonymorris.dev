@@ -3,7 +3,26 @@
 @import 'tailwindcss/utilities';
 
 body {
-  @apply text-buzz-gray;
+  @apply text-buzz-gray dark:bg-buzz-purple-dark dark:text-buzz-white;
+}
+
+.prose {
+  @apply dark:text-buzz-white;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose thead {
+  @apply dark:text-buzz-white;
+}
+
+.page-summary.prose {
+  @apply dark:text-buzz-gray;
+}
+
+.backlink-container.prose h3 {
+  @apply dark:text-buzz-gray;
 }
 
 ::-moz-selection {
@@ -15,16 +34,16 @@ body {
 }
 
 a:not(.nav-item):not(.header-link):not(.content-card) {
-  @apply border-buzz-purple-light border-b border-dotted no-underline;
+  @apply border-buzz-purple-light border-b border-dotted no-underline dark:border-buzz-purple-neon;
 }
 
 a:not(.header-link):not(.content-card) {
-  @apply text-buzz-purple-light;
+  @apply text-buzz-purple-light dark:text-buzz-purple-neon;
   transition: border color 0.15s ease-in;
 }
 
 a:not(.header-link):not(.content-card):hover {
-  @apply text-buzz-purple-neon border-buzz-purple-neon border-solid;
+  @apply text-buzz-purple-neon border-buzz-purple-neon border-solid dark:text-buzz-purple-light dark:border-buzz-purple-light;
 }
 
 h1 {
