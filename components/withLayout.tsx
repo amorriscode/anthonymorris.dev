@@ -78,7 +78,10 @@ function withLayout(PageComponent: any) {
         </div>
 
         <footer className="relative overflow-hidden pb-4 md:p-8">
-          <img src={`/assets/memojis/${memoji}.png`} className="memoji fixed" />
+          <img
+            src={`/assets/memojis/${memoji}.webp`}
+            className="memoji fixed"
+          />
         </footer>
 
         <style jsx>{`
