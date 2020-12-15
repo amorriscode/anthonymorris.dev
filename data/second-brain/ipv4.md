@@ -25,7 +25,7 @@
   - Class D begins with octets 224-239 --> use for multicasting
   - Class E begins with octets 240-254 --> used for research
 
-| Class | Network octets                 | Octet Range | Default Mask    | Approx. number of possible networks | Approx. number of IP addresses in each network |
+| Class | Network octets                 | Octet Range | Default Mask    | Approx. number of possible networks | Approx. number of IP aπddresses in each network |
 | ----- | ------------------------------ | ----------- | --------------- | ----------------------------------- | ---------------------------------------------- |
 | A     | `1.x.y.z` to `126.x.y.z`       | 1-126       | `255.0.0.0`     | 126                                 | 16 million                                     |
 | B     | `128.0.x.y` to `191.255.x.y`   | 128-191     | `255.255.0.0`   | 16,000                              | 65,000                                         |

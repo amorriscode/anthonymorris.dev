@@ -1,7 +1,12 @@
 # Wein's Law
 
 - The brightest colour ([[wavelength]]) of radiation changes with temperature
-- Hotter --> shorter peak wavelength
+- Hotter --> shorter peak [[wavelength]]
+  - The [[wavelength]]s are inversely proportional to the temperature
+
+## Formula
+
+$\lambda_{peak} = \frac{b}{t}$
 
 [[Thermal Emission Spectrum]] [[Physics]] [[Astronomy]] [[Spectroscopy]]
 
