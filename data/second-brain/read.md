@@ -49,3 +49,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [How Netflix Scales its API with GraphQL Federation](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-1-ae3557c187e2)
 - [Ask HN: What's the best paper you've read in 2020?](https://news.ycombinator.com/item?id=25346456)
 - [2020 AI Alignment Literature Review and Charity Comparison](https://www.lesswrong.com/posts/pTYDdcag9pTzFQ7vw/2020-ai-alignment-literature-review-and-charity-comparison)
+- [Lost Last Days of David Foster Wallace by David Lipsky](https://www.rollingstone.com/culture/culture-features/the-lost-years-and-last-days-of-david-foster-wallace-883224/)
