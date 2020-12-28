@@ -3,7 +3,7 @@ title: 'Dune'
 description: 'A space epic about politics and prophecy.'
 date: '2020-11-22T00:00:00'
 readDate: '2020-11-22T00:00:00'
-rating: 5
+rating: 4
 author: 'Frank Herbert'
 ---
 
