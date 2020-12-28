@@ -23,6 +23,8 @@
 [Earth]: earth "Earth 🜨"
 [Space]: space "Space"
 [atmosphere]: atmosphere "Atmosphere"
+[Meteorite]: meteorite "Meteorite"
+[the Solar System]: the-solar-system "The Solar System"
 [iron]: iron "Iron"
 [mass]: mass "Mass"
 [Astronomy]: astronomy "Astronomy"

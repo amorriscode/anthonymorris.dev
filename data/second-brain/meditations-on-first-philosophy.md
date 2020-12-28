@@ -56,7 +56,6 @@
 [Philosophy]: philosophy "Philosophy"
 [metaphysics]: metaphysics "Metaphysics"
 [Cartesian Skepticism]: cartesian-skepticism "Cartesian Skepticism"
-[Philosophical skepticism]: philosophical-skepticism "Philosophical Skepticism"
 [philosophical skepticism]: philosophical-skepticism "Philosophical Skepticism"
 [Deductive argument]: deductive-argument "Deductive Argument"
 [argument]: argument "Arguments"

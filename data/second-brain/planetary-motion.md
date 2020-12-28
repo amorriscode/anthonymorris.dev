@@ -39,7 +39,6 @@
 [Copernicus]: copernicus "Copernicus"
 [heliocentric model]: heliocentric-model "Heliocentric Model"
 [Johannes Kepler]: johannes-kepler "Johannes Kepler"
-[Orbit]: orbit "Orbit"
 [Sun]: sun "Sun"
 [ellipse]: ellipse "Ellipse"
 [Tycho Brahe]: tycho-brahe "Tycho Brahe"

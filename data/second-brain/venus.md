@@ -52,7 +52,6 @@
 [Earth]: earth "Earth 🜨"
 [Planet]: planet "Planet"
 [the Solar System]: the-solar-system "The Solar System"
-[Gravity]: gravity "Gravity"
 [gravity]: gravity "Gravity"
 [water]: water "Water"
 [convection]: convection "Convection"
