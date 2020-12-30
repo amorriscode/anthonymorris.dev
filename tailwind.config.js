@@ -26,16 +26,9 @@ module.exports = {
             'ul > li::before': {
               'background-color': '#e200b9',
             },
-            blockquote: {
-              'border-color': '#a6f673',
-              background: '#f6f6f6',
-              'background-opacity': '50%',
-              'border-radius': '0.5rem',
-              'border-top-left-radius': '0px',
-              'border-bottom-left-radius': '0px',
-              padding: '0.5rem 1.0rem',
-            },
             img: {
+              'margin-left': 'auto',
+              'margin-right': 'auto',
               'border-radius': '0.5rem',
               '--tw-shadow':
                 '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',

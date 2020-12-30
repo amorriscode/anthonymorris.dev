@@ -13,7 +13,14 @@ import PageSummary from '../../components/PageSummary'
 function FailurePage({ failure }: { failure: Failure }) {
   return (
     <>
-      <NextSeo title={failure.title} />
+      <NextSeo
+        title={failure.title}
+        description={failure.description}
+        openGraph={{
+          title: failure.title,
+          description: failure.description,
+        }}
+      />
 
       <main>
         <h1 className="leading-none">{failure.title}</h1>
@@ -46,6 +53,7 @@ function FailurePage({ failure }: { failure: Failure }) {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const failure = getContentBySlug('failures', params?.slug as string, [
     'title',
+    'description',
     'date',
     'slug',
     'content',

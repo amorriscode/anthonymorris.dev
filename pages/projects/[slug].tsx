@@ -14,7 +14,14 @@ import PageSummary from '../../components/PageSummary'
 function ProjectPage({ project }: { project: Project }) {
   return (
     <>
-      <NextSeo title={project.title} />
+      <NextSeo
+        title={project.title}
+        description={project.description}
+        openGraph={{
+          title: project.title,
+          description: project.description,
+        }}
+      />
 
       <main>
         {project?.image && (
@@ -74,6 +81,7 @@ function ProjectPage({ project }: { project: Project }) {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const project = getContentBySlug('projects', params?.slug as string, [
     'title',
+    'description',
     'date',
     'launchDate',
     'sunsetDate',

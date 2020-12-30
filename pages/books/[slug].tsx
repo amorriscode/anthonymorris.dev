@@ -13,7 +13,14 @@ import BookRating from '../../components/BookRating'
 function BookPage({ book }: { book: Book }) {
   return (
     <>
-      <NextSeo title={book.title} />
+      <NextSeo
+        title={book.title}
+        description={book.description}
+        openGraph={{
+          title: book.title,
+          description: book.description,
+        }}
+      />
 
       <main>
         <h1 className="leading-none">{book.title}</h1>
@@ -47,6 +54,7 @@ function BookPage({ book }: { book: Book }) {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const book = getContentBySlug('books', params?.slug as string, [
     'title',
+    'description',
     'readDate',
     'slug',
     'content',

@@ -12,7 +12,14 @@ import withLayout from '../../components/withLayout'
 function WordPage({ writing }: { writing: Writing }) {
   return (
     <>
-      <NextSeo title={writing.title} />
+      <NextSeo
+        title={writing.title}
+        description={writing.description}
+        openGraph={{
+          title: writing.title,
+          description: writing.description,
+        }}
+      />
 
       <main>
         <h1 className="leading-none">{writing.title}</h1>
@@ -35,6 +42,7 @@ function WordPage({ writing }: { writing: Writing }) {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const writing = getContentBySlug('words', params?.slug as string, [
     'title',
+    'description',
     'date',
     'slug',
     'content',

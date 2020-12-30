@@ -12,7 +12,14 @@ import withLayout from '../../components/withLayout'
 function LearningPage({ learning }: { learning: Learning }) {
   return (
     <>
-      <NextSeo title={learning.title} />
+      <NextSeo
+        title={learning.title}
+        description={learning.description}
+        openGraph={{
+          title: learning.title,
+          description: learning.description,
+        }}
+      />
 
       <main>
         <h1 className="leading-none">{learning.title}</h1>
@@ -46,6 +53,7 @@ function LearningPage({ learning }: { learning: Learning }) {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const learning = getContentBySlug('learnings', params?.slug as string, [
     'title',
+    'description',
     'date',
     'slug',
     'content',

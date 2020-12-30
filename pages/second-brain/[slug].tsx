@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { GetStaticProps, GetStaticPaths } from 'next'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo'
 
 import { BrainEntry } from '../../types'
 
@@ -32,8 +33,12 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
           integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"
           crossOrigin="anonymous"
         ></script>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
+
+      <NextSeo
+        title="Second Brain 🧠"
+        openGraph={{ title: 'Second Brain 🧠' }}
+      />
 
       <main className="prose">
         <div>
