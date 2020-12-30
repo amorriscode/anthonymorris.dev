@@ -18,7 +18,7 @@ body {
 }
 
 .prose strong {
-  @apply text-white font-extrabold;
+  @apply dark:text-white font-extrabold;
 }
 
 .prose blockquote {

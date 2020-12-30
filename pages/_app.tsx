@@ -12,9 +12,10 @@ import SEO from '../seo.config'
 function App({ Component, pageProps }: AppProps) {
   return (
     <>
+      <DefaultSeo {...SEO} />
+
       <ThemeProvider attribute="class">
         <KonamiProvider>
-          <DefaultSeo {...SEO} />
           <Component {...pageProps} />
         </KonamiProvider>
       </ThemeProvider>

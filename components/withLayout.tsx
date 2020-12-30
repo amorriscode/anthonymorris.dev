@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { IoMoon, IoSunny } from 'react-icons/io5'
 import { useTheme } from 'next-themes'
+import { GetStaticProps } from 'next'
 
 import Nav from './Nav'
 import { useKonamiState } from '../context/KonamiContext'
@@ -26,17 +27,10 @@ const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)]
 function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
     const [showMemoji, setShowMemoji] = useState(false)
-    const [mounted, setMounted] = useState(false)
     const { setTheme } = useTheme()
     const { activated: konamiActivated } = useKonamiState()
 
     const memoji = konamiActivated ? 'pixeldude' : randomMemoji
-
-    useEffect(() => {
-      setMounted(true)
-    }, [])
-
-    if (!mounted) return null
 
     return (
       <>
