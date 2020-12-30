@@ -2,7 +2,6 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { IoMoon, IoSunny } from 'react-icons/io5'
 import { useTheme } from 'next-themes'
-import { GetStaticProps } from 'next'
 
 import Nav from './Nav'
 import { useKonamiState } from '../context/KonamiContext'
