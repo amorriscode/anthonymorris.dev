@@ -1,26 +1,38 @@
-import Link from "next/link";
+import Link from 'next/link'
+import { NextSeo } from 'next-seo'
 
-import withLayout from "../components/withLayout";
+import withLayout from '../components/withLayout'
 
 function NotFound() {
   return (
-    <div className="space-y-8">
-      <h1 className="text-6xl">🕵🏻‍♂️</h1>
+    <>
+      <NextSeo
+        title="Not Found"
+        description="Not all who wander are lost."
+        openGraph={{
+          title: 'Not Found',
+          description: 'Not all who wander are lost.',
+        }}
+      />
 
-      <p>
-        Not all those who wander are lost. That being said, I didn't find what
-        you're looking for.
-      </p>
+      <div className="space-y-8">
+        <h1 className="text-6xl">🕵🏻‍♂️</h1>
 
-      <p>
-        Want to{" "}
-        <Link href="/">
-          <a>go back home</a>
-        </Link>
-        ?
-      </p>
-    </div>
-  );
+        <p>
+          Not all who wander are lost. That being said, I didn't find what
+          you're looking for.
+        </p>
+
+        <p>
+          Want to{' '}
+          <Link href="/">
+            <a>go back home</a>
+          </Link>
+          ?
+        </p>
+      </div>
+    </>
+  )
 }
 
-export default withLayout(NotFound);
+export default withLayout(NotFound)

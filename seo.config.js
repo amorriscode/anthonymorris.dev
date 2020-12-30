@@ -1,8 +1,6 @@
 export default {
-  title: `There's no place like /home`,
   titleTemplate: '%s | Anthony Morris',
   canonical: 'https://anthonymorris.dev',
-  description: 'A digital garden and second brain.',
   openGraph: {
     type: 'website',
     locale: 'en_IE',

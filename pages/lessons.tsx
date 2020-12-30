@@ -1,6 +1,6 @@
-import Head from 'next/head'
 import { GetStaticProps } from 'next'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo'
 
 import { getAllContent } from '../lib/api'
 
@@ -11,38 +11,44 @@ import PageSummary from '../components/PageSummary'
 
 function Lessons({ lessons }: { lessons: Lesson[] }) {
   return (
-    <div className="container">
-      <Head>
-        <title>Lessons | Anthony Morris</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
-      </Head>
+    <>
+      <NextSeo
+        title="Lessons"
+        description="Lessons learned from failure."
+        openGraph={{
+          title: 'Lessons',
+          description: 'A collection of lessons learned from failure.',
+        }}
+      />
 
-      <main className="space-y-8">
-        <h1 className="leading-none">Lessons Learned</h1>
+      <div className="container">
+        <main className="space-y-8">
+          <h1 className="leading-none">Lessons Learned</h1>
 
-        <PageSummary>
-          <p>
-            This is a collection of lessons learned pulled from my{' '}
-            <Link href="/failures">
-              <a>failures</a>
-            </Link>
-            .
-          </p>
-        </PageSummary>
+          <PageSummary>
+            <p>
+              This is a collection of lessons learned pulled from my{' '}
+              <Link href="/failures">
+                <a>failures</a>
+              </Link>
+              .
+            </p>
+          </PageSummary>
 
-        <section className="prose">
-          <ul>
-            {lessons.map((lesson) => (
-              <li key={lesson.title}>
-                <Link href={`failures/${lesson.failure}`}>
-                  <a>{lesson.title}</a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      </main>
-    </div>
+          <section className="prose">
+            <ul>
+              {lessons.map((lesson) => (
+                <li key={lesson.title}>
+                  <Link href={`failures/${lesson.failure}`}>
+                    <a>{lesson.title}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </main>
+      </div>
+    </>
   )
 }
 
