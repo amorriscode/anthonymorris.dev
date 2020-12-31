@@ -39,7 +39,7 @@ Those questions are valid. [As someone who never had the chance at university be
 
 I'm doing this to learn. You learn a lot working four years as a software engineer—you learn a lot about what you don't know.
 
-I'm doing this to level-up. I've had a few great opportunities but I want to work at word-class companies. Companies that are moving humanity forward.
+I'm doing this to level-up. I've had a few great opportunities but I want to work at world-class companies. Companies that are moving humanity forward.
 
 I'm doing this to prove I can. This year I've spent a lot of time trying to love myself. Part of that practice means believing in myself. I always told myself I wasn't smart enough to go to university. I couldn't overcome the fact that [I dropped of out high school](/failures/high-school). Even though I always wanted to do this, I wouldn't let myself. Until 2020 nudged me in the right direction.
 
