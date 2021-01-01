@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Link from 'next/link'
 import { IoMoon, IoSunny } from 'react-icons/io5'
 import { useTheme } from 'next-themes'
 import { useRouter } from 'next/router'
