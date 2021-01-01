@@ -38,16 +38,16 @@ body {
   @apply bg-buzz-green-neon;
 }
 
-a:not(.nav-item):not(.header-link):not(.content-card) {
+a:not(.nav-item):not(.content-card) {
   @apply border-buzz-purple-light border-b border-dotted no-underline dark:border-buzz-purple-neon;
 }
 
-a:not(.header-link):not(.content-card) {
+a:not(.content-card) {
   @apply text-buzz-purple-light dark:text-buzz-purple-neon;
   transition: border color 0.15s ease-in;
 }
 
-a:not(.header-link):not(.content-card):hover {
+a:not(.content-card):hover {
   @apply text-buzz-purple-neon border-buzz-purple-neon border-solid dark:text-buzz-purple-light dark:border-buzz-purple-light;
 }
 

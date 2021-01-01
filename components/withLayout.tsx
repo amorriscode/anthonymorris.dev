@@ -26,9 +26,9 @@ function withLayout(PageComponent: any) {
           <div className="col-span-1"></div>
 
           <div className="col-span-2 py-4 flex justify-between items-center">
-            <div className="relative">
+            <div className="relative hover:cursor-pointer">
               <div
-                className="relative z-10 uppercase font-extrabold bg-buzz-purple-light dark:bg-buzz-purple-neon text-white rounded p-2 transform rotate-45"
+                className="relative z-10 uppercase font-extrabold bg-buzz-purple-light dark:bg-buzz-purple-neon hover:bg-buzz-purple-neon dark:hover:bg-buzz-purple-light text-white rounded p-2 transform rotate-45"
                 onMouseEnter={() => setShowMemoji(true)}
                 onMouseLeave={() => setShowMemoji(false)}
                 onClick={() => router.push('/')}
