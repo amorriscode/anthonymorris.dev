@@ -2,32 +2,21 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { IoMoon, IoSunny } from 'react-icons/io5'
 import { useTheme } from 'next-themes'
+import { useRouter } from 'next/router'
 
 import Nav from './Nav'
 import { useKonamiState } from '../context/KonamiContext'
 
 const memojis = ['joy', 'mindblown', 'think', 'wink']
-const greetings = [
-  `it's me,`,
-  'hello from',
-  `howdy! i'm`,
-  'i am',
-  'the one they call',
-  'mr.',
-  'someone like',
-  'hello my name is',
-  'probably',
-  'definitely',
-]
 
 const randomMemoji = memojis[Math.floor(Math.random() * memojis.length)]
-const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)]
 
 function withLayout(PageComponent: any) {
   const PageComponentWithLayout = ({ ...pageProps }) => {
     const [showMemoji, setShowMemoji] = useState(false)
     const { setTheme } = useTheme()
     const { activated: konamiActivated } = useKonamiState()
+    const router = useRouter()
 
     const memoji = konamiActivated ? 'pixeldude' : randomMemoji
 
@@ -37,15 +26,17 @@ function withLayout(PageComponent: any) {
           <div className="col-span-1"></div>
 
           <div className="col-span-2 py-4 flex justify-between items-center">
-            <Link href="/">
-              <a
-                className="header-link uppercase font-extrabold text-buzz-purple-light dark:text-buzz-purple-neon"
+            <div className="relative">
+              <div
+                className="relative z-10 uppercase font-extrabold bg-buzz-purple-light dark:bg-buzz-purple-neon text-white rounded p-2 transform rotate-45"
                 onMouseEnter={() => setShowMemoji(true)}
                 onMouseLeave={() => setShowMemoji(false)}
+                onClick={() => router.push('/')}
               >
-                {randomGreeting} anthony morris
-              </a>
-            </Link>
+                am
+              </div>
+              <div className="absolute  bg-buzz-green-neon w-full h-full rounded top-0 mt-1 transform rotate-45"></div>
+            </div>
 
             <div className="hover:text-buzz-purple-neon hover:cursor-pointer">
               <IoMoon
