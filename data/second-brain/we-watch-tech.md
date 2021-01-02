@@ -15,6 +15,7 @@ A place for me to [[learn in public]] from conference talks. [Check out the webs
 - [Jake Archibald: In The Loop](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
 - ["The Mess We're In" by Joe Armstrong](https://www.youtube.com/watch?v=lKXe3HUG2l4)
 - [Maybe Not - Rich Hickey](https://www.youtube.com/watch?v=YR5WdGrpoug)
+- [Ask HN: Best Talks of 2020?](https://news.ycombinator.com/item?id=25537230)
 
 [[Project]]
 
