@@ -1,4 +1,4 @@
-# Integers
+# Integer
 
 - Consists of zero, all positive [[natural numbers]], and negative integers
 - Denoted by ℤ (Zahlen symbol)

@@ -4,6 +4,7 @@ A list of things from around the web that I want to read. For my horrendously la
 
 **Have you read something interesting lately? [Share it with me](https://github.com/amorriscode/anthonymorris.dev/issues/new)!**
 
+- [The Fraying of the US Global Currency Reserve System](https://www.lynalden.com/fraying-petrodollar-system/)
 - [In Praise of the Gods - The Map is Mostly Water](https://simonsarris.substack.com/p/in-praise-of-the-gods)
 - [A step-by-step guide of how I would build a SaaS company right now - part 1 : startups](https://www.reddit.com/r/startups/comments/gmrgh0/a_stepbystep_guide_of_how_i_would_build_a_saas/)
 - [Mastering Metacognition](https://fs-lc.s3.amazonaws.com/Updated+Knowledge+Library/Mastering+Metacognition+yt64b2.pdf)
