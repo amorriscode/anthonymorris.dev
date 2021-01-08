@@ -1,5 +1,6 @@
 # Star
 
+- Self-luminous, gaseous objects that fuse elements
 - Obtain [[energy]] from nuclear [[fusion]]
 - Considered a star when it can sustain itself through  nuclear reactions (making its own [[energy]])
 - How long it takes a star to form depends on its [[mass]]
