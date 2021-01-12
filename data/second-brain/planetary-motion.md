@@ -2,6 +2,7 @@
 
 - Path of an object through space is called an [[orbit]]
 - [[Ptolemy]]'s [[geocentric model]] was accepted until [[Copernicus]]' [[heliocentric model]] finally got adopted
+  - [[Johannes Kepler]]'s laws and moving to [[ellipse]]s helped adoption
 
 ## [[Johannes Kepler]]'s Three Laws of [[Orbit]]s
 
@@ -15,7 +16,7 @@
    - ![The Law of Equal Areas](/assets/second-brain/2020-09-12-08-51-35.png)
    - Discovered by observing [[orbit]]s speeding up as a planet gets closer to the [[Sun]]
    - Consequence of the conservation of [[angular momentum]]
-   - _Figure skater law_
+   - *Figure skater law*
 3. A planet's orbital period ($P$) squared is proportional to the semi-major axis ($a$) of its orbit cubed
    - $P^2 \propto a^3$
    - When $P$ is measured in years and $a$ is measured in [[astronomical unit]]s, the two sides are equal
@@ -39,8 +40,8 @@
 [Copernicus]: copernicus "Copernicus"
 [heliocentric model]: heliocentric-model "Heliocentric Model"
 [Johannes Kepler]: johannes-kepler "Johannes Kepler"
-[Sun]: sun "Sun"
 [ellipse]: ellipse "Ellipse"
+[Sun]: sun "Sun"
 [Tycho Brahe]: tycho-brahe "Tycho Brahe"
 [angular momentum]: angular-momentum "Angular Momentum"
 [astronomical unit]: astronomical-unit "Astronomical Unit"

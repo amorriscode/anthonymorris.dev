@@ -1,6 +1,6 @@
 # Mass
 
-- Amount of material within an object
+- Amount of [[matter]] within an object
 
 [[Physics]]
 

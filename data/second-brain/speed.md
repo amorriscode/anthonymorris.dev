@@ -1,4 +1,6 @@
-# Universal Law of Gravitation
+# Speed
+
+- How fast a body is moving
 
 [[Physics]]
 

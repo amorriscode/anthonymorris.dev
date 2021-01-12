@@ -2,12 +2,15 @@
 
 - Quantified by [[Isaac Newton]]
 - Universal attraction among all bodies everywhere
-- Gravitational attraction between two objects:
-  - $F_{gravity} = G \frac{M_1M_2}{R^2}$
-    - $F_{gravity}$ is the force of gravity between two objects
-    - $M_1$ and $M_2$ are the masses of two objects
-    - $R$ is the separation of those objects
-    - $G$ is the _universal gravitational constant_
+
+## Formula
+
+- Gravitational attraction between two objects
+- $F_{gravity} = G \frac{M_1M_2}{R^2}$
+  - $F_{gravity}$ is the force of gravity between two objects
+  - $M_1$ and $M_2$ are the masses of two objects
+  - $R$ is the separation of those objects
+  - $G$ is the _universal gravitational constant_
 
 ## Universal Gravitational Constant
 

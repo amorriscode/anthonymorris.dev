@@ -1,4 +1,4 @@
-# Universal Law of Gravitation
+# Acceleration
 
 [[Physics]]
 

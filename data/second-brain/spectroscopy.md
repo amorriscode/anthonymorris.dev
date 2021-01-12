@@ -1,21 +1,21 @@
 # Spectroscopy
 
 - Analyzing [[light]]
-- Allows us to identify elements in the [[Universe]]
+- Allows us to identify [[element]]s in the [[Universe]]
   - Composition of [[star]]s
 
 ## History
 
 - [[Isaac Newton]] used prisms and lenses
-  - Saw rainbows coming from sunlight
-- Fraunhofer in [[1814]] magnified rainbows to look closer
-  - Saw rainbows were not solid
+  - Saw [[rainbow]]s coming from sunlight
+- Fraunhofer in [[1814]] magnified [[rainbow]]s to look closer
+  - Saw [[rainbow]]s were not solid
 - Bunsen burners in [[1857]]
-  - Different chemicals into flame --> different colours
+  - Different [[chemical]]s into flame --> different colours
 - [[Gustav Kirchhoff]] --> prism
   - Tied together the gaps and the different colours
   - Found colours were made up of emission lines
-  - Number of lines and colours were unique to each element
+  - Number of lines and colours were unique to each [[element]]
 
 ## Kirchhoff's Laws of Spectroscopy
 
@@ -23,16 +23,16 @@
 
 ![Another visual representation of Kirchhoff's laws](/assets/second-brain/2020-10-05-10-32-38.png)
 
-- Every element has a finger print
-  - They interact with light in their own way
+- Every [[element]] has a finger print
+  - They interact with [[light]] in their own way
 - Either in absorption or emission, finger print or spectral lines are in the same place
-  - Have the same wavelengths
+  - Have the same [[wavelength]]s
 
 1. Solid, liquid, or dense gas will produce a continuous spectrum
 2. Low-density gas will produce an emission spectrum
    - Looks all black, except for light being emitted
 3. Light composing a continuous spectrum passes through a cool, low-density gas, result will be an absorption spectrum
-   - Full rainbow but stuff is being absorbed (certain [[wavelength]]s --> black)
+   - Full [[rainbow]] but stuff is being absorbed (certain [[wavelength]]s --> black)
 
 [[Space]] [[Astronomy]]
 
