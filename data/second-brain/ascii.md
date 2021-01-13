@@ -1,6 +1,6 @@
 # ASCII
 
-![ASCII Character Set](../../public/assets/second-brain/2020-09-17-17-03-34.png)
+![ASCII Character Set](/assets/second-brain/2020-09-17-17-03-34.png)
 
 - American Standard Code for Informational Interchange
 - Distinct order based on codes

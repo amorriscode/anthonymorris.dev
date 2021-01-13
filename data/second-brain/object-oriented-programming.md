@@ -1,8 +1,6 @@
 # Object Oriented Programming
 
 - Problem-solving methodology that produces a solution to a problem in terms of self-contained entities called _objects_
-- **Object**
-  - Entity that makes sense within context of a problem
 - **Class**
   - Description of a group of objects with similar properties and behaviours
   - Any particular object is an _instance_ of a class
@@ -12,6 +10,13 @@
     - Methods
       - Named algorithm defining one aspect of behaviour of a class
       - A function attached to a class
+- **Object**
+  - Entity that makes sense within context of a problem
+  - Specific, concrete instances of a class
+  - Attributes
+    - Characteristics that define an object
+    - Differentiate objects of the same class
+    - Value of attributes is an object's state
 - **Encapsulation**
   - Language feature that enforces hiding information
 

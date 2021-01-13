@@ -1,6 +1,7 @@
 # Control Unit
 
 - Organizing force in a computer
+  - Manages everything that is happening
 - In charge of fetch-execute cycle
 - Two special registers:
   - Instruction register (IR)

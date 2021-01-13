@@ -1,4 +1,4 @@
-# JavaScript
+# Python
 
 [[Programming]] [[Programming Language]]
 
