@@ -6,6 +6,8 @@
     - Can be larger than 90˚
   - *Magnitude*
     - $|\vec{V}|$
+    - Always positive
+      - A minus sign tells us about its direction
 - Vectors have *components* not *coordinates*
 
 ## Unit Vectors
