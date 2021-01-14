@@ -1,6 +1,19 @@
 # Vector
 
-- Quantities with a *direction* and a *magnitude*
+- Quantities with
+  - *Direction*
+    - Angle
+    - Can be larger than 90˚
+  - *Magnitude*
+    - $|\vec{V}|$
+- Vectors have *components* not *coordinates*
+
+## Unit Vectors
+
+- i hat
+  - $x$ component
+- j hat
+  - $y$ component
 
 ## Adding Vectors
 
@@ -11,6 +24,8 @@
   - $\vec{D}_R \leq \vec{D}_1 + \vec{D}_2$
 - Adding vectors is *commutative*
   - $\vec{V}_1 + \vec{V}_2 = \vec{V}_2 + \vec{V}_1$
+
+$\vec{A} + \vec{B} = \begin{bmatrix}Ax\\Ay\end{bmatrix} + \begin{bmatrix}Bx\\By\end{bmatrix} = \begin{bmatrix}Ax + Bx\\Ay + By\end{bmatrix}$
 
 ### Tail-to-Tip Method
 
