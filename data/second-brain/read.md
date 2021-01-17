@@ -54,3 +54,5 @@ A list of things from around the web that I want to read. For my horrendously la
 - [10 Engineering Challenges Due to the Nature of Mobile Applications](https://blog.pragmaticengineer.com/10-engineering-challenges-due-to-the-nature-of-mobile-applications/)
 - [The Floating-Point Guide - What Every Programmer Should Know About Floating-Point Arithmetic](https://floating-point-gui.de/)
 - [How Web Apps Work](https://blog.isquaredsoftware.com/series/how-web-apps-work/)
+- [Web APIs and the n+1 Problem](https://www.infoq.com/articles/N-Plus-1/)
+- [Postgres: The batteries included database](https://info.crunchydata.com/blog/postgres-the-batteries-included-database)
