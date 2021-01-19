@@ -1,4 +1,4 @@
-# Gamma Rays
+# Gamma Ray
 
 - Radioactive [[atom]]s and nuclear explosions
 - Not many natural sources of them

@@ -81,6 +81,8 @@
   - 21% [[oxygen]]
   - 1% [[argon]]
   - Traces of [[water]] and [[carbon dioxide]]
+- Absorbs/blocks certain [[electromagnetic radiation]]
+  - ![Electromagnetic radiation and our atmosphere](/assets/second-brain/2021-01-19-10-38-33.png)
 
 ### Atmospheric Layers
 
@@ -182,6 +184,7 @@
 [basalt]: basalt "Basalt"
 [Mercury]: mercury "Mercury ☿"
 [water]: water "Water"
+[electromagnetic radiation]: electromagnetic-radiation "Electromagnetic Radiation"
 [Ionosphere]: ionosphere "Ionosphere"
 [Mesosphere]: mesosphere "Mesosphere"
 [Stratosphere]: stratosphere "Stratosphere"

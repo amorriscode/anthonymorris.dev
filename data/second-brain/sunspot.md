@@ -1,7 +1,9 @@
-# Sunspots
+# Sunspot
 
 - Large, dark features seen on the surface of the [[Sun]]
 - Caused by increased magnetic activity
+  - The magnetic field lines are twisting due to [[differential rotation]]
+  - The twisting creates knots which show up as sunspots
 - Cooler than the surrounding areas of the sun
   - ~3800 K vs. ~5800 K
   - Still hotter than the surface of many [[star]]s

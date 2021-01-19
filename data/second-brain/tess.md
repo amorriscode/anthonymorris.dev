@@ -13,9 +13,9 @@
 
 ## Instruments
 
-- Four wide field-of-view [[CCD]] cameras
-  - Each camera has four low-power 4 megapixel [[CCD]]s
-    - Arranged in a 2x2 array for a total of 16 megapixels per camera
+- Four wide field-of-view [[CCD]] [[camera]]s
+  - Each [[camera]] has four low-power 4 megapixel [[CCD]]s
+    - Arranged in a 2x2 array for a total of 16 megapixels per [[camera]]
   - 24˚ x 24˚ field of view
   - Lenses have a [[focal ratio]] of $f$/1.4
 
@@ -37,6 +37,7 @@
 [planet]: planet "Planet"
 [Earth]: earth "Earth 🜨"
 [CCD]: ccd "CCD (Charge-Coupled Device)"
+[camera]: camera "Camera"
 [focal ratio]: focal-ratio "Focal Ratio"
 [comet]: comet "Comet"
 [Space]: space "Space"

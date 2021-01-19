@@ -6,13 +6,11 @@
 - Roughly 2000 km thick
 - 10,000 K
   - Hotter than the [[photosphere]]
-- **Spicules**
-  - Long thing fingers of luminous gas which appear like blades of a huge field of fiery grass
-  - Rise to the top of the chromosphere and then sink back down
-- Contain **plages**
-  - Bright regions around sunspots
-  - Areas within chromosphere with higher temperature and density than their surroundings
 
+## Features
+
+- [[Spicule]]s
+- [[Plage]]s
 
 [[Sun]] [[Atmosphere]] [[Astronomy]]
 
@@ -20,6 +18,8 @@
 [hydrogen]: hydrogen "Hydrogen"
 [eclipse]: eclipse "Eclipse"
 [photosphere]: photosphere "Photosphere"
+[Spicule]: spicule "Spicule"
+[Plage]: plage "Plage"
 [Sun]: sun "Sun"
 [Atmosphere]: atmosphere "Atmosphere"
 [Astronomy]: astronomy "Astronomy"
