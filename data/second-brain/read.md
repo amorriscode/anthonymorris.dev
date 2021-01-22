@@ -56,3 +56,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [How Web Apps Work](https://blog.isquaredsoftware.com/series/how-web-apps-work/)
 - [Web APIs and the n+1 Problem](https://www.infoq.com/articles/N-Plus-1/)
 - [Postgres: The batteries included database](https://info.crunchydata.com/blog/postgres-the-batteries-included-database)
+- [That XOR Trick](https://florian.github.io/xor-trick)
