@@ -1,14 +1,16 @@
 # Force
 
+- An action capable of accelerating an object
 - Way to change [[momentum]]
-- Measured in $kg \times \frac{m}{s^2}$
+- Measured in newtons ($N$)
+  - $1 N = 1 kg \times \frac{m}{s^2}$
 
 ## Formula
 
-- $F = ma$
-  - $F$ is force
+- $\Sigma\vec{F} = m\vec{a}$
+  - $\Sigma\vec{F}$ is net force
   - $m$ is [[mass]]
-  - $a$ is [[acceleration]]
+  - $\vec{a}$ is [[acceleration]]
 
 [[Physics]]
 
