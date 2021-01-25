@@ -7,10 +7,11 @@
    - Restatement of [[Galileo]]'s discovery of the *conservation of [[momentum]]*
    - Sometimes called the *law of [[inertia]]*
 2. Change of [[motion]] of a body is proportional to and in the direction of the [[force]] acting on it
-   - $F = ma$
+   - $\Sigma\vec{F} = m\vec{a}$
    - If you want to accelerate anything, you have to apply a [[force]]
 3. For every action there is an equal and opposite reaction
    - Mutual actions of two bodies upon each other are always equal and act in opposite directions
+   - $\vec{F}_{AB} = -\vec{F}_{BA}$
 
 [[Physics]]
 
