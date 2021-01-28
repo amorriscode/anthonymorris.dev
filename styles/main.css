@@ -22,8 +22,12 @@ body {
 }
 
 .prose blockquote {
-  /* This is similar tos PageSummary */
+  /* This is similar to PageSummary */
   @apply bg-buzz-white bg-opacity-50 dark:text-buzz-white dark:bg-buzz-purple-light dark:bg-opacity-25 rounded-lg rounded-tl-none rounded-bl-none border-l-4 border-buzz-green dark:border-buzz-green-neon p-6 md:p-8 max-w-full;
+}
+
+.prose blockquote p br {
+  @apply mb-6;
 }
 
 .backlink-container.prose h3 {

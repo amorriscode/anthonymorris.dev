@@ -2,7 +2,7 @@
 
 ## Quotes
 
-- "Blame yourself or blame no one."
+> Blame yourself or blame no one.
 
 [[Stoicism]] [[People]] [[Quote]]
 

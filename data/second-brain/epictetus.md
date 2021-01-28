@@ -9,7 +9,7 @@
 
 ## Quotes
 
-- "How long are you going to wait before you demand the best for yourself?"
+> How long are you going to wait before you demand the best for yourself?
 
 [[Stoicism]] [[People]] [[Philosophy]] [[Quote]]
 
