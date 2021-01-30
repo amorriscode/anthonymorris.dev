@@ -58,3 +58,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [Postgres: The batteries included database](https://info.crunchydata.com/blog/postgres-the-batteries-included-database)
 - [That XOR Trick](https://florian.github.io/xor-trick)
 - [Game Design Perspective: Stardew Valley](https://www.pixelatedplaygrounds.com/sidequests/game-design-perspective-stardew-valley)
+- [Making GitHub’s new homepage fast and performant](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
