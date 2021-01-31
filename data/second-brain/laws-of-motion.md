@@ -12,6 +12,7 @@
      - A net force causes [[acceleration]]
 3. For every action there is an equal and opposite reaction
    - Mutual actions of two bodies upon each other are always equal and act in opposite directions
+   - The "action" force and the "reaction" force are acting on *different* objects
    - $\vec{F}_{AB} = -\vec{F}_{BA}$
 
 [[Physics]]
