@@ -14,6 +14,8 @@
     - Surrounding less dark region
 - Can become bigger than [[Earth]]
 
+![Sunspot Structure](/assets/second-brain/2021-01-31-12-19-29.png)
+
 ## Sunspot Cycle
 
 - Number of sunspots varies systematically
