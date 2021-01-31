@@ -47,12 +47,11 @@ a:not(.nav-item):not(.content-card) {
 }
 
 a:not(.content-card) {
-  @apply text-buzz-purple-light dark:text-buzz-purple-neon;
-  transition: border color 0.15s ease-in;
+  @apply text-buzz-purple-light dark:text-buzz-purple-neon transition duration-200 ease-in-out;
 }
 
 a:not(.content-card):hover {
-  @apply text-buzz-purple-neon border-buzz-purple-neon border-solid dark:text-buzz-purple-light dark:border-buzz-purple-light;
+  @apply text-buzz-purple-neon border-buzz-purple-neon dark:text-buzz-purple-light dark:border-buzz-purple-light;
 }
 
 h1 {

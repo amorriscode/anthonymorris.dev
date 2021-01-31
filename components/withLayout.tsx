@@ -21,11 +21,9 @@ function withLayout(PageComponent: any) {
 
     return (
       <>
-        <header className="container mx-auto md:pb-24 md:grid px-4 grid-cols-4 gap-8">
-          <div className="col-span-1"></div>
-
-          <div className="col-span-2 py-4 flex justify-between items-center">
-            <div className="relative hover:cursor-pointer">
+        <header className="container mx-auto max-w-2xl px-4 pb-12 md:pb-24 mt-8">
+          <div className="flex justify-between items-center">
+            <div className="logo relative hover:cursor-pointer">
               <div
                 className="relative z-10 uppercase font-extrabold bg-buzz-purple-light dark:bg-buzz-purple-neon hover:bg-buzz-purple-neon dark:hover:bg-buzz-purple-light text-white rounded p-2 transform rotate-45"
                 onMouseEnter={() => setShowMemoji(true)}
@@ -34,7 +32,11 @@ function withLayout(PageComponent: any) {
               >
                 am
               </div>
-              <div className="absolute  bg-buzz-green-neon w-full h-full rounded top-0 mt-1 transform rotate-45"></div>
+              <div className="bottom-block absolute bg-buzz-green-neon w-full h-full rounded top-0 mt-1 transform"></div>
+            </div>
+
+            <div className="hidden md:block">
+              <Nav />
             </div>
 
             <div className="hover:text-buzz-purple-neon hover:cursor-pointer">
@@ -48,16 +50,14 @@ function withLayout(PageComponent: any) {
               />
             </div>
           </div>
-        </header>
 
-        <div className="container mx-auto relative px-4 md:grid md:grid-cols-6 lg:grid-cols-4 gap-8">
-          <div className="col-span-1">
+          <div className="md:hidden mt-8">
             <Nav />
           </div>
+        </header>
 
-          <div className="md:col-span-5 col-span-2 lg:col-span-2 pt-8">
-            <PageComponent {...pageProps} />
-          </div>
+        <div className="max-w-2xl px-4 mx-auto">
+          <PageComponent {...pageProps} />
         </div>
 
         <footer className="relative overflow-hidden pb-4 md:p-8">
@@ -73,6 +73,27 @@ function withLayout(PageComponent: any) {
             right: 0;
             width: 180px;
             transition: 300ms bottom;
+          }
+
+          .logo .bottom-block {
+            transform: rotate(45deg);
+          }
+
+          .logo:hover .bottom-block {
+            opacity: 100;
+            animation: spin 1.5s cubic-bezier(0.76, 0, 0.24, 1);
+          }
+
+          @keyframes spin {
+            from {
+              transform: rotate(45deg);
+            }
+            60% {
+              transform: rotate(15deg);
+            }
+            to {
+              transform: rotate(405deg);
+            }
           }
         `}</style>
       </>
