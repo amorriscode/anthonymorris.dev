@@ -2,6 +2,8 @@
 
 ![Sample H-R diagram](/assets/second-brain/2021-01-24-16-39-34.png)
 
+![Simplified H-R diagram](/assets/second-brain/2021-01-31-15-27-56.png)
+
 - Hertzspring-Russell diagram
   - Named after [[Ejnar Hertzsprung]] and [[Henry Norris Russell]]
 - Plots [[luminosity]] on the $y$-axis
