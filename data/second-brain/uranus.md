@@ -50,6 +50,7 @@
 [the Solar System]: the-solar-system "The Solar System"
 [moon]: moon "Moon"
 [equator]: equator "Equator"
+[Moon]: moon "Moon"
 [the Moon]: the-moon "The Moon"
 [Ring System]: ring-system "Ring System"
 [Earth]: earth "Earth 🜨"

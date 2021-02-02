@@ -28,6 +28,7 @@
 [orbit]: orbit "Orbit"
 [gravity]: gravity "Gravity"
 [mass]: mass "Mass"
+[Mass]: mass "Mass"
 [telescope]: telescope "Telescope"
 [spectroscopy]: spectroscopy "Spectroscopy"
 [Isaac Newton]: isaac-newton "Isaac Newton"

@@ -10,6 +10,7 @@
 [electromagnetic radiation]: electromagnetic-radiation "Electromagnetic Radiation"
 [wavelength]: wavelength "Wavelength"
 [energy]: energy "Energy"
+[temperature]: temperature "Temperature"
 [Thermal Emission Spectrum]: thermal-emission-spectrum "Thermal Emission Spectrum"
 [Physics]: physics "Physics"
 [Astronomy]: astronomy "Astronomy"

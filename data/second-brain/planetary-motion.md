@@ -41,6 +41,7 @@
 [heliocentric model]: heliocentric-model "Heliocentric Model"
 [Johannes Kepler]: johannes-kepler "Johannes Kepler"
 [ellipse]: ellipse "Ellipse"
+[Orbit]: orbit "Orbit"
 [Sun]: sun "Sun"
 [Tycho Brahe]: tycho-brahe "Tycho Brahe"
 [angular momentum]: angular-momentum "Angular Momentum"

@@ -1,4 +1,3 @@
-
 # Wavelength
 
 - $\lambda$
