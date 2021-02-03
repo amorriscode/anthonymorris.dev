@@ -21,7 +21,7 @@ function withLayout(PageComponent: any) {
 
     return (
       <>
-        <header className="container mx-auto max-w-2xl px-4 pb-12 md:pb-24 mt-8">
+        <header className="container mx-auto max-w-3xl px-4 pb-12 md:pb-24 mt-8">
           <div className="flex justify-between items-center">
             <div className="logo relative hover:cursor-pointer">
               <div
@@ -56,7 +56,7 @@ function withLayout(PageComponent: any) {
           </div>
         </header>
 
-        <div className="max-w-2xl px-4 mx-auto">
+        <div className="max-w-3xl px-4 mx-auto">
           <PageComponent {...pageProps} />
         </div>
 
