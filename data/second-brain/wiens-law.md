@@ -6,7 +6,10 @@
 
 ## Formula
 
-$\lambda_{peak} = \frac{b}{t}$
+- $\lambda_{peak} = \frac{b}{t}$
+  - $\lambda_{peak}$ is the peak [[wavelength]]
+  - $T$ is the [[temperature]] of the object
+  - $b$ is the Wien's displacement constant
 
 [[Thermal Emission Spectrum]] [[Physics]] [[Astronomy]] [[Spectroscopy]]
 

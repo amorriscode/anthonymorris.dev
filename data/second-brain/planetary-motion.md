@@ -22,6 +22,7 @@
    - When $P$ is measured in years and $a$ is measured in [[astronomical unit]]s, the two sides are equal
    - Applies to all objects orbiting the [[Sun]]
    - Provides means for calculating objects relative distances from the [[Sun]]
+   - *Law of harmonies*
 
 ### Newton's Addition to the Third Law
 
@@ -41,7 +42,6 @@
 [heliocentric model]: heliocentric-model "Heliocentric Model"
 [Johannes Kepler]: johannes-kepler "Johannes Kepler"
 [ellipse]: ellipse "Ellipse"
-[Orbit]: orbit "Orbit"
 [Sun]: sun "Sun"
 [Tycho Brahe]: tycho-brahe "Tycho Brahe"
 [angular momentum]: angular-momentum "Angular Momentum"
