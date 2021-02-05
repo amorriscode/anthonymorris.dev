@@ -13,6 +13,8 @@ body {
 .prose h1,
 .prose h2,
 .prose h3,
+.prose h4,
+.prose h5,
 .prose thead {
   @apply dark:text-buzz-white;
 }
@@ -66,22 +68,32 @@ h3 {
   @apply text-2xl mb-4 font-bold;
 }
 
+h4 {
+  @apply text-xl mb-4 font-bold;
+}
+
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   @apply flex;
 }
 
 h1 a,
 h2 a,
-h3 a {
+h3 a,
+h4 a,
+h5 a {
   @apply mt-1 ml-2 opacity-0 transition-opacity duration-200 ease-in-out;
   border: none !important;
 }
 
 h1:hover a,
 h2:hover a,
-h3:hover a {
+h3:hover a,
+h4:hover a,
+h5:hover a {
   opacity: 1 !important;
 }
 

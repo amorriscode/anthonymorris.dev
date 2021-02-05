@@ -26,6 +26,9 @@ module.exports = {
             'ul > li::before': {
               'background-color': '#e200b9',
             },
+            'ol > li::before': {
+              color: '#e200b9',
+            },
             img: {
               'margin-left': 'auto',
               'margin-right': 'auto',

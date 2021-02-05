@@ -45,7 +45,7 @@
 ## Luminosity
 
 - How much light a star is emitting
-- [[Photometry]] is used for measuring magnitudes
+- [[Photometry]] is used for measuring apparent magnitudes
 
 ## Types of Stars
 

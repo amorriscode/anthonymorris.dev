@@ -1,4 +1,4 @@
-# Blackbody
+ # Blackbody
 
 ![Radiation laws](/assets/second-brain/2020-10-05-13-47-45.png)
 
