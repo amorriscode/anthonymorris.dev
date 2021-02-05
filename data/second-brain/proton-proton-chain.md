@@ -12,7 +12,7 @@
 1. ${}^1H + {}^1H \rarr {}^2H + e^+ + v_e$
    - Two [[proton]]s fuse
    - Make [[deuterium]], one [[positron]], and one [[neutrino]]
-2. ${}^1H + {}^2H \rarr {}^3He + γ$
+2. ${}^1H + {}^2H \rarr {}^3He + \gamma$
    - [[Deuterium]] nucleus fuses with a [[proton]]
    - Makes [[helium]]-3, [[gamma ray]]
 3. ${}^3He + {}^3He \rarr {}^4He + {}^1H + {}^1 H$

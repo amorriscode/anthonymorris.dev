@@ -24,7 +24,7 @@
 | Diameter                | 1. Measure the way a star's [[light]] is blocked by [[the Moon]]                      |
 |                         | 2. Measure the [[light]] curves and [[Doppler shift]]s for eclipsing [[binary star]]s |
 
-## Measuring Distance from [[Earth]]
+## Measuring Distance from Earth
 
 1. [[Parallax]]
 2. Using brightness measurements
@@ -112,22 +112,21 @@
 [proton]: proton "Proton"
 [helium]: helium "Helium"
 [temperature]: temperature "Temperature"
-[Luminosity]: luminosity "Luminosity"
-[Radial velocity]: radial-velocity "Radial Velocity"
-[Doppler shift]: doppler-shift "Doppler Shift"
+[luminosity]: luminosity "Luminosity"
 [radial velocity]: radial-velocity "Radial Velocity"
+[Doppler shift]: doppler-shift "Doppler Shift"
+[Mass]: mass "Mass"
 [binary star]: binary-star "Binary Star"
 [light]: light "Light"
 [the Moon]: the-moon "The Moon"
-[Earth]: earth "Earth 🜨"
 [Parallax]: parallax "Parallax"
 [H-R diagram]: h-r-diagram "H-R Diagram"
-[luminosity]: luminosity "Luminosity"
 [Sun]: sun "Sun"
 [Photometry]: photometry "Photometry"
 [Giant star]: giant-star "Giant Star"
 [White dwarf]: white-dwarf "White Dwarf"
 [hydrogen]: hydrogen "Hydrogen"
+[Hydrogen]: hydrogen "Hydrogen"
 [Annie Jump Cannon]: annie-jump-cannon "Annie Jump Cannon"
 [Methane]: methane "Methane"
 [Space]: space "Space"
