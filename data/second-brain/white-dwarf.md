@@ -5,6 +5,7 @@
 - Extremely dense
 - Dying [[star]]s
   - [[Fusion]] no longer occurs
+- Held up by electron degeneracy [[pressure]]
 
 [[Star]] [[Astronomy]]
 

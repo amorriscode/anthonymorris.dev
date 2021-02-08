@@ -12,17 +12,17 @@
 
 ## Measuring the Characteristics of Stars
 
-| Characteristic          | Technique                                                                             |
-| ----------------------- | ------------------------------------------------------------------------------------- |
-| Surface [[temperature]] | 1. Determine the colour (very rough)                                                  |
-|                         | 2. Measure the spectrum and get the spectral type                                     |
-| Chemical composition    | Determine which lines are present in the spectrum                                     |
-| [[Luminosity]]          | Measure the apparent brightness and compensate for distance                           |
-| [[Radial velocity]]     | Measure the [[Doppler shift]] in the spectrum                                         |
-| Rotation                | Measure the width of spectral lines                                                   |
-| [[Mass]]                | Measure the period and [[radial velocity]] curves of spectroscopic [[binary star]]s   |
-| Diameter                | 1. Measure the way a star's [[light]] is blocked by [[the Moon]]                      |
-|                         | 2. Measure the [[light]] curves and [[Doppler shift]]s for eclipsing [[binary star]]s |
+| Characteristic          | Technique                                                                           |
+| ----------------------- | ----------------------------------------------------------------------------------- |
+| Surface [[temperature]] | Determine the colour (very rough)                                                   |
+|                         | Measure the spectrum and get the spectral type                                      |
+| Chemical composition    | Determine which lines are present in the spectrum                                   |
+| [[Luminosity]]          | Measure the apparent brightness and compensate for distance                         |
+| [[Radial velocity]]     | Measure the [[Doppler shift]] in the spectrum                                       |
+| Rotation                | Measure the width of spectral lines                                                 |
+| [[Mass]]                | Measure the period and [[radial velocity]] curves of spectroscopic [[binary star]]s |
+| Diameter                | Measure the way a star's [[light]] is blocked by [[the Moon]]                       |
+|                         | Measure the [[light]] curves and [[Doppler shift]]s for eclipsing [[binary star]]s  |
 
 ## Measuring Distance from Earth
 
@@ -41,6 +41,11 @@
 
 - Knowing the [[mass]] of a star helps us estimate how long it will shine and what its ultimate fate will be
 - The smallest [[mass]] that a true star can have is about $\frac{1}{2}$ that of the [[Sun]]
+- Massive stars live for a short amount of time (die faster)
+  - They are brighter
+  - The brighter they are, the faster they burn
+  - More mass --> hotter core and denser core
+    - Makes [[fusion]] process happen faster
 
 ## Luminosity
 
@@ -91,13 +96,21 @@
 
 ## Colour and Temperature
 
-| Star Colour | Approxmiate Temperature |
+| Star Colour | Approximate Temperature |
 | ----------- | ----------------------- |
 | Blue        | 25,000 K                |
 | White       | 10,000 K                |
 | Yellow      | 6000 K                  |
 | Orange      | 4000 K                  |
 | Red         | 3000 K                  |
+
+## Formation
+
+- [[Jeans instability]]
+- [[Hydrostatic equilibrium]]
+  - Balance of [[pressure]] and [[gravity]]
+- Must be more than 0.08 solar masses to kickstart [[fusion]] and become a true star
+  - Otherwise they become [[brown dwarf]]s
 
 [[Space]] [[Astronomy]]
 
@@ -112,23 +125,27 @@
 [proton]: proton "Proton"
 [helium]: helium "Helium"
 [temperature]: temperature "Temperature"
-[luminosity]: luminosity "Luminosity"
-[radial velocity]: radial-velocity "Radial Velocity"
+[Luminosity]: luminosity "Luminosity"
+[Radial velocity]: radial-velocity "Radial Velocity"
 [Doppler shift]: doppler-shift "Doppler Shift"
-[Mass]: mass "Mass"
+[radial velocity]: radial-velocity "Radial Velocity"
 [binary star]: binary-star "Binary Star"
 [light]: light "Light"
 [the Moon]: the-moon "The Moon"
 [Parallax]: parallax "Parallax"
 [H-R diagram]: h-r-diagram "H-R Diagram"
+[luminosity]: luminosity "Luminosity"
 [Sun]: sun "Sun"
 [Photometry]: photometry "Photometry"
 [Giant star]: giant-star "Giant Star"
 [White dwarf]: white-dwarf "White Dwarf"
 [hydrogen]: hydrogen "Hydrogen"
-[Hydrogen]: hydrogen "Hydrogen"
 [Annie Jump Cannon]: annie-jump-cannon "Annie Jump Cannon"
 [Methane]: methane "Methane"
+[Jeans instability]: jeans-instability "Jeans Instability"
+[Hydrostatic equilibrium]: hydrostatic-equilibrium "Hydrostatic Equilibrium"
+[gravity]: gravity "Gravity"
+[brown dwarf]: brown-dwarf "Brown Dwarf"
 [Space]: space "Space"
 [Astronomy]: astronomy "Astronomy"
 [//end]: # "Autogenerated link references"
