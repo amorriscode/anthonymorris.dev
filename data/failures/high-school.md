@@ -9,7 +9,7 @@ When I was in high school, I suffered from depression. It crippled me. On most d
 
 I remember developing a bad relationship with school early on. My parents got divorced when I was twelve years old. My father worked out of town and I lived with him. If I didn't go to school, there weren't any consequences. My grades were fine. I even blocked the school's phone number so they couldn't leave messages on our answering machine.
 
-This attitude continued into high school. Back then I felt pretty confident that I wouldn't live passed my twenty first birthday. So why spend the rest of my time in high school? It definitely seemed logical at the time. Now it's the basis for the biggest failure in my life.
+This attitude continued into high school. Back then I felt pretty confident that I wouldn't live past my twenty first birthday. So why spend the rest of my time in high school? It definitely seemed logical at the time. Now it's the basis for the biggest failure in my life.
 
 You might argue that most of the things you learned in high school don't help you now. But no matter what you say, high school is important. Sure, we could improve our curriculums. There is a lot we can do to make school more engaging and beneficial. But it's better than the route I took.
 
