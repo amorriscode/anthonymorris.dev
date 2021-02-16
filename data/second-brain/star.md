@@ -27,6 +27,7 @@
 ## Measuring Distance from Earth
 
 1. [[Parallax]]
+   - Rely only on [[geometry]]
 2. Using brightness measurements
    - Look at the star, determine it's color spectrum (good indication of it's actual brightness)
    - Compare the actual brightness with the apparent brightness, they can determine the distance
@@ -49,50 +50,23 @@
 
 ## Luminosity
 
+- [[Luminosity]]
 - How much light a star is emitting
 - [[Photometry]] is used for measuring apparent magnitudes
 
 ## Types of Stars
 
 - [[H-R diagram]] helps plot [[luminosity]] against [[temperature]] or spectral type
-- Main sequence stars
+- [[Main sequence star]]s
   - Most populated
   - Generally hotter and more luminous
 - [[Giant star]]s
   - More luminous
   - More red
-- [[Super giant star]]s
+- [[Supergiant star]]s
   - Even more luminous
 - [[White dwarf]]s
   - Very faint but still hot
-
-### Spectral Classification
-
-- Originally we used a system based on the strength of [[hydrogen]] absorption lines
-  - Devised by [[Williamina Fleming]]
-  - Strongest [[hydrogen]] lines were A --> O
-  - [[Hydrogen]] lines alone are not that useful for classification
-- A new system was introduced based on decreasing [[temperature]]
-  - Introduced by [[Annie Jump Cannon]]
-  - Each class is further subdivided into 10 subclasses
-    - Using numbers 0 through 9
-  - [[Mnemonic]] for remembering:
-    - **O**h **B**e **A** **F**ine **G**irl, **K**iss **M**e
-
-#### Classes
-
-| Spectral Class | Colour       | Approximate Temperature | Principle Features                                                                                                             |
-| -------------- | ------------ | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| O              | Blue         | >30,000 K               | Neutral and ionized [[helium]] lines, weak [[hydrogen]] lines                                                                  |
-| B              | Blue-white   | 10,0000-30,000 K        | Neutral [[helium]] lines, strong [[hydrogen]] lines                                                                            |
-| A              | White        | 7500-10,000 K           | Strongest [[hydrogen]] lines, weak ionized [[calcium]] lines, weak ionized metal lines                                         |
-| F              | Yellow-white | 6000-7500 K             | Strong [[hydrogen]] lines, strong ionized [[calcium]] lines, weak [[sodium]] lines, many ionized metal lines                   |
-| G              | Yellow       | 5200-6000 K             | Weaker [[hydrogen]] lines, strong ionized [[calcium]] lines, strong [[sodium]] lines, many lines of ionized and neutral metals |
-| K              | Orange       | 3700-5200 K             | Very weak [[hydrogen]] lines, strong ionized [[calcium]] lines, strong [[sodium]] lines, many lines of neutral metals          |
-| M              | Red          | 2400-3700 K             | Strong lines of neutral metals and molecular bands of [[titanium oxide]] dominate                                              |
-| L              | Red          | 1300-2400 K             | Metal hydride lines, alkali metal lines                                                                                        |
-| T              | Magenta      | 700-1300 K              | [[Methane]] lines                                                                                                              |
-| Y              | Infrared     | < 700 K                 | [[Ammonia]] lines                                                                                                              |
 
 ## Colour and Temperature
 
@@ -137,11 +111,10 @@
 [luminosity]: luminosity "Luminosity"
 [Sun]: sun "Sun"
 [Photometry]: photometry "Photometry"
+[Main sequence star]: main-sequence-star "Main Sequence Star"
 [Giant star]: giant-star "Giant Star"
+[Supergiant star]: supergiant-star "Supergiant Star"
 [White dwarf]: white-dwarf "White Dwarf"
-[hydrogen]: hydrogen "Hydrogen"
-[Annie Jump Cannon]: annie-jump-cannon "Annie Jump Cannon"
-[Methane]: methane "Methane"
 [Jeans instability]: jeans-instability "Jeans Instability"
 [Hydrostatic equilibrium]: hydrostatic-equilibrium "Hydrostatic Equilibrium"
 [gravity]: gravity "Gravity"
