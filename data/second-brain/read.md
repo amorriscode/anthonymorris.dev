@@ -59,3 +59,4 @@ A list of things from around the web that I want to read. For my horrendously la
 - [That XOR Trick](https://florian.github.io/xor-trick)
 - [Game Design Perspective: Stardew Valley](https://www.pixelatedplaygrounds.com/sidequests/game-design-perspective-stardew-valley)
 - [Making GitHub’s new homepage fast and performant](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
+- [Best practices for REST API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
