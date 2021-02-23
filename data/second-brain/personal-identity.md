@@ -65,6 +65,7 @@
 [numerical identity]: numerical-identity "Numerical Identity"
 [qualitative identity]: qualitative-identity "Qualitative Identity"
 [John Locke]: john-locke "John Locke"
+[John Locke]: john-locke "John Locke"
 [David Hume]: david-hume "David Hume"
 [diversity]: diversity "Diversity"
 [Philosophy]: philosophy "Philosophy"

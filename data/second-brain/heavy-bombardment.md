@@ -19,6 +19,7 @@
 [planet]: planet "Planet"
 [the Moon]: the-moon "The Moon"
 [Earth]: earth "Earth 🜨"
+[planet]: planet "Planet"
 [Astronomy]: astronomy "Astronomy"
 [Space]: space "Space"
 [the Solar System]: the-solar-system "The Solar System"

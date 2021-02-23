@@ -41,6 +41,7 @@
 [Virtual machine]: virtual-machine "Virtual Machine"
 [computer memory]: computer-memory "Computer Memory"
 [arithmetic-logic-unit]: arithmetic-logic-unit "Arithmetic Logic Unit"
+[arithmetic-logic-unit]: arithmetic-logic-unit "Arithmetic Logic Unit"
 [ASCII]: ascii "ASCII"
 [input-output]: input-output "Input/Output"
 [Computer Science]: computer-science "Computer Science"

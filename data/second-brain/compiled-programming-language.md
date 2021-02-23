@@ -12,6 +12,7 @@
 [programming language]: programming-language "Programming Language"
 [compiler]: compiler "Compiler"
 [interpreter]: interpreter "Interpreter"
+[compiler]: compiler "Compiler"
 [machine code]: machine-code "Machine Code"
 [Rust]: rust "Rust"
 [C++]: c "C"

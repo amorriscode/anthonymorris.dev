@@ -30,6 +30,7 @@
 [galaxies]: galaxies "Galaxies"
 [Ultraviolet Rays]: ultraviolet-rays "Ultraviolet Rays"
 [light]: light "Light"
+[galaxies]: galaxies "Galaxies"
 [Radio Waves]: radio-waves "Radio Waves"
 [Physics]: physics "Physics"
 [Electromagnetic Spectrum]: electromagnetic-spectrum "Electromagnetic Spectrum"

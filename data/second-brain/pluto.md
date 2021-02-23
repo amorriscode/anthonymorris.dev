@@ -31,6 +31,7 @@
 [Pluto]: pluto "Pluto"
 [Charon]: charon "Charon"
 [moon]: moon "Moon"
+[Charon]: charon "Charon"
 [Space]: space "Space"
 [Astronomy]: astronomy "Astronomy"
 [Dwarf Planet]: dwarf-planet "Dwarf Planet"

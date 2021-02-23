@@ -18,6 +18,7 @@
 [physical layer]: physical-layer "Physical Layer (Layer 1)"
 [MAC address]: mac-address "MAC Address"
 [network layer]: network-layer "Network Layer (Layer 3)"
+[physical layer]: physical-layer "Physical Layer (Layer 1)"
 [Computer Science]: computer-science "Computer Science"
 [Networking]: networking "Networking"
 [OSI Model]: osi-model "OSI Model"

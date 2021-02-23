@@ -3,10 +3,10 @@
 - Intimate relationship between [[electricity]] and [[magnetism]]
 - Theory of electromagnetism developed by [[James Clark Maxwell]]
   - Deals with particles electric charges and their effects, especially when they are moving
-- Electric and magnetic field changes --> trigger each other
-  - Changing magnetic fields can produce electric currents
+- Electric and [[magnetic field]] changes --> trigger each other
+  - Changing [[magnetic field]]s can produce electric currents
     - Changing electric fields
-  - Changing electric fields can produce changing magnetic fields
+  - Changing electric fields can produce changing [[magnetic field]]s
 
 ## Electromagnetic Waves
 

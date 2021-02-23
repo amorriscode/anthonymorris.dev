@@ -28,6 +28,7 @@
 [IP address]: ip-address "IP Address"
 [TCP]: tcp "TCP (Transmission Control Protocol)"
 [LAN]: lan "LAN (Local Area Network)"
+[TCP]: tcp "TCP (Transmission Control Protocol)"
 [Networking]: networking "Networking"
 [Computer Science]: computer-science "Computer Science"
 [TCP-IP]: tcp-ip "TCP/IP"

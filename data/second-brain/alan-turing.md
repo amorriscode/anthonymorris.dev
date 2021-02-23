@@ -19,6 +19,7 @@
 [philosopher]: philosopher "Philosopher"
 [computer science]: computer-science "Computer Science"
 [artificial intelligence]: artificial-intelligence "Artificial Intelligence"
+[computer science]: computer-science "Computer Science"
 [Algorithm]: algorithm "Algorithm"
 [Turing machine]: turing-machine "Turing Machine"
 [Bletchley Park]: bletchley-park "Bletchley Park"

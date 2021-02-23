@@ -46,6 +46,7 @@
 [logic gate]: logic-gate "Logic Gates"
 [circuit]: circuit "Circuit"
 [computer]: computer "Computer"
+[computer]: computer "Computer"
 [Networking]: networking "Networking"
 [Internet]: internet "Internet"
 [Computer Science]: computer-science "Computer Science"

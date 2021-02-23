@@ -12,7 +12,7 @@
 - Diameter of 6790 km
   - Just over half of [[Earth]]'s diameter
   - Total surface area is close to the land area of [[Earth]]
-- No magnetic field in present day
+- No [[magnetic field]] in present day
 - Red colouring comes from [[iron]] oxides in the soil
 - Polar caps
   - Visible by the unaided [[eye]]
@@ -73,13 +73,19 @@
 [planetary motion]: planetary-motion "Planetary Motion"
 [Sun]: sun "Sun"
 [Earth]: earth "Earth 🜨"
+[Earth]: earth "Earth 🜨"
 [iron]: iron "Iron"
 [eye]: eye "Eye"
+[Earth]: earth "Earth 🜨"
+[Earth]: earth "Earth 🜨"
 [atmosphere]: atmosphere "Atmosphere"
 [water]: water "Water"
 [the Moon]: the-moon "The Moon"
+[Earth]: earth "Earth 🜨"
 [Venus]: venus "Venus ♀"
 [greenhouse effect]: greenhouse-effect "Greenhouse Effect"
+[water]: water "Water"
+[water]: water "Water"
 [Moon]: moon "Moon"
 [asteroid]: asteroid "Asteroid"
 [Astronomy]: astronomy "Astronomy"

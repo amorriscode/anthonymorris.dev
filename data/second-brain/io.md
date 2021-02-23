@@ -20,6 +20,7 @@
 [the Solar System]: the-solar-system "The Solar System"
 [Voyager mission]: voyager-mission "Voyager Mission"
 [volcano]: volcano "Volcano"
+[volcano]: volcano "Volcano"
 [Earth]: earth "Earth 🜨"
 [sulfur dioxide]: sulfur-dioxide "Sulfur Dioxide"
 [Tidal heating]: tidal-heating "Tidal Heating"
