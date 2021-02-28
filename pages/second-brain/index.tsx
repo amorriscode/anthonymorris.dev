@@ -85,7 +85,7 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const brainEntries = getAllContent('second-brain', ['content', 'slug'])
+  const brainEntries = getAllContent('second-brain', ['slug'])
 
   return {
     props: {

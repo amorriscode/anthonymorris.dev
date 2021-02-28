@@ -57,7 +57,13 @@ export function getContentBySlug(
 }
 
 export function getAllContent(type: string, fields: string[] = []) {
-  const slugs = getSlugs(getContentDirectory(type))
+  let slugs = getSlugs(getContentDirectory(type))
+
+  // Filter out daily entries from slugs
+  // as their content is probably not interesting to others
+  if (type === 'second-brain') {
+    slugs = slugs.filter(slug => !/\d{4}-\d{2}-\d{2}/g.test(slug))
+  }
 
   let content = slugs
     .map(slug => getContentBySlug(type, slug, fields))
