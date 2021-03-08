@@ -1,6 +1,7 @@
 # General Relativity
 
-- [[Matter]] tells space how to curve and space tells [[matter]] how to move
+- The presence of [[matter]] curves or warps the fabric of [[spacetime]]
+- [[Matter]] tells [[spacetime]]] how to curve and [[spacetime]] tells [[matter]] how to move
 
 [[Physics]]
 
