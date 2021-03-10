@@ -11,7 +11,7 @@ That is pretty neat, but did you know there are diamonds in space?
 
 A [[white dwarf]] is a star that has burned up all its fuel. It no longer has any nuclear fusion going on. They are extremely dense and have collapsed to a size similar to Earth.
 
-Since these stars are so dense and have cooled due to the lack of nuclear fusion, astronomers believe the remaining carbon in the stars have probably crystalized. Similar to how diamonds are formed on Earth!
+Since these stars are so dense and have cooled due to the lack of nuclear fusion, astronomers believe the remaining carbon in the stars have probably crystallized. Similar to how diamonds are formed on Earth!
 
 ---
 

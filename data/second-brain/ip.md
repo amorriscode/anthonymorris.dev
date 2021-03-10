@@ -13,11 +13,23 @@
     - To ensure messages are put back together in proper order
     - To ensure each message reaches the correct application on receiving host
 
-## IPv4 Packet
+## IP Packet
+
+- The smallest unit used to describe data being sent over IP (aside from bytes)
+- $2^{16}$ bytes
+  - Not very large
+- Consists of:
+  - An IP header
+    - The source and destination [[IP address]]es
+    - Other information related to the [[network]]
+  - A payload
+    - Data being sent over the [[network]]
+
+### IPv4 Packet
 
 ![IPv4 packet](/assets/second-brain/2020-09-29-17-40-14.png)
 
-## IPv6 Packet
+### IPv6 Packet
 
 ![IPv6 packet](/assets/second-brain/2020-09-29-17-40-40.png)
 
@@ -28,7 +40,7 @@
 [IP address]: ip-address "IP Address"
 [TCP]: tcp "TCP (Transmission Control Protocol)"
 [LAN]: lan "LAN (Local Area Network)"
-[TCP]: tcp "TCP (Transmission Control Protocol)"
+[network]: network "Network"
 [Networking]: networking "Networking"
 [Computer Science]: computer-science "Computer Science"
 [TCP-IP]: tcp-ip "TCP/IP"
