@@ -13,6 +13,7 @@
   "dependencies": {
     "date-fns": "^2.13.0",
     "gray-matter": "^4.0.2",
+    "gsap": "^3.6.0",
     "hastscript": "^6.0.0",
     "next": "^10.0.2",
     "next-seo": "^4.17.0",
