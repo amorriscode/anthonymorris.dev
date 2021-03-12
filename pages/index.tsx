@@ -1,11 +1,19 @@
 import { useRef, useEffect } from 'react'
 import { NextSeo } from 'next-seo'
+import { GetStaticProps } from 'next'
 import { gsap } from 'gsap/dist/gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
+import Link from 'next/link'
+
+import { getAllContent } from '../lib/api'
+
+import { Project, Writing } from '../types'
 
 import withLayout from '../components/withLayout'
+import ShowcaseCard from '../components/ShowcaseCard'
 
-function Home() {
+function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
   const headerRef = useRef<HTMLElement>(null)
   gsap.registerPlugin(ScrollTrigger)
 
@@ -35,9 +43,11 @@ function Home() {
       header.querySelector('.bg-container'),
       {
         borderRadius: 0,
+        padding: '5rem',
       },
       {
         borderRadius: '1rem',
+        padding: '2.5rem',
         scrollTrigger: {
           trigger: header,
           pin: true,
@@ -87,9 +97,86 @@ function Home() {
         </div>
       </header>
 
-      <main></main>
+      <main className="m-10 px-10 space-y-20">
+        <section className="space-y-4">
+          <div className="flex justify-between items-center">
+            <h2 className="text-4xl font-am">Projects</h2>
+
+            <Link href="/projects">
+              <a className="flex items-center space-x-1">
+                <span>View all projects</span> <HiOutlineArrowNarrowRight />
+              </a>
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-4 gap-8">
+            {projects.map(
+              ({ title, slug, description, heroImage, status, date }) => (
+                <ShowcaseCard
+                  title={title}
+                  href={`/projects/${slug}`}
+                  description={description}
+                  heroImage={heroImage}
+                  status={status}
+                  date={date}
+                />
+              )
+            )}
+          </div>
+        </section>
+
+        <section className="space-y-4">
+          <div className="flex justify-between items-center">
+            <h2 className="text-4xl font-am">Words</h2>
+
+            <Link href="/words">
+              <a className="flex items-center space-x-1">
+                <span>View all writing</span> <HiOutlineArrowNarrowRight />
+              </a>
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-4 gap-8">
+            {words.map(({ title, slug, description, heroImage, date }) => (
+              <ShowcaseCard
+                title={title}
+                href={`/words/${slug}`}
+                description={description}
+                heroImage={heroImage}
+                date={date}
+              />
+            ))}
+          </div>
+        </section>
+      </main>
     </>
   )
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  const projects = getAllContent('projects', [
+    'title',
+    'slug',
+    'description',
+    'heroImage',
+    'date',
+    'status',
+  ])
+
+  const words = getAllContent('words', [
+    'title',
+    'slug',
+    'description',
+    'heroImage',
+    'date',
+  ])
+
+  return {
+    props: {
+      projects: projects.slice(0, 4),
+      words: words.slice(0, 4),
+    },
+  }
 }
 
 export default withLayout(Home)
