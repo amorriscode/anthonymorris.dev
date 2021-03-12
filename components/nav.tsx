@@ -1,12 +1,14 @@
-import { IoMoon, IoSunny } from 'react-icons/io5'
-import { useTheme } from 'next-themes'
 import { useRouter } from 'next/router'
+
+// Reserve the right to have dark mode in the future
+// import { IoMoon, IoSunny } from 'react-icons/io5'
+// import { useTheme } from 'next-themes'
 
 import NavLink from './navLink'
 
 function Nav() {
-  const { setTheme } = useTheme()
   const router = useRouter()
+  // const { setTheme } = useTheme()
 
   return (
     <nav className="fixed top-0 px-10 py-5 w-full z-10 font-am flex justify-between">
@@ -25,13 +27,13 @@ function Nav() {
 
         <NavLink title="words" />
 
-        <div className="hover:cursor-pointer hover:text-am-green-light">
+        {/* <div className="hover:cursor-pointer hover:text-am-green-light">
           <IoMoon
             className="hidden dark:block"
             onClick={() => setTheme('light')}
           />
           <IoSunny className="dark:hidden" onClick={() => setTheme('dark')} />
-        </div>
+        </div> */}
       </div>
     </nav>
   )
