@@ -28,14 +28,10 @@ function ShowcaseCard({
           <div className="px-4">
             <div className="flex justify-between items-center">
               <div className="font-am font-medium">{title}</div>
-              {status && <div className="text-xs">{status}</div>}
-            </div>
-
-            {!status && (
               <div className="text-xs">
-                written {format(new Date(date), 'MMMM do, y')}
+                {status || format(new Date(date), 'MMM d, y')}
               </div>
-            )}
+            </div>
           </div>
         </a>
       </Link>
@@ -43,6 +39,14 @@ function ShowcaseCard({
       <style jsx>{`
         a:hover > .bg-img {
           transform: translateY(-0.5rem);
+          --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+            0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+            var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+        }
+
+        a:hover {
+          color: #47ff75 !important;
         }
       `}</style>
     </>

@@ -103,16 +103,21 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
             <h2 className="text-4xl font-am">Projects</h2>
 
             <Link href="/projects">
-              <a className="flex items-center space-x-1">
-                <span>View all projects</span> <HiOutlineArrowNarrowRight />
+              <a className="flex items-center space-x-1 text-sm">
+                <span>all projects</span>
+
+                <div className="arrow  transition-all duration-300">
+                  <HiOutlineArrowNarrowRight />
+                </div>
               </a>
             </Link>
           </div>
 
-          <div className="grid grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
             {projects.map(
               ({ title, slug, description, heroImage, status, date }) => (
                 <ShowcaseCard
+                  key={slug}
                   title={title}
                   href={`/projects/${slug}`}
                   description={description}
@@ -130,15 +135,20 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
             <h2 className="text-4xl font-am">Words</h2>
 
             <Link href="/words">
-              <a className="flex items-center space-x-1">
-                <span>View all writing</span> <HiOutlineArrowNarrowRight />
+              <a className="flex items-center space-x-1 text-sm">
+                <span>all writing</span>
+
+                <div className="arrow  transition-all duration-300">
+                  <HiOutlineArrowNarrowRight />
+                </div>
               </a>
             </Link>
           </div>
 
-          <div className="grid grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
             {words.map(({ title, slug, description, heroImage, date }) => (
               <ShowcaseCard
+                key={slug}
                 title={title}
                 href={`/words/${slug}`}
                 description={description}
@@ -149,6 +159,12 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
           </div>
         </section>
       </main>
+
+      <style jsx>{`
+        a:hover > .arrow {
+          transform: translateX(0.25rem);
+        }
+      `}</style>
     </>
   )
 }

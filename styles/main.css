@@ -3,5 +3,9 @@
 @import 'tailwindcss/utilities';
 
 body {
-  @apply bg-am-white;
+  @apply bg-am-white text-am-black;
+}
+
+a:hover {
+  @apply text-am-green-light;
 }
