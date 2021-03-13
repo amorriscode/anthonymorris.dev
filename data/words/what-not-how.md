@@ -3,6 +3,7 @@ title: "What Not How"
 description: "Putting the ego aside and focusing on users."
 date: "2020-09-04T00:00:00"
 tags: ["Essay", "Opinion"]
+heroImage: "/assets/words/what-not-how/hero-image.jpg"
 ---
 
 Over the last year I've launched a [couple](/projects/wrabit) [of](/projects/bard) [things](/projects/we-watch-tech). I adopted a mindset of finishing over starting. Before committing to finishing, I was the type of person to chase down new ideas left and right. It was hard to focus on one thing. There are just too many exciting things to build!

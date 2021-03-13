@@ -20,10 +20,7 @@ function ShowcaseCard({
     <>
       <Link href={href}>
         <a className="space-y-2">
-          <div
-            className="bg-img bg-am-black w-full h-56 rounded-lg transition-all duration-300"
-            style={{ backgroundImage: `url(${heroImage})` }}
-          ></div>
+          <div className="bg-img w-full h-56 rounded-lg transition-all duration-300 bg-center bg-cover"></div>
 
           <div className="px-4">
             <div className="flex justify-between items-center">
@@ -37,16 +34,17 @@ function ShowcaseCard({
       </Link>
 
       <style jsx>{`
-        a:hover > .bg-img {
+        .bg-img {
+          background-image: url(${heroImage});
+        }
+
+        a:hover .bg-img {
           transform: translateY(-0.5rem);
+          filter: grayscale(100%) contrast(1);
           --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
             0 10px 10px -5px rgba(0, 0, 0, 0.04);
           box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
             var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-        }
-
-        a:hover {
-          color: #47ff75 !important;
         }
       `}</style>
     </>
