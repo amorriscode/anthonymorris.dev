@@ -5,6 +5,7 @@ import { gsap } from 'gsap/dist/gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 import Link from 'next/link'
+import { format } from 'date-fns'
 
 import { getAllContent } from '../lib/api'
 
@@ -98,73 +99,77 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
       </header>
 
       <main className="m-10 px-10 space-y-20">
-        <section className="space-y-4">
-          <div className="flex justify-between items-center">
-            <h2 className="text-4xl font-am">Projects</h2>
+        <section className="grid grid-cols-2 gap-56">
+          <div className="col-span-1 space-y-8">
+            <div className="flex justify-between items-center">
+              <h2 className="text-4xl font-am">Projects</h2>
 
-            <Link href="/projects">
-              <a className="flex items-center space-x-1 text-sm">
-                <span>all projects</span>
+              <div className="arrow-link flex items-center space-x-1">
+                <Link href="/projects">
+                  <a className="text-sm">
+                    <span>all projects</span>
+                  </a>
+                </Link>
 
-                <div className="arrow  transition-all duration-300">
+                <div className="arrow transition-all duration-300">
                   <HiOutlineArrowNarrowRight />
                 </div>
-              </a>
-            </Link>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              {projects.map(({ title, slug, description, status }) => (
+                <Link key={slug} href={`/projects/${slug}`}>
+                  <a className="block">
+                    <div className="flex justify-between items-center">
+                      <div className="font-am font-medium">{title}</div>
+                      <div className="text-xs">{status}</div>
+                    </div>
+
+                    <div className="text-sm">{description}</div>
+                  </a>
+                </Link>
+              ))}
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-            {projects.map(
-              ({ title, slug, description, heroImage, status, date }) => (
-                <ShowcaseCard
-                  key={slug}
-                  title={title}
-                  href={`/projects/${slug}`}
-                  description={description}
-                  heroImage={heroImage}
-                  status={status}
-                  date={date}
-                />
-              )
-            )}
-          </div>
-        </section>
+          <div className="col-span-1 space-y-8">
+            <div className="flex justify-between items-center">
+              <h2 className="text-4xl font-am">Words</h2>
 
-        <section className="space-y-4">
-          <div className="flex justify-between items-center">
-            <h2 className="text-4xl font-am">Words</h2>
+              <div className="arrow-link flex items-center space-x-1">
+                <Link href="/words">
+                  <a className="text-sm">
+                    <span>all writing</span>
+                  </a>
+                </Link>
 
-            <Link href="/words">
-              <a className="flex items-center space-x-1 text-sm">
-                <span>all writing</span>
-
-                <div className="arrow  transition-all duration-300">
+                <div className="arrow transition-all duration-300">
                   <HiOutlineArrowNarrowRight />
                 </div>
-              </a>
-            </Link>
-          </div>
+              </div>
+            </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-            {words.map(({ title, slug, description, heroImage, date }) => (
-              <ShowcaseCard
-                key={slug}
-                title={title}
-                href={`/words/${slug}`}
-                description={description}
-                heroImage={heroImage}
-                date={date}
-              />
-            ))}
+            <div className="space-y-8">
+              {words.map(({ title, slug, description, heroImage, date }) => (
+                <Link key={slug} href={`/words/${slug}`}>
+                  <a className="block">
+                    <div className="flex justify-between items-center">
+                      <div className="font-am font-medium">{title}</div>
+
+                      <div className="text-xs">
+                        {format(new Date(date), 'MMM d, y')}
+                      </div>
+                    </div>
+
+                    <div className="text-sm">{description}</div>
+                  </a>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
       </main>
-
-      <style jsx>{`
-        a:hover > .arrow {
-          transform: translateX(0.25rem);
-        }
-      `}</style>
     </>
   )
 }
@@ -174,17 +179,17 @@ export const getStaticProps: GetStaticProps = async () => {
     'title',
     'slug',
     'description',
-    'heroImage',
     'date',
     'status',
+    'heroImage',
   ])
 
   const words = getAllContent('words', [
     'title',
     'slug',
     'description',
-    'heroImage',
     'date',
+    'heroImage',
   ])
 
   return {

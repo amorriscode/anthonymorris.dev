@@ -7,5 +7,10 @@ body {
 }
 
 a:hover {
-  @apply text-am-green-light;
+  @apply text-am-green-light transition-all duration-300;
+}
+
+.arrow-link:hover .arrow {
+  transform: translateX(0.25rem);
+  @apply text-am-green-light transition-all duration-300;
 }
