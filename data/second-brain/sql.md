@@ -3,6 +3,7 @@
 - Structured Query Language
 - Comprehensive [[relational database]] language
 - Used for data manipulation and queries
+- Requires [[ACID transaction]]s
 
 ## Math Operations
 

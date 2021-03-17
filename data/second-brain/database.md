@@ -1,6 +1,13 @@
 # Database
 
+- Programs that use either disk or [[computer memory]] to:
+  - Record data
+  - Query data
+
+## Types
+
 - [[Relational database]]s
+- [[Non-relational database]]s
 
 [[Computer Science]]
 
