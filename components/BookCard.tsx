@@ -11,14 +11,14 @@ function BookCard({ book }: { book: Book }) {
       <Link href="/books/[slug]" as={`/books/${book.slug}`} passHref>
         <a className="content-card block">
           <div className="flex justify-between items-center">
-            <div className="text-lg font-bold mb-1">{book.title}</div>
+            <div className="text-lg font-medium mb-1 font-am">{book.title}</div>
 
-            <div className="book-rating text-sm border-b border-buzz-green-neon border-dashed">
+            <div className="book-rating text-xs">
               <BookRating rating={book.rating} />
             </div>
 
-            <div className="book-read-date hidden text-sm border-b border-buzz-green-neon border-dashed">
-              finished on {format(new Date(book.readDate), 'MMMM do, y')}
+            <div className="book-read-date hidden text-xs">
+              finished on {format(new Date(book.readDate), 'MMM do, y')}
             </div>
           </div>
 

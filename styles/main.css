@@ -49,7 +49,7 @@ h2,
 h3,
 h4,
 h5 {
-  @apply flex;
+  @apply flex font-am font-medium !important;
 }
 
 h1 a,

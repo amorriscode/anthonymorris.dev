@@ -16,7 +16,8 @@ import { getAllContent } from '../lib/api'
 import { Project, Writing } from '../types'
 
 import withLayout from '../components/withLayout'
-import ShowcaseCard from '../components/ShowcaseCard'
+import ProjectCard from '../components/ProjectCard'
+import WritingCard from '../components/WritingCard'
 
 function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
   const headerRef = useRef<HTMLElement>(null)
@@ -122,17 +123,8 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
             </div>
 
             <div className="space-y-10">
-              {projects.map(({ title, slug, description, status }) => (
-                <Link key={slug} href={`/projects/${slug}`}>
-                  <a className="block">
-                    <div className="flex justify-between items-center">
-                      <div className="font-am font-medium">{title}</div>
-                      <div className="text-xs">{status}</div>
-                    </div>
-
-                    <div className="text-sm">{description}</div>
-                  </a>
-                </Link>
+              {projects.map((project) => (
+                <ProjectCard project={project} />
               ))}
             </div>
           </div>
@@ -155,20 +147,8 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
             </div>
 
             <div className="space-y-10">
-              {words.map(({ title, slug, description, heroImage, date }) => (
-                <Link key={slug} href={`/words/${slug}`}>
-                  <a className="block">
-                    <div className="flex justify-between items-center">
-                      <div className="font-am font-medium">{title}</div>
-
-                      <div className="text-xs">
-                        {format(new Date(date), 'MMM d, y')}
-                      </div>
-                    </div>
-
-                    <div className="text-sm">{description}</div>
-                  </a>
-                </Link>
+              {words.map((writing) => (
+                <WritingCard writing={writing} />
               ))}
             </div>
           </div>

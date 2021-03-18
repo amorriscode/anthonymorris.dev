@@ -7,11 +7,11 @@ function ProjectCard({ project }: { project: Project }) {
     <Link href="/projects/[slug]" as={`/projects/${project.slug}`} passHref>
       <a className="content-card block">
         <div className="flex justify-between items-center">
-          <div className="text-lg font-bold mb-1">{project.title}</div>
-
-          <div className="text-sm border-b border-buzz-green-neon border-dashed">
-            {project.status}
+          <div className="text-lg font-medium mb-1 font-am">
+            {project.title}
           </div>
+
+          <div className="text-xs">{project.status}</div>
         </div>
 
         <div className="text-sm">{project.description}</div>

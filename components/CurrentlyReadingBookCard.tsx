@@ -11,9 +11,9 @@ function CurrentlyReadingBookCard({ book }: { book: CurrentlyReadingBook }) {
       className="content-card block hover:cursor-pointer"
     >
       <div className="flex justify-between items-center">
-        <div className="text-lg font-bold mb-1">{book.title}</div>
+        <div className="text-lg font-medium mb-1">{book.title}</div>
 
-        <div className="text-sm border-b border-buzz-green-neon border-dashed">
+        <div className="text-sm border-b border-am-green-light border-dashed">
           started on {format(new Date(book.startedDate), 'MMMM do, y')}
         </div>
       </div>

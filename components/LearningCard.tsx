@@ -8,9 +8,11 @@ function LearningCard({ learning }: { learning: Learning }) {
     <Link href="/til/[slug]" as={`/til/${learning.slug}`} passHref>
       <a className="content-card block">
         <div className="flex justify-between items-center">
-          <div className="text-lg font-bold mb-1">{learning.title}</div>
+          <div className="text-lg font-medium mb-1 font-am">
+            {learning.title}
+          </div>
 
-          <div className="text-sm border-b border-buzz-green-neon border-dashed">
+          <div className="text-xs">
             {format(new Date(learning.date), 'MMMM do, y')}
           </div>
         </div>
