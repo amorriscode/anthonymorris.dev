@@ -21,7 +21,7 @@ function TIL({ learnings }: { learnings: Learning[] }) {
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-10">
+      <header className="mx-auto max-w-3xl space-y-5">
         <h1 className="text-4xl font-am px-10">today i learned</h1>
 
         <PageSummary>
