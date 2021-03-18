@@ -9,18 +9,15 @@ function NavLink({ title, path }: { title: string; path?: string }) {
   const [isHover, setIsHover] = useState(false)
 
   return (
-    <>
-      <div className="hover:text-am-green-light">
-        <Link href={linkPath}>
-          <a
-            onMouseEnter={() => setIsHover(true)}
-            onMouseLeave={() => setIsHover(false)}
-          >
-            {title}
-          </a>
-        </Link>
-      </div>
-    </>
+    <Link href={linkPath}>
+      <a
+        onMouseEnter={() => setIsHover(true)}
+        onMouseLeave={() => setIsHover(false)}
+        className={`${isActive && 'text-am-green-light'}`}
+      >
+        {title}
+      </a>
+    </Link>
   )
 }
 

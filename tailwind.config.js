@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         'am-black': '#1d1d1d',
         'am-white': '#fbfbfb',
-        'am-green-light': '#47ff75',
+        'am-green-light': '#0AFF47',
         'am-green-dark': '#005214',
       },
       fontFamily: {

@@ -12,10 +12,10 @@ function CurrentlyReading() {
   if (!data?.currentlyReading.length) return <></>
 
   return (
-    <div className="bg-buzz-white bg-opacity-50 dark:bg-opacity-25 dark:bg-buzz-purple-light rounded-lg p-6">
-      <h3>Currently Reading</h3>
+    <div className="rounded-lg bg-am-black text-am-white p-10">
+      <h3 className="font-am text-2xl mb-5">Currently Reading</h3>
 
-      <div className="space-y-6">
+      <div className="space-y-10">
         {data.currentlyReading.map((book: CurrentlyReadingBook) => (
           <CurrentlyReadingBookCard key={book.goodreadsUrl} book={book} />
         ))}

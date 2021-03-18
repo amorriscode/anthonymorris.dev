@@ -14,3 +14,65 @@ a:hover {
   transform: translateX(0.25rem);
   @apply text-am-green-light transition-all duration-300;
 }
+
+.page-summary.prose a,
+.backlink-container.prose a,
+.bg-am-black h2,
+.prose blockquote a {
+  @apply text-am-white;
+}
+
+.page-summary.prose a:hover,
+.backlink-container.prose a:hover,
+.prose blockquote a:hover {
+  @apply text-am-green-light transition-all duration-300;
+}
+
+::-moz-selection {
+  @apply bg-am-green-light;
+}
+
+::selection {
+  @apply bg-am-green-light;
+}
+
+.katex-display {
+  @apply inline-block my-0 !important;
+}
+
+img {
+  @apply rounded-lg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply flex;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  @apply mt-1 ml-2 opacity-0 transition-opacity duration-200 ease-in-out;
+  border: none !important;
+}
+
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a,
+h5:hover a {
+  opacity: 1 !important;
+}
+
+.prose blockquote {
+  @apply rounded-lg p-10 max-w-full text-am-white border-none bg-am-black;
+}
+
+.prose blockquote p {
+  @apply p-0;
+}

@@ -22,30 +22,30 @@ function FailurePage({ failure }: { failure: Failure }) {
         }}
       />
 
-      <main>
-        <h1 className="leading-none">{failure.title}</h1>
+      <header className="mx-auto max-w-3xl space-y-5">
+        <div className="px-10">
+          <h1 className="text-4xl font-am">{failure.title}</h1>
 
-        <div className="text-xs pb-2">
-          failed {format(new Date(failure.date), 'MMMM do, y')}
+          <div className="text-xs">
+            failed {format(new Date(failure.date), 'MMMM do, y')}
+          </div>
         </div>
 
-        <article className="space-y-8">
-          <PageSummary>
-            <h3>Lessons Learned</h3>
+        <PageSummary>
+          <h2 className="font-am text-2xl">Lessons Learned</h2>
 
-            <ul>
-              {failure.lessons.map((lesson) => (
-                <li key={lesson}>{lesson}</li>
-              ))}
-            </ul>
-          </PageSummary>
+          <ul>
+            {failure.lessons.map((lesson) => (
+              <li key={lesson}>{lesson}</li>
+            ))}
+          </ul>
+        </PageSummary>
+      </header>
 
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: failure.content }}
-          />
-        </article>
-      </main>
+      <article
+        className="prose mx-auto max-w-3xl space-y-10 p-10"
+        dangerouslySetInnerHTML={{ __html: failure.content }}
+      />
     </>
   )
 }

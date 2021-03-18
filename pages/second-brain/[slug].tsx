@@ -40,31 +40,34 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
         openGraph={{ title: 'Second Brain 🧠' }}
       />
 
-      <main className="prose">
-        <div>
-          <span title="Part of my second brain">🧠</span>
-        </div>
+      <header className="mx-auto max-w-3xl space-y-5">
+        <h1 className="text-4xl font-am px-10" title="Part of my second brain">
+          🧠
+        </h1>
+      </header>
 
-        <div dangerouslySetInnerHTML={{ __html: brainEntry.content }} />
+      <article
+        className="prose mx-auto max-w-3xl p-10"
+        dangerouslySetInnerHTML={{ __html: brainEntry.content }}
+      />
 
-        {!!brainEntry.backlinks.length && (
-          <div className="mt-8 bg-buzz-white bg-opacity-50 dark:bg-opacity-25 dark:bg-buzz-purple-light rounded-lg rounded-tl-none rounded-tr-none border-t-4 border-buzz-green dark:border-buzz-green-neon dark:text-buzz-gray prose p-6 md:p-8">
-            <h3>Backlinks</h3>
+      {!!brainEntry.backlinks.length && (
+        <div className="backlink-container prose mx-auto max-w-3xl p-10 bg-am-black text-am-white rounded-lg mb-10">
+          <h2 className="font-am text-2xl font-light">Backlinks</h2>
 
-            <div className="flex flex-wrap justify-between">
-              {brainEntry.backlinks.map((backlink) => (
-                <Link
-                  key={backlink}
-                  href="/second-brain/[slug]"
-                  as={`/second-brain/${backlink}`}
-                >
-                  <a className="m-2">{backlink}</a>
-                </Link>
-              ))}
-            </div>
+          <div className="flex flex-wrap justify-between">
+            {brainEntry.backlinks.map((backlink) => (
+              <Link
+                key={backlink}
+                href="/second-brain/[slug]"
+                as={`/second-brain/${backlink}`}
+              >
+                <a className="m-2">{backlink}</a>
+              </Link>
+            ))}
           </div>
-        )}
-      </main>
+        </div>
+      )}
     </>
   )
 }

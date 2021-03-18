@@ -78,7 +78,7 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
   }, [])
 
   return (
-    <>
+    <div>
       <NextSeo
         title="There's no place like /home"
         description="A digital garden and second brain."
@@ -99,8 +99,8 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
       </header>
 
       <main className="m-10 px-10 space-y-20">
-        <section className="grid grid-cols-2 gap-56">
-          <div className="col-span-1 space-y-8">
+        <section className="grid grid-cols-1 md:grid-cols-2 md:gap-28 xl:gap-56 space-y-28 md:space-y-0">
+          <div className="col-span-1 space-y-10">
             <div className="flex justify-between items-center">
               <h2 className="text-4xl font-am">Projects</h2>
 
@@ -117,7 +117,7 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
               </div>
             </div>
 
-            <div className="space-y-8">
+            <div className="space-y-10">
               {projects.map(({ title, slug, description, status }) => (
                 <Link key={slug} href={`/projects/${slug}`}>
                   <a className="block">
@@ -133,7 +133,7 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
             </div>
           </div>
 
-          <div className="col-span-1 space-y-8">
+          <div className="col-span-1 space-y-10">
             <div className="flex justify-between items-center">
               <h2 className="text-4xl font-am">Words</h2>
 
@@ -150,7 +150,7 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
               </div>
             </div>
 
-            <div className="space-y-8">
+            <div className="space-y-10">
               {words.map(({ title, slug, description, heroImage, date }) => (
                 <Link key={slug} href={`/words/${slug}`}>
                   <a className="block">
@@ -170,7 +170,7 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
           </div>
         </section>
       </main>
-    </>
+    </div>
   )
 }
 
