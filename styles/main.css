@@ -3,73 +3,45 @@
 @import 'tailwindcss/utilities';
 
 body {
-  @apply text-buzz-gray dark:bg-buzz-purple-dark dark:text-buzz-white;
+  @apply bg-am-white text-am-black;
 }
 
-.prose {
-  @apply dark:text-buzz-white;
+a:hover {
+  @apply text-am-green-light transition-all duration-300;
 }
 
-.prose h1,
-.prose h2,
-.prose h3,
-.prose h4,
-.prose h5,
-.prose thead {
-  @apply dark:text-buzz-white;
+.arrow-link:hover .arrow {
+  transform: translateX(0.25rem);
+  @apply text-am-green-light transition-all duration-300;
 }
 
-.prose strong {
-  @apply dark:text-white font-extrabold;
+.page-summary.prose a,
+.backlink-container.prose a,
+.bg-am-black h2,
+.prose blockquote a {
+  @apply text-am-white;
 }
 
-.prose blockquote {
-  /* This is similar to PageSummary */
-  @apply bg-buzz-white bg-opacity-50 dark:text-buzz-white dark:bg-buzz-purple-light dark:bg-opacity-25 rounded-lg rounded-tl-none rounded-bl-none border-l-4 border-buzz-green dark:border-buzz-green-neon p-6 md:p-8 max-w-full;
-}
-
-.prose blockquote p br {
-  @apply mb-6;
-}
-
-.backlink-container.prose h3 {
-  @apply dark:text-buzz-gray;
+.page-summary.prose a:hover,
+.backlink-container.prose a:hover,
+.prose blockquote a:hover {
+  @apply text-am-green-light transition-all duration-300;
 }
 
 ::-moz-selection {
-  @apply bg-buzz-green-neon;
+  @apply bg-am-green-light;
 }
 
 ::selection {
-  @apply bg-buzz-green-neon;
+  @apply bg-am-green-light;
 }
 
-a:not(.nav-item):not(.content-card) {
-  @apply border-buzz-purple-light border-b border-dotted no-underline dark:border-buzz-purple-neon;
+.katex-display {
+  @apply inline-block my-0 !important;
 }
 
-a:not(.content-card) {
-  @apply text-buzz-purple-light dark:text-buzz-purple-neon transition duration-200 ease-in-out;
-}
-
-a:not(.content-card):hover {
-  @apply text-buzz-purple-neon border-buzz-purple-neon dark:text-buzz-purple-light dark:border-buzz-purple-light;
-}
-
-h1 {
-  @apply text-4xl mb-4 font-extrabold;
-}
-
-h2 {
-  @apply text-3xl mb-4 font-bold;
-}
-
-h3 {
-  @apply text-2xl mb-4 font-bold;
-}
-
-h4 {
-  @apply text-xl mb-4 font-bold;
+img {
+  @apply rounded-lg;
 }
 
 h1,
@@ -97,10 +69,10 @@ h5:hover a {
   opacity: 1 !important;
 }
 
-img {
-  @apply rounded-lg;
+.prose blockquote {
+  @apply rounded-lg p-10 max-w-full text-am-white border-none bg-am-black;
 }
 
-.katex-display {
-  @apply inline-block my-0 !important;
+.prose blockquote p {
+  @apply p-0;
 }

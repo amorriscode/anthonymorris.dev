@@ -23,14 +23,14 @@ function ProjectPage({ project }: { project: Project }) {
         }}
       />
 
-      <main>
-        {project?.image && (
-          <img className="mb-4" src={project.image} alt={project.title} />
+      <header className="mx-auto max-w-3xl space-y-5">
+        {project?.heroImage && (
+          <img className="mb-4" src={project.heroImage} alt={project.title} />
         )}
 
-        <h1 className="leading-none">{project.title}</h1>
+        <div className="px-10">
+          <h1 className="font-am text-4xl">{project.title}</h1>
 
-        <article className="space-y-8">
           <div className="text-xs space-x-2">
             <span>{project.status}</span>
 
@@ -52,28 +52,28 @@ function ProjectPage({ project }: { project: Project }) {
               </>
             )}
           </div>
+        </div>
 
-          {project?.sunsetDate && (
-            <PageSummary>
-              {project.title} has been laid to rest in my product graveyard.
-              {project?.postmortem && (
-                <>
-                  {' '}
-                  <Link href={project.postmortem}>
-                    <a>Read the postmortem</a>
-                  </Link>
-                  .
-                </>
-              )}
-            </PageSummary>
-          )}
+        {project?.sunsetDate && (
+          <PageSummary>
+            {project.title} has been laid to rest in my product graveyard.
+            {project?.postmortem && (
+              <>
+                {' '}
+                <Link href={project.postmortem}>
+                  <a>Read the postmortem</a>
+                </Link>
+                .
+              </>
+            )}
+          </PageSummary>
+        )}
+      </header>
 
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: project.content }}
-          />
-        </article>
-      </main>
+      <article
+        className="prose mx-auto max-w-3xl p-10"
+        dangerouslySetInnerHTML={{ __html: project.content }}
+      />
     </>
   )
 }

@@ -21,31 +21,31 @@ function LearningPage({ learning }: { learning: Learning }) {
         }}
       />
 
-      <main>
-        <h1 className="leading-none">{learning.title}</h1>
+      <header className="mx-auto max-w-3xl px-10 space-y-5">
+        <div>
+          <h1 className="font-am text-4xl">{learning.title}</h1>
 
-        <div className="text-xs pb-2">
-          learned {format(new Date(learning.date), 'MMMM do, y')}
+          <div className="text-xs">
+            learned {format(new Date(learning.date), 'MMMM do, y')}
+          </div>
         </div>
 
-        <article className="space-y-8">
-          <div className="flex space-x-2">
-            {learning.tags.map((tag) => (
-              <div
-                className="text-sm font-bold bg-buzz-purple-dark text-white px-4 py-1 rounded-lg"
-                key={tag}
-              >
-                {tag}
-              </div>
-            ))}
-          </div>
+        <div className="flex space-x-2">
+          {learning.tags.map((tag) => (
+            <div
+              className="text-sm font-bold bg-am-black text-white px-4 py-1 rounded-lg"
+              key={tag}
+            >
+              {tag}
+            </div>
+          ))}
+        </div>
+      </header>
 
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: learning.content }}
-          />
-        </article>
-      </main>
+      <article
+        className="prose mx-auto max-w-3xl p-10"
+        dangerouslySetInnerHTML={{ __html: learning.content }}
+      />
     </>
   )
 }

@@ -24,49 +24,45 @@ function Projects({ projects }: { projects: Project[] }) {
         }}
       />
 
-      <div className="container">
-        <main>
-          <h1 className="leading-none">Projects</h1>
+      <header className="mx-auto max-w-3xl space-y-5">
+        <h1 className="text-4xl font-am px-10">projects</h1>
 
-          <article className="space-y-8">
-            <PageSummary>
-              <p>
-                My father was always a handyperson. He worked on all sorts of
-                things around the house with varying degrees of success (he
-                almost lost his fingers in a fight with a table saw).
-              </p>
+        <PageSummary>
+          <p>
+            My father was always a handyperson. He worked on all sorts of things
+            around the house with varying degrees of success (he almost lost his
+            fingers in a fight with a table saw).
+          </p>
 
-              <p>
-                I never got that gift. I was awkward, clumsy, and preferred
-                playing on the computer. This lead me to{' '}
-                <Link href="/second-brain/programming">
-                  <a>programming</a>
-                </Link>{' '}
-                .{' '}
-                <span className="italic">That is where I learned to build</span>
-                .
-              </p>
+          <p>
+            I never got that gift. I was awkward, clumsy, and preferred playing
+            on the computer. This lead me to{' '}
+            <Link href="/second-brain/programming">
+              <a>programming</a>
+            </Link>{' '}
+            . <span className="italic">That is where I learned to build</span>.
+          </p>
 
-              <p>
-                This is my collection of projects. Big and small. Software and
-                hardware. It's kind of like my very{' '}
-                <a
-                  href="https://killedbygoogle.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Google Graveyard
-                </a>
-                .
-              </p>
-            </PageSummary>
+          <p>
+            This is my collection of projects. Big and small. Software and
+            hardware. It's kind of like my very{' '}
+            <a
+              href="https://killedbygoogle.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Graveyard
+            </a>
+            .
+          </p>
+        </PageSummary>
+      </header>
 
-            {projects.map((project) => (
-              <ProjectCard key={project.slug} project={project} />
-            ))}
-          </article>
-        </main>
-      </div>
+      <main className="mx-auto max-w-3xl space-y-10 p-10">
+        {projects.map((project) => (
+          <ProjectCard key={project.slug} project={project} />
+        ))}
+      </main>
     </>
   )
 }

@@ -1,5 +1,5 @@
 ---
-title: 'The Fifth season'
+title: 'The Fifth Season'
 description: 'A post apocalyptic fantasy novel with a fresh perspective.'
 date: '2021-02-19T00:00:00'
 readDate: '2021-02-19T00:00:00'

@@ -21,65 +21,65 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
         }}
       />
 
-      <div className="container">
-        <main>
-          <h1 className="leading-none">Second Brain</h1>
+      <header className="mx-auto max-w-3xl space-y-5">
+        <h1 className="text-4xl font-am px-10">second brain</h1>
 
-          <PageSummary>
-            <p>
-              A second brain is a place to capture and organize ideas and
-              information. Instead of using a structure of folders, everything
-              connects together with links.
-            </p>
+        <PageSummary>
+          <p>
+            A second brain is a place to capture and organize ideas and
+            information. Instead of using a structure of folders, everything
+            connects together with links.
+          </p>
 
-            <p>
-              There are second brain links all over my website. They will guide
-              you from idea to idea. You never know what you might find!
-            </p>
+          <p>
+            There are second brain links all over my website. They will guide
+            you from idea to idea. You never know what you might find!
+          </p>
 
-            <p>
-              If you want to create your own second brain, you might want to
-              look at{' '}
-              <a
-                href="https://foambubble.github.io/foam/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Foam
-              </a>
-              ,{' '}
-              <a
-                href="https://roamresearch.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Roam
-              </a>
-              , or{' '}
-              <a
-                href="https://obsidian.md"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Obsidian
-              </a>
-              .
-            </p>
-          </PageSummary>
+          <p>
+            If you want to create your own second brain, you might want to look
+            at{' '}
+            <a
+              href="https://foambubble.github.io/foam/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Foam
+            </a>
+            ,{' '}
+            <a
+              href="https://roamresearch.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Roam
+            </a>
+            , or{' '}
+            <a
+              href="https://obsidian.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Obsidian
+            </a>
+            .
+          </p>
+        </PageSummary>
+      </header>
 
-          <div className="flex flex-wrap justify-between">
-            {brainEntries.map((brainEntry) => (
-              <Link
-                key={brainEntry.slug}
-                href="/second-brain/[slug]"
-                as={`second-brain/${brainEntry.slug}`}
-              >
-                <a className="m-2">{brainEntry.slug}</a>
-              </Link>
-            ))}
-          </div>
-        </main>
-      </div>
+      <main className="mx-auto max-w-3xl space-y-10 p-10">
+        <div className="flex flex-wrap justify-between items-center">
+          {brainEntries.map((brainEntry) => (
+            <Link
+              key={brainEntry.slug}
+              href="/second-brain/[slug]"
+              as={`second-brain/${brainEntry.slug}`}
+            >
+              <a className="m-2">{brainEntry.slug}</a>
+            </Link>
+          ))}
+        </div>
+      </main>
     </>
   )
 }

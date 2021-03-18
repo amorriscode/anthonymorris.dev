@@ -3,6 +3,7 @@ title: "2020 Year in Review: Pandemonium"
 description: "A year we won't soon forget."
 date: "2020-12-30T00:00:00"
 tags: ["Yearly Review"]
+heroImage: "/assets/words/2020-year-in-review/hero-image.jpg"
 ---
 
 No matter where you spent your 2020, you're going to remember it. Together we battled [disease](https://en.wikipedia.org/wiki/Coronavirus_disease_2019), [racism](https://blacklivesmatter.com/), and [murder hornets](https://www.scientificamerican.com/article/just-how-dangerous-is-the-murder-hornet/). As if life isn't difficult enough, the universe piled on a lot of difficulty this year. But, like every year before, it's finally coming to a close.

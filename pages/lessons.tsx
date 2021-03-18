@@ -21,33 +21,31 @@ function Lessons({ lessons }: { lessons: Lesson[] }) {
         }}
       />
 
-      <div className="container">
-        <main className="space-y-8">
-          <h1 className="leading-none">Lessons Learned</h1>
+      <header className="mx-auto max-w-3xl space-y-5">
+        <h1 className="text-4xl font-am px-10">lessons learned</h1>
 
-          <PageSummary>
-            <p>
-              This is a collection of lessons learned pulled from my{' '}
-              <Link href="/failures">
-                <a>failures</a>
+        <PageSummary>
+          <p>
+            This is a collection of lessons learned pulled from my{' '}
+            <Link href="/failures">
+              <a>failures</a>
+            </Link>
+            .
+          </p>
+        </PageSummary>
+      </header>
+
+      <main className="mx-auto max-w-3xl space-y-10 p-10 prose">
+        <ul>
+          {lessons.map((lesson) => (
+            <li key={lesson.title}>
+              <Link href={`failures/${lesson.failure}`}>
+                <a>{lesson.title}</a>
               </Link>
-              .
-            </p>
-          </PageSummary>
-
-          <section className="prose">
-            <ul>
-              {lessons.map((lesson) => (
-                <li key={lesson.title}>
-                  <Link href={`failures/${lesson.failure}`}>
-                    <a>{lesson.title}</a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        </main>
-      </div>
+            </li>
+          ))}
+        </ul>
+      </main>
     </>
   )
 }

@@ -21,20 +21,18 @@ function WordPage({ writing }: { writing: Writing }) {
         }}
       />
 
-      <main>
-        <h1 className="leading-none">{writing.title}</h1>
+      <header className="mx-auto max-w-3xl px-10">
+        <h1 className="text-4xl font-am">{writing.title}</h1>
 
-        <article className="space-y-8">
-          <div className="text-xs pb-2">
-            written {format(new Date(writing.date), 'MMMM do, y')}
-          </div>
+        <div className="text-xs">
+          written {format(new Date(writing.date), 'MMMM do, y')}
+        </div>
+      </header>
 
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: writing.content }}
-          />
-        </article>
-      </main>
+      <article
+        className="prose mx-auto max-w-3xl space-y-10 p-10"
+        dangerouslySetInnerHTML={{ __html: writing.content }}
+      />
     </>
   )
 }

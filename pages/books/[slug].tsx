@@ -22,31 +22,28 @@ function BookPage({ book }: { book: Book }) {
         }}
       />
 
-      <main>
-        <h1 className="leading-none">{book.title}</h1>
+      <header className="mx-auto max-w-3xl px-10">
+        <h1 className="font-am text-4xl">{book.title}</h1>
 
-        <h2 className="leading-none text-base">written by {book.author}</h2>
+        <h2 className="text-base">written by {book.author}</h2>
 
-        <div className="space-y-8">
-          <div className="text-xs space-x-2">
-            <span>
-              <BookRating rating={book.rating} />
-            </span>
+        <div className="text-xs space-x-2">
+          <span>
+            <BookRating rating={book.rating} />
+          </span>
 
-            <span>|</span>
+          <span>|</span>
 
-            <span>
-              finished reading on{' '}
-              {format(new Date(book.readDate), 'MMMM do, y')}
-            </span>
-          </div>
-
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: book.content }}
-          />
+          <span>
+            finished reading on {format(new Date(book.readDate), 'MMMM do, y')}
+          </span>
         </div>
-      </main>
+      </header>
+
+      <article
+        className="prose mx-auto max-w-3xl p-10"
+        dangerouslySetInnerHTML={{ __html: book.content }}
+      />
     </>
   )
 }

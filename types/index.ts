@@ -6,7 +6,7 @@ export type Project = {
   sunsetDate: string;
   content: string;
   slug: string;
-  image: string;
+  heroImage: string;
   status: string;
   postmortem: string;
 }
@@ -59,6 +59,7 @@ export type Writing = {
   content: string;
   slug: string;
   tags: string[];
+  heroImage: string;
 }
 
 export type BrainEntry = {

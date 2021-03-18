@@ -3,6 +3,7 @@ title: "You, The Machine"
 description: "When's the last time you refactored your code base?"
 date: "2020-07-23T00:00:00"
 tags: ["Essay"]
+heroImage: "/assets/words/you-the-machine/hero-image.jpg"
 ---
 
 Look, I know what you’re thinking. You’re not a machine. But you are, aren’t you? A machine is a “device consisting of fixed and moving parts that modifies mechanical energy and transmits it in a more useful form”. That sounds like you.
