@@ -1,11 +1,15 @@
 import { useRef, useEffect } from 'react'
 import { NextSeo } from 'next-seo'
 import { GetStaticProps } from 'next'
-import { gsap } from 'gsap/dist/gsap'
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 import Link from 'next/link'
 import { format } from 'date-fns'
+
+// @TODO sort out gsap type/import issues
+// @ts-ignore
+import { gsap } from 'gsap/dist/gsap'
+// @ts-ignore
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
 import { getAllContent } from '../lib/api'
 
