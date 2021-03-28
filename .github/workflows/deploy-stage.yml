@@ -15,12 +15,27 @@ jobs:
         with:
           node-version: '14'
 
-  deploy-staging:
-    name: Deploy staging
+  build-search-index:
+    name: Build search index
     runs-on: ubuntu-latest
     needs: setup
     steps:
-      - uses: actions/checkout@v2 # Get last commit pushed
+      - uses: actions/checkout@v2
+      - name: Building search index
+        run: |
+          ./scripts/build-search-index.sh
+          git config user.name "$(git log --format='%ae' HEAD^!)"
+          git config user.email "$(git log --format='%an' HEAD^!)"
+          git add .
+          git commit -m "Builds search index"
+          git push
+
+  deploy-staging:
+    name: Deploy staging
+    runs-on: ubuntu-latest
+    needs: build-search-index
+    steps:
+      - uses: actions/checkout@v2
       - name: Deploying on Vercel
         run: yarn deploy --token $VERCEL_TOKEN
         env:
