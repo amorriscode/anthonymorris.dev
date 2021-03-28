@@ -6,25 +6,14 @@ on:
       - 'main'
 
 jobs:
-  setup:
-    name: Setup environment
-    runs-on: ubuntu-latest
-    steps:
-      - name: Installing node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - name: Installing Stork
-        run: cargo install stork-search
-
   build-search-index:
     name: Build search index
     runs-on: ubuntu-latest
-    needs: setup
     steps:
       - uses: actions/checkout@v2
       - name: Building search index
         run: |
+          cargo install stork-search
           ./scripts/build-search-index.sh
           git config user.name "$(git log --format='%ae' HEAD^!)"
           git config user.email "$(git log --format='%an' HEAD^!)"
