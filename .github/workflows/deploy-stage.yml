@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Installing node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: '14.x'
+          node-version: '14'
 
   deploy-staging:
     name: Deploy staging
     runs-on: ubuntu-latest
     needs: setup
     steps:
-      - uses: actions/checkout@v1 # Get last commit pushed
+      - uses: actions/checkout@v2 # Get last commit pushed
       - name: Deploying on Vercel
         run: yarn deploy --token $VERCEL_TOKEN
         env:
