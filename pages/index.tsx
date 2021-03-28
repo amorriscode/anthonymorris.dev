@@ -124,7 +124,7 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
 
             <div className="space-y-10">
               {projects.map((project) => (
-                <ProjectCard project={project} />
+                <ProjectCard key={project.slug} project={project} />
               ))}
             </div>
           </div>
@@ -148,7 +148,7 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
 
             <div className="space-y-10">
               {words.map((writing) => (
-                <WritingCard writing={writing} />
+                <WritingCard key={writing.slug} writing={writing} />
               ))}
             </div>
           </div>
