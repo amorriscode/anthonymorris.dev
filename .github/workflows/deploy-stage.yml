@@ -7,13 +7,15 @@ on:
 
 jobs:
   setup:
-    name: Setup deployment environment
+    name: Setup environment
     runs-on: ubuntu-latest
     steps:
       - name: Installing node.js
         uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Installing Stork
+        run: cargo install stork-search
 
   build-search-index:
     name: Build search index
