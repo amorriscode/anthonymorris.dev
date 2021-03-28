@@ -1,10 +1,10 @@
 ---
 title: "Wise Man's Fear"
 description: "Kvothe's story continues!"
-date: '2020-08-04T00:00:00'
-readDate: '2020-08-04T00:00:00'
+date: "2020-08-04T00:00:00"
+readDate: "2020-08-04T00:00:00"
 rating: 5
-author: 'Patrick Rothfuss'
+author: "Patrick Rothfuss"
 ---
 
 After I finished [Name of the Wind](/books/name-of-the-wind), I knew I'd have to dig into this one pretty quickly. It was hard for me to put it down.

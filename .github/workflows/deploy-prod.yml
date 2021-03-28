@@ -1,4 +1,4 @@
-name: Deploy to Production
+name: Deploy to production
 
 on:
   push:
@@ -6,22 +6,22 @@ on:
       - 'main'
 
 jobs:
-  setup:
-    name: Setup deployment environment
-    runs-on: ubuntu-latest
-    steps:
-      - name: Installing node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-
   deploy-production:
-    name: Deploy production
+    name: Deploy to production
     runs-on: ubuntu-latest
-    needs: setup
     steps:
-      - uses: actions/checkout@v2 # Get last commit pushed
-      - name: Deploying on Vercel
+      - uses: actions/checkout@v2
+      - name: Installing stork
+        run: cargo install stork-search
+      - name: Building search index
+        run: |
+          ./scripts/build-search-index.sh
+          git config user.name "$(git log --format='%an' HEAD^!)"
+          git config user.email "$(git log --format='%ae' HEAD^!)"
+          git add .
+          git commit -m "Build search index"
+          git push
+      - name: Deploying production on Vercel
         run: yarn deploy:prod --token $VERCEL_TOKEN
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}

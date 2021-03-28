@@ -1,10 +1,10 @@
 ---
-title: 'How to Think Like a Roman Emperor'
-description: 'A modern-day guide to Stoic wisdom from the perspective of Marcus Aurelius.'
-date: '2020-05-20T00:00:00'
-readDate: '2020-05-20T00:00:00'
+title: "How to Think Like a Roman Emperor"
+description: "A modern-day guide to Stoic wisdom from the perspective of Marcus Aurelius."
+date: "2020-05-20T00:00:00"
+readDate: "2020-05-20T00:00:00"
 rating: 5
-author: 'Donald J. Robertson'
+author: "Donald J. Robertson"
 ---
 
 Although I've been interested in Stoicism for quite a while, most of the content I've consumed has come from blogs like [The Daily Stoic](https://dailystoic.com/). It's worked for me because the content is digestible. It's distilled into a language I understand without much effort. After making it half-way through [Meditations](https://www.goodreads.com/book/show/30659.Meditations), I decided to give [How To Think Like a Roman Emperor](https://www.goodreads.com/book/show/39863499-how-to-think-like-a-roman-emperor) a shot.

@@ -1,10 +1,10 @@
 ---
-title: 'The Name of the Wind'
-description: 'The first book in a trilogy about a young wizard fumbling through University.'
-date: '2020-07-04T00:00:00'
-readDate: '2020-07-04T00:00:00'
+title: "The Name of the Wind"
+description: "The first book in a trilogy about a young wizard fumbling through University."
+date: "2020-07-04T00:00:00"
+readDate: "2020-07-04T00:00:00"
 rating: 5
-author: 'Patrick Rothfuss'
+author: "Patrick Rothfuss"
 ---
 
 A young boy discovers magic; we follow him through his trials and tribulations as he develops his magical abilities while plodding through school. Does that sound familiar? Like Harry Potter? I've seen the book compared to Harry Potter but it didn't really feel like Harry Potter between the covers.

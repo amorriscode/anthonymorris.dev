@@ -1,0 +1,23 @@
+button.stork-close-button {
+  @apply bg-transparent;
+}
+
+button.stork-close-button:hover {
+  @apply text-am-green-light bg-transparent;
+}
+
+li.stork-result.selected {
+  @apply bg-am-black bg-opacity-10;
+}
+
+.stork-result .stork-title {
+  @apply text-lg font-medium font-am;
+}
+
+.stork-result .stork-highlight {
+  @apply bg-am-green-light bg-opacity-75;
+}
+
+.stork-progress {
+  @apply bg-am-green-light;
+}
