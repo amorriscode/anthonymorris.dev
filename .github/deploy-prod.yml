@@ -1,0 +1,27 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  setup:
+    name: Setup deployment environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Installing node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+  deploy-production:
+    name: Deploy production
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v1 # Get last commit pushed
+      - name: Deploying on Vercel
+        run: yarn deploy:prod --token $VERCEL_TOKEN
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}

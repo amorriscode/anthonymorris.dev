@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "now --confirm",
+    "deploy:prod": "now --prod --confirm"
   },
   "dependencies": {
     "date-fns": "^2.13.0",

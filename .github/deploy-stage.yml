@@ -1,0 +1,27 @@
+name: Deploy to Staging
+
+on:
+  push:
+    branches-ignore:
+      - 'master'
+
+jobs:
+  setup:
+    name: Setup deployment environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Installing node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+  deploy-staging:
+    name: Deploy staging
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v1 # Get last commit pushed
+      - name: Deploying on Vercel
+        run: yarn deploy --token $VERCEL_TOKEN
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
