@@ -11,14 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Installing stork
+        run: cargo install stork-search
       - name: Building search index
         run: |
-          cargo install stork-search
           ./scripts/build-search-index.sh
-          git config user.name "$(git log --format='%ae' HEAD^!)"
-          git config user.email "$(git log --format='%an' HEAD^!)"
+          git config user.name "$(git log --format='%an' HEAD^!)"
+          git config user.email "$(git log --format='%ae' HEAD^!)"
           git add .
-          git commit -m "Builds search index"
+          git commit -m "Build search index"
           git push
 
   deploy-staging:
@@ -27,6 +28,8 @@ jobs:
     needs: build-search-index
     steps:
       - uses: actions/checkout@v2
+      - name: Print git log
+        run: git log
       - name: Deploying on Vercel
         run: yarn deploy --token $VERCEL_TOKEN
         env:
