@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-import useOnClickOutside from '../hooks/useOnClickOutside.tsx'
+import useOnClickOutside from '../hooks/useOnClickOutside'
 
 function Search({ handleSearchClose }: { handleSearchClose: () => void }) {
   const ref = useRef<HTMLDivElement>(null)
