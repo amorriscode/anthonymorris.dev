@@ -9,8 +9,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "now --confirm",
-    "deploy:prod": "now --prod --confirm"
+    "deploy": "vercel amorriscode/anthonymorris.dev --confirm",
+    "deploy:prod": "vercel amorriscode/anthonymorris.dev --prod --confirm"
   },
   "dependencies": {
     "date-fns": "^2.13.0",
