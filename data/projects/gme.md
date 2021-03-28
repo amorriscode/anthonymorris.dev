@@ -1,10 +1,10 @@
 ---
-title: 'If I bought $GME...'
+title: "If I bought $GME..."
 description: "Wish you bought $GME? Calculate how rich you'd be if you did."
-date: '2021-01-27T00:00:00'
-launchDate: '2021-01-27T00:00:00'
-status: 'live'
-heroImage: '/assets/projects/gme/hero-image.png'
+date: "2021-01-27T00:00:00"
+launchDate: "2021-01-27T00:00:00"
+status: "live"
+heroImage: "/assets/projects/gme/hero-image.png"
 ---
 
 After all the craziness of 2020, I bet you were hoping 2021 would be smooth sailing. Nothing wild. Nothing unexpected.

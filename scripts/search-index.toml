@@ -1,0 +1,200 @@
+[input]
+base_directory = "../data"
+
+[[input.files]]
+path = "./books/be-water-my-friend.md"
+url = "/books/be-water-my-friend"
+title = "Be Water, My Friend"
+
+[[input.files]]
+path = "./books/dune.md"
+url = "/books/dune"
+title = "Dune"
+
+[[input.files]]
+path = "./books/how-to-think-like-a-roman-emperor.md"
+url = "/books/how-to-think-like-a-roman-emperor"
+title = "How to Think Like a Roman Emperor"
+
+[[input.files]]
+path = "./books/name-of-the-wind.md"
+url = "/books/name-of-the-wind"
+title = "The Name of the Wind"
+
+[[input.files]]
+path = "./books/recursion.md"
+url = "/books/recursion"
+title = "Recursion"
+
+[[input.files]]
+path = "./books/so-you-want-to-talk-about-race.md"
+url = "/books/so-you-want-to-talk-about-race"
+title = "So You Want To Talk About Race"
+
+[[input.files]]
+path = "./books/song-of-achilles.md"
+url = "/books/song-of-achilles"
+title = "The Song of Achilles"
+
+[[input.files]]
+path = "./books/the-fifth-season.md"
+url = "/books/the-fifth-season"
+title = "The Fifth Season"
+
+[[input.files]]
+path = "./books/the-mom-test.md"
+url = "/books/the-mom-test"
+title = "The Mom Test"
+
+[[input.files]]
+path = "./books/wise-mans-fear.md"
+url = "/books/wise-mans-fear"
+title = "Wise Man's Fear"
+
+[[input.files]]
+path = "./failures/2020-product-failures.md"
+url = "/failures/2020-product-failures"
+title = "2020 Product Failures"
+
+[[input.files]]
+path = "./failures/elon-btc.md"
+url = "/failures/elon-btc"
+title = "Elon's BTC Drop"
+
+[[input.files]]
+path = "./failures/high-school.md"
+url = "/failures/high-school"
+title = "High School"
+
+[[input.files]]
+path = "./failures/not-top-talent.md"
+url = "/failures/not-top-talent"
+title = "Not Top Talent"
+
+[[input.files]]
+path = "./failures/spectacles.md"
+url = "/failures/spectacles"
+title = "Spectacles"
+
+[[input.files]]
+path = "./learnings/chiten.md"
+url = "/learnings/chiten"
+title = "Chitin"
+
+[[input.files]]
+path = "./learnings/diamonds-are-forever.md"
+url = "/learnings/diamonds-are-forever"
+title = "Diamonds Are Forever"
+
+[[input.files]]
+path = "./learnings/electronics-etymology.md"
+url = "/learnings/electronics-etymology"
+title = "Electronics Etymology"
+
+[[input.files]]
+path = "./learnings/fancy-script-tags.md"
+url = "/learnings/fancy-script-tags"
+title = "Fancy Script Tags"
+
+[[input.files]]
+path = "./learnings/figjam.md"
+url = "/learnings/figjam"
+title = "FIGJAM"
+
+[[input.files]]
+path = "./learnings/fungi-arent-plants.md"
+url = "/learnings/fungi-arent-plants"
+title = "Fungi Aren't Plants"
+
+[[input.files]]
+path = "./learnings/games-buddha-would-not-play.md"
+url = "/learnings/games-buddha-would-not-play"
+title = "Games Buddha Wouldn't Play"
+
+[[input.files]]
+path = "./learnings/html-css-svg.md"
+url = "/learnings/html-css-svg"
+title = "HTML/CSS In SVG"
+
+[[input.files]]
+path = "./learnings/hungry-hummingbirds.md"
+url = "/learnings/hungry-hummingbirds"
+title = "Hungry Hummingbirds"
+
+[[input.files]]
+path = "./learnings/kardashev-scale.md"
+url = "/learnings/kardashev-scale"
+title = "Civilizations and Technology"
+
+[[input.files]]
+path = "./learnings/meteoroids-meteors-meteorites.md"
+url = "/learnings/meteoroids-meteors-meteorites"
+title = "Meteoroids, Meteors, Meteorites"
+
+[[input.files]]
+path = "./learnings/space-shuttle-ignition.md"
+url = "/learnings/space-shuttle-ignition"
+title = "Space Shuttle Rocket Ignition"
+
+[[input.files]]
+path = "./learnings/taste-of-iron.md"
+url = "/learnings/taste-of-iron"
+title = "Taste of Iron"
+
+[[input.files]]
+path = "./learnings/weaver-ants.md"
+url = "/learnings/weaver-ants"
+title = "Weaver Ants"
+
+[[input.files]]
+path = "./projects/bard.md"
+url = "/projects/bard"
+title = "Bard"
+
+[[input.files]]
+path = "./projects/gme.md"
+url = "/projects/gme"
+title = "If I bought $GME..."
+
+[[input.files]]
+path = "./projects/social-media-death-clock.md"
+url = "/projects/social-media-death-clock"
+title = "Social Media Death Clock"
+
+[[input.files]]
+path = "./projects/tavern.md"
+url = "/projects/tavern"
+title = "Tavern"
+
+[[input.files]]
+path = "./projects/we-watch-tech.md"
+url = "/projects/we-watch-tech"
+title = "We Watch Tech"
+
+[[input.files]]
+path = "./projects/wrabit.md"
+url = "/projects/wrabit"
+title = "Wrabit"
+
+[[input.files]]
+path = "./words/2020-year-in-review.md"
+url = "/words/2020-year-in-review"
+title = "2020 Year in Review: Pandemonium"
+
+[[input.files]]
+path = "./words/what-not-how.md"
+url = "/words/what-not-how"
+title = "What Not How"
+
+[[input.files]]
+path = "./words/why-and-how-to-study-philosophy.md"
+url = "/words/why-and-how-to-study-philosophy"
+title = "Why (and How) to Study Philosophy"
+
+[[input.files]]
+path = "./words/you-the-machine.md"
+url = "/words/you-the-machine"
+title = "You, The Machine"
+
+[output]
+filename = "../public/search-index.st"

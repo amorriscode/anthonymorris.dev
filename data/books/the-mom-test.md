@@ -1,10 +1,10 @@
 ---
-title: 'The Mom Test'
-description: 'A quick read on the customer conversation and validating startup ideas.'
-date: '2020-05-19T00:00:00'
-readDate: '2020-05-19T00:00:00'
+title: "The Mom Test"
+description: "A quick read on the customer conversation and validating startup ideas."
+date: "2020-05-19T00:00:00"
+readDate: "2020-05-19T00:00:00"
 rating: 5
-author: 'Rob Fitzpatrick'
+author: "Rob Fitzpatrick"
 ---
 
 I've been [building a little startup](https://getbard.com) for the past few months. Before writing any code we took a bit of time to "validate" our idea with customers. At that time a friend of mine recommended [The Mom Test](https://www.goodreads.com/book/show/18529000-the-mom-test). I didn't get around to reading it until well into the development process.

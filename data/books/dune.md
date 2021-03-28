@@ -1,10 +1,10 @@
 ---
-title: 'Dune'
-description: 'A space epic about politics and prophecy.'
-date: '2020-11-22T00:00:00'
-readDate: '2020-11-22T00:00:00'
+title: "Dune"
+description: "A space epic about politics and prophecy."
+date: "2020-11-22T00:00:00"
+readDate: "2020-11-22T00:00:00"
 rating: 4
-author: 'Frank Herbert'
+author: "Frank Herbert"
 ---
 
 If you enjoy reading science fiction, you've no doubt heard of *Dune*. Written in the 1960s by [Frank Herbert](https://en.wikipedia.org/wiki/Frank_Herbert), *Dune* is a futuristic tale about the politics that drive society on an interstellar scale.

@@ -1,10 +1,10 @@
 ---
-title: 'Tavern'
+title: "Tavern"
 description: "Tavern helps you practice for technical interviews like you're playing a roleplaying game."
-date: '2021-01-27T00:00:00'
-launchDate: '2021-01-10T00:00:00'
-status: 'hack'
-heroImage: '/assets/projects/tavern/hero-image.png'
+date: "2021-01-27T00:00:00"
+launchDate: "2021-01-10T00:00:00"
+status: "hack"
+heroImage: "/assets/projects/tavern/hero-image.png"
 ---
 
 I haven't done a hackathon in a really long time. They kind of scare me (that's a story for another time).

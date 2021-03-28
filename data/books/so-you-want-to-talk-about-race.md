@@ -1,10 +1,10 @@
 ---
-title: 'So You Want To Talk About Race'
-description: 'A difficult but essential start to learning about systemic racism.'
-date: '2020-06-18T00:00:00'
-readDate: '2020-06-18T00:00:00'
+title: "So You Want To Talk About Race"
+description: "A difficult but essential start to learning about systemic racism."
+date: "2020-06-18T00:00:00"
+readDate: "2020-06-18T00:00:00"
 rating: 4
-author: 'Ijeoma Oluo'
+author: "Ijeoma Oluo"
 ---
 
 There's a lot for me to process here. As a white male, I've been avoiding a lot of the tough conversations. I've always been in the "all lives matter" camp. 2020 has been a tough year for a lot of people. The [death of George Floyd](https://en.wikipedia.org/wiki/George_Floyd) sparked international discussion and protest. There is a lot going on that we haven't been talking about or dealing with.

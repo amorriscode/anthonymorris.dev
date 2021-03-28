@@ -1,10 +1,10 @@
 ---
-title: 'Recursion'
-description: 'A reality-bending sci-fi journey.'
-date: '2020-07-25T00:00:00'
-readDate: '2020-07-25T00:00:00'
+title: "Recursion"
+description: "A reality-bending sci-fi journey."
+date: "2020-07-25T00:00:00"
+readDate: "2020-07-25T00:00:00"
 rating: 4
-author: 'Blake Crouch'
+author: "Blake Crouch"
 ---
 
 I've been wanting to get through more sci-fi. I've always enjoyed space, time travel, and futurism. For some reason I just haven't gotten around to reading too much sci-fi. After binging [Dark on Netflix](https://en.wikipedia.org/wiki/Dark_(TV_series)), I decided I was ready to get into another time travel adventure.

@@ -1,10 +1,10 @@
 ---
-title: 'The Fifth Season'
-description: 'A post apocalyptic fantasy novel with a fresh perspective.'
-date: '2021-02-19T00:00:00'
-readDate: '2021-02-19T00:00:00'
+title: "The Fifth Season"
+description: "A post apocalyptic fantasy novel with a fresh perspective."
+date: "2021-02-19T00:00:00"
+readDate: "2021-02-19T00:00:00"
 rating: 4
-author: 'N. K. Jemisin'
+author: "N. K. Jemisin"
 ---
 
 As much as I enjoy fantasy, a lot of the books I've read have had similar underlying themes or ideas in them. They aren't always cookie cutter. But when they are, at least I enjoy cookies.

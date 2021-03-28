@@ -1,10 +1,10 @@
 ---
-title: 'The Song of Achilles'
+title: "The Song of Achilles"
 description: "A modern retelling of Homer's Iliad."
-date: '2020-12-24T00:00:00'
-readDate: '2020-12-24T00:00:00'
+date: "2020-12-24T00:00:00"
+readDate: "2020-12-24T00:00:00"
 rating: 4
-author: 'Madeline Miller'
+author: "Madeline Miller"
 ---
 
 I have never read the [[Iliad]]. It's one of the timeless classics that has been on my list for a long time. Unfortunately, I just haven't made my way through many classics. Thanks to Madeline Miller, I got to enjoy the story of [[Achilles]] in a refreshing modern take.
