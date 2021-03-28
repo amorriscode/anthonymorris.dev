@@ -1,7 +1,7 @@
 {
-  "name": "amorriscode",
+  "name": "anthonymorris.dev",
   "description": "A personal website for Anthony Morris",
-  "author": "Anthony Morris <anthony@amorrissound.com>",
+  "author": "Anthony Morris <amorriscode@gmail.com>",
   "license": "MIT",
   "version": "0.1.0",
   "private": true,
@@ -9,8 +9,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "vercel amorriscode/anthonymorris.dev --confirm",
-    "deploy:prod": "vercel amorriscode/anthonymorris.dev --prod --confirm"
+    "deploy": "vercel --scope amorriscode --confirm",
+    "deploy:prod": "vercel --scope amorriscode --prod --confirm"
   },
   "dependencies": {
     "date-fns": "^2.13.0",
