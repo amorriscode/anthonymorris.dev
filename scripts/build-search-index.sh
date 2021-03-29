@@ -57,10 +57,13 @@ EOF
 
 echo "FINISHED BUILDING SEARCH-INDEX.TOML..."
 
+
+# Install stork
+echo "INSTALLING STORK..."
+wget https://files.stork-search.net/releases/latest/stork-ubuntu-latest -O ./stork
+chmod +x ./stork
+
 # Build the search index
-if which stork >/dev/null; then
-  echo "BUILDING SEARCH INDEX..."
-  stork --build search-index.toml
-else
-  echo "Stork not found!"
-fi
+echo "BUILDING SEARCH INDEX..."
+./stork --build search-index.toml
+

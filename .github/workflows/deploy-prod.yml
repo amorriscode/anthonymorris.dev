@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Installing stork
-        run: cargo install stork-search
       - name: Building search index
         run: |
           ./scripts/build-search-index.sh
