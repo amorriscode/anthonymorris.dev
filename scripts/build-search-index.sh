@@ -57,7 +57,6 @@ EOF
 
 echo "FINISHED BUILDING SEARCH-INDEX.TOML..."
 
-
 # Install stork
 echo "INSTALLING STORK..."
 wget https://files.stork-search.net/releases/latest/stork-ubuntu-latest -O ./stork
