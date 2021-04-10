@@ -11,7 +11,7 @@
 [mathematician]: mathematician "Mathematician"
 [philosopher]: philosopher "Philosopher"
 [computer]: computer "Computer"
-[Analytical Engine]: analytical-engine "Analytical Engine"
+[Analytical Engine]: [[analytical-engine]] "Analytical Engine"
 [Ada Lovelace]: ada-lovelace "Ada Lovelace"
 [People]: people "People"
 [Computer Science]: computer-science "Computer Science"
