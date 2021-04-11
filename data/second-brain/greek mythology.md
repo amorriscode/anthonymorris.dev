@@ -1,4 +1,3 @@
 # Greek Mythology
 
 [[Mythology]] [[Greece]]
-
