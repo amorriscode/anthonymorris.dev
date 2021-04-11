@@ -21,16 +21,29 @@ function WordPage({ writing }: { writing: Writing }) {
         }}
       />
 
-      <header className="mx-auto max-w-3xl px-10">
-        <h1 className="text-4xl font-am">{writing.title}</h1>
+      <header>
+        {writing?.heroImage && (
+          <div className="px-10">
+            <div
+              className="mb-10 mx-auto h-64 sm:h-96 max-w-4xl bg-cover bg-center rounded-lg"
+              style={{
+                backgroundImage: `url(${writing.heroImage})`,
+              }}
+            ></div>
+          </div>
+        )}
 
-        <div className="text-xs">
-          written {format(new Date(writing.date), 'MMMM do, y')}
+        <div className="mx-auto max-w-3xl px-10">
+          <h1 className="text-4xl font-am">{writing.title}</h1>
+
+          <div className="text-xs">
+            written {format(new Date(writing.date), 'MMMM do, y')}
+          </div>
         </div>
       </header>
 
       <article
-        className="prose mx-auto max-w-3xl space-y-10 p-10"
+        className="prose mx-auto max-w-3xl p-10"
         dangerouslySetInnerHTML={{ __html: writing.content }}
       />
     </>
@@ -45,6 +58,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     'slug',
     'content',
     'tags',
+    'heroImage',
   ])
 
   const content = await markdownToHtml(writing.content || '')
