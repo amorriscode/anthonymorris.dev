@@ -31,7 +31,7 @@ If we look at our lives through an objective lens, it becomes clear what we have
 
 There was a lot to unpack in this book. I'd definitely recommend it as an intro to Stoicism and the life of Marcus Aurelius.
 
-If you have other great Stoic recommendations, <a href="mailto:anthony@amorrissound.com">let me know</a>!
+If you have other great Stoic recommendations, [let me know](mailto:amorriscode@gmail.com)!
 
 ---
 
