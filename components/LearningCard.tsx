@@ -5,7 +5,7 @@ import { Learning } from '../types'
 
 function LearningCard({ learning }: { learning: Learning }) {
   return (
-    <Link href="/til/[slug]" as={`/til/${learning.slug}`} passHref>
+    <Link href="/learnings/[slug]" as={`/learnings/${learning.slug}`} passHref>
       <a className="content-card block">
         <div className="flex justify-between items-center">
           <div className="text-lg font-medium mb-1 font-am">
