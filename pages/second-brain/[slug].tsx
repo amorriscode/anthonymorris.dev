@@ -94,14 +94,25 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 export const getStaticPaths: GetStaticPaths = async () => {
   const brainEntries = getAllContent('second-brain', ['slug']) as BrainEntry[]
 
+  // Handle lowercase paths (ex. author) and title case (ex. Author)
+  const lowerCasePaths = brainEntries.map(({ slug }) => {
+    return {
+      params: {
+        slug: slug.toLowerCase(),
+      },
+    }
+  })
+
+  const titleCasePaths = brainEntries.map(({ slug }) => {
+    return {
+      params: {
+        slug: `${slug[0].toUpperCase()}${slug.substring(1)}`,
+      },
+    }
+  })
+
   return {
-    paths: brainEntries.map((brainEntry) => {
-      return {
-        params: {
-          slug: brainEntry.slug,
-        },
-      }
-    }),
+    paths: [...lowerCasePaths, ...titleCasePaths],
     fallback: false,
   }
 }

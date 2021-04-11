@@ -85,7 +85,13 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const brainEntries = getAllContent('second-brain', ['slug'])
+  let brainEntries = getAllContent('second-brain', ['slug'])
+
+  // Filter out daily entries from slugs
+  // as their content is probably not interesting to others
+  brainEntries = brainEntries.filter(
+    ({ slug }) => !/\d{4}-\d{2}-\d{2}/g.test(slug)
+  )
 
   return {
     props: {
