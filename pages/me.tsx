@@ -1,4 +1,3 @@
-import { addWeeks, isPast } from 'date-fns'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 
@@ -20,13 +19,35 @@ function Me() {
         <h1 className="text-4xl font-am px-10">me</h1>
 
         <PageSummary>
+          <p>I'm a product-focused software engineer from Vancouver, Canada.</p>
+
           <p>
-            I'm a product-focused software engineer from Vancouver, Canada. I
-            love learning about things new things and pushing the boundaries of
-            my abilities.
+            I'm fascinated with the world around us. I love learning about
+            things new things and pushing the boundaries of my abilities. My
+            mission in life is to have a positive impact with my code.
           </p>
 
-          <p>If any of this sounds interesting, I'd love to chat!</p>
+          <p>If any of this sounds interesting, we should chat!</p>
+
+          <p>
+            You can find me on{' '}
+            <Link href="https://twitter.com/amorriscode">
+              <a target="_blank">Twitter</a>
+            </Link>
+            ,{' '}
+            <Link href="https://www.linkedin.com/in/amorriscode/">
+              <a target="_blank">LinkedIn</a>
+            </Link>
+            ,{' '}
+            <Link href="https://github.com/amorriscode">
+              <a target="_blank">GitHub</a>
+            </Link>
+            , or{' '}
+            <Link href="https://www.goodreads.com/user/show/5171404-anthony">
+              <a target="_blank">Good Reads</a>
+            </Link>
+            .
+          </p>
         </PageSummary>
       </header>
 
@@ -49,6 +70,15 @@ function Me() {
               </Link>{' '}
               to help restaurants make a website with Google Sheets
             </li>
+
+            <li>
+              I'm learning about{' '}
+              <Link href="https://monthly.com/mark-rober-engineering">
+                <a target="_blank">creative engineering with Mark Rober</a>
+              </Link>
+            </li>
+
+            <li>I'm attempting to improve my mobility and strength</li>
           </ul>
         </section>
 
