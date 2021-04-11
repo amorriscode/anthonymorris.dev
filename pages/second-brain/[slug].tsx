@@ -60,7 +60,7 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
               <Link
                 key={backlink}
                 href="/second-brain/[slug]"
-                as={`/second-brain/${backlink}`}
+                as={`/second-brain/${escape(backlink.toLowerCase())}`}
               >
                 <a className="m-2">{backlink}</a>
               </Link>
@@ -94,25 +94,14 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 export const getStaticPaths: GetStaticPaths = async () => {
   const brainEntries = getAllContent('second-brain', ['slug']) as BrainEntry[]
 
-  // Handle lowercase paths (ex. author) and title case (ex. Author)
-  const lowerCasePaths = brainEntries.map(({ slug }) => {
-    return {
-      params: {
-        slug: slug.toLowerCase(),
-      },
-    }
-  })
-
-  const titleCasePaths = brainEntries.map(({ slug }) => {
-    return {
-      params: {
-        slug: `${slug[0].toUpperCase()}${slug.substring(1)}`,
-      },
-    }
-  })
-
   return {
-    paths: [...lowerCasePaths, ...titleCasePaths],
+    paths: brainEntries.map(({ slug }) => {
+      return {
+        params: {
+          slug: slug.toLowerCase(),
+        },
+      }
+    }),
     fallback: false,
   }
 }
