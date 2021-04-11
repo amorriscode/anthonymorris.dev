@@ -37,7 +37,7 @@ export function getContentBySlug(
         // Replace all second brain links
         .replace(
           /\[\[(.*?)\]\]/g,
-          (_, text) => `[${text}](/second-brain/${escape(text)})`
+          (_, text) => `[${text}](/second-brain/${escape(text.toLowerCase())})`
         )
     }
 

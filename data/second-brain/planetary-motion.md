@@ -26,7 +26,7 @@
 
 ### Newton's Addition to the Third Law
 
-- [[Isaac Newton]] realized that the [[Sun]]'s mass and a planets mass come into play with regards to the third law
+- [[isaac newton]] realized that the [[Sun]]'s mass and a planets mass come into play with regards to the third law
 - The proper formula is $a^3 = (M_1 + M_2) \times P^2$
   - $M_1$ is the [[mass]] of the [[Sun]]
   - $M_2$ is the [[mass]] of the planet

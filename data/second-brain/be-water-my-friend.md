@@ -120,7 +120,7 @@ Be [[water]], my friend.
 - Having a vision isn't enough
 - Vision without action leads to stagnation
 
-> An object at rest stays at rest and an object in motion stays in motion. ~ [[Isaac- Newton]]
+> An object at rest stays at rest and an object in motion stays in motion. ~ [[Isaac Newton]]
 
 - We have to be optimistic too
   - Pessimism blunts the tools you need to succeed

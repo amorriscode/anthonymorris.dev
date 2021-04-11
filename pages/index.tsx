@@ -1,9 +1,6 @@
 import { useRef, useEffect } from 'react'
 import { NextSeo } from 'next-seo'
 import { GetStaticProps } from 'next'
-import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
-import Link from 'next/link'
-import { format } from 'date-fns'
 
 // @TODO sort out gsap type/import issues
 // @ts-ignore
@@ -16,8 +13,8 @@ import { getAllContent } from '../lib/api'
 import { Project, Writing } from '../types'
 
 import withLayout from '../components/withLayout'
-import ProjectCard from '../components/ProjectCard'
-import WritingCard from '../components/WritingCard'
+import RecentProjects from '../components/RecentProjects'
+import RecentWords from '../components/RecentWords'
 
 function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
   const headerRef = useRef<HTMLElement>(null)
@@ -105,53 +102,9 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
 
       <main className="m-10 px-10 space-y-20">
         <section className="grid grid-cols-1 md:grid-cols-2 md:gap-28 xl:gap-56 space-y-28 md:space-y-0">
-          <div className="col-span-1 space-y-10">
-            <div className="flex justify-between items-center">
-              <h2 className="text-4xl font-am">Projects</h2>
+          <RecentProjects projects={projects} />
 
-              <div className="arrow-link flex items-center space-x-1">
-                <Link href="/projects">
-                  <a className="text-sm">
-                    <span>all projects</span>
-                  </a>
-                </Link>
-
-                <div className="arrow transition-all duration-300">
-                  <HiOutlineArrowNarrowRight />
-                </div>
-              </div>
-            </div>
-
-            <div className="space-y-10">
-              {projects.map((project) => (
-                <ProjectCard key={project.slug} project={project} />
-              ))}
-            </div>
-          </div>
-
-          <div className="col-span-1 space-y-10">
-            <div className="flex justify-between items-center">
-              <h2 className="text-4xl font-am">Words</h2>
-
-              <div className="arrow-link flex items-center space-x-1">
-                <Link href="/words">
-                  <a className="text-sm">
-                    <span>all writing</span>
-                  </a>
-                </Link>
-
-                <div className="arrow transition-all duration-300">
-                  <HiOutlineArrowNarrowRight />
-                </div>
-              </div>
-            </div>
-
-            <div className="space-y-10">
-              {words.map((writing) => (
-                <WritingCard key={writing.slug} writing={writing} />
-              ))}
-            </div>
-          </div>
+          <RecentWords words={words} />
         </section>
       </main>
     </div>
