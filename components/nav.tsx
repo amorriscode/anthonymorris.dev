@@ -42,6 +42,8 @@ function Nav({ handleSearchClick }: { handleSearchClick: () => void }) {
 
           <NavLink title="words" />
 
+          <NavLink title="me" />
+
           <IoSearch
             className="hover:cursor-pointer hover:text-am-green-light"
             onClick={handleSearchClick}
