@@ -14,7 +14,7 @@
 
 ## Masses of Binary Star Systems
 
-- Can be estimated using [[Isaac Newton]]'s reformulation of [[Johannes Kepler]]'s third law of [[planetary motion]]
+- Can be estimated using [[isaac newton]]'s reformulation of [[Johannes Kepler]]'s third law of [[planetary motion]]
   - If two objects are in mutual revolution, then the period ($P$) with which they go around each other is related to the semi-major axis ($D$) of the [[orbit]] of one with the respect to the other
   - $D^3 = (M_1 + M_2)P^2$
     - $D$ is in astronomical units
