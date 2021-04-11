@@ -36,7 +36,7 @@ function Nav({ handleSearchClick }: { handleSearchClick: () => void }) {
 
           <NavLink title="projects" />
 
-          <NavLink title="til" />
+          <NavLink title="til" path="/learnings" />
 
           <NavLink title="uses" />
 

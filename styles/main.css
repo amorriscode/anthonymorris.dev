@@ -76,3 +76,12 @@ h5:hover a {
 .prose blockquote p {
   @apply p-0;
 }
+
+.prose code {
+  @apply bg-gray-200 text-am-black py-1 px-2 rounded;
+}
+
+.prose code::before,
+.prose code::after {
+  content: '' !important;
+}

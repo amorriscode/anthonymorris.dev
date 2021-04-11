@@ -51,7 +51,7 @@ function Me() {
         </PageSummary>
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-10 p-10 prose">
+      <main className="mx-auto max-w-3xl pb-10 px-10 prose">
         <section>
           <h2>Now</h2>
 

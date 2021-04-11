@@ -90,6 +90,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     'image',
     'status',
     'postmortem',
+    'heroImage',
   ])
 
   const content = await markdownToHtml(project.content || '')

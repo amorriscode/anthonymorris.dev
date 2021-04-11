@@ -65,16 +65,9 @@ export const getStaticProps: GetStaticProps = async () => {
     'description',
     'date',
     'status',
-    'heroImage',
   ])
 
-  const words = getAllContent('words', [
-    'title',
-    'slug',
-    'description',
-    'date',
-    'heroImage',
-  ])
+  const words = getAllContent('words', ['title', 'slug', 'description', 'date'])
 
   return {
     props: {
