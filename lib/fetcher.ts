@@ -1,1 +1,3 @@
-export default (input: string) => fetch(input).then(res => res.json());
+const fetcher = (input: string) => fetch(input).then((res) => res.json())
+
+export default fetcher
