@@ -187,6 +187,11 @@ url = "/words/2020-year-in-review"
 title = "2020 Year in Review: Pandemonium"
 
 [[input.files]]
+path = "./words/finding-my-value.md"
+url = "/words/finding-my-value"
+title = "'Finding My Value'"
+
+[[input.files]]
 path = "./words/what-not-how.md"
 url = "/words/what-not-how"
 title = "What Not How"
