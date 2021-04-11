@@ -162,6 +162,11 @@ url = "/projects/social-media-death-clock"
 title = "Social Media Death Clock"
 
 [[input.files]]
+path = "./projects/stx-me.md"
+url = "/projects/stx-me"
+title = "stx.me"
+
+[[input.files]]
 path = "./projects/tavern.md"
 url = "/projects/tavern"
 title = "Tavern"
