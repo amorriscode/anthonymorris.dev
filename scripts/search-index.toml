@@ -77,9 +77,9 @@ url = "/failures/spectacles"
 title = "Spectacles"
 
 [[input.files]]
-path = "./learnings/chiten.md"
-url = "/learnings/chiten"
-title = "Whales Can Talk"
+path = "./learnings/chitin.md"
+url = "/learnings/chitin"
+title = "Chitin"
 
 [[input.files]]
 path = "./learnings/diamonds-are-forever.md"
@@ -149,7 +149,7 @@ title = "Weaver Ants"
 [[input.files]]
 path = "./learnings/whales-can-talk.md"
 url = "/learnings/whales-can-talk"
-title = "Chitin"
+title = "Whales Can Talk"
 
 [[input.files]]
 path = "./projects/bard.md"
