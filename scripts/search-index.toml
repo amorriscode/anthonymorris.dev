@@ -2,6 +2,11 @@
 base_directory = "../data"
 
 [[input.files]]
+path = "./books/a-little-life.md"
+url = "/books/a-little-life"
+title = "A Little Life"
+
+[[input.files]]
 path = "./books/be-water-my-friend.md"
 url = "/books/be-water-my-friend"
 title = "Be Water, My Friend"
