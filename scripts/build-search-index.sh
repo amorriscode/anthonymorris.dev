@@ -25,7 +25,7 @@ for filename in $DATA; do
       route="${BASH_REMATCH[1]}"
       slug="${BASH_REMATCH[2]}"
 
-      contents=$(cat $filename)
+      contents=$(cat "$filename")
       contents_regex="title: (.+)description:"
       title=$slug
 
@@ -58,11 +58,11 @@ EOF
 echo "FINISHED BUILDING SEARCH-INDEX.TOML..."
 
 # Install stork
-echo "INSTALLING STORK..."
-wget https://files.stork-search.net/releases/latest/stork-ubuntu-latest -O ./stork
-chmod +x ./stork
+# echo "INSTALLING STORK..."
+# wget https://files.stork-search.net/releases/latest/stork-ubuntu-latest -O ./stork
+# chmod +x ./stork
 
 # Build the search index
-echo "BUILDING SEARCH INDEX..."
-./stork --build search-index.toml
+# echo "BUILDING SEARCH INDEX..."
+# stork --build search-index.toml
 
