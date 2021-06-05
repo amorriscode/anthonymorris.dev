@@ -47,7 +47,7 @@
     "@types/react": "^16.9.35",
     "@types/xml2js": "^0.4.5",
     "autoprefixer": "^10.0.2",
-    "postcss": "^8.1.10",
+    "postcss": "^8.2.10",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.0.1",
     "typescript": "^3.8.3"
