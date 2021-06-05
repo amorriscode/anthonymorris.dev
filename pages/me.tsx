@@ -70,15 +70,6 @@ function Me() {
               </Link>{' '}
               to help restaurants make a website with Google Sheets
             </li>
-
-            <li>
-              I'm learning about{' '}
-              <Link href="https://monthly.com/mark-rober-engineering">
-                <a target="_blank">creative engineering with Mark Rober</a>
-              </Link>
-            </li>
-
-            <li>I'm attempting to improve my mobility and strength</li>
           </ul>
         </section>
 
