@@ -4,4 +4,3 @@
 - Requires evidence/proof/observation
 
 [[Argument]] [[Philosophy]] [[Epistemology]]
-
