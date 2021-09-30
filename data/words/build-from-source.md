@@ -29,7 +29,11 @@ My friend [Alex](https://alexkarle.com/) and I have started exploring our very o
 
 It's given me a chance to connect with my past in a way I didn't expect. I'm no longer wrestling printer drivers or battling the bugs within my [AutoHotKey](https://www.autohotkey.com/) fax management software. Instead, [Alex](https://alexkarle.com/) and I are pair programming and configuring software that is open and [free](https://en.wikipedia.org/wiki/Free_and_open-source_software#Four_essential_freedoms_of_Free_Software).
 
-One really neat thing about [OpenBSD](https://www.openbsd.org/) is that the source code is included on the machine. Just take a look inside `/usr/src` (also [available for online perusing](https://cvsweb.openbsd.org/cgi-bin/cvsweb/)):
+One great thing about [OpenBSD](https://www.openbsd.org/) is that the source code is publicly available. All of the source is in one repo. It's even [available for online perusing](https://cvsweb.openbsd.org/cgi-bin/cvsweb/).
+
+If you want to build from the source files, you can clone their publicly available code to your machine! [OpenBSD](https://www.openbsd.org/) expects everything to live in `/usr/src` which is where the [source code lives the garbash server](https://garbash.com/~alex/notes/006-use-the-src.txt).
+
+Let's take a look inside `/usr/src`:
 
 ```bash
 $ ls -lah /usr/src
