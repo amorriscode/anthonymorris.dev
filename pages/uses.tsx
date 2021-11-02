@@ -165,6 +165,25 @@ function Home() {
         </section>
 
         <section>
+          <h2>Photography</h2>
+
+          <ul>
+            <li>
+              I usually snap photos with my{' '}
+              <a href="https://www.sony.ca/en/electronics/interchangeable-lens-cameras/ilce-7rm3">
+                Sony a7R III mirrorless camera
+              </a>
+            </li>
+
+            <li>
+              I use my{' '}
+              <a href="https://en.wikipedia.org/wiki/Canon_A-1">Canon A-1</a> to
+              when shooting with film.
+            </li>
+          </ul>
+        </section>
+
+        <section>
           <h2>Misc</h2>
 
           <ul>
@@ -181,12 +200,6 @@ function Home() {
               <a href="https://remarkable.com">reMarkable</a> has been a good
               replacement. I love the ability to organize and not waste paper.
               But I miss my notebooks.
-            </li>
-
-            <li>
-              I take photographs with a{' '}
-              <a href="https://en.wikipedia.org/wiki/Canon_A-1">Canon A-1</a>{' '}
-              film camera.
             </li>
 
             <li>
