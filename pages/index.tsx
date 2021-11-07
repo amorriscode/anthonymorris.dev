@@ -15,6 +15,7 @@ import { Project, Writing } from '../types'
 import withLayout from '../components/withLayout'
 import RecentProjects from '../components/RecentProjects'
 import RecentWords from '../components/RecentWords'
+import GameOfLife from '../components/GameOfLife'
 
 function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
   const headerRef = useRef<HTMLElement>(null)
@@ -92,7 +93,9 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
 
       <header ref={headerRef} className="max-w-screen h-screen relative">
         <div className="padding-container w-full h-full">
-          <div className="bg-container w-full h-full bg-am-black p-10 text-am-white flex flex-col justify-end overflow-hidden">
+          <div className="bg-container relative w-full h-full bg-am-black p-10 text-am-white flex flex-col justify-end overflow-hidden">
+            <GameOfLife />
+
             <div className="text-6xl font-am">
               Product-focused software engineer.
             </div>
