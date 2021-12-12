@@ -42,6 +42,11 @@ url = "/books/song-of-achilles"
 title = "The Song of Achilles"
 
 [[input.files]]
+path = "./books/the-courage-to-be-disliked.md"
+url = "/books/the-courage-to-be-disliked"
+title = "The Courage to Be Disliked"
+
+[[input.files]]
 path = "./books/the-fifth-season.md"
 url = "/books/the-fifth-season"
 title = "The Fifth Season"
