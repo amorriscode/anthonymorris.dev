@@ -49,12 +49,6 @@ EOF
   fi
 done
 
-# Finish up the stork TOML
-cat << EOF >> ./search-index.toml
-[output]
-filename = "../public/search-index.st"
-EOF
-
 echo "FINISHED BUILDING SEARCH-INDEX.TOML..."
 
 # Install stork
@@ -64,5 +58,5 @@ chmod +x ./stork
 
 # Build the search index
 echo "BUILDING SEARCH INDEX..."
-./stork build --input search-index.toml
+./stork build --input search-index.toml --output ../public/search-index.st
 
