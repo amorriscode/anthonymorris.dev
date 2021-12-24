@@ -64,5 +64,5 @@ chmod +x ./stork
 
 # Build the search index
 echo "BUILDING SEARCH INDEX..."
-./stork --build search-index.toml
+./stork build --input search-index.toml
 
