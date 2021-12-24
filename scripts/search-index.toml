@@ -212,6 +212,11 @@ url = "/words/finding-my-value"
 title = "'Finding My Value'"
 
 [[input.files]]
+path = "./words/obtaining-your-ideal-software-job.md"
+url = "/words/obtaining-your-ideal-software-job"
+title = "Obtaining Your Ideal Software Job"
+
+[[input.files]]
 path = "./words/what-not-how.md"
 url = "/words/what-not-how"
 title = "What Not How"
