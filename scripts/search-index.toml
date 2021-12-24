@@ -231,5 +231,3 @@ path = "./words/you-the-machine.md"
 url = "/words/you-the-machine"
 title = "You, The Machine"
 
-[output]
-filename = "../public/search-index.st"
