@@ -197,6 +197,11 @@ url = "/projects/wrabit"
 title = "Wrabit"
 
 [[input.files]]
+path = "./words/12-products-12-months.md"
+url = "/words/12-products-12-months"
+title = "12 Products in 12 Months"
+
+[[input.files]]
 path = "./words/2020-year-in-review.md"
 url = "/words/2020-year-in-review"
 title = "2020 Year in Review: Pandemonium"
