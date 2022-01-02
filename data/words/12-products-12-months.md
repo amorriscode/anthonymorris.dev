@@ -24,7 +24,7 @@ I suck at marketing. I'm not _great_ at design. The whole product life cycle is 
 
 We're making one product every month.
 
-Some people I've told have criticized the project. You can't build a business in a month. You can't build a good product in a month. Tell that to [Pieter Levels]((https://levels.io/12-startups-12-months/)).
+Some people I've told have criticized the project. You can't build a business in a month. You can't build a good product in a month. Tell that to [Pieter Levels](https://levels.io/12-startups-12-months/).
 
 Either way, that isn't why we are doing this. We aren't setting out to build billion dollar startups here. We're looking to build skills, be creative, and to have fun. I do hope some of our products end up being useful for ourselves (and others!) but that would be a beneficial side effect.
 
