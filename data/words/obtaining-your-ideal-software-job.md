@@ -25,7 +25,7 @@ Given the current landscape of software interviews, it's a good idea to practice
 
 I'm not particularly gifted with algorithms. Throughout the interview process I'll try to complete one to five algorithms a day. I really like practicing on [Binary Search](https://binarysearch.com/). [LeetCode](https://leetcode.com/) is a popular alternative full of common problems you'll see in interviews. If you're looking for more educational content, YouTube has tons or you could use something like [AlgoExpert](https://www.algoexpert.io).
 
-Being consistent will go a long way here. Do as much as you can daily. Even if it's a only single question, it'll help you in the long wrong.
+Being consistent will go a long way here. Do as much as you can daily. Even if it's a only single question, it'll help you in the long run.
 
 Once you're ready to start interviewing in person, you can [book a mock interview](https://interviewing.io/). It'll help you gain some confidence. I've never done this but I think it would've helped me. I once cancelled an algorithm interview 30 minutes before it was supposed to start because I had a panic attack.
 
