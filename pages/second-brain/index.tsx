@@ -73,7 +73,7 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
             <Link
               key={brainEntry.slug}
               href="/second-brain/[slug]"
-              as={`second-brain/${brainEntry.slug.toLowerCase()}`}
+              as={`second-brain/${brainEntry.slug}`}
             >
               <a className="m-2">{brainEntry.slug}</a>
             </Link>
