@@ -13,7 +13,7 @@
 - Gentle introduction (the below are in Abhay's words)
 	- [[Serverless]]
 		- We are talking about Functions as a Service
-		- Single-purpose functions running in in a [[cloud-service-provider]]
+		- Single-purpose functions running in in a [[cloud service provider]]
 		- Monolith --> microservice --> FaaS
 			- Consistently making a smaller version of compute
 		- Functions are triggered via an event
@@ -27,4 +27,4 @@
 	- [[GraphQL]]
 		- Used a lot in mobile applications
 
-[[talk]] [[we-watch-tech]]
+[[talk]] [[We Watch Tech]]

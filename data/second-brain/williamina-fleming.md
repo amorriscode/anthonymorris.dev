@@ -1,2 +1,0 @@
-# Williamina Fleming
-

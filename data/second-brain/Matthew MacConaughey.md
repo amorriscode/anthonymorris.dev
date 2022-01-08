@@ -2,7 +2,7 @@
 
 ## Quotes
 
-- "Don't half ass it."
+> "Don't half ass it."
   - From his [[book]] [[Greenlights]]
 
 [[People]] [[Quote]]

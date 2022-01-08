@@ -1,5 +1,4 @@
 # Rust
-
 - Prototyping is a bit harder
 
 ## [[Systems Programming]] in Rust
@@ -12,7 +11,6 @@
   - Across multiple threads
 
 ## Ownership
-
 - One owner of each data
 - When owner goes out of scope, data is cleaned up
 - Owner can transfer ownership (borrowing)
@@ -20,7 +18,6 @@
   - `&` --> An immutable borrow
 
 ## Resources
-
 - [Rust Starter Kit](https://wiki.alopex.li/RustStarterKit2020)
 
 [[Computer Science]] [[Programming Language]]

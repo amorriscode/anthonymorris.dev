@@ -1,6 +1,6 @@
 # Laws of Motion
 
-- [[isaac newton]]'s laws
+- [[Isaac Newton]]'s laws
 
 1. Every object will stay in a state of rest or [[motion]] unless an outside [[force]] acts on it
    - The [[motion]] will have a constant [[speed]]

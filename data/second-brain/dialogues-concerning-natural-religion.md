@@ -1,2 +1,0 @@
-# Dialogues Concerning Natural Religion
-

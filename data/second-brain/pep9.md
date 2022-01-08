@@ -6,8 +6,8 @@
 - 40 machine instructions
 - Has 16-bit (65,536 bytes) of [[computer memory]]
 - [[CPU] has seven registers
-  - PC (See [[arithmetic-logic-unit]])
-  - IR (See [[arithmetic-logic-unit]])
+  - PC (See [[arithmetic logic unit]])
+  - IR (See [[arithmetic logic unit]])
   - Accumulator (A)
     - Holds data and results of operations
 - Uses [[ASCII]]

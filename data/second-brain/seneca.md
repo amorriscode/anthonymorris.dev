@@ -10,5 +10,5 @@
 
 > We suffer more often in imagination than in reality.
 
-[[Stoicism]] [[People]] [[Quote]]
+[[Stoicism]] [[People]] [[Quote]] [[Philosopher]]
 

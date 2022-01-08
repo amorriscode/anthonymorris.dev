@@ -6,7 +6,7 @@
 - About the size of a fridge
 - Largest survey area of any [[exoplanet]] mission so far
   - 80% of the sky surveyed
-  - 200 [[light-year]] radius
+  - 200 [[light year]] radius
   - Looking at bright, close stars
     - Looking for nearby habitable [[planet]]s
 - Sends data to [[Earth]] every 13.7 days

@@ -1,5 +1,4 @@
 # Z-Wave
-
 - Smart home protocol
 - Provides two basic functions
   - Signaling to manage wireless connections
@@ -8,7 +7,6 @@
   - Can tolerate up to four hops through repeaters
 
 ## Hub
-
 - Network controller
 - Receives commands from smartphone or computer
 - Relays commands to various smart devices

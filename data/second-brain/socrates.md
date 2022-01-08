@@ -1,6 +1,5 @@
 # Socrates
 
-- Ancient [[Greek]] philosopher
+- Ancient [[Greek]] [[philosopher]]
 
-[[Philosophy]]
-
+[[Philosophy]] [[Philosopher]] [[People]]

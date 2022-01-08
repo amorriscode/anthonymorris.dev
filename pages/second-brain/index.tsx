@@ -73,7 +73,7 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
             <Link
               key={brainEntry.slug}
               href="/second-brain/[slug]"
-              as={`second-brain/${brainEntry.slug}`}
+              as={`second-brain/${brainEntry.slug.toLowerCase()}`}
             >
               <a className="m-2">{brainEntry.slug}</a>
             </Link>
@@ -85,13 +85,15 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  let brainEntries = getAllContent('second-brain', ['slug'])
+  const allBrainEntries = getAllContent('second-brain', ['slug'])
 
   // Filter out daily entries from slugs
   // as their content is probably not interesting to others
-  brainEntries = brainEntries.filter(
-    ({ slug }) => !/\d{4}-\d{2}-\d{2}/g.test(slug)
-  )
+  const brainEntries = allBrainEntries
+    .filter(({ slug }) => !/\d{4}-\d{2}-\d{2}/g.test(slug))
+    .sort(({ slug: slugA }, { slug: slugB }) =>
+      slugA.toLowerCase().localeCompare(slugB.toLowerCase())
+    )
 
   return {
     props: {

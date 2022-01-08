@@ -7,7 +7,7 @@
 
 ## History
 
-- [[isaac newton]] used prisms and lenses
+- [[Isaac Newton]] used prisms and lenses
   - Saw [[rainbow]]s coming from sunlight
 - Fraunhofer in [[1814]] magnified [[rainbow]]s to look closer
   - Saw [[rainbow]]s were not solid

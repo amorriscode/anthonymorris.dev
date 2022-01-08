@@ -26,7 +26,7 @@
 | mass of an electron ($M_e$)            | $9.109 \times 10^{−31} kg$                    |
 | Rydberg constant ($R \inf$)            | $1.0974 \times 10^7 m^{−1}$                   |
 | Stefan-Boltzmann constant (σ)          | $5.670 \times 10^{−8} J/(s \times m^2 deg^4)$ |
-| Wien’s law constant ($\lambda \max T$) | $2.898 \times 10^{−3} m K$                    |
+| [[Wien’s law]] constant ($\lambda \max T$) | $2.898 \times 10^{−3} m K$                    |
 | electron volt (energy) ($eV$)          | $1.602 \times 10^{−19} J$                     |
 | energy equivalent of 1 ton TNT         | $4.2 \times 10^9 J$                           |
 

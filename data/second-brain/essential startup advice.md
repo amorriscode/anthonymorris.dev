@@ -33,5 +33,5 @@ I love building stuff and need to reflect on this list often. Borrowed from [Y C
 - Get sleep and exercise - take care of yourself
   - The grind leads to burnout
 
-[[Startup]]
+[[Startup]] [[Advice]]
 

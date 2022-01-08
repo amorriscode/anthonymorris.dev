@@ -13,7 +13,7 @@
 - The [[radius]] of the [[star]] shrinks as its [[mass]] increases
   - Puts a limit on the size of [[white dwarf]]s
   - A white dwarf with a mass ~1.4 $M_{Sun}$ would have a radius of zero
-    - See: [[Chandrasekhar Limit]]
+    - See: [[Chandrasekhar limit]]
 
 [[Star]] [[Astronomy]]
 

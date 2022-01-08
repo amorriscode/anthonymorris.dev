@@ -1,2 +1,2 @@
-# Self Improvement
+# Self-Improvement
 

@@ -7,7 +7,7 @@
   - Using [[trigonometry]]
   - Observing shifts in the [[star]]s position in the sky from day to day
   - Limited range of 150 [[parsec]]s due to current technology
-    - ~400 [[light-year]]s
+    - ~400 [[light year]]s
 - Provides proof that the [[Earth]] [[orbit]]s the [[Sun]]
 
 ## Formula

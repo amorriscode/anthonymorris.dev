@@ -1,1 +1,3 @@
 # Ptolemy
+
+[[People]] [[Astronomer]] [[Mathematician]]

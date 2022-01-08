@@ -1,5 +1,5 @@
 # Ken Thompson
 
-- Creator of [[UNIX]]
+- Creator of [[Unix]]
 
 [[people]]

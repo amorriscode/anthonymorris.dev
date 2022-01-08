@@ -1,7 +1,7 @@
 # Networking
 
 - Two primary protocols
-  - [[tcp-ip]]
+  - [[TCP-IP]]
 - Wired and wireless share many similarities
   - Same use of layer 3 [[network layer]]
 - [Network Calculators](http://subnetmask.info/)

@@ -3,7 +3,7 @@
 - [[Arithmetic Logic Unit]] + [[Control Unit]]
   - Used so frequently together
   - Make up the CPU
-- Made from small [[silicon]] chips with millions of [[transistors]]
+- Made from small [[silicon]] chips with millions of [[transistor]]s
 - _n_-bit processor
   - _n_ refers to number of bits in the CPU general registers
   - Two _n_-bit numbers can be added with a single instruction

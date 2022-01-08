@@ -54,7 +54,7 @@
 - Took ~100 million years
 - We have the rules
   - [[Johannes Kepler]]'s laws
-  - [[isaac newton]]'s [[Laws of Motion]]
+  - [[Isaac Newton]]'s [[Laws of Motion]]
 - Forces and interactions
   - [[Gravity]]
   - Angular momentum (Kepler's second law)

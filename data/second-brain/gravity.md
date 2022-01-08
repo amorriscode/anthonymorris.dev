@@ -1,7 +1,7 @@
 # Gravity
 
-- Quantified by [[isaac newton]]
-  - [[Universal law of gravitation]]
+- Quantified by [[Isaac Newton]]
+  - [[universal law of gravitation]]
 - Universal attraction among all bodies everywhere
 
 ## Universal Gravitational Constant
