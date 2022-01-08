@@ -19,10 +19,12 @@ function Me() {
         <h1 className="text-4xl font-am px-10">me</h1>
 
         <PageSummary>
-          <p>I'm a product-focused software engineer from Vancouver, Canada.</p>
+          <p>
+            I&apos;m a product-focused software engineer from Vancouver, Canada.
+          </p>
 
           <p>
-            I'm fascinated with the world around us. I love learning about
+            I&apos;m fascinated with the world around us. I love learning about
             things new things and pushing the boundaries of my abilities. My
             mission in life is to have a positive impact with my code.
           </p>
@@ -57,18 +59,17 @@ function Me() {
 
           <ul>
             <li>
-              I'm empowering learners around the world @{' '}
-              <Link href="https://monthly.com">
-                <a target="_blank">Monthly</a>
+              I&apos;m{' '}
+              <Link href="/words/12-products-12-months">
+                <a target="_blank">building 12 products in 12 months</a>
               </Link>
             </li>
 
             <li>
-              I'm{' '}
-              <Link href="https://github.com/alicelovescake/sheetmenu">
-                <a target="_blank">building a tool</a>
-              </Link>{' '}
-              to help restaurants make a website with Google Sheets
+              I&apos;m empowering learners around the world @{' '}
+              <Link href="https://monthly.com">
+                <a target="_blank">Monthly</a>
+              </Link>
             </li>
           </ul>
         </section>
@@ -77,7 +78,7 @@ function Me() {
           <h2>Fun Facts</h2>
 
           <ul>
-            <li>I'm left handed</li>
+            <li>I&apos;m left handed</li>
 
             <li>
               I have{' '}

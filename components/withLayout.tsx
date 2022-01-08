@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 
 import Nav from './nav'
 import Search from './Search'
@@ -11,12 +12,13 @@ function withLayout(PageComponent: any) {
     return (
       <>
         <Head>
-          <script src="https://files.stork-search.net/stork.js"></script>
           <link
             rel="stylesheet"
             href="https://files.stork-search.net/basic.css"
           />
         </Head>
+
+        <Script src="https://files.stork-search.net/stork.js"></Script>
 
         <Nav handleSearchClick={() => setDisplaySearch(true)} />
 

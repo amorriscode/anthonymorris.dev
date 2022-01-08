@@ -50,7 +50,8 @@ function Home() {
             </li>
 
             <li>
-              I'm using <a href="https://starship.rs">starship</a> as my prompt.
+              I&apos;m using <a href="https://starship.rs">starship</a> as my
+              prompt.
             </li>
           </ul>
         </section>
@@ -59,6 +60,22 @@ function Home() {
           <h2>Apps</h2>
 
           <ul>
+            <li>
+              I use{' '}
+              <a
+                href="https://obsidian.md"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Obsidian
+              </a>{' '}
+              for my{' '}
+              <Link href="/second-brain">
+                <a>second brain</a>
+              </Link>
+              .
+            </li>
+
             <li>
               <a href="https://mochi.cards">Mochi</a> helps me remember things.
             </li>
@@ -89,7 +106,7 @@ function Home() {
             </li>
 
             <li>
-              Otherwise I'm sitting on my{' '}
+              Otherwise I&apos;m sitting on my{' '}
               <a href="https://www.fully.com/chairs/for-standing-desks/hag-capisco-puls-chair.html">
                 Capisco Puls
               </a>
@@ -141,25 +158,9 @@ function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Vercel's
+                Vercel&apos;s
               </a>{' '}
               edge network.
-            </li>
-
-            <li>
-              I use{' '}
-              <a
-                href="https://foambubble.github.io/foam"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Foam
-              </a>{' '}
-              to integrate my{' '}
-              <Link href="/second-brain">
-                <a>second brain</a>
-              </Link>
-              .
             </li>
           </ul>
         </section>

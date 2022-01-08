@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next'
 import { NextSeo } from 'next-seo'
+import Link from 'next/link'
 
 import { getAllContent } from '../../lib/api'
 
@@ -28,9 +29,9 @@ function Books({ books }: { books: Book[] }) {
         <PageSummary>
           <p>
             I <span className="italic">love</span> reading. If I could get paid
-            to review books, I'd happily do that for the{' '}
-            <a href="/life">rest of my life</a>. A good book will transport you
-            through time, allowing you to{' '}
+            to review books, I&apos;d happily do that for the{' '}
+            <Link href="/life">rest of my life</Link>. A good book will
+            transport you through time, allowing you to{' '}
             <a
               href="https://www.brainyquote.com/quotes/rene_descartes_134097"
               target="_blank"
@@ -55,7 +56,7 @@ function Books({ books }: { books: Book[] }) {
           </p>
 
           <p>
-            Although I try to read about a broad range of topics, don't be
+            Although I try to read about a broad range of topics, don&apos;t be
             surprised to find book reviews on space, computer science, history,
             humanity, science fiction, or fantasy. If you have suggestions on
             what I should read next, please let me know!

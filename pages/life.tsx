@@ -46,18 +46,19 @@ function Life() {
             </Link>{' '}
             said,{' '}
             <span className="font-bold">
-              "You could leave life right now. Let that determine what you do
-              and say and think."
+              &quot;You could leave life right now. Let that determine what you
+              do and say and think.&quot;
             </span>
           </p>
 
           <p>
             We often optimize our lives for money, fun, or output. We know we
-            have limited time but it's hard to put it all in context. I've been
-            trying to remind myself that my time is limited. I've{' '}
-            <a href="/projects/social-media-death-clock">
-              built projects around the idea
-            </a>
+            have limited time but it&apos;s hard to put it all in context.
+            I&apos;ve been trying to remind myself that my time is limited.
+            I&apos;ve{' '}
+            <Link href="/projects/social-media-death-clock">
+              <a>built projects around the idea</a>
+            </Link>
             ,{' '}
             <a
               href="https://dailystoic.com/you-could-leave-life-right-now-let-that-determine-what-you-do-and-say-and-think/"
@@ -66,20 +67,21 @@ function Life() {
             >
               purchased a token as a reminder
             </a>
-            , and I even have some tattoos related to the theme. But still, it's
-            hard to visualize.
+            , and I even have some tattoos related to the theme. But still,
+            it&apos;s hard to visualize.
           </p>
 
           <p>
             This is a reminder for me to cherish the life I have. To do the
             things I want to do and be with the people I want to be with. To let
-            go of the things that don't matter or aren't in my control.{' '}
+            go of the things that don&apos;t matter or aren&apos;t in my
+            control.{' '}
             <a
               href="https://youtu.be/arj7oStGLkU"
               target="_blank"
               rel="noopener noreferrer"
             >
-              It's a reminder of the things I am procrastinating on
+              It&apos;s a reminder of the things I am procrastinating on
             </a>
             .
           </p>

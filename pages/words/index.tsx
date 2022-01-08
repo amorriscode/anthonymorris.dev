@@ -27,8 +27,8 @@ function Words({ words }: { words: Writing[] }) {
 
         <PageSummary>
           <p>
-            I've always been fascinated by the written word. When I was younger
-            I{' '}
+            I&apos;ve always been fascinated by the written word. When I was
+            younger I{' '}
             <Link href="/books">
               <a>escaped the world through books</a>
             </Link>
@@ -37,12 +37,12 @@ function Words({ words }: { words: Writing[] }) {
 
           <p>
             Being a good writer is about being an effective communicator. But
-            don't forget the artistry, the curiosity, and the empathy. Writing
-            is a skill that pays back all who invest in it.
+            don&apos;t forget the artistry, the curiosity, and the empathy.
+            Writing is a skill that pays back all who invest in it.
           </p>
 
           <p>
-            I don't write nearly enough to be good but this is my place to
+            I don&apos;t write nearly enough to be good but this is my place to
             practice. You might find short stories, poems, how-tos, or essays.
             Long and short, serious and fun, good and bad.
           </p>

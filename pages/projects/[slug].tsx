@@ -2,6 +2,7 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 import Link from 'next/link'
 import { format } from 'date-fns'
 import { NextSeo } from 'next-seo'
+import Image from 'next/image'
 
 import { Project } from '../../types'
 
@@ -25,7 +26,7 @@ function ProjectPage({ project }: { project: Project }) {
 
       <header className="mx-auto max-w-3xl space-y-5">
         {project?.heroImage && (
-          <img className="mb-4" src={project.heroImage} alt={project.title} />
+          <Image className="mb-4" src={project.heroImage} alt={project.title} />
         )}
 
         <div className="px-10">

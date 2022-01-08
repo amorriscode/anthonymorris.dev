@@ -45,7 +45,7 @@ function Projects({ projects }: { projects: Project[] }) {
 
           <p>
             This is my collection of projects. Big and small. Software and
-            hardware. It's kind of like my very{' '}
+            hardware. It&apos;s kind of like my very{' '}
             <a
               href="https://killedbygoogle.com/"
               target="_blank"

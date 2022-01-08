@@ -34,8 +34,8 @@ function NotFound({
 
         <PageSummary>
           <p>
-            Not all who wander are lost. That being said, I didn't find what
-            you're looking for.
+            Not all who wander are lost. That being said, I didn&apos;t find
+            what you&apos;re looking for.
           </p>
 
           <p>
