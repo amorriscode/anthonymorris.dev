@@ -1,6 +1,8 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { format } from 'date-fns'
 import { NextSeo } from 'next-seo'
+import Image from 'next/image'
+import { getPlaiceholder } from 'plaiceholder'
 
 import { Writing } from '../../types'
 
@@ -24,12 +26,16 @@ function WordPage({ writing }: { writing: Writing }) {
       <header>
         {writing?.heroImage && (
           <div className="px-10">
-            <div
-              className="mb-10 mx-auto h-64 sm:h-96 max-w-4xl bg-cover bg-center rounded-lg"
-              style={{
-                backgroundImage: `url(${writing.heroImage})`,
-              }}
-            ></div>
+            <div className="mb-10 mx-auto h-64 sm:h-96 max-w-4xl rounded-lg relative overflow-hidden">
+              <Image
+                src={writing.heroImage}
+                layout="fill"
+                objectFit="cover"
+                alt=""
+                placeholder="blur"
+                blurDataURL={writing.blurDataURL}
+              />
+            </div>
           </div>
         )}
 
@@ -59,15 +65,20 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     'content',
     'tags',
     'heroImage',
-  ])
+  ]) as Writing
 
   const content = await markdownToHtml(writing.content || '')
+
+  const { base64 = '' } = writing.heroImage
+    ? await getPlaiceholder(writing.heroImage, { size: 4 })
+    : {}
 
   return {
     props: {
       writing: {
         ...writing,
         content,
+        blurDataURL: base64,
       },
     },
   }

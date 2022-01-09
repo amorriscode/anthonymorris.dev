@@ -2,7 +2,9 @@ import fs from 'fs'
 import { join } from 'path'
 import matter from 'gray-matter'
 
-import { Project, Book, Failure, Learning, BrainEntry } from '../types'
+import { Project, Book, Failure, Learning, BrainEntry, Writing } from '../types'
+
+type Content = Project | Book | Failure | Learning | BrainEntry | Writing
 
 const getContentDirectory = (type: string) =>
   join(process.cwd(), `data/${type}`)
@@ -16,7 +18,7 @@ export function getContentBySlug(
   type: string,
   slug: string,
   fields: string[] = []
-): Project | Book | Failure | Learning | BrainEntry {
+): Content {
   const realSlug = slug.replace(/\.md$/, '')
   const fullPath = join(getContentDirectory(type), `${realSlug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
@@ -60,7 +62,7 @@ export function getContentBySlug(
     }
   })
 
-  return items as Project | Book | Failure | Learning | BrainEntry
+  return items as Content
 }
 
 export function getAllContent(type: string, fields: string[] = []) {
@@ -79,5 +81,5 @@ export function getAllContent(type: string, fields: string[] = []) {
     })
   }
 
-  return content as (Project | Book | Failure | Learning | BrainEntry)[]
+  return content as Content[]
 }

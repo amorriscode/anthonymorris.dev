@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { format } from 'date-fns'
 import { NextSeo } from 'next-seo'
 import Image from 'next/image'
+import { getPlaiceholder } from 'plaiceholder'
 
 import { Project } from '../../types'
 
@@ -26,7 +27,16 @@ function ProjectPage({ project }: { project: Project }) {
 
       <header className="mx-auto max-w-3xl space-y-5">
         {project?.heroImage && (
-          <Image className="mb-4" src={project.heroImage} alt={project.title} />
+          <div className="mb-4 mx-auto h-64 sm:h-96 max-w-4xl rounded-lg relative overflow-hidden">
+            <Image
+              src={project.heroImage}
+              alt={project.title}
+              layout="fill"
+              objectFit="cover"
+              placeholder="blur"
+              blurDataURL={project.blurDataURL}
+            />
+          </div>
         )}
 
         <div className="px-10">
@@ -92,15 +102,20 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     'status',
     'postmortem',
     'heroImage',
-  ])
+  ]) as Project
 
   const content = await markdownToHtml(project.content || '')
+
+  const { base64 = '' } = project.heroImage
+    ? await getPlaiceholder(project.heroImage, { size: 4 })
+    : {}
 
   return {
     props: {
       project: {
         ...project,
         content,
+        blurDataURL: base64,
       },
     },
   }
