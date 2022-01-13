@@ -1,5 +1,17 @@
 # Company Interview Questions
 
+## Thinking Like a VC
+1. How many shares are outstanding and what's the current valuation?
+	- What percentage of total shares you'll own
+	- How much will those shares be worth?
+2. What is a high/medium/low outcome for the company? What are the likelihoods for each?
+	- Everyone has a different definition of success
+3. What's the annualized value of my equity in the event of a high/medium/low outcome?
+	- Hearing a founder articulate this can help reveal new info
+4. Would you sell? If so, when?
+5. How much capital will this company need to build? When's the next round?
+6. How much of the company do the founders still own? 
+
 ## Growth and Priorities
 
 1. What's the biggest existential threat to this business? What are the things that keep you up at night?
