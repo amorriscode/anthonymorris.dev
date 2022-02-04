@@ -10,7 +10,7 @@
   - [[Alan Turing]]
 - Harvard Mark I, ENIAC, UNIVAC I
   - Early computers
-  - Launched new era of maths, physics, engineering, and economics
+  - Launched new era of maths, physics, engineering, and [[economics]]
 
 ## Hardware
 
