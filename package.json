@@ -32,6 +32,7 @@
     "rehype-slug": "^4.0.1",
     "rehype-stringify": "^9.0.3",
     "remark-math": "^3.0.1",
+    "remark-parse": "^10.0.1",
     "remark-rehype": "^7.0.0",
     "sharp": "^0.29.3",
     "swr": "^0.2.3",
