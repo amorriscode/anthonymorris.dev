@@ -12,7 +12,7 @@ After an hour in traffic, you're finally home. You walk through the door and gre
 
 For our [first product of the year](https://12products.xyz), Alice and I decided to build an iOS app for reminders. We wanted to meet the users where they already spend a lot of their time: Messages. Instead of another app fighting for your attention, we bank on the one that's already won. I'm interested in engaging with users via conversational interfaces so this was a fun experiment.
 
-This wasn't my first time using React Native. I've never actually taken an app from nothing to release. Getting the email from Apple saying poke was in the App Store felt like a perfect way to start off 2022.
+This wasn't my first time using React Native. I've never actually taken an iOS app from idea to release. Getting the email from Apple saying poke was in the App Store felt like a perfect way to start off 2022.
 
 One product down, eleven more to go!
 
