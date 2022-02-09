@@ -17,7 +17,7 @@ a:hover {
 
 .page-summary.prose a,
 .backlink-container.prose a,
-.bg-am-black h2,
+.page-summary h2,
 .prose blockquote a {
   @apply text-am-white;
 }

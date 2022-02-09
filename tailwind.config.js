@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-undef
 module.exports = {
-  purge: ['./components/**/*.tsx', './pages/**/*.tsx'],
+  content: ['./components/**/*.tsx', './pages/**/*.tsx', './data/**/*.md'],
   darkMode: 'class',
   theme: {
     extend: {
@@ -29,13 +29,6 @@ module.exports = {
           '"Noto Color Emoji"',
         ],
       },
-    },
-  },
-  variants: {
-    extend: {
-      cursor: ['hover'],
-      backgroundOpacity: ['dark'],
-      display: ['dark'],
     },
   },
   plugins: [require('@tailwindcss/typography')],
