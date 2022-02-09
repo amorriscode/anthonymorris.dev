@@ -43,7 +43,7 @@ I figured we'd iterate faster if the codebase was entirely TypeScript. I'd heard
 
 As with all of my indie projects, we used [Tailwind](https://tailwindcss.com/) to style the app. The developer experience continues to be a breeze. It's actually _fun_ iterating on design when using Tailwind.
 
-We used [Twilio](https://www.twilio.com/) for auth. Since users need their phone number to receive our reminders, it just made sense. It was my first time using Twilio. Everything went pretty smoothly (except that one outage that cause an App Store rejection).
+We used [Twilio](https://www.twilio.com/) for auth. Since users need their phone number to receive our reminders, it just made sense. It was my first time using Twilio. Everything went pretty smoothly (except that one outage that caused an App Store rejection).
 
 ---
 
