@@ -17,7 +17,7 @@ jobs:
           git config user.name "$(git log --format='%an' HEAD^!)"
           git config user.email "$(git log --format='%ae' HEAD^!)"
           git add .
-          git commit -m "Build search index"
+          git commit -m "ci: build search index"
           git push
       - name: Deploying production on Vercel
         run: yarn deploy:prod --token $VERCEL_TOKEN
