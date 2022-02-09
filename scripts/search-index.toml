@@ -172,6 +172,11 @@ url = "/projects/gme"
 title = "If I bought $GME..."
 
 [[input.files]]
+path = "./projects/poke.md"
+url = "/projects/poke"
+title = "poke"
+
+[[input.files]]
 path = "./projects/social-media-death-clock.md"
 url = "/projects/social-media-death-clock"
 title = "Social Media Death Clock"
