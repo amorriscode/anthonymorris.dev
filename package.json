@@ -9,8 +9,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "vercel --scope amorriscode2 --confirm",
-    "deploy:prod": "vercel --scope amorriscode2 --prod --confirm"
+    "deploy": "vercel --scope amorriscode --confirm",
+    "deploy:prod": "vercel --scope amorriscode --prod --confirm"
   },
   "dependencies": {
     "@plaiceholder/next": "^2.2.0",
