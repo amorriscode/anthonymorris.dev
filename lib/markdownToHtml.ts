@@ -1,4 +1,4 @@
-import remark from 'remark'
+import { unified } from 'unified'
 import math from 'remark-math'
 import remark2rehype from 'remark-rehype'
 import katex from 'rehype-katex'
@@ -10,7 +10,7 @@ import s from 'hastscript/svg'
 import rehypeRaw from 'rehype-raw'
 
 export default async function markdownToHtml(markdown: string) {
-  const result = await remark()
+  const result = await unified()
     .use(math)
     .use(remark2rehype, { allowDangerousHtml: true })
     .use(rehypeRaw)
