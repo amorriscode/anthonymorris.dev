@@ -1,4 +1,4 @@
-name: Deploy to production
+name: Build search index
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - 'main'
 
 jobs:
-  deploy-production:
-    name: Deploy to production
+  search-index:
+    name: Build search index
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,7 +19,3 @@ jobs:
           git add .
           git commit -m "ci: build search index"
           git push
-      - name: Deploying production on Vercel
-        run: yarn deploy:prod --token $VERCEL_TOKEN
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
