@@ -197,6 +197,11 @@ url = "/projects/tavern"
 title = "Tavern"
 
 [[input.files]]
+path = "./projects/war-room.md"
+url = "/projects/war-room"
+title = "War Room"
+
+[[input.files]]
 path = "./projects/we-watch-tech.md"
 url = "/projects/we-watch-tech"
 title = "We Watch Tech"
