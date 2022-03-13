@@ -2,8 +2,8 @@
 title: "poke"
 description: "A gentle, text-based reminder iOS app."
 date: "2022-01-31T00:00:00"
-launchDate: "2021-01-31T00:00:00"
-status: "live"
+launchDate: "2022-01-31T00:00:00"
+status: "12products"
 ---
 
 You should've left work an hour ago, you're supposed to pick up milk on your way home, and you don't have a clue how you'll make it to the gym today. We've all been there.

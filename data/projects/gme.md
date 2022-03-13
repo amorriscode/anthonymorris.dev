@@ -3,7 +3,7 @@ title: "If I bought $GME..."
 description: "Wish you bought $GME? Calculate how rich you'd be if you did."
 date: "2021-01-27T00:00:00"
 launchDate: "2021-01-27T00:00:00"
-status: "live"
+status: "hack"
 ---
 
 After all the craziness of 2020, I bet you were hoping 2021 would be smooth sailing. Nothing wild. Nothing unexpected.
@@ -16,6 +16,6 @@ If you didn't get in on [$GME](https://finance.yahoo.com/quote/GME?p=GME&.tsrc=f
 
 ---
 
-[Calculate how rich you could've been](https://ifiboughtg.me)
+[Calculate how rich you could've been](https://ifiboughtgme.vercel.app/)
 
 [IIBG on Product Hunt](https://www.producthunt.com/posts/if-i-bought-gme)
