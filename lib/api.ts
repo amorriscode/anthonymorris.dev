@@ -14,13 +14,33 @@ export function getSlugs(dir: string) {
   return files
 }
 
+function getSecondBrainEntry(directory: string, slug: string) {
+  const files = fs.readdirSync(directory).filter((file) => file.includes('.md'))
+  const entry = files.find((file) => file.toLowerCase() === `${slug}.md`)
+
+  if (!entry) {
+    throw new Error(`Failed to find content for second brain entry: ${slug}`)
+  }
+
+  return join(directory, entry)
+}
+
 export function getContentBySlug(
   type: string,
   slug: string,
   fields: string[] = []
 ): Content {
-  const realSlug = slug.replace(/\.md$/, '')
-  const fullPath = join(getContentDirectory(type), `${realSlug}.md`)
+  const slugWithoutFileExtension = slug.replace(/\.md$/, '')
+
+  const contentDirectory = getContentDirectory(type)
+  const fullPath =
+    type === 'second-brain'
+      ? getSecondBrainEntry(
+          contentDirectory,
+          slugWithoutFileExtension.toLowerCase()
+        )
+      : join(contentDirectory, `${slugWithoutFileExtension}.md`)
+
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
@@ -31,7 +51,7 @@ export function getContentBySlug(
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
     if (field === 'slug') {
-      items[field] = realSlug
+      items[field] = slugWithoutFileExtension
     }
 
     if (field === 'content') {
@@ -49,7 +69,7 @@ export function getContentBySlug(
       items[field] = slugs
         .map((slug) => {
           const slugContent = getContentBySlug(type, slug, ['content'])
-          const regexString = `\\[${realSlug}\\]`
+          const regexString = `\\[${slugWithoutFileExtension}\\]`
           const regex = new RegExp(regexString, 'im')
           return slugContent.content.match(regex)
             ? slug.replace(/\.md$/, '')
