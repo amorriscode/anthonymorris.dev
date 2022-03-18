@@ -1,5 +1,5 @@
 ---
-alias: Edgar F. Codd
+aliases: [Edgar F. Codd]
 ---
 
 # Ted Codd

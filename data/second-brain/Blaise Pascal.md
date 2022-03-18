@@ -1,3 +1,5 @@
+[[People]] [[Computer Science]] [[Quote]]
+
 # Blaise Pascal
 
 - French [[mathematician]], [[physicist]], [[inventor]], [[philosopher]], and [[writer]]
@@ -11,5 +13,4 @@
 
 > Man's greatness comes from knowing he is wretched.
 
-[[People]] [[Computer Science]] [[Quote]]
 

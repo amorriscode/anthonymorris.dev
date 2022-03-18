@@ -1,5 +1,10 @@
-# Jovian Planet
+---
+aliases: [gas giant planet, ice giant planet]
+---
 
+[[Astronomy]] [[Space]] [[Planet]] [[The Solar System]]
+
+# Jovian Planet
 - Also known as giant [[planet]]s
 - Much larger than [[terrestrial planet]]s
 - Composed primarily of gases, ices, and rocks
@@ -26,10 +31,8 @@
   - Easier to hold onto gases
 - Surface is the layer that is thick enough that we can't see through it
 
-## Planets
-
+## Types
 ### Gas Giants
-
 - Members:
   - [[Jupiter]]
   - [[Saturn]]
@@ -43,7 +46,6 @@
   - Clouds
 
 ### Ice giants
-
 - Members:
   - [[Uranus]]
   - [[Neptune]]
@@ -53,6 +55,3 @@
   - [[Water]], [[methane]], [[ammonia]]
   - Gaseous [[hydrogen]]
   - Clouds
-
-[[Astronomy]] [[Space]] [[Planet]] [[The Solar System]]
-

@@ -1,5 +1,6 @@
-# Star
+[[Space]] [[Astronomy]]
 
+# Star
 - Self-luminous, gaseous objects that fuse elements
 - Obtain [[energy]] from nuclear [[fusion]]
 - Considered a star when it can sustain itself through  [[nuclear reaction]]s (making its own [[energy]])
@@ -11,7 +12,6 @@
 - A star is said to be *true* if it becomes hot enough to fuse [[proton]]s to form [[helium]]
 
 ## Measuring the Characteristics of Stars
-
 | Characteristic          | Technique                                                                           |
 | ----------------------- | ----------------------------------------------------------------------------------- |
 | Surface [[temperature]] | Determine the colour (very rough)                                                   |
@@ -25,7 +25,6 @@
 |                         | Measure the [[light]] curves and [[Doppler shift]]s for eclipsing [[binary star]]s  |
 
 ## Measuring Distance from Earth
-
 1. [[Parallax]]
    - Rely only on [[geometry]]
 2. Using brightness measurements
@@ -39,7 +38,6 @@
    4. Distance-magnitude relationship gives you distance
 
 ## Mass
-
 - Knowing the [[mass]] of a star helps us estimate how long it will shine and what its ultimate fate will be
 - The smallest [[mass]] that a true star can have is about $\frac{1}{2}$ that of the [[Sun]]
 - Massive stars live for a short amount of time (die faster)
@@ -49,13 +47,11 @@
     - Makes [[fusion]] process happen faster
 
 ## Luminosity
-
 - [[Luminosity]]
 - How much light a star is emitting
 - [[Photometry]] is used for measuring apparent magnitudes
 
 ## Types of Stars
-
 - [[H-R diagram]] helps plot [[luminosity]] against [[temperature]] or spectral type
 - [[Main sequence star]]s
   - Most populated
@@ -70,7 +66,6 @@
 - [[Neutron Star]]s
 
 ## Colour and Temperature
-
 | Star Colour | Approximate Temperature |
 | ----------- | ----------------------- |
 | Blue        | 25,000 K                |
@@ -78,6 +73,4 @@
 | Yellow      | 6000 K                  |
 | Orange      | 4000 K                  |
 | Red         | 3000 K                  |
-
-[[Space]] [[Astronomy]]
 
