@@ -66,12 +66,16 @@ export function getContentBySlug(
 
     if (type === 'second-brain' && field === 'backlinks') {
       const slugs = getSlugs(getContentDirectory(type))
+
       items[field] = slugs
         .map((slug) => {
           const slugContent = getContentBySlug(type, slug, ['content'])
-          const regexString = `\\[${slugWithoutFileExtension}\\]`
-          const regex = new RegExp(regexString, 'im')
-          return slugContent.content.match(regex)
+          const lowercaseContent = slugContent.content.toLowerCase()
+          const backlinkUrl = `(/second-brain/${encodeURI(
+            slugWithoutFileExtension.toLowerCase()
+          )})`
+
+          return lowercaseContent.includes(backlinkUrl)
             ? slug.replace(/\.md$/, '')
             : null
         })

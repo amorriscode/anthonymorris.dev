@@ -1,5 +1,6 @@
-# Sun
+[[Space]] [[Astronomy]]
 
+# Sun
 - Diameter is about 1.5 million kilometers
 - [[Orbit]]s around the center of the [[Milky Way Galaxy]] around 225-250 million terrestrial years
   - Known as a **galactic** or **cosmic** years
@@ -12,7 +13,6 @@
 - Brighter than ~80% of the [[star]]s in the [[Milky Way Galaxy]]
 
 ## Position in the Sky
-
 ![Calculating positions in the sky](/assets/second-brain/2020-10-01-11-06-46.png)
 
 ![The Sun in the sky depending on the season](/assets/second-brain/2020-10-10-17-47-26.png)
@@ -28,7 +28,6 @@
 - Declination ranges between -23.5˚ and +23.5˚
 
 ## Atmosphere
-
 ![Layers of the Sun](/assets/second-brain/2020-10-23-14-09-33.png)
 
 - [[Photosphere]]
@@ -37,7 +36,6 @@
 - [[Corona]]
 
 ## Composition
-
 - Spectroscopic data analyzed in 1925 helped confirm composition
   - People originally believed it must be [[Earth]]-like
   - Analyzed by [[Cecilia Payne-Gaposchkin]]
@@ -56,7 +54,6 @@
 - [[Hydrostatic equilibrium]]
 
 ### Core
-
 - Extremely dense
 - Source of all its [[energy]]
 - Approximately 20% of the interior
@@ -64,7 +61,6 @@
   - Hottest part of the Sun
 
 ### Radiative Zone
-
 - [[Photon]]s carry [[energy]] and hit particles transferring [[energy]]
 - How [[energy]] goes from inside --> outside
 - Light from the core is transported through this zone very slowly
@@ -72,20 +68,16 @@
   - Photons encounter other particles and change direction or lose some [[energy]]
 
 ### Convective zone
-
 - Hot blobs of [[gas]] moving out
 - Outermost layer of the interior
 
 ## Solar Activity
-
 - [[Prominence]]s
 - [[Solar flare]]s
 - [[Coronal mass ejection]]
 
-## [[Energy]]
-
+## Energy
 - Outputs about $4 \times 10^{25}$ [[watt]]s of [[energy]]
 - When [[Albert Einstein]] discovered that [[mass]] can be considered [[energy]], and converted into [[energy]], the mysteries behind the Sun's power were unlocked
 
-[[Space]] [[Astronomy]]
 
