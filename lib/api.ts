@@ -39,7 +39,7 @@ export function getContentBySlug(
         // Replace all second brain links
         .replace(/\[\[(.*?)\]\]/g, (_, text) => {
           const [entry, alias] = text.split('|')
-          const url = encodeURI(`/second-brain/${entry}`)
+          const url = encodeURI(`/second-brain/${entry.toLowerCase()}`)
           return `[${alias || entry}](${url})`
         })
     }

@@ -100,7 +100,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     paths: brainEntries.map(({ slug }) => {
       return {
         params: {
-          slug,
+          slug: slug.toLowerCase(),
         },
       }
     }),
