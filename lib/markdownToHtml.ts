@@ -9,12 +9,14 @@ import slug from 'rehype-slug'
 import link from 'rehype-autolink-headings'
 import s from 'hastscript/svg'
 import rehypeRaw from 'rehype-raw'
+import remarkGfm from 'remark-gfm'
 
 export default async function markdownToHtml(markdown: string) {
   const result = await unified()
     .use(parse)
     .use(math)
     .use(remark2rehype, { allowDangerousHtml: true })
+    .use(remarkGfm)
     .use(rehypeRaw)
     .use(katex)
     .use(stringify)

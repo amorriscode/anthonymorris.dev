@@ -37,10 +37,11 @@ export function getContentBySlug(
     if (field === 'content') {
       items[field] = content
         // Replace all second brain links
-        .replace(
-          /\[\[(.*?)\]\]/g,
-          (_, text) => `[${text}](/second-brain/${text})`
-        )
+        .replace(/\[\[(.*?)\]\]/g, (_, text) => {
+          const [entry, alias] = text.split('|')
+          const url = encodeURI(`/second-brain/${entry}`)
+          return `[${alias || entry}](${url})`
+        })
     }
 
     if (type === 'second-brain' && field === 'backlinks') {

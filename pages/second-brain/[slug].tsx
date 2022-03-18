@@ -53,14 +53,16 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
 
       {!!brainEntry.backlinks.length && (
         <div className="backlink-container prose mx-auto max-w-3xl p-10 bg-am-black text-am-white rounded-lg mb-10">
-          <h2 className="font-am text-2xl font-light">Backlinks</h2>
+          <h2 className="font-am text-2xl font-light text-am-white">
+            Backlinks
+          </h2>
 
           <div className="flex flex-wrap justify-between">
             {brainEntry.backlinks.map((backlink) => (
               <Link
                 key={backlink}
                 href="/second-brain/[slug]"
-                as={`/second-brain/${escape(backlink.toLowerCase())}`}
+                as={`/second-brain/${encodeURI(backlink.toLowerCase())}`}
               >
                 <a className="m-2">{backlink}</a>
               </Link>

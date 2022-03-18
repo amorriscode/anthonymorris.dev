@@ -3,15 +3,15 @@
 # Astrobiology: Exploring Other Worlds
 - Taken on [Coursera](https://www.coursera.org/learn/astrobiology-exploring-other-worlds)
 
-## Week 1 - [[Planet]]s in [[the Solar System]] and Beyond
-- [[Astrobiology]] is asking "are we alone in the [[universe]]"?
+## Week 1 - Planets in the Solar System and Beyond
+- [[astrobiology|Astrobiology]] is asking "are we alone in the [[universe]]"?
 - There are many [[planet]]s in the [[universe]] but how many of them contain [[life]]?
 - It's tough to define [[life]]
 	- Usually we imagine [[carbon]] and [[water]]
 
-### [[Exoplanet]]s
-- [[Planet]]s beyond our [[the solar system]]
-	- [[Planet]]s not orbiting our [[sun]]
+### Exoplanets
+- [[planet|Planet]]s beyond our [[the solar system]]
+	- [[planet|Planet]]s not orbiting our [[sun]]
 - Our situation in cosmic space
 	- [[Earth]] is ~26,000 [[light year]]s away from the galactic center
 	- The [[milky way galaxy|Milky Way]] is 100,000 [[light year]]s in diameter
@@ -28,7 +28,7 @@
 - [[Exoplanet]]s tend to have more eccentric [[orbit]]s than in [[the Solar System]]
 	- Makes us wonder if [[the Solar System]] is typical in the [[universe]] or not
 
-### [[Planet]] Formation
+### Planet Formation
 - [[Star]]s are born in [[molecular cloud]]s
 	- These clouds collapse and become dense ([[gravitational collapse]])
 	- [[Accretion disk]] is formed
@@ -52,7 +52,7 @@
 	- Recent results from [[kepler space telescope]] suggest that between 1/5 to 1/2 of all [[star]]s have at least one [[planet]]
 		- `0.2 * 1000 billion stars = 20,000,000,000` --> conservative estimate is 20 billion stars in the [[milky way galaxy|Milky Way]]
 
-### [[Planet]]s and [[Moon]]s
+### Planets and Moons
 - The surface of rocky planets is constantly changing
 	- Geologically active
 - Magnetic shields are a product of [[differentiation]]
