@@ -1,5 +1,6 @@
-# Venus ♀
+[[Astronomy]] [[Space]] [[Planet]]
 
+# Venus ♀
 - 0.72 AU from the [[Sun]]
 - Goes through phases like [[the Moon]]
   - Discovered by [[Galileo]]
@@ -14,7 +15,6 @@
 - [[Gravity]] is similar to [[gravity]] on [[Earth]]
 
 ## Atmosphere
-
 - 96% [[carbon dioxide]]
 - Covered by clouds
   - Reflect ~70% of the sunlight
@@ -28,7 +28,6 @@
   - Like being 1 km underwater
 
 ## Surface
-
 - Surface is hot --> 730K (over 850˚ F)
   - Thanks to the runaway [[greenhouse effect]]
     - Worse than on the [[Earth]]
@@ -41,5 +40,5 @@
 - No plate tectonics
   - Weak mantle convection
 
-[[Astronomy]] [[Space]] [[Planet]]
+
 

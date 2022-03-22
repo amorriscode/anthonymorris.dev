@@ -1,5 +1,6 @@
-# Heavy Bombardment
+[[Astronomy]] [[Space]] [[the Solar System]]
 
+# Heavy Bombardment
 - Period of time in the early solar system
   - First few hundred million years
   - ~4.1 - 3.8 billion years ago
@@ -11,6 +12,3 @@
 - Possible formation of [[the Moon]]
 - Most of [[Earth]]'s water probably accumulated during this time
 - Most [[planet]]s probably captured moons at this time
-
-[[Astronomy]] [[Space]] [[the Solar System]]
-

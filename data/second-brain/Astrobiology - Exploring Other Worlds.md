@@ -75,4 +75,54 @@
 - [[Moon]]s form around planetesimals
 - We haven't detected [[moon]]s around [[exoplanet]]s
 	- Too small to detect
-- 
+
+### Our Solar System
+- [[The Solar System]] might not be typical but we do believe [[planet]]/[[moon]] formation is universal
+- [[Planet]]s
+	- [[Mercury]]
+		- Geologically dead; no [[atmosphere]]
+	- [[Venus]]
+		- Almost identical to [[Earth]] in size, mass, and interior structure
+		- Runaway [[greenhouse effect]]
+		- Might have been habitable 3 billion years ago
+	- [[Earth]]
+		- Thick atmosphere helps with water retention
+	- [[Mars]]
+		- Smaller than [[Earth]]
+		- Old, cratered surface
+		- Evidence it was wet in the past
+	- [[Jupiter]]
+		- 71% of the mass of all [[planet]]s in [[the Solar System]]
+	- [[Saturn]]
+	- [[Uranus]]
+		- Large axial tilt (probably from being hit)
+	- [[Neptune]]
+
+### Hot Jupiters and Planet Migration
+- Hot [[Jupiter]]
+	- [[jovian planet|gas giant planet]] with [[mass]] equal to, or great than, [[Jupiter]]
+	- Tight [[orbit]] close to their parent [[star]]
+	- Surpising that they event exist
+		- Simulations suggested they should not exist
+		- Caused us to rethink [[planet]] formation theories
+	- Planetary migration
+		- [[Planet]]s may drastically change orbital distances before settling into their final [[orbit]]
+		- Explains how hot Jupiters would end up with an orbital path close to their [[star]]
+	- The Grand Tack theory
+		- How [[Jupiter]] may have experience planetary migration in our solar system
+		- Cleared out some debris in the solar system and also caused the period of [[heavy bombardment]]
+	- Extremely hard to verify models of the early solar system
+
+### Water Worlds
+- [[Planet]]s like the [[Earth]]
+- [[jovian planet|Ice giant planet]]
+	- First ice giant exoplanet was discovered in 2014
+- Small [[exoplanet]]s typically come in two sizes
+	- Mini-[[Neptune]]s
+		- Smaller or less massive
+	- Super-[[Earth]]s
+		- Like [[Earth]] but larger or more massive
+- Measuring mass of planets
+	- [Minimum mass](https://en.wikipedia.org/wiki/Minimum_mass)
+	- Detected using the [[radial velocity]] method ([[Doppler spectroscopy]])
+	- Real orbital inclinations and true masses are generally unkown (sin _i_ degeneracy)
