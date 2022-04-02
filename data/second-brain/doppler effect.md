@@ -1,5 +1,10 @@
-# Doppler Effect
+---
+aliases: [doppler shift]
+---
 
+[[Physics]] [[Astronomy]]
+
+# Doppler Effect
 ![Example of redshift and blueshift](/assets/second-brain/2021-02-05-09-12-54.png)
 
 - Change in [[frequency]] of a wave in relation to an observer who is moving relative to the wave source
@@ -12,16 +17,12 @@
   - Each wave takes slightly less/more time to reach the observer than the previous one
 
 ## Redshift
-
 - Increase in [[wavelength]]
 - Decrease in [[frequency]] and [[photon]] [[energy]]
 - Occurs when two objects are moving apart
 
 ## Blueshift
-
 - Decrease in [[wavelength]]
 - Increase in [[frequency]] and [[photon]] [[energy]]
 - Occurs when two objects are moving closer to each other
-
-[[Physics]] [[Astronomy]]
 

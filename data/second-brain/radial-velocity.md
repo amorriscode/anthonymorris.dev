@@ -1,4 +1,0 @@
-# Radial Velocity
-
-[[Physics]] [[Velocity]]
-

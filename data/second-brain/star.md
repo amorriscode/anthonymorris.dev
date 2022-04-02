@@ -18,11 +18,11 @@
 |                         | Measure the spectrum and get the spectral type                                      |
 | Chemical composition    | Determine which lines are present in the spectrum                                   |
 | [[Luminosity]]          | Measure the apparent brightness and compensate for distance                         |
-| [[Radial velocity]]     | Measure the [[Doppler shift]] in the spectrum                                       |
+| [[Radial velocity]]     | Measure the [[doppler effect|doppler shift]] in the spectrum                                       |
 | Rotation                | Measure the width of spectral lines                                                 |
 | [[Mass]]                | Measure the period and [[radial velocity]] curves of spectroscopic [[binary star]]s |
 | Diameter                | Measure the way a star's [[light]] is blocked by [[the Moon]]                       |
-|                         | Measure the [[light]] curves and [[Doppler shift]]s for eclipsing [[binary star]]s  |
+|                         | Measure the [[light]] curves and [[doppler effect|doppler shift]]s for eclipsing [[binary star]]s  |
 
 ## Measuring Distance from Earth
 1. [[Parallax]]

@@ -2,6 +2,7 @@
 
 # Astrobiology: Exploring Other Worlds
 - Taken on [Coursera](https://www.coursera.org/learn/astrobiology-exploring-other-worlds)
+- Great visualizations of concepts (eg. [[doppler effect|doppler shift]])
 
 ## Week 1 - Planets in the Solar System and Beyond
 - [[astrobiology|Astrobiology]] is asking "are we alone in the [[universe]]"?
@@ -126,3 +127,34 @@
 	- [Minimum mass](https://en.wikipedia.org/wiki/Minimum_mass)
 	- Detected using the [[radial velocity]] method ([[Doppler spectroscopy]])
 	- Real orbital inclinations and true masses are generally unkown (sin _i_ degeneracy)
+
+## Week 2 - Hunting for Exoplanets
+- How do we find [[exoplanet]]s?
+	- Small and trillions of miles away
+- Two methods for finding
+	- Wobble observation
+		- Observing red and blue shift as it moves towards/away from us
+	- Brightness of its [[star]] will dip as it orbits in front
+
+### Gravity and the Doppler Shift
+- Core technique used to find the first [[exoplanet]]s
+- Reflex motion
+	- Gravitational pull of massive [[planet]]s (like [[Jupiter]]) is enough to exert gravitational influence on their [[star]]
+	- We don't actually see the [[star]] move from large distances but observe a red and blue shift
+	- [[doppler effect|doppler shift]]
+	- Toward us --> blue shift (compressed waves)
+	- Away from us --> red shift
+
+## The Radial Velocity Method
+- Uses [[reflex motion]] to detect [[exoplanet]]s
+- Magnitude of the [[doppler effect|Doppler shift]] indicates the speed of the [[reflex motion]] (or [[radial velocity]]) of the [[star]]
+- Limitations
+	- Limiting mass
+		- Bigger [[planet]]s --> obvious shifts in the light from the [[star]]
+		- Smaller [[planet]]s --> smaller shifts
+			- Some [[planet]]s are so small the shift is imperceptible
+	- Orbital distance
+		- Gravitational influence decreases over distance
+		- Large orbital distances --> barely detectable [[reflex motion]] (even for massive [[planet]]s)
+	- Only measures [[mass]], not size
+	- Can't determine [[orbital inclination]]

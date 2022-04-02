@@ -2,7 +2,7 @@
 
 # Doppler Spectroscopy (Radial Velocity Method)
 - Indirect method for finding [[exoplanet]]s
-- Measure [[radial velocity]] via observation of Doppler shifts in the spectrum of the [[planet]]'s parent [[star]]
+- Measure [[radial velocity]] via observation of [[doppler effect|doppler shift]]s in the spectrum of the [[planet]]'s parent [[star]]
 	- If a [[planet]] exists, the [[gravity]] of the [[planet]] causes the [[star]] to wobble
 - If a [[planet]] is detected, a minimum [[mass]] for the [[planet]] can be determined from the changes in the [[star]]'s [[radial velocity]]
   - More precise measurements require the inclination of the [[planet]]'s [[orbit]]
