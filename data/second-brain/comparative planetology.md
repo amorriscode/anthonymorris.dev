@@ -1,10 +1,10 @@
-# Comparative Planetology
+[[Astronomy]] [[Planet]]
 
+# Comparative Planetology
 - Comparing/contrasting [[planet]]s
 - Goal is to understand how they are different, why they are different, and what we can learn from the differences
 
 ## Terrestrial Planets
-
 - Surfaces probably started out the same
   - Rocky material
   - Heavily bombarded
@@ -25,7 +25,6 @@
       - Moderately rapid rotation
 
 ### Why they are different
-
 - Size
   - Bigger planets star warmer longer
   - Leaders to more volcanism
@@ -39,6 +38,4 @@
 - Rate of rotation
   - Drives wind and weather
   - [[Magnetic field]]
-
-[[Astronomy]] [[Planet]]
 

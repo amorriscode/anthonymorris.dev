@@ -145,7 +145,7 @@
 	- Toward us --> blue shift (compressed waves)
 	- Away from us --> red shift
 
-## The Radial Velocity Method
+### The Radial Velocity Method
 - Uses [[reflex motion]] to detect [[exoplanet]]s
 - Magnitude of the [[doppler effect|Doppler shift]] indicates the speed of the [[reflex motion]] (or [[radial velocity]]) of the [[star]]
 - Limitations
@@ -158,3 +158,42 @@
 		- Large orbital distances --> barely detectable [[reflex motion]] (even for massive [[planet]]s)
 	- Only measures [[mass]], not size
 	- Can't determine [[orbital inclination]]
+
+### The Transit Method
+- Observing the light of a [[star]]
+- The light will dim as an [[exoplanet]] moves in front of the [[star]] (transiting)
+- Very difficult because the dimming is very short
+- Strongly prefers finding hot [[Jupiter]]s
+- Limitations
+	- Size
+		- The larger the [[planet]] radius, the easier it will be to observe dips
+	- Orbital distance
+		- [[Planet]]s with greater orbital distance from their [[star]] crease smaller dips
+
+### Learning from Observations
+- Relies on [[Johannes Kepler]]'s laws of [[planetary motion]]
+- From the radial velocity method:
+	- With [[radial velocity]] and time (radial velocity method) and Keper's first law, we can determine the orbiutal period and distance
+	- With orbital distance and Kepler's first law, we can calculate the velocity
+	- Once a [[planet]]'s velocity is known, we can calculate the [[mass]] of an [[exoplanet]]
+- From the transit method:
+	- [[Exoplanet]] [[radius]] (how much dimming is occurring --> radius)
+- From both:
+	- [[Exoplanet]] [[density]] (once we know the size + mass)
+
+### Planet Composition
+- Can be determined from [[density]]
+	- [[Mass]] per unit volume of a substance
+- [[Comparative planetology]]
+
+### Microlensing, Imaging, and Selection Effects
+- We can't take images of [[exoplanet]]s because they are too faint compared to their [[star]]s
+	- Need to block out the [[star]] first if you want to take an image of an [[exoplanet]] (easier to do in IR)
+- [[Coronagraph]]s
+	- Designed to block out the central cirlce of its field of view
+	- Used to block out a central [[star]] so we can image [[exoplanet]]s
+- [[Gravitational lensing]]
+	- Massive objects warp the fabric of space-time
+	- [[Light]] travels through this warped space
+	- Better for more distant [[exoplanet]]s
+	- Alignments are very rare
