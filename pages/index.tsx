@@ -3,7 +3,17 @@ import { NextSeo } from 'next-seo'
 import NavLink from '../components/navLink'
 import Link from 'next/link'
 
-const greetings = ['building ideas', 'to infinity and beyond', 'ad astra']
+const greetings = [
+  'brb, building a thing',
+  'to infinity and beyond',
+  'ad astra',
+  'Computers are useless. They can only give you answers. ~ Picasso',
+  'bonjour',
+  'guten tag',
+  'nǐ hǎo',
+  '01101000 01100101 01101100 01101100 01101111',
+  'hello world',
+]
 
 function Home() {
   const greeting = greetings[Math.floor(Math.random() * greetings.length)]
