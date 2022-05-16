@@ -1,4 +1,5 @@
 import { NextSeo } from 'next-seo'
+import { useState } from 'react'
 
 import NavLink from '../components/navLink'
 import Link from 'next/link'
@@ -16,7 +17,9 @@ const greetings = [
 ]
 
 function Home() {
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)]
+  const [greeting] = useState(
+    greetings[Math.floor(Math.random() * greetings.length)]
+  )
 
   return (
     <div className="py-32 px-6 md:px-0">
