@@ -1,26 +1,11 @@
 import { NextSeo } from 'next-seo'
 import { useState } from 'react'
+import { GetServerSideProps } from 'next'
 
 import NavLink from '../components/navLink'
 import Link from 'next/link'
 
-const greetings = [
-  'brb, building a thing',
-  'to infinity and beyond',
-  'ad astra',
-  'Computers are useless. They can only give you answers. ~ Picasso',
-  'bonjour',
-  'guten tag',
-  'nǐ hǎo',
-  '01101000 01100101 01101100 01101100 01101111',
-  'hello world',
-]
-
-function Home() {
-  const [greeting] = useState(
-    greetings[Math.floor(Math.random() * greetings.length)]
-  )
-
+function Home({ greeting }: { greeting: string }) {
   return (
     <div className="py-32 px-6 md:px-0">
       <NextSeo
@@ -111,6 +96,29 @@ function Home() {
       </main>
     </div>
   )
+}
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  const greetings = [
+    'brb, building a thing',
+    'to infinity and beyond',
+    'ad astra',
+    'Computers are useless. They can only give you answers.',
+    'bonjour',
+    'guten tag',
+    'nǐ hǎo',
+    '01101000 01100101 01101100 01101100 01101111',
+    'hello world',
+    '/dev/null',
+    'I would tell you a UDP joke, but you might not get it.',
+    "Anthony'); DROP TABLE users;--",
+  ]
+
+  return {
+    props: {
+      greeting: greetings[Math.floor(Math.random() * greetings.length)],
+    },
+  }
 }
 
 export default Home
