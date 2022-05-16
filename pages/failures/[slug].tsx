@@ -22,17 +22,17 @@ function FailurePage({ failure }: { failure: Failure }) {
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <div className="px-10">
-          <h1 className="text-4xl font-am">{failure.title}</h1>
+      <header>
+        <div>
+          <h1 className="text-3xl">{failure.title}</h1>
 
-          <div className="text-xs">
+          <div className="font-fanwood italic text-xl">
             failed {format(new Date(failure.date), 'MMMM do, y')}
           </div>
         </div>
 
         <PageSummary>
-          <h2 className="font-am text-2xl">Lessons Learned</h2>
+          <h2 className="text-2xl">Lessons Learned</h2>
 
           <ul>
             {failure.lessons.map((lesson) => (
@@ -43,7 +43,7 @@ function FailurePage({ failure }: { failure: Failure }) {
       </header>
 
       <article
-        className="prose mx-auto max-w-3xl space-y-10 p-10"
+        className="prose space-y-10"
         dangerouslySetInnerHTML={{ __html: failure.content }}
       />
     </>

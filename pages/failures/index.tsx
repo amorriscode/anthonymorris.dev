@@ -22,8 +22,8 @@ function Failures({ failures }: { failures: Failure[] }) {
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10">failures</h1>
+      <header>
+        <h1 className="text-3xl">Failures</h1>
 
         <PageSummary>
           <p>
@@ -56,8 +56,10 @@ function Failures({ failures }: { failures: Failure[] }) {
           <p>
             This is a place for me to reflect on my failures. To learn from
             them. More importantly, it&apos;s a place to{' '}
-            <span className="italic">forgive myself for my failures</span>. A
-            place to help me shift focus from the past to the{' '}
+            <span className="italic font-fanwood text-xl">
+              forgive myself for my failures
+            </span>
+            . A place to help me shift focus from the past to the{' '}
             <Link href="/life">time I have left</Link>.
           </p>
 
@@ -71,11 +73,11 @@ function Failures({ failures }: { failures: Failure[] }) {
         </PageSummary>
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-10 p-10">
+      <section className="space-y-8">
         {failures.map((failure) => (
           <FailureCard key={failure.slug} failure={failure} />
         ))}
-      </main>
+      </section>
     </>
   )
 }

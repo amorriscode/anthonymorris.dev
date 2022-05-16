@@ -25,7 +25,7 @@ function ProjectPage({ project }: { project: Project }) {
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
+      <header>
         {project?.heroImage && (
           <div className="mb-4 mx-auto h-64 sm:h-96 max-w-4xl rounded-lg relative overflow-hidden">
             <Image
@@ -39,10 +39,10 @@ function ProjectPage({ project }: { project: Project }) {
           </div>
         )}
 
-        <div className="px-10">
-          <h1 className="font-am text-4xl">{project.title}</h1>
+        <div>
+          <h1 className="text-3xl">{project.title}</h1>
 
-          <div className="text-xs space-x-2">
+          <div className="space-x-2 font-fanwood text-lg italic">
             <span>{project.status}</span>
 
             {project?.launchDate && (
@@ -82,7 +82,7 @@ function ProjectPage({ project }: { project: Project }) {
       </header>
 
       <article
-        className="prose mx-auto max-w-3xl p-10"
+        className="prose mt-12"
         dangerouslySetInnerHTML={{ __html: project.content }}
       />
     </>

@@ -1,19 +1,21 @@
-import { useState } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import classnames from 'classnames'
 
 function NavLink({ title, path }: { title: string; path?: string }) {
   const router = useRouter()
-  const linkPath = path || `/${title}`
+  const linkPath = path || `/${title.toLowerCase()}`
   const isActive = router.pathname.includes(linkPath)
-  const [isHover, setIsHover] = useState(false)
 
   return (
     <Link href={linkPath}>
       <a
-        onMouseEnter={() => setIsHover(true)}
-        onMouseLeave={() => setIsHover(false)}
-        className={`${isActive && 'text-am-green-light'}`}
+        className={classnames(
+          {
+            'text-purple-400': isActive,
+          },
+          'w-fit text-stone-500 hover:text-purple-400 no-underline'
+        )}
       >
         {title}
       </a>

@@ -35,8 +35,8 @@ function Life() {
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10">my life in weeks</h1>
+      <header>
+        <h1 className="text-3xl">My Life in Weeks</h1>
 
         <PageSummary>
           <p>
@@ -45,7 +45,7 @@ function Life() {
               <a>Marcus Aurelius</a>
             </Link>{' '}
             said,{' '}
-            <span className="font-bold">
+            <span className="font-fanwood italic text-xl">
               &quot;You could leave life right now. Let that determine what you
               do and say and think.&quot;
             </span>
@@ -103,27 +103,28 @@ function Life() {
         </PageSummary>
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-10 p-10">
+      <section>
         <div className="space-y-2 w-full pt-2">
           {lifeCalendar.map((year, i) => (
             <div key={year.toString()} className="grid gap-1 w-full relative">
               {i % 4 === 0 && (
-                <div className="hidden sm:block absolute text-xs -mt-1 -ml-5 text-right w-4 text-gray-400">
+                <div className="hidden sm:block absolute text-xs -mt-1 -ml-5 text-right w-4 text-stone-500">
                   {i}
                 </div>
               )}
+
               {year.map((week) => (
                 <div
                   key={week.date.toISOString()}
-                  className={`h-1 w-1 sm:rounded-sm sm:h-2 sm:w-2 border border-gray-400 ${
-                    isPast(week.date) ? 'bg-am-green-light border-none' : ''
+                  className={`h-1 w-1 rounded-full sm:h-2 sm:w-2 border border-stone-400 ${
+                    isPast(week.date) ? 'bg-purple-500 border-none' : ''
                   }`}
                 ></div>
               ))}
             </div>
           ))}
         </div>
-      </main>
+      </section>
 
       <style jsx>{`
         .grid {

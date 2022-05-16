@@ -14,13 +14,14 @@
   },
   "dependencies": {
     "@plaiceholder/next": "^2.2.0",
+    "animejs": "^3.2.1",
+    "classnames": "^2.3.1",
     "date-fns": "^2.13.0",
     "gray-matter": "^4.0.2",
     "gsap": "^3.6.0",
     "hastscript": "^6.0.0",
     "next": "^12.1.0",
     "next-seo": "^4.17.0",
-    "next-themes": "^0.0.10",
     "plaiceholder": "^2.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -49,6 +50,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.1",
+    "@types/animejs": "^3.1.4",
     "@types/node": "^13.13.5",
     "@types/react": "^16.9.35",
     "@types/xml2js": "^0.4.5",

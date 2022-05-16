@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app'
 import { DefaultSeo } from 'next-seo'
-import { ThemeProvider } from 'next-themes'
+import anime from 'animejs'
+import { useEffect } from 'react'
 
 import { KonamiProvider } from '../context/KonamiContext'
 
@@ -11,15 +12,22 @@ import 'highlight.js/styles/dracula.css'
 import SEO from '../seo.config'
 
 function App({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    anime({
+      targets: ['header', 'section', 'article'],
+      opacity: 1,
+      duration: 2000,
+      easing: 'easeOutQuart',
+    })
+  })
+
   return (
     <>
       <DefaultSeo {...SEO} />
 
-      <ThemeProvider attribute="class">
-        <KonamiProvider>
-          <Component {...pageProps} />
-        </KonamiProvider>
-      </ThemeProvider>
+      <KonamiProvider>
+        <Component {...pageProps} />
+      </KonamiProvider>
     </>
   )
 }

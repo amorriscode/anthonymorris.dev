@@ -16,8 +16,8 @@ function Home() {
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10">uses</h1>
+      <header>
+        <h1 className="text-3xl">Uses</h1>
 
         <PageSummary>
           <p>
@@ -34,7 +34,7 @@ function Home() {
         </PageSummary>
       </header>
 
-      <article className="prose mx-auto max-w-3xl pb-10 px-10">
+      <article className="prose">
         <section>
           <h2>Editor &amp; Terminal</h2>
 

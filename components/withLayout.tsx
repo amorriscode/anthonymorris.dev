@@ -10,7 +10,7 @@ function withLayout(PageComponent: any) {
     const [displaySearch, setDisplaySearch] = useState(false)
 
     return (
-      <>
+      <div className="py-32 mx-auto max-w-2xl px-6 md:px-0">
         <Head>
           <link
             rel="stylesheet"
@@ -26,8 +26,10 @@ function withLayout(PageComponent: any) {
           <Search handleSearchClose={() => setDisplaySearch(false)} />
         )}
 
-        <PageComponent {...pageProps} />
-      </>
+        <main className="mt-12">
+          <PageComponent {...pageProps} />
+        </main>
+      </div>
     )
   }
 

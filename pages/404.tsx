@@ -29,13 +29,15 @@ function NotFound({
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10">not found</h1>
+      <header>
+        <h1 className="text-3xl">undefined</h1>
 
         <PageSummary>
           <p>
-            Not all who wander are lost. That being said, I didn&apos;t find
-            what you&apos;re looking for.
+            <span className="font-fanwood text-xl italic">
+              Not all who wander are lost
+            </span>
+            . That being said, I didn&apos;t find what you&apos;re looking for.
           </p>
 
           <p>
@@ -47,13 +49,11 @@ function NotFound({
         </PageSummary>
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-10 p-10">
-        <section className="grid grid-cols-1 gap-12">
-          <RecentProjects projects={projects} />
+      <section className="grid grid-cols-1 gap-12">
+        <RecentProjects projects={projects} />
 
-          <RecentWords words={words} />
-        </section>
-      </main>
+        <RecentWords words={words} />
+      </section>
     </>
   )
 }

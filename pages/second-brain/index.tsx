@@ -21,8 +21,8 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10">second brain</h1>
+      <header>
+        <h1 className="text-3xl">Second Brain</h1>
 
         <PageSummary>
           <p>
@@ -67,7 +67,7 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
         </PageSummary>
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-10 p-10">
+      <section>
         <div className="flex flex-wrap justify-between items-center">
           {brainEntries.map((brainEntry) => (
             <Link
@@ -79,7 +79,7 @@ function SecondBrain({ brainEntries }: { brainEntries: BrainEntry[] }) {
             </Link>
           ))}
         </div>
-      </main>
+      </section>
     </>
   )
 }

@@ -1,33 +1,12 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx', './data/**/*.md'],
-  darkMode: 'class',
   theme: {
     extend: {
-      colors: {
-        'am-black': '#1d1d1d',
-        'am-white': '#fbfbfb',
-        'am-green-light': '#0AFF47',
-        'am-green-dark': '#005214',
-      },
       fontFamily: {
-        am: [
-          'Poppins',
-          'ui-sans-serif',
-          'system-ui',
-          '-apple-system',
-          'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
-          'Helvetica Neue',
-          'Arial',
-          '"Noto Sans"',
-          'sans-serif',
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-          '"Noto Color Emoji"',
-        ],
+        fanwood: ['Fanwood Text', 'serif'],
+        hammersmith: ['Hammersmith One', 'sans-serif'],
+        tenor: ['Tenor Sans', 'sans-serif'],
       },
     },
   },

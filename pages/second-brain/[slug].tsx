@@ -40,19 +40,19 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
         openGraph={{ title: 'Second Brain 🧠' }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10" title="Part of my second brain">
+      <header>
+        <h1 className="text-3xl" title="A piece of my second brain">
           🧠
         </h1>
       </header>
 
       <article
-        className="prose mx-auto max-w-3xl p-10"
+        className="prose mt-12"
         dangerouslySetInnerHTML={{ __html: brainEntry.content }}
       />
 
       {!!brainEntry.backlinks.length && (
-        <div className="backlink-container prose mx-auto max-w-3xl p-10 bg-am-black text-am-white rounded-lg mb-10">
+        <div className="prose rounded-lg border border-stone-800 text-stone-100 bg-opacity-20 bg-stone-800 p-8 mt-12">
           <h2 className="font-am text-2xl font-light text-am-white">
             Backlinks
           </h2>

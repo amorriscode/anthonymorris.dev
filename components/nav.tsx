@@ -1,62 +1,38 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import { IoSearch } from 'react-icons/io5'
-
-// Reserve the right to have dark mode in the future
-// import { IoMoon, IoSunny } from 'react-icons/io5'
-// import { useTheme } from 'next-themes'
 
 import NavLink from './navLink'
 
 function Nav({ handleSearchClick }: { handleSearchClick: () => void }) {
   const router = useRouter()
-  const isHome = router.pathname === '/'
-
-  // const { setTheme } = useTheme()
 
   return (
-    <nav
-      className={`${
-        isHome ? 'fixed' : 'sticky top-0'
-      } px-5 py-2.5 w-full z-10 font-am mb-10`}
-    >
-      <div
-        className={`${
-          !isHome && 'bg-am-black text-am-white'
-        } px-5 py-2.5 w-full rounded-lg sm:flex justify-between`}
+    <nav className="space-y-4">
+      <Link href="/">
+        <a className="text-stone-100 font-hammersmith mb-4 hover:text-stone-100">
+          Anthony Morris
+        </a>
+      </Link>
+
+      {/* <div
+        className="hover:cursor-pointer hover:text-stone-600 text-stone-500"
+        onClick={handleSearchClick}
       >
-        <Link href="/">
-          <a>anthony morris</a>
-        </Link>
+        search
+      </div> */}
 
-        <div className="space-x-4 flex items-center">
-          <NavLink title="books" />
+      <div className="flex flex-col">
+        <NavLink title="second brain" path="/second-brain" />
 
-          <NavLink title="failures" />
+        <NavLink title="projects" />
 
-          <NavLink title="projects" />
+        <NavLink title="failures" />
 
-          <NavLink title="til" path="/learnings" />
+        <NavLink title="books" />
 
-          <NavLink title="uses" />
+        <NavLink title="words" />
 
-          <NavLink title="words" />
-
-          <NavLink title="me" />
-
-          <IoSearch
-            className="hover:cursor-pointer hover:text-am-green-light"
-            onClick={handleSearchClick}
-          />
-
-          {/* <div className="hover:cursor-pointer hover:text-am-green-light">
-            <IoMoon
-              className="hidden dark:block"
-              onClick={() => setTheme('light')}
-            />
-            <IoSunny className="dark:hidden" onClick={() => setTheme('dark')} />
-          </div> */}
-        </div>
+        <NavLink title="uses" />
       </div>
     </nav>
   )

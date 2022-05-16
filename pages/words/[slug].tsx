@@ -42,7 +42,7 @@ function WordPage({ writing }: { writing: Writing }) {
         <div className="mx-auto max-w-3xl px-10">
           <h1 className="text-4xl font-am mb-2">{writing.title}</h1>
 
-          <div className="text-xs">
+          <div className="font-fanwood italic text-lg">
             written {format(new Date(writing.date), 'MMMM do, y')}
           </div>
         </div>

@@ -2,7 +2,7 @@ function PageSummary({
   children,
 }: React.PropsWithChildren<{}>): React.ReactElement {
   return (
-    <div className="page-summary bg-am-black text-am-white mx-2 md:mx-0 p-10 rounded-lg prose max-w-full">
+    <div className="prose my-12 border border-stone-800 bg-opacity-20 bg-stone-800 rounded-lg p-8">
       {children}
     </div>
   )
