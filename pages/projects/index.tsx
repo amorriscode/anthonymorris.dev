@@ -15,7 +15,6 @@ function Projects({
   hackProjects,
   deadProjects,
 }: {
-  twelveProductsProjects: Project[]
   liveProjects: Project[]
   hackProjects: Project[]
   deadProjects: Project[]
@@ -31,41 +30,43 @@ function Projects({
         }}
       />
 
-      <h1 className="text-3xl">Projects</h1>
+      <header>
+        <h1 className="text-3xl">Projects</h1>
 
-      <PageSummary>
-        <p>
-          My father was always a handyperson. He worked on all sorts of things
-          around the house with varying degrees of success (he almost lost his
-          fingers in a fight with a table saw).
-        </p>
+        <PageSummary>
+          <p>
+            My father was always a handyperson. He worked on all sorts of things
+            around the house with varying degrees of success (he almost lost his
+            fingers in a fight with a table saw).
+          </p>
 
-        <p>
-          I never got that gift. I was awkward, clumsy, and preferred playing on
-          the computer. This lead me to{' '}
-          <Link href="/second-brain/programming">
-            <a>programming</a>
-          </Link>{' '}
-          .{' '}
-          <span className="italic font-fanwood text-xl">
-            That is where I learned to build
-          </span>
-          .
-        </p>
+          <p>
+            I never got that gift. I was awkward, clumsy, and preferred playing
+            on the computer. This lead me to{' '}
+            <Link href="/second-brain/programming">
+              <a>programming</a>
+            </Link>{' '}
+            .{' '}
+            <span className="italic font-fanwood text-xl">
+              That is where I learned to build
+            </span>
+            .
+          </p>
 
-        <p>
-          This is my collection of projects. Big and small. Software and
-          hardware. It&apos;s kind of like my very{' '}
-          <a
-            href="https://killedbygoogle.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Google Graveyard
-          </a>
-          .
-        </p>
-      </PageSummary>
+          <p>
+            This is my collection of projects. Big and small. Software and
+            hardware. It&apos;s kind of like my very{' '}
+            <a
+              href="https://killedbygoogle.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Graveyard
+            </a>
+            .
+          </p>
+        </PageSummary>
+      </header>
 
       <div className="space-y-12">
         <section>

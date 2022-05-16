@@ -26,7 +26,7 @@ function FailurePage({ failure }: { failure: Failure }) {
         <div>
           <h1 className="text-3xl">{failure.title}</h1>
 
-          <div className="text-xs">
+          <div className="font-fanwood italic text-xl">
             failed {format(new Date(failure.date), 'MMMM do, y')}
           </div>
         </div>

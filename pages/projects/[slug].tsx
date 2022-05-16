@@ -42,10 +42,8 @@ function ProjectPage({ project }: { project: Project }) {
         <div>
           <h1 className="text-3xl">{project.title}</h1>
 
-          <div className="text-xs space-x-2">
-            <span className="font-fanwood text-lg italic">
-              {project.status}
-            </span>
+          <div className="space-x-2 font-fanwood text-lg italic">
+            <span>{project.status}</span>
 
             {project?.launchDate && (
               <>

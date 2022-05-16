@@ -27,7 +27,7 @@ function BookPage({ book }: { book: Book }) {
 
         <h2 className="text-base">written by {book.author}</h2>
 
-        <div className="text-xs space-x-2">
+        <div className="space-x-2 font-fanwood text-lg italic">
           <span>
             <BookRating rating={book.rating} />
           </span>

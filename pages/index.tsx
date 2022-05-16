@@ -19,15 +19,15 @@ function Home() {
         }}
       />
 
-      <header className="mx-auto max-w-2xl">
+      <div className="mx-auto max-w-2xl">
         <h1 className="text-stone-100 font-hammersmith mb-4">Anthony Morris</h1>
 
         <p className="text-stone-500">{greeting}</p>
         <p className="text-stone-500">vancouver, bc</p>
-      </header>
+      </div>
 
       <main className="mx-auto max-w-2xl space-y-12 mt-12">
-        <section className="space-y-4">
+        <section className="space-y-4 prose">
           <p>
             <span className="font-fanwood text-xl italic">
               Product-focused software engineer
@@ -70,7 +70,7 @@ function Home() {
         <section>
           <h2 className="text-stone-100 font-hammersmith mb-4">Now</h2>
 
-          <p>
+          <p className="prose">
             I&apos;m currently imagining what{' '}
             <Link href="/life">
               <a>life</a>

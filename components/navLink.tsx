@@ -14,7 +14,7 @@ function NavLink({ title, path }: { title: string; path?: string }) {
           {
             'text-purple-400': isActive,
           },
-          'w-fit text-stone-500 hover:text-purple-400'
+          'w-fit text-stone-500 hover:text-purple-400 no-underline'
         )}
       >
         {title}

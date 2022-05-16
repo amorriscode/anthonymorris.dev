@@ -2,16 +2,29 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+body::-webkit-scrollbar {
+  width: 0.6em;
+}
+ 
+body::-webkit-scrollbar-track {
+
+}
+ 
+body::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  outline: 1px solid #292524;
+}
+
 body {
-  @apply bg-stone-900 text-stone-300;
+  @apply bg-stone-900 text-stone-300 overflow-y-scroll;
+}
+
+header, section, article {
+  opacity: 0;
 }
 
 .prose {
   @apply max-w-fit text-stone-300;
-}
-
-a {
-  @apply text-purple-400 hover:text-purple-600 transition-all duration-300 font-medium;
 }
 
 .arrow-link:hover .arrow {
@@ -19,8 +32,12 @@ a {
   @apply text-purple-400 transition-all duration-300;
 }
 
+a {
+  @apply no-underline text-stone-100 hover:text-purple-400 transition-all duration-300 font-light;;
+}
+
 .prose a {
-  @apply text-purple-400 hover:text-purple-600 no-underline;
+  @apply text-stone-100 no-underline border-b border-stone-400 hover:border-purple-400 hover:text-purple-400 transition-all duration-300 font-light;
 }
 
 ::-moz-selection {
