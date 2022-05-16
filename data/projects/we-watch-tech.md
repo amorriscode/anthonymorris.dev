@@ -3,7 +3,7 @@ title: "We Watch Tech"
 description: "Great tech talks distilled."
 date: "2020-08-19T00:00:00"
 launchDate: "2020-08-18T00:00:00"
-status: "live"
+status: "dead"
 ---
 
 I really enjoy watching conference talks. There are so many great talks out there packed with useful information. I was starting to build up a decent list of talks I wanted to watch. But in 2020, I also started thinking about how I was engaging in content. If I was watching tech talks, I wanted to try to engage with the content more. I wanted to think deeper about them.

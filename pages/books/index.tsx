@@ -23,14 +23,14 @@ function Books({ books }: { books: Book[] }) {
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10">books</h1>
+      <header>
+        <h1 className="text-3xl">Books</h1>
 
         <PageSummary>
           <p>
-            I <span className="italic">love</span> reading. If I could get paid
-            to review books, I&apos;d happily do that for the{' '}
-            <Link href="/life">rest of my life</Link>. A good book will
+            <span className="italic font-fanwood text-xl">I love reading</span>.
+            If I could get paid to review books, I&apos;d happily do that for
+            the <Link href="/life">rest of my life</Link>. A good book will
             transport you through time, allowing you to{' '}
             <a
               href="https://www.brainyquote.com/quotes/rene_descartes_134097"
@@ -66,11 +66,11 @@ function Books({ books }: { books: Book[] }) {
         <CurrentlyReading />
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-10 p-10">
+      <section className="mt-12 space-y-8">
         {books.map((book) => (
           <BookCard key={book.slug} book={book} />
         ))}
-      </main>
+      </section>
     </>
   )
 }

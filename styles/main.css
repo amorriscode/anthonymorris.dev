@@ -3,37 +3,32 @@
 @import 'tailwindcss/utilities';
 
 body {
-  @apply bg-am-white text-am-black;
+  @apply bg-stone-900 text-stone-300;
 }
 
-a:hover {
-  @apply text-am-green-light transition-all duration-300;
+.prose {
+  @apply max-w-fit text-stone-300;
+}
+
+a {
+  @apply text-purple-400 hover:text-purple-600 transition-all duration-300 font-medium;
 }
 
 .arrow-link:hover .arrow {
   transform: translateX(0.25rem);
-  @apply text-am-green-light transition-all duration-300;
+  @apply text-purple-400 transition-all duration-300;
 }
 
-.page-summary.prose a,
-.backlink-container.prose a,
-.page-summary h2,
-.prose blockquote a {
-  @apply text-am-white;
-}
-
-.page-summary.prose a:hover,
-.backlink-container.prose a:hover,
-.prose blockquote a:hover {
-  @apply text-am-green-light transition-all duration-300;
+.prose a {
+  @apply text-purple-400 hover:text-purple-600 no-underline;
 }
 
 ::-moz-selection {
-  @apply bg-am-green-light;
+  @apply bg-purple-400;
 }
 
 ::selection {
-  @apply bg-am-green-light;
+  @apply bg-purple-400;
 }
 
 .katex-display {
@@ -49,7 +44,7 @@ h2,
 h3,
 h4,
 h5 {
-  @apply flex font-am font-medium !important;
+  @apply flex text-stone-100 font-hammersmith !important;
 }
 
 h1 a,
@@ -57,7 +52,7 @@ h2 a,
 h3 a,
 h4 a,
 h5 a {
-  @apply mt-1 ml-2 opacity-0 transition-opacity duration-200 ease-in-out;
+  @apply mt-1 ml-2 opacity-0 transition-opacity duration-300 ease-in-out;
   border: none !important;
 }
 
@@ -70,18 +65,30 @@ h5:hover a {
 }
 
 .prose blockquote {
-  @apply rounded-lg p-10 max-w-full text-am-white border-none bg-am-black;
+  @apply rounded-lg p-12 text-stone-100 border border-stone-800 bg-opacity-20 bg-stone-800;
 }
 
 .prose blockquote p {
-  @apply p-0;
+  @apply p-0 m-0;
+}
+
+.prose pre {
+  @apply border border-stone-800 bg-opacity-20 bg-stone-800;
 }
 
 .prose code {
-  @apply bg-gray-200 text-am-black py-1 px-2 rounded;
+  @apply bg-transparent text-stone-100 overflow-hidden;
 }
 
 .prose code::before,
 .prose code::after {
   content: '' !important;
+}
+
+.prose hr {
+  @apply border-stone-500;
+}
+
+.prose strong {
+  @apply text-stone-100 font-fanwood text-xl italic;
 }

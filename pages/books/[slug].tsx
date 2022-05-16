@@ -22,8 +22,8 @@ function BookPage({ book }: { book: Book }) {
         }}
       />
 
-      <header className="mx-auto max-w-3xl px-10">
-        <h1 className="font-am text-4xl">{book.title}</h1>
+      <header>
+        <h1 className="text-3xl">{book.title}</h1>
 
         <h2 className="text-base">written by {book.author}</h2>
 
@@ -41,7 +41,7 @@ function BookPage({ book }: { book: Book }) {
       </header>
 
       <article
-        className="prose mx-auto max-w-3xl p-10"
+        className="prose mt-12"
         dangerouslySetInnerHTML={{ __html: book.content }}
       />
     </>

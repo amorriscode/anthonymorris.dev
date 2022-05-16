@@ -12,7 +12,7 @@ function CurrentlyReading() {
   if (!data?.currentlyReading.length) return <></>
 
   return (
-    <div className="rounded-lg bg-am-black text-am-white p-10">
+    <div className="rounded-lg border border-stone-800 text-stone-100 bg-opacity-20 bg-stone-800 p-8">
       <h3 className="font-am text-2xl mb-5">Currently Reading</h3>
 
       <div className="space-y-10">

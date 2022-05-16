@@ -11,14 +11,14 @@ function RecentProjects({ projects }: { projects: Project[] }) {
       <div className="flex justify-between items-center">
         <h2 className="text-4xl font-am">Projects</h2>
 
-        <div className="arrow-link flex items-center space-x-1">
+        <div className="arrow-link flex items-center space-x-1 group">
           <Link href="/projects">
             <a className="text-sm">
               <span>all projects</span>
             </a>
           </Link>
 
-          <div className="arrow transition-all duration-300">
+          <div className="arrow text-purple-300 group-hover:text-purple-500 transition-all duration-300">
             <HiOutlineArrowNarrowRight />
           </div>
         </div>

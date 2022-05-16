@@ -1,86 +1,15 @@
-import { useRef, useEffect } from 'react'
 import { NextSeo } from 'next-seo'
-import { GetStaticProps } from 'next'
 
-// @TODO sort out gsap type/import issues
-// @ts-ignore
-import { gsap } from 'gsap/dist/gsap'
-// @ts-ignore
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+import NavLink from '../components/navLink'
+import Link from 'next/link'
 
-import { getAllContent } from '../lib/api'
+const greetings = ['building ideas', 'to infinity and beyond', 'ad astra']
 
-import { Project, Writing } from '../types'
-
-import withLayout from '../components/withLayout'
-import RecentProjects from '../components/RecentProjects'
-import RecentWords from '../components/RecentWords'
-
-function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
-  const headerRef = useRef<HTMLElement>(null)
-  gsap.registerPlugin(ScrollTrigger)
-
-  useEffect(() => {
-    const header = headerRef.current
-
-    if (!header) return
-
-    gsap.fromTo(
-      header.querySelector('.padding-container'),
-      {
-        padding: 0,
-      },
-      {
-        padding: '4rem 2.5rem 2.5rem',
-        scrollTrigger: {
-          trigger: header,
-          pin: true,
-          scrub: true,
-          start: 'top top',
-          end: '+=100%',
-        },
-      }
-    )
-
-    gsap.fromTo(
-      header.querySelector('.bg-container'),
-      {
-        borderRadius: 0,
-        padding: '5rem',
-      },
-      {
-        borderRadius: '1rem',
-        padding: '2.5rem',
-        scrollTrigger: {
-          trigger: header,
-          pin: true,
-          scrub: true,
-          start: 'top top',
-          end: '+=100%',
-        },
-      }
-    )
-
-    gsap.fromTo(
-      document.querySelector('nav'),
-      {
-        color: '#fbfbfb',
-      },
-      {
-        color: '#1d1d1d',
-        scrollTrigger: {
-          trigger: header,
-          pin: true,
-          scrub: true,
-          start: 'top top',
-          end: '+=100%',
-        },
-      }
-    )
-  }, [])
+function Home() {
+  const greeting = greetings[Math.floor(Math.random() * greetings.length)]
 
   return (
-    <div>
+    <div className="py-32 px-6 md:px-0">
       <NextSeo
         title="There's no place like /home"
         description="A digital garden and second brain."
@@ -90,44 +19,85 @@ function Home({ projects, words }: { projects: Project[]; words: Writing[] }) {
         }}
       />
 
-      <header ref={headerRef} className="max-w-screen h-screen relative">
-        <div className="padding-container w-full h-full">
-          <div className="bg-container w-full h-full bg-am-black p-10 text-am-white flex flex-col justify-end overflow-hidden">
-            <div className="text-6xl font-am">
-              Product-focused software engineer.
-            </div>
-          </div>
-        </div>
+      <header className="mx-auto max-w-2xl">
+        <h1 className="text-stone-100 font-hammersmith mb-4">Anthony Morris</h1>
+
+        <p className="text-stone-500">{greeting}</p>
+        <p className="text-stone-500">vancouver, bc</p>
       </header>
 
-      <main className="m-10 px-10 space-y-20">
-        <section className="grid grid-cols-1 md:grid-cols-2 md:gap-28 xl:gap-56 space-y-28 md:space-y-0">
-          <RecentProjects projects={projects} />
+      <main className="mx-auto max-w-2xl space-y-12 mt-12">
+        <section className="space-y-4">
+          <p>
+            <span className="font-fanwood text-xl italic">
+              Product-focused software engineer
+            </span>
+            .
+          </p>
 
-          <RecentWords words={words} />
+          <p>
+            I&apos;m interested in open source, delightful user experiences, the
+            future of the web, and empowering creators.
+          </p>
+
+          <p>
+            When not writing code, I enjoy admiring bookshelves, capturing
+            photographs, thinking about space, and hearing more about what I
+            don&apos;t know.
+          </p>
+
+          <p>
+            Find me on{' '}
+            <Link href="https://twitter.com/amorriscode">
+              <a target="_blank">Twitter</a>
+            </Link>
+            ,{' '}
+            <Link href="https://www.linkedin.com/in/amorriscode/">
+              <a target="_blank">LinkedIn</a>
+            </Link>
+            ,{' '}
+            <Link href="https://github.com/amorriscode">
+              <a target="_blank">GitHub</a>
+            </Link>
+            , or{' '}
+            <Link href="https://www.goodreads.com/user/show/5171404-anthony">
+              <a target="_blank">Good Reads</a>
+            </Link>
+            .
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-stone-100 font-hammersmith mb-4">Now</h2>
+
+          <p>
+            I&apos;m currently imagining what{' '}
+            <Link href="/life">
+              <a>life</a>
+            </Link>{' '}
+            I&apos;ll be proud of ten years from now. Working backward from
+            there.
+          </p>
+        </section>
+
+        <section className="flex flex-col">
+          <h2 className="text-stone-100 font-hammersmith mb-4">The Garden</h2>
+
+          <NavLink title="second brain" path="/second-brain" />
+
+          <NavLink title="projects" />
+
+          <NavLink title="failures" />
+
+          <NavLink title="books" />
+
+          <NavLink title="words" />
+
+          <NavLink title="uses" />
         </section>
       </main>
     </div>
   )
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-  const projects = getAllContent('projects', [
-    'title',
-    'slug',
-    'description',
-    'date',
-    'status',
-  ])
-
-  const words = getAllContent('words', ['title', 'slug', 'description', 'date'])
-
-  return {
-    props: {
-      projects: projects.slice(0, 4),
-      words: words.slice(0, 4),
-    },
-  }
-}
-
-export default withLayout(Home)
+export default Home

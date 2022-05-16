@@ -2,14 +2,14 @@
 title: "2020 Product Failures"
 description: "After releasing two products, I put them both to rest."
 date: "2020-12-01T00:00:00"
-lessons: ["Don't quit early", "Friends don't always make great cofounders", "Relationships are built on communication", "If you build it, they won't come"]
+lessons: ["Don't quit too early", "Friends don't always make great cofounders", "Relationships are built on communication", "If you build it, they won't come"]
 ---
 
 One [[year]] ago I launched [Wrabit](/projects/wrabit). A [[year]] later, I've taken it down. Not just Wrabit either but [Bard](/projects/bard), the [[project]] I left my job to work on.
 
 As I listen to my [Spotify 2020 Wrapped](https://open.spotify.com/genre/2020-page) playlist, it seems fitting that I am reflecting on the two [[project]]s that consumed much of my past [[year]]. It's bittersweet to take something you poured so much sweat equity into and shut it down for good. My mission in life is to have a positive impact with my code and 2020 saw my first true bout of effort in that regard. I learned a lot, most of the lessons came directly from the failure of those [[project]]s.
 
-Both [[project]]s share one important lesson for me: **don't quit early**. Humans don't seem to be great at long term thinking and I'm no different.
+Both [[project]]s share one important lesson for me: **don't quit too early**. Humans don't seem to be great at long term thinking and I'm no different.
 
 I was coming off the high of releasing [Wrabit](/projects/wrabit) and felt unsatisfied with my day job. It was less about building things to make people's lives better and more about handling office bureaucracy. That was weighing on me. I wanted to create! So when a friend of mine proposed we create a company together, which ended up being [Bard](/projects/bard), I couldn't say no. I had some initial success with [Wrabit](/projects/wrabit) but always saw it as a side [[project]] more than a business. So, in some sense, [Bard](/projects/bard) actually ended up being the first death blow for [Wrabit](/projects/wrabit). I should've put more time into the [[project]] but the allure of working full time on my own [[startup]] was really appealing (and still is).
 

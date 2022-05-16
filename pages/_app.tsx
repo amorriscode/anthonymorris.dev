@@ -1,6 +1,5 @@
 import { AppProps } from 'next/app'
 import { DefaultSeo } from 'next-seo'
-import { ThemeProvider } from 'next-themes'
 
 import { KonamiProvider } from '../context/KonamiContext'
 
@@ -15,11 +14,9 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <DefaultSeo {...SEO} />
 
-      <ThemeProvider attribute="class">
-        <KonamiProvider>
-          <Component {...pageProps} />
-        </KonamiProvider>
-      </ThemeProvider>
+      <KonamiProvider>
+        <Component {...pageProps} />
+      </KonamiProvider>
     </>
   )
 }

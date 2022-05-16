@@ -3,7 +3,7 @@ title: "War Room"
 description: "Making incident response stress free."
 date: "2022-02-28T00:00:00"
 launchDate: "2022-02-28T00:00:00"
-status: "12products"
+status: "hack"
 ---
 
 We went into February after launching our [first product](/projects/poke) in the App Store! The success of poke made us feel like we were hitting a good stride. This time we might've bit off more than we could chew.

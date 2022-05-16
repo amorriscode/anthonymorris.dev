@@ -3,7 +3,7 @@ title: "poke"
 description: "A gentle, text-based reminder iOS app."
 date: "2022-01-31T00:00:00"
 launchDate: "2022-01-31T00:00:00"
-status: "12products"
+status: "hack"
 ---
 
 You should've left work an hour ago, you're supposed to pick up milk on your way home, and you don't have a clue how you'll make it to the gym today. We've all been there.
@@ -48,10 +48,6 @@ We used [Twilio](https://www.twilio.com/) for auth. Since users need their phone
 ---
 
 [poke Demo](https://www.youtube.com/watch?v=cBGfgPpSjmA)
-
-[Download poke (iOS)](https://apps.apple.com/ca/app/poke/id1607699386)
-
-[poke on Product Hunt](https://www.producthunt.com/posts/poke)
 
 [Frontend on GitHub](https://github.com/12products/poke-frontend)
 

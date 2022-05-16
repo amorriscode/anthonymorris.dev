@@ -22,8 +22,8 @@ function Words({ words }: { words: Writing[] }) {
         }}
       />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10">words</h1>
+      <header>
+        <h1 className="text-3xl">Words</h1>
 
         <PageSummary>
           <p>
@@ -51,11 +51,11 @@ function Words({ words }: { words: Writing[] }) {
         </PageSummary>
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-10 p-10">
+      <section className="space-y-8">
         {words.map((writing) => (
           <WritingCard key={writing.slug} writing={writing} />
         ))}
-      </main>
+      </section>
     </>
   )
 }

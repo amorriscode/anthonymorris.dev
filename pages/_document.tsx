@@ -17,8 +17,10 @@ class CustomDocument extends Document {
       <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Hammersmith+One&family=Tenor+Sans&display=swap"
             rel="stylesheet"
           />
         </Head>
