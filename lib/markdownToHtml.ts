@@ -13,12 +13,14 @@ import remarkGfm from 'remark-gfm'
 
 export default async function markdownToHtml(markdown: string) {
   const result = await unified()
+    //@ts-ignore
     .use(parse)
     .use(math)
     .use(remark2rehype, { allowDangerousHtml: true })
     .use(remarkGfm)
     .use(rehypeRaw)
     .use(katex)
+    //@ts-ignore
     .use(stringify)
     .use(highlight)
     .use(slug)
