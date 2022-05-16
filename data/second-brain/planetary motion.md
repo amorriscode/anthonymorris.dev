@@ -1,11 +1,11 @@
-# Planetary Motion
+[[Johannes Kepler]] [[Space]] [[Astronomy]] [[Physics]]
 
+# Planetary Motion
 - Path of an object through space is called an [[orbit]]
 - [[Ptolemy]]'s [[geocentric model]] was accepted until [[Copernicus]]' [[heliocentric model]] finally got adopted
   - [[Johannes Kepler]]'s laws and moving to [[ellipse]]s helped adoption
 
-## [[Johannes Kepler]]'s Three Laws of [[Orbit]]s
-
+## Johannes Kepler's Three Laws of Orbits
 1. Each planet [[orbit]]s the [[Sun]] in an [[ellipse]]
    - Circular [[orbit]]s didn't fit the observations made by [[Tycho Brahe]]
    - Discovered [[orbit]]s had a flattened shape ([[ellipse]])
@@ -25,12 +25,11 @@
    - *Law of harmonies*
 
 ### Newton's Addition to the Third Law
-
 - [[Isaac Newton]] realized that the [[Sun]]'s mass and a planets mass come into play with regards to the third law
 - The proper formula is $a^3 = (M_1 + M_2) \times P^2$
   - $M_1$ is the [[mass]] of the [[Sun]]
   - $M_2$ is the [[mass]] of the planet
   - Both $M_1$ and $M_2$ are expressed in units of the [[Sun]]'s [[mass]]
 
-[[Space]] [[Astronomy]] [[Physics]]
+
 
