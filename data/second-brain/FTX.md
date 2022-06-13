@@ -1,0 +1,4 @@
+[[cryptocurrency]]
+
+# FTX
+- [[Cryptocurrency]] exchange

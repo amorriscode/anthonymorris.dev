@@ -1,3 +1,7 @@
-# Cryptocurrency
+---
+aliases: [crypto]
+---
 
 [[blockchain]]
+
+# Cryptocurrency
