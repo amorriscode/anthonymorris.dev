@@ -17,7 +17,7 @@ The Stoics talk about an idea called _memento mori_. Here's a definition:
 
 It's something I had been aware of and was already trying to practice. How could I use this to decrease my social media usage? I built a Chrome extension that would remind me how much time I have left by replacing website logos with a countdown to my inevitable end.
 
-![Instagram logo replaced by Social Media Death Clock](/assets/projects/smdc/screen-2.jpg)
+![Instagram logo replaced by Social Media Death Clock](/assets/projects/smdc/screen-1.jpg)
 
 I definitely noticed a decrease in my social media use. After a while I must have gotten used to it because I also use [another Chrome extension to help limit my use](https://www.getintention.com/).
 
@@ -25,6 +25,8 @@ The extension has a little under 600 users, most of which are from Ukraine.
 
 ---
 
-[Get the extension in the Chrome web store](https://chrome.google.com/webstore/detail/jjmjickedeooblgpimknfghpfffncfhb/publish-accepted?authuser=1&hl=en-GB)
+[Get the extension in the Chrome web store](https://chrome.google.com/webstore/detail/jjmjickedeooblgpimknfghpfffncfhb)
+
+[Vote for SMDC on Product Hunt](https://www.producthunt.com/posts/social-media-death-clock-2)
 
 [View the code on GitHub](https://github.com/amorriscode/social-media-death-clock)
