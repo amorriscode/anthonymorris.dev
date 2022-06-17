@@ -48,7 +48,7 @@ function Projects({
             </Link>{' '}
             .{' '}
             <span className="italic font-fanwood text-xl">
-              That is where I learned to build
+              That is how I learned to build
             </span>
             .
           </p>
