@@ -1,3 +1,9 @@
+---
+aliases: [AI]
+---
+
+[[technology]] [[computer science]]
+
 # Artificial Intelligence
 
 - The study of [[computer]] systems that model and apply [[intelligence]] of the [[human]] [[mind]]
@@ -8,7 +14,7 @@
     - [[Computer]] systems that embody knowledge of [[human]] experts
   - [[Artificial Neural Network]]s
     - [[Computer]] systems that mimic the processing of the [[human]] [[brain]]
-  - [[Natural-language processing]]
+  - [[Natural language processing]]
     - Processing [[language]]s that [[human]]s use to communicate
   - [[Robotics]]
 
