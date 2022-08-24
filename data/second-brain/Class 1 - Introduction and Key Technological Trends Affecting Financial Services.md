@@ -76,6 +76,11 @@
 		- Not protecting a business model (eg. credit card business)
 - Official sector
 
+## Required Readings
+- [The economic forces driving fintech adoption across countries](https://www.bis.org/publ/work838.htm)
+- [FinTech and market structure in financial services: Market developments and potential financial stability implications](https://www.fsb.org/2019/02/fintech-and-market-structure-in-financial-services-market-developments-and-potential-financial-stability-implications/)
+- [FDIC Chairman McWilliams: The Future of Banking](https://www.csbs.org/newsroom/fdic-chairman-mcwilliams-future-banking)
+
 ## Study Questions
 1.  What are the major technological trends materially influencing the provision of financial services?
 2.  How is the competitive landscape shaping adoption of these new technologies around the globe?
