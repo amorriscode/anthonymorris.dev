@@ -20,4 +20,9 @@
 - Simple ideas help us prevent complex problems
 - The world is smarter than we are --> seek its feedback
 - Our ego is friend and enemy
-- 
+
+## The Map is not the Territory
+- Even the most accurate maps have mistakes
+	- They are reductions of the world; an abstraction
+- A map's structure may be similar or dissimilar to the territory
+- The only way we can navigate through reality is by [[abstraction]]
