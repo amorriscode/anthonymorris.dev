@@ -5,7 +5,6 @@ aliases: [AI]
 [[technology]] [[computer science]]
 
 # Artificial Intelligence
-
 - The study of [[computer]] systems that model and apply [[intelligence]] of the [[human]] [[mind]]
 - Branches:
   - Knowledge representation
@@ -19,7 +18,6 @@ aliases: [AI]
   - [[Robotics]]
 
 ## Expert Systems
-
 - Also know as a knowledge-based system
 - Embodies and uses a specific set of information
 - Extracts and process particular pieces from its set of information
