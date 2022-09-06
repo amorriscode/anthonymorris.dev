@@ -25,6 +25,7 @@
 			- Reach more people that are likely to use the services
 	- Fraud detection and prevention
 	- Credit and insurance
+		- [[AI]] is used to score someone's credit based on more sophisticated rules than traditional credit scoring
 	- Regulatory
 		- Anti-money laundering
 		- Anti-manipulation
