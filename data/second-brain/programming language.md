@@ -1,5 +1,6 @@
-# Programming Language
+[[Computer Science]] [[Programming]]
 
+# Programming Language
 - Low-level
   - Understanding the [[computer]]
 - Mid-level
@@ -8,6 +9,3 @@
   - Understandable to a human
   - E.g. [[Java]], [[JavaScript]], [[Python]], etc.
   - Either a [[compiled programming language]] or an [[interpreted programming language]]
-
-[[Computer Science]] [[Programming]]
-

@@ -33,7 +33,7 @@
        - Premise 2: You can only be completely certain that your perceptions are accurate if you can be sure you aren't dreaming
        - Conclusion: You can never be completely sure your perceptions are accurate
   3. Imperfect [[God]] hypothesis
-     - An all-powerful [[God]] could manipulate math, etc.
+     - An all-powerful [[God]] could manipulate [[math]], etc.
   4. Evil demon hypothesis
      - All-powerful, evil demon doing everything possible to deceive you
 

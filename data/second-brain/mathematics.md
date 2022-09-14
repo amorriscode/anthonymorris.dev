@@ -1,1 +1,5 @@
+---
+aliases: [math, Math]
+---
+
 # Mathematics
