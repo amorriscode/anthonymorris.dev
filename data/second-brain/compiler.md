@@ -1,8 +1,13 @@
+[[Computer Science]] [[Compiled Programming Language]]
+
 # Compiler
 
 ![Compilation process](/assets/second-brain/2020-10-28-15-01-22.png)
 
 - Program that translates a high-level [[programming language]] into [[machine language]]
+	- Reads files in one language and outputs files in another language
 
-[[Computer Science]] [[Compiled Programming Language]]
-
+## Self-hosting
+- A compiler written in the same language it compiles
+- Must be bootstrapped first
+	- eg. write a compiler in a different language, compile the first self-hosting compiler, get rid of the original one
