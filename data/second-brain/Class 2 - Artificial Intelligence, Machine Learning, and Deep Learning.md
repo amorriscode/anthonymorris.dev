@@ -34,7 +34,7 @@
 	- Automated trading
 
 ## Required Readings
-- [‘Artificial intelligence and machine learning in financial services](https://www.fsb.org/2017/11/artificial-intelligence-and-machine-learning-in-financial-service/)’ Financial Stability Board (November 1, 2017) (Pages 3–23, Executive Summary & Sections 1–3)
+- ‘[[Artificial intelligence and machine learning in financial services]]’ Financial Stability Board (November 1, 2017) (Pages 3–23, Executive Summary & Sections 1–3)
 - ‘[The Growing Impact of AI in Financial Services: Six Examples](https://towardsdatascience.com/the-growing-impact-of-ai-in-financial-services-six-examples-da386c0301b2)’ Arthur Bachinskiy, _Medium_ (February 21 2019)
 
 ## Study Questions
