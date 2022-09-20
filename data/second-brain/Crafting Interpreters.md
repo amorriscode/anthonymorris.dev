@@ -1,4 +1,4 @@
-[[book]] [[programming]] [[programming language]]
+[[book]] [[programming language]]
 
 # Crafting Interpreters
 - Written by [[Robert Nystrom]]
@@ -6,3 +6,4 @@
 
 ## Chapters
 - [[Chapter 1 - Introduction]]
+- [[Chapter 2 - A Map of the Territory]]

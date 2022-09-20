@@ -1,8 +1,9 @@
-# Interpreter
+[[Computer Science]] [[Programming Language]]
 
-- Program that inputs a program in a high-level [[programming language]] and directs the [[computer]] to perform the actions specified in each statement
+# Interpreter
+- Program that that takes a high-level [[programming language]] program as input and directs the [[computer]] to perform the actions specified in each statement
 - Doesn't output code like a [[assembler]] or [[compiler]]
 - Immediately executes translated statements
 
-[[Computer Science]] [[Programming Language]]
+
 

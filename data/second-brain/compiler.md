@@ -6,6 +6,7 @@
 
 - Program that translates a high-level [[programming language]] into [[machine language]]
 	- Reads files in one language and outputs files in another language
+- Compilers _don't_ execute the output, a user must run the program
 
 ## Self-hosting
 - A compiler written in the same language it compiles

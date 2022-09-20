@@ -1,4 +1,4 @@
-[[book]] [[Crafting Interpreters]] [[programming]] [[programming language]] [[compiler]]
+[[book]] [[Crafting Interpreters]] [[programming language]] [[compiler]]
 
 # Chapter 1 - Introduction
 - A book on "how to design a language worth implementing"
