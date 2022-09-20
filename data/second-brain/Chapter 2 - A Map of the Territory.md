@@ -88,5 +88,19 @@
 
 ## Challenges
 1. In an open source implementation of a [[programming language]], find the code that implements the scanner and parser. Are they handwritten or generated?
-2. Just-in-time compilation tends to be the fastest way to implement dynamically typed languages, but not all of them use it. What reasons are there to _not_ JIT?
+2. [[Just-in-time compilation]] tends to be the fastest way to implement dynamically typed languages, but not all of them use it. What reasons are there to _not_ JIT?
+	- Has a startup delay
+		- Must make tradeoffs between compilation time and quality of code generated
+	- Can introduce security issues
+		- [[just-in-time compilation|JIT]] compiler outputs [[machine code]] directly into memory then executes it
+		- This compiler can be used to execute arbitrary code
 3. Most Lisp implementations that compile to C also contain an interpreter that lets them execute Lisp code on the fly as well. Why?
+	- Code can be rewritten at runtime (eg. macros)
+		- Staged compilation (requires an interpreter)
+			- Compile macros --> link them into compiler --> compile code
+	- Late binding
+		- Function being called is looked up at runtime
+		- Method called on an object is looked up at runtime
+		- In Lisp, global function calls are looked up at runtime via a symbols' function cell
+			- Function bindings are mutable
+			- https://en.wikipedia.org/wiki/Late_binding#Late_binding_in_Lisp
