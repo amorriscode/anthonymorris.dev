@@ -20,18 +20,46 @@
 					- Blockchain? --> not quite in the stack yet
 
 ## AI and Machine Learning
-- AI
-	- 1950s
-	- Computers mimicking human intelligence
-- Machine learning
-	- 1980s
-	- Machines improve with experience
-- Representation learning
-	- Machine learning extracting features of data sets
-- Deep learning
-	- 2010s
-	- Machine learning with multi-layer neural networks
-- 
+- Terms
+	- AI
+		- 1950s
+		- Computers mimicking human intelligence
+	- Machine learning
+		- 1980s
+		- Machines improve with experience
+	- Representation learning
+		- Machine learning extracting features of data sets
+	- Deep learning
+		- 2010s
+		- Machine learning with multi-layer neural networks
+- AI as a service or a tool?
+	- Typically thought of as a tool
+	- There are _plenty_ of examples of AI as a service (in finance):
+		- AlphaSense - search engine
+		- Cape Analytics - insurance and property risk analytics
+		- Dataminr - market sentiment analysis
+		- HyperScience - document processing
+- Big banks/finance are working to integrate this into their businesses
+	- Third party + roll their own
+	- Lots of jobs for big AI/ML adjacent positions (from 2019):
+		- Chief data scientist at Goldman Sachs
+		- Machine learning manager at J.P. Morgan
+		- AI research manager at Morgan Stanley
+		- Senior AI technology architect at Bank of America
+
+## AI Policy and Finance
+- When working with AI, it's always important to ask: **is there bias?**
+- Who owns data?
+	- Banks? the third party using it for ML? The users?
+- Use of alternative data
+	- Not just bank transactions but driving records, social media, etc.
+- How do we fit AI into the current frameworks?
+
+### Policy Alternatives
+- Options for moving forward:
+	- Be tech neutral
+	- Adjust regulatory requirements
+	- Promote early stage tech
 
 ## Readings
 - [Artificial Intelligence Applications in Financial Services](https://www.oliverwyman.com/our-expertise/insights/2019/dec/artificial-intelligence-applications-in-financial-services.html) Oliver Wyman (December 2019) (Pages 11–30, Section on ‘How is AI Applied in Financial Services?’)
