@@ -81,8 +81,7 @@ function Home() {
             </li>
 
             <li>
-              I like using <a href="https://www.oakmeditation.com">Oak</a> to
-              practice mindfulness but have also been using{' '}
+              I practice mindfulness with{' '}
               <a href="https://wakingup.com">Waking Up</a>.
             </li>
 
@@ -177,9 +176,11 @@ function Home() {
             </li>
 
             <li>
-              I use my{' '}
-              <a href="https://en.wikipedia.org/wiki/Canon_A-1">Canon A-1</a> to
-              when shooting with film.
+              I use my black chrome{' '}
+              <a href="https://leica-camera.com/en-NZ/photography/cameras/m/m-a-typ-127-black">
+                Leica M-A
+              </a>{' '}
+              to when shooting with film.
             </li>
           </ul>
         </section>
@@ -194,13 +195,6 @@ function Home() {
                 Project Wren
               </a>
               .
-            </li>
-
-            <li>
-              I love paper notebooks but my{' '}
-              <a href="https://remarkable.com">reMarkable</a> has been a good
-              replacement. I love the ability to organize and not waste paper.
-              But I miss my notebooks.
             </li>
 
             <li>
