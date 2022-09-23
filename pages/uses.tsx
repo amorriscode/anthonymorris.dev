@@ -4,7 +4,7 @@ import { NextSeo } from 'next-seo'
 import withLayout from '../components/withLayout'
 import PageSummary from '../components/PageSummary'
 
-function Home() {
+function Uses() {
   return (
     <>
       <NextSeo
@@ -211,4 +211,4 @@ function Home() {
   )
 }
 
-export default withLayout(Home)
+export default withLayout(Uses)
