@@ -67,6 +67,11 @@ url = "/books/wise-mans-fear"
 title = "Wise Man's Fear"
 
 [[input.files]]
+path = "./failures/12products.md"
+url = "/failures/12products"
+title = "A Product A Month"
+
+[[input.files]]
 path = "./failures/2020-product-failures.md"
 url = "/failures/2020-product-failures"
 title = "2020 Product Failures"
