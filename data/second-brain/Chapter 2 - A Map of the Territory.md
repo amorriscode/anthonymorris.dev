@@ -1,6 +1,6 @@
 [[book]] [[Crafting Interpreters]] [[programming language]] [[compiler]]
 
-# Chapter 2 - A Map of the Territory
+# A Map of the Territory
 ## Parts of a Language
 ### Scanning
 - Scanning or lexing
