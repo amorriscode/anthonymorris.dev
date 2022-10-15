@@ -15,7 +15,7 @@
 - Scan list of characters and group them into the smallest  sequences that have meaning
 - Each group of meaningful characters is a **lexeme**
 
-```lox
+```
 var language = "lox";
 ```
 
