@@ -1,6 +1,6 @@
 [[book]] [[Crafting Interpreters]] [[programming language]] [[compiler]]
 
-Introduction
+# Introduction
 - A book on "how to design a language worth implementing"
 - Practical, implementation driven learning
 - Plenty of domain-specific languages out there

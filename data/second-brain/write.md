@@ -1,5 +1,4 @@
 # Write
-
 Eventually I'll get around to [writing](https://anthonymorris.dev/words) things from this list.
 
 - Accessible modals
@@ -16,4 +15,7 @@ Eventually I'll get around to [writing](https://anthonymorris.dev/words) things 
   - Why do we learn better from personal experience?
   - What makes those lessons more real?
   - How can we learn lessons the easy way?
+- AI and fraud in finance
+	- [https://stripe.com/blog/radar-2018](https://stripe.com/blog/radar-2018)
+	- [https://stripe.com/en-ca/guides/primer-on-machine-learning-for-fraud-protection](https://stripe.com/en-ca/guides/primer-on-machine-learning-for-fraud-protection)
 
