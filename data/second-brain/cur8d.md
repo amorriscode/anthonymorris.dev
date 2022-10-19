@@ -10,6 +10,7 @@
 -   [https://twitter.com/spooky_daikon](https://twitter.com/spooky_daikon)
 -   [https://formfunction.xyz/@joiceloo/series/critters](https://formfunction.xyz/@joiceloo/series/critters)
 - https://twitter.com/VinceHelen/media
+- https://twitter.com/dato_art
 
 ## Art
 -   [https://exchange.art/single/CKqCTR5E9jSSrGTixfVsX3TcJiqeDdgPsxmFXCPPxgfc](https://exchange.art/single/CKqCTR5E9jSSrGTixfVsX3TcJiqeDdgPsxmFXCPPxgfc)
@@ -26,7 +27,7 @@ Upfront I just want to let you know that I’ve included quite a few questions. 
 With all that out of the way, here are the questions:
 
 1.  What does art mean to you?
-2.  How do you see yourself as an artist? How did you develop your style?
+2.  How do you define your art style?
 3.  Why did you decide to put your work on the blockchain?
 4.  Since you've started putting your work on the blockchain how has your process changed?
 5.  What's one thing web3 provides you as an artist that you can't get off-chain?
