@@ -11,6 +11,14 @@
 -   [https://formfunction.xyz/@joiceloo/series/critters](https://formfunction.xyz/@joiceloo/series/critters)
 - https://twitter.com/VinceHelen/media
 - https://twitter.com/dato_art
+- [@GlitchStroke](https://twitter.com/GlitchStroke)
+- [@64jooski](https://twitter.com/64jooski)
+- [@DarkArtofMiller](https://twitter.com/DarkArtofMiller)
+- [@celstialbody](https://twitter.com/celstialbody)
+- [@quietmaybe](https://twitter.com/quietmaybe)
+- [@Peanug420](https://twitter.com/Peanug420)
+- [@sircandyapple](https://twitter.com/sircandyapple)
+- [@iamlaurael](https://twitter.com/iamlaurael)
 
 ## Art
 -   [https://exchange.art/single/CKqCTR5E9jSSrGTixfVsX3TcJiqeDdgPsxmFXCPPxgfc](https://exchange.art/single/CKqCTR5E9jSSrGTixfVsX3TcJiqeDdgPsxmFXCPPxgfc)

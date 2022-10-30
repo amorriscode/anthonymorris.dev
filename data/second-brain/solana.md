@@ -10,9 +10,6 @@
 	- You can't pay higher fees to increase chances of being included in the next block
 
 ## Development
-- Accounts
-	- "Files" on the network ledger
-	- All state data stored in account
 - [[Lamport]]s
 	- Fractional [[SOL]]
 - Public keys

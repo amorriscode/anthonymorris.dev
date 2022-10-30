@@ -20,5 +20,4 @@
 
 ## Documentaries
 - The Ascent of Man
-- Coin
 - [https://news.ycombinator.com/item?id=32799789](https://news.ycombinator.com/item?id=32799789)
