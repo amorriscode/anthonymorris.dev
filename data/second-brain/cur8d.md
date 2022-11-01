@@ -19,30 +19,10 @@
 - [@Peanug420](https://twitter.com/Peanug420)
 - [@sircandyapple](https://twitter.com/sircandyapple)
 - [@iamlaurael](https://twitter.com/iamlaurael)
+- https://twitter.com/xtillgood
 
 ## Art
--   [https://exchange.art/single/CKqCTR5E9jSSrGTixfVsX3TcJiqeDdgPsxmFXCPPxgfc](https://exchange.art/single/CKqCTR5E9jSSrGTixfVsX3TcJiqeDdgPsxmFXCPPxgfc)
--   [https://twitter.com/CryptoVulture/status/1580663767355965441](https://twitter.com/CryptoVulture/status/1580663767355965441)
+- https://exchange.art/single/DE3hMgNer8mWUxo3aA9p3S7ooJhFd7t1GLpGLYPmWAcx
 
 ## Collectors
 -   [https://formfunction.xyz/@0xMQQ](https://formfunction.xyz/@0xMQQ)
-
-## Question Template
-Hi ______! Thanks for agreeing to answer some questions for the newsletter.
-
-Upfront I just want to let you know that I’ve included quite a few questions. Feel free to skip any that you don’t feel inspired to answer. I’ll be editing the responses for cohesion and grammatical errors, etc. but I’ll send you the final copy to approve prior to sending out my newsletter!
-
-With all that out of the way, here are the questions:
-
-1.  What does art mean to you?
-2.  How do you define your art style?
-3.  Why did you decide to put your work on the blockchain?
-4.  Since you've started putting your work on the blockchain how has your process changed?
-5.  What's one thing web3 provides you as an artist that you can't get off-chain?
-6.  What are you working on now?
-7.  Are there any artists I should talk to that I may not be aware of?  
-
-Thank you so much for doing this!
-
-## Issues
-- [[cur8d - 2]]
