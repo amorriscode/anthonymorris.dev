@@ -1,14 +1,14 @@
 # cur8d
 
 ## Artists
--   [https://exchange.art/editions/5angM5djqzPfnkrNWmbyTcXiAgWA6iUNGVQxhiQUStQA](https://exchange.art/editions/5angM5djqzPfnkrNWmbyTcXiAgWA6iUNGVQxhiQUStQA)
--   [https://formfunction.xyz/@u__y__a__b](https://formfunction.xyz/@u__y__a__b)
--   [https://twitter.com/clagri_](https://twitter.com/clagri_)
--   [https://formfunction.xyz/@asafa](https://formfunction.xyz/@asafa)
--   [https://formfunction.xyz/@daniar_ainun](https://formfunction.xyz/@daniar_ainun)
--   [https://formfunction.xyz/@kenva](https://formfunction.xyz/@kenva)
--   [https://twitter.com/spooky_daikon](https://twitter.com/spooky_daikon)
--   [https://formfunction.xyz/@joiceloo/series/critters](https://formfunction.xyz/@joiceloo/series/critters)
+- [https://exchange.art/editions/5angM5djqzPfnkrNWmbyTcXiAgWA6iUNGVQxhiQUStQA](https://exchange.art/editions/5angM5djqzPfnkrNWmbyTcXiAgWA6iUNGVQxhiQUStQA)
+- [https://formfunction.xyz/@u__y__a__b](https://formfunction.xyz/@u__y__a__b)
+- [https://twitter.com/clagri_](https://twitter.com/clagri_)
+- [https://formfunction.xyz/@asafa](https://formfunction.xyz/@asafa)
+- [https://formfunction.xyz/@daniar_ainun](https://formfunction.xyz/@daniar_ainun)
+- [https://formfunction.xyz/@kenva](https://formfunction.xyz/@kenva)
+- [https://twitter.com/spooky_daikon](https://twitter.com/spooky_daikon)
+- [https://formfunction.xyz/@joiceloo/series/critters](https://formfunction.xyz/@joiceloo/series/critters)
 - https://twitter.com/VinceHelen/media
 - https://twitter.com/dato_art
 - [@GlitchStroke](https://twitter.com/GlitchStroke)
@@ -20,6 +20,12 @@
 - [@sircandyapple](https://twitter.com/sircandyapple)
 - [@iamlaurael](https://twitter.com/iamlaurael)
 - https://twitter.com/xtillgood
+- https://twitter.com/lapantigatiga
+- https://twitter.com/septadenata
+- https://twitter.com/erenomoto
+- https://twitter.com/wilsenway
+- https://twitter.com/StudioCaptain1
+- https://twitter.com/IndraGondi
 
 ## Art
 - https://exchange.art/single/DE3hMgNer8mWUxo3aA9p3S7ooJhFd7t1GLpGLYPmWAcx
