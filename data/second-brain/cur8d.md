@@ -26,9 +26,9 @@
 - https://twitter.com/wilsenway
 - https://twitter.com/StudioCaptain1
 - https://twitter.com/IndraGondi
+- https://formfunction.xyz/@gambaXstudio
 
 ## Art
-- https://exchange.art/single/DE3hMgNer8mWUxo3aA9p3S7ooJhFd7t1GLpGLYPmWAcx
 - https://formfunction.xyz/@ramenya/9EfcoGar9QSo1ZvFcBARXm9kzvV1o1oSvw9ZZybrZ99j?width=1920&height=1080
 
 ## Collectors
