@@ -27,6 +27,7 @@
 - https://twitter.com/StudioCaptain1
 - https://twitter.com/IndraGondi
 - https://formfunction.xyz/@gambaXstudio
+- https://twitter.com/celstialbody
 
 ## Art
 - https://formfunction.xyz/@ramenya/9EfcoGar9QSo1ZvFcBARXm9kzvV1o1oSvw9ZZybrZ99j?width=1920&height=1080

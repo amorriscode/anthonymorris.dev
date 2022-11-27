@@ -2,8 +2,8 @@
 
 # Sui
 - Built on [[Rust]]
-- Uses [[Move]] for its [[smart contracts]]
-	- It's own flavour of [[Move]]
+- Uses [[Move]] for its packages (aka [[smart contracts]])ß
+	- It's own flavour of [[Move]] (made a Meta)
 - Permissionless Layer 1 blockchain
 - Horizontally scalable
 	- Most transactions are processable in parallel

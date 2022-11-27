@@ -9,6 +9,12 @@
 - Transaction fees are deterministic
 	- You can't pay higher fees to increase chances of being included in the next block
 
+# Proof-of-Stake
+- People/entities run programs on computers (validators)
+- Validators process incoming transactions as well as vote on and append new blocks to the blockchain
+- Validators votes on the legitimacy of a block are stake-weighted
+	- More stake a validator has, the more influence the validator has in determining the outcome
+
 ## Development
 - [[Lamport]]s
 	- Fractional [[SOL]]
