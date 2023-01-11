@@ -14,7 +14,6 @@
 
 ## Movies
 - Wind River
-- Emily the Criminal
 - Nostalgia for the Light
 - Primer
 
