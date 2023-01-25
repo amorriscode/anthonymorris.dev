@@ -6,6 +6,10 @@ tags: ["Building", "Product Development"]
 heroImage: "/assets/words/12-products-12-months/hero-image.jpg"
 ---
 
+<div className="prose mb-12 border border-stone-800 bg-opacity-20 bg-stone-800 rounded-lg p-8">
+  This project ended up <a href="/failures/12products">being a failure</a>. We had a lot of fun doing the experiment, we built some things, and even made some friends along the way. There <i>will</i> be more products from us in the future!
+</div>
+
 It's been a while since I've built anything for myself. One of the reasons I consider myself a "product-focused engineer" is because of my passion for building. Programming has enabled me to create something from nothing. Its turned me into a builder.
 
 [My partner](https://alicezhao.com/) and I have been talking about doing an ambitious project for 2022. We've decided to build **12 products in 12 months**.
