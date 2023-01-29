@@ -1,3 +1,5 @@
+[[psychology]]
+
 # Pareidolia
 - A type of [[apophenia]]
 - Perception of images or sounds in noise

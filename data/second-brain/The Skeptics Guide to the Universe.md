@@ -113,4 +113,29 @@
 - Coincidence
 - Tendency to interpret events as if caused by a conscious agent instead of natural forces or chaotic events
 	- Often leads to conspiracy theories
-- 
+- May be important to the development of religion
+
+## 6. Hypnagogia
+- [[Hypnagogia]]
+- Often paired with sleep paralysis
+	- ~8% of people experience sleep paralysis
+- "maere" is Old English for "female demon who suffocates people in their sleep"
+	- This is where "nightmare" is derived from
+
+## 7. Ideomotor Effect
+- Subtle muscle movement driven by expectation
+- This is how dowsing rods work
+
+## 8. Dunning-Kruger Effect
+- [[Duning-Kruger effect]]
+- Overconfidence bias
+- Always assume you know a little less than you think you do
+
+## 9. Motivated Reasoning
+- The biases process of defending something we are emotionally attached to
+- Triggered by [[cognitive dissonance]]
+- We need to make concerted effort when thinking about things related to ideology
+	- Factual beliefs about the world shouldn't be a source of identity (they may need to be updated/changed)
+- Always remind yourself that the people disagreeing with you are **people**
+	- They have reasons to believe what they do just like you do
+	- Everyone has their own narrative

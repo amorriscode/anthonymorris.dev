@@ -1,0 +1,3 @@
+[[psychology]] [[brain]]
+
+# Cognitive Bias
