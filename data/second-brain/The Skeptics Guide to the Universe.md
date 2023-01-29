@@ -88,3 +88,29 @@
 	- Hypnosis
 	- Suggestion
 	- Group pressure
+
+## 3. Fallibility of Perception
+- Perceptions are _not_ a passive recording of the world
+	- Optimized for functionality
+- Your brain "patches" blindspots in your vision
+	- Only the fovea records images in details
+		- The fovea is very small
+- Our brains project movement into the future to account for delays in processing time
+- Alien hand syndrome
+- Inattentional blindness
+	- When someone fails to notice an unexpected stimulus in plain sight
+	- The [gorilla basketball video](https://www.youtube.com/watch?v=vJG698U2Mvo)
+- Change blindness
+	- [Colour Changing Card Trick](https://www.youtube.com/watch?v=v3iPrBrGSJM)
+
+## 4. Pareidolia
+- [[Pareidolia]]
+- [[Apophenia]]
+- We are good at recognizing facial patterns
+	- Fusiform face area
+
+## 5. Hyperactive Agency Detection
+- Coincidence
+- Tendency to interpret events as if caused by a conscious agent instead of natural forces or chaotic events
+	- Often leads to conspiracy theories
+- 
