@@ -9,6 +9,7 @@
 - Lovesick
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe
+- Black Cloak
 
 ## Read
 - Do a Powerbomb!
