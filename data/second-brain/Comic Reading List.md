@@ -4,6 +4,7 @@
 - Damn Them All #2
 - Hitomi #4
 - Ice Cream Man #4
+- Nocterra #6
 
 ## Read Later
 - Lovesick
