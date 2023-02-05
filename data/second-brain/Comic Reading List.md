@@ -29,7 +29,11 @@
 - Joe Hill's Rain
 - Where Monsters Lie
 - The Sandman Universe: Dead Boy Detectives
-- Where Monsters Lie
+- East of West
+- 100 Bullets
+- Scalped
+- The Wicked + The Divine
+- The Nice House on the Lake
 
 ## Read
 - Do a Powerbomb!
