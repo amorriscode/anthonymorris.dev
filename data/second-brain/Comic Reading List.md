@@ -32,8 +32,11 @@
 - East of West
 - 100 Bullets
 - Scalped
-- The Wicked + The Divine
 - The Nice House on the Lake
+- Supergirl: Woman of Tomorrow
+- Geiger
+- God Country
+- Nottingham
 
 ## Read
 - Do a Powerbomb!
