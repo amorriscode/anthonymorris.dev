@@ -5,6 +5,8 @@
 - Hitomi #4
 - Ice Cream Man #4
 - Nocterra #6
+- Killadelphia #6
+- Poison Ivy #4
 
 ## Read Later
 - Lovesick
