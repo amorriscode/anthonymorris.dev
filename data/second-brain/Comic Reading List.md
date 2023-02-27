@@ -11,7 +11,7 @@
 ## Read Later
 - Lovesick
 - Doctor Strange: Fall Sunrise
-- Junkyard Joe
+- Junkyard Joe / Geiger
 - Black Cloak
 - Die by Kieron Gillen
 - The Wicked + The Divine
@@ -39,6 +39,8 @@
 - Geiger
 - God Country
 - Nottingham
+- Swamp Thing: Green Hell
+- Superman Space Age
 
 ## Read
 - Do a Powerbomb!
