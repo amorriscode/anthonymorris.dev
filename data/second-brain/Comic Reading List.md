@@ -41,6 +41,8 @@
 - Nottingham
 - Swamp Thing: Green Hell
 - Superman Space Age
+- Fuck This Place
+- Phantom Road by Jeff Lemire
 
 ## Read
 - Do a Powerbomb!
