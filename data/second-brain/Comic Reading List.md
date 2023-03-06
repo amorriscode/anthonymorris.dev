@@ -43,6 +43,8 @@
 - Superman Space Age
 - Fuck This Place
 - Phantom Road by Jeff Lemire
+- Children of the Black Sun
+- And We Love You
 
 ## Read
 - Do a Powerbomb!
