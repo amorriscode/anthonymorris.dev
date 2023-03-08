@@ -45,6 +45,7 @@
 - Phantom Road by Jeff Lemire
 - Children of the Black Sun
 - And We Love You
+- God Country
 
 ## Read
 - Do a Powerbomb!
