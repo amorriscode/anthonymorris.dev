@@ -46,6 +46,7 @@
 - Children of the Black Sun
 - And We Love You
 - God Country
+- I Hate This Place
 
 ## Read
 - Do a Powerbomb!
