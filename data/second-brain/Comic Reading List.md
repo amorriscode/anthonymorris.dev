@@ -9,7 +9,6 @@
 - Poison Ivy #4
 
 ## Read Later
-- Lovesick
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
 - Black Cloak
@@ -48,6 +47,9 @@
 - God Country
 - I Hate This Place
 - It's Lonely at the Centre of the Earth
+- Infidel
+- Little Monsters
+- All Against All
 
 ## Read
 - Do a Powerbomb!
