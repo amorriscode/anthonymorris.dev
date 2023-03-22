@@ -24,6 +24,7 @@
 
 ### Protobuf varint
 - Implement [Base 128 Varint](https://protobuf.dev/programming-guides/encoding/#varints) encoding using [[Protocol Buffers]]
+	- [[Base 128 Varints]]
 - Can we come up with a variable length encoding to save space?
 
 #### Explainers
