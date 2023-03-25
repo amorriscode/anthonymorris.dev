@@ -67,6 +67,111 @@ url = "/books/wise-mans-fear"
 title = "Wise Man's Fear"
 
 [[input.files]]
+path = "./bucket-list/1000lb-club.md"
+url = "/bucket-list/1000lb-club"
+title = "1000lb-club"
+
+[[input.files]]
+path = "./bucket-list/design-a-home.md"
+url = "/bucket-list/design-a-home"
+title = "design-a-home"
+
+[[input.files]]
+path = "./bucket-list/draw-visual-story.md"
+url = "/bucket-list/draw-visual-story"
+title = "draw-visual-story"
+
+[[input.files]]
+path = "./bucket-list/get-bachelors-degree.md"
+url = "/bucket-list/get-bachelors-degree"
+title = "get-bachelors-degree"
+
+[[input.files]]
+path = "./bucket-list/half-marathon.md"
+url = "/bucket-list/half-marathon"
+title = "half-marathon"
+
+[[input.files]]
+path = "./bucket-list/have-photos-in-gallery.md"
+url = "/bucket-list/have-photos-in-gallery"
+title = "have-photos-in-gallery"
+
+[[input.files]]
+path = "./bucket-list/hike-machi-picchu.md"
+url = "/bucket-list/hike-machi-picchu"
+title = "hike-machi-picchu"
+
+[[input.files]]
+path = "./bucket-list/hike-west-coast-trail.md"
+url = "/bucket-list/hike-west-coast-trail"
+title = "hike-west-coast-trail"
+
+[[input.files]]
+path = "./bucket-list/launch-a-product.md"
+url = "/bucket-list/launch-a-product"
+title = "launch-a-product"
+
+[[input.files]]
+path = "./bucket-list/learn-chinese.md"
+url = "/bucket-list/learn-chinese"
+title = "learn-chinese"
+
+[[input.files]]
+path = "./bucket-list/learn-piano.md"
+url = "/bucket-list/learn-piano"
+title = "learn-piano"
+
+[[input.files]]
+path = "./bucket-list/learn-to-dance.md"
+url = "/bucket-list/learn-to-dance"
+title = "learn-to-dance"
+
+[[input.files]]
+path = "./bucket-list/learn-to-swim.md"
+url = "/bucket-list/learn-to-swim"
+title = "learn-to-swim"
+
+[[input.files]]
+path = "./bucket-list/marathon.md"
+url = "/bucket-list/marathon"
+title = "marathon"
+
+[[input.files]]
+path = "./bucket-list/publish-a-book.md"
+url = "/bucket-list/publish-a-book"
+title = "publish-a-book"
+
+[[input.files]]
+path = "./bucket-list/release-an-album.md"
+url = "/bucket-list/release-an-album"
+title = "release-an-album"
+
+[[input.files]]
+path = "./bucket-list/tennis-tournament.md"
+url = "/bucket-list/tennis-tournament"
+title = "tennis-tournament"
+
+[[input.files]]
+path = "./bucket-list/visit-iceland.md"
+url = "/bucket-list/visit-iceland"
+title = "visit-iceland"
+
+[[input.files]]
+path = "./bucket-list/visit-japan.md"
+url = "/bucket-list/visit-japan"
+title = "visit-japan"
+
+[[input.files]]
+path = "./bucket-list/visit-kirstenbosch-tree-canopy.md"
+url = "/bucket-list/visit-kirstenbosch-tree-canopy"
+title = "visit-kirstenbosch-tree-canopy"
+
+[[input.files]]
+path = "./bucket-list/visit-new-zealand.md"
+url = "/bucket-list/visit-new-zealand"
+title = "visit-new-zealand"
+
+[[input.files]]
 path = "./failures/12products.md"
 url = "/failures/12products"
 title = "A Product A Month"
