@@ -1,3 +1,5 @@
+[[comics]]
+
 # Comic Reading List
 
 ## Currently Reading
@@ -17,6 +19,7 @@
 - The Wicked + The Divine
 - Monstress
 - Sandman
+- Gideon Falls
 - Paper Girls
 - Once Upon a Time At The End of The World
 - Immortal X-Men by Kieron Gillen (2022)
@@ -37,19 +40,18 @@
 - The Nice House on the Lake
 - Supergirl: Woman of Tomorrow
 - Geiger
-- God Country
 - Nottingham
 - Superman Space Age
-- Fuck This Place
 - Phantom Road by Jeff Lemire
 - Children of the Black Sun
 - And We Love You
 - God Country
-- I Hate This Place
+- I Hate This Place / Fuck This Place
 - It's Lonely at the Centre of the Earth
 - Infidel
 - Little Monsters
 - All Against All
+- Transmetropolitan
 
 ## Read
 - Do a Powerbomb!
