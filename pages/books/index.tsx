@@ -84,6 +84,7 @@ export const getStaticProps: GetStaticProps = async () => {
     'rating',
     'readDate',
     'author',
+    'content',
   ])
 
   return {
