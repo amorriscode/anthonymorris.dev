@@ -10,24 +10,28 @@ import { getContentBySlug, getAllContent } from '../../lib/api'
 import withLayout from '../../components/withLayout'
 import PageSummary from '../../components/PageSummary'
 
-function FailurePage({ failure }: { failure: Failure }) {
+function FailurePage({
+  failure: { title, description, date, lessons, content },
+}: {
+  failure: Failure
+}) {
   return (
     <>
       <NextSeo
-        title={failure.title}
-        description={failure.description}
+        title={title}
+        description={description}
         openGraph={{
-          title: failure.title,
-          description: failure.description,
+          title: title,
+          description: description,
         }}
       />
 
       <header>
         <div>
-          <h1 className="text-3xl">{failure.title}</h1>
+          <h1 className="text-3xl">{title}</h1>
 
           <div className="font-fanwood italic text-xl">
-            failed {format(new Date(failure.date), 'MMMM do, y')}
+            failed {format(new Date(date), 'MMMM do, y')}
           </div>
         </div>
 
@@ -35,7 +39,7 @@ function FailurePage({ failure }: { failure: Failure }) {
           <h2 className="text-2xl">Lessons Learned</h2>
 
           <ul>
-            {failure.lessons.map((lesson) => (
+            {lessons.map((lesson) => (
               <li key={lesson}>{lesson}</li>
             ))}
           </ul>
@@ -44,7 +48,7 @@ function FailurePage({ failure }: { failure: Failure }) {
 
       <article
         className="prose space-y-10"
-        dangerouslySetInnerHTML={{ __html: failure.content }}
+        dangerouslySetInnerHTML={{ __html: content }}
       />
     </>
   )
@@ -76,10 +80,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const failures = getAllContent('failures', ['slug']) as Failure[]
 
   return {
-    paths: failures.map((failure) => {
+    paths: failures.map(({ slug }) => {
       return {
         params: {
-          slug: failure.slug,
+          slug,
         },
       }
     }),

@@ -13,65 +13,79 @@ import { getContentBySlug, getAllContent } from '../../lib/api'
 import withLayout from '../../components/withLayout'
 import PageSummary from '../../components/PageSummary'
 
-function ProjectPage({ project }: { project: Project }) {
+function ProjectPage({
+  project: {
+    title,
+    description,
+    heroImage,
+    blurDataURL,
+    status,
+    launchDate,
+    sunsetDate,
+    content,
+    postmortem,
+  },
+}: {
+  project: Project
+}) {
   return (
     <>
       <NextSeo
-        title={project.title}
-        description={project.description}
+        title={title}
+        description={description}
         openGraph={{
-          title: project.title,
-          description: project.description,
+          title: title,
+          description: description,
         }}
       />
 
       <header>
-        {project?.heroImage && (
+        {heroImage && (
           <div className="mb-4 mx-auto h-64 sm:h-96 max-w-4xl rounded-lg relative overflow-hidden">
             <Image
-              src={project.heroImage}
-              alt={project.title}
+              src={heroImage}
+              alt={title}
               layout="fill"
               objectFit="cover"
               placeholder="blur"
-              blurDataURL={project.blurDataURL}
+              blurDataURL={blurDataURL}
             />
           </div>
         )}
 
         <div>
-          <h1 className="text-3xl">{project.title}</h1>
+          <h1 className="text-3xl">{title}</h1>
 
           <div className="space-x-2 font-fanwood text-lg italic">
-            <span>{project.status}</span>
+            <span>{status}</span>
 
-            {project?.launchDate && (
+            {launchDate && (
               <>
                 <span>|</span>
                 <span>
-                  launched {format(new Date(project.launchDate), 'MMMM do, y')}
+                  launched {format(new Date(launchDate), 'MMMM do, y')}
                 </span>
               </>
             )}
 
-            {project?.sunsetDate && (
+            {sunsetDate && (
               <>
                 <span>|</span>
                 <span>
-                  retired {format(new Date(project.sunsetDate), 'MMMM do, y')}
+                  retired {format(new Date(sunsetDate), 'MMMM do, y')}
                 </span>
               </>
             )}
           </div>
         </div>
 
-        {project?.sunsetDate && (
+        {sunsetDate && (
           <PageSummary>
-            {project.title} has been laid to rest in my product graveyard.
-            {project?.postmortem && (
+            {title} has been laid to rest in my product graveyard.
+            {postmortem && (
               <>
                 {' '}
-                <Link href={project.postmortem}>
+                <Link href={postmortem}>
                   <a>Read the postmortem</a>
                 </Link>
                 .
@@ -83,7 +97,7 @@ function ProjectPage({ project }: { project: Project }) {
 
       <article
         className="prose mt-12"
-        dangerouslySetInnerHTML={{ __html: project.content }}
+        dangerouslySetInnerHTML={{ __html: content }}
       />
     </>
   )
@@ -125,10 +139,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const projects = getAllContent('projects', ['slug']) as Project[]
 
   return {
-    paths: projects.map((project) => {
+    paths: projects.map(({ slug }) => {
       return {
         params: {
-          slug: project.slug,
+          slug,
         },
       }
     }),

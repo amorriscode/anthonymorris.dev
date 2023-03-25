@@ -10,11 +10,15 @@ import { getContentBySlug, getAllContent } from '../../lib/api'
 
 import withLayout from '../../components/withLayout'
 
-function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
+function BrainEntryPage({
+  brainEntry: { slug, content, backlinks },
+}: {
+  brainEntry: BrainEntry
+}) {
   return (
     <>
       <Head>
-        <title>{brainEntry.slug} | Anthony Morris</title>
+        <title>{slug} | Anthony Morris</title>
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
@@ -48,17 +52,17 @@ function BrainEntryPage({ brainEntry }: { brainEntry: BrainEntry }) {
 
       <article
         className="prose mt-12"
-        dangerouslySetInnerHTML={{ __html: brainEntry.content }}
+        dangerouslySetInnerHTML={{ __html: content }}
       />
 
-      {!!brainEntry.backlinks.length && (
+      {!!backlinks.length && (
         <div className="prose rounded-lg border border-stone-800 text-stone-100 bg-opacity-20 bg-stone-800 p-8 mt-12">
           <h2 className="font-am text-2xl font-light text-am-white">
             Backlinks
           </h2>
 
           <div className="flex flex-wrap justify-between">
-            {brainEntry.backlinks.map((backlink) => (
+            {backlinks.map((backlink) => (
               <Link
                 key={backlink}
                 href="/second-brain/[slug]"

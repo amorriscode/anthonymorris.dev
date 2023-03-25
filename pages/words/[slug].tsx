@@ -11,46 +11,50 @@ import { getContentBySlug, getAllContent } from '../../lib/api'
 
 import withLayout from '../../components/withLayout'
 
-function WordPage({ writing }: { writing: Writing }) {
+function WordPage({
+  writing: { title, description, heroImage, blurDataURL, content, date },
+}: {
+  writing: Writing
+}) {
   return (
     <>
       <NextSeo
-        title={writing.title}
-        description={writing.description}
+        title={title}
+        description={description}
         openGraph={{
-          title: writing.title,
-          description: writing.description,
+          title,
+          description,
         }}
       />
 
       <header>
-        {writing?.heroImage && (
-          <div className="px-10">
+        {heroImage && (
+          <div>
             <div className="mb-10 mx-auto h-64 sm:h-96 max-w-4xl rounded-lg relative overflow-hidden">
               <Image
-                src={writing.heroImage}
+                src={heroImage}
                 layout="fill"
                 objectFit="cover"
                 alt=""
                 placeholder="blur"
-                blurDataURL={writing.blurDataURL}
+                blurDataURL={blurDataURL}
               />
             </div>
           </div>
         )}
 
-        <div className="mx-auto max-w-3xl px-10">
-          <h1 className="text-4xl font-am mb-2">{writing.title}</h1>
+        <div>
+          <h1 className="text-4xl font-am mb-2">{title}</h1>
 
           <div className="font-fanwood italic text-lg">
-            written {format(new Date(writing.date), 'MMMM do, y')}
+            written {format(new Date(date), 'MMMM do, y')}
           </div>
         </div>
       </header>
 
       <article
-        className="prose mx-auto max-w-3xl p-10"
-        dangerouslySetInnerHTML={{ __html: writing.content }}
+        className="prose py-10"
+        dangerouslySetInnerHTML={{ __html: content }}
       />
     </>
   )
@@ -88,10 +92,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const words = getAllContent('words', ['slug']) as Writing[]
 
   return {
-    paths: words.map((writing) => {
+    paths: words.map(({ slug }) => {
       return {
         params: {
-          slug: writing.slug,
+          slug,
         },
       }
     }),

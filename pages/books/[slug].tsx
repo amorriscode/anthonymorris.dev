@@ -10,39 +10,43 @@ import { getContentBySlug, getAllContent } from '../../lib/api'
 import withLayout from '../../components/withLayout'
 import BookRating from '../../components/BookRating'
 
-function BookPage({ book }: { book: Book }) {
+function BookPage({
+  book: { title, description, author, rating, readDate, content },
+}: {
+  book: Book
+}) {
   return (
     <>
       <NextSeo
-        title={book.title}
-        description={book.description}
+        title={title}
+        description={description}
         openGraph={{
-          title: book.title,
-          description: book.description,
+          title: title,
+          description: description,
         }}
       />
 
       <header>
-        <h1 className="text-3xl">{book.title}</h1>
+        <h1 className="text-3xl">{title}</h1>
 
-        <h2 className="text-base">written by {book.author}</h2>
+        <h2 className="text-base">written by {author}</h2>
 
         <div className="space-x-2 font-fanwood text-lg italic">
           <span>
-            <BookRating rating={book.rating} />
+            <BookRating rating={rating} />
           </span>
 
           <span>|</span>
 
           <span>
-            finished reading on {format(new Date(book.readDate), 'MMMM do, y')}
+            finished reading on {format(new Date(readDate), 'MMMM do, y')}
           </span>
         </div>
       </header>
 
       <article
         className="prose mt-12"
-        dangerouslySetInnerHTML={{ __html: book.content }}
+        dangerouslySetInnerHTML={{ __html: content }}
       />
     </>
   )
@@ -75,10 +79,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const books = getAllContent('books', ['slug']) as Book[]
 
   return {
-    paths: books.map((book) => {
+    paths: books.map(({ slug }) => {
       return {
         params: {
-          slug: book.slug,
+          slug,
         },
       }
     }),
