@@ -14,10 +14,10 @@ It wasn't until I was well into adulthood that I decided to try this fitness thi
 
 Fast forward a few years I decided to run a half-marathon. I took my training very seriously. I stuck to a program and was running most days of the week.
 
-Finally, on a random Sunday in November, it was time for us to run. We didn't sign up for an actual event so there was no set route. We decided we'd just run until we hit 21 kilometers. With a backpack full of electrolytes, we left our home in Burnaby and ran toward downtown Vancouver.
+Finally, on a random Sunday in November, it was time to run. I didn't sign up for an actual event so there was no set route. I decided I'd just run until I hit 21 kilometers. With a backpack full of electrolytes, I left home in Burnaby and ran toward downtown Vancouver.
 
-There are two things I remember about our run that day.
+There are two things I remember about my run that day.
 
-The first: the last kilometer or so. My legs were burning. My mental game was weakening. I wanted to quit but I kept looking at my watch reminding myself of how far we'd come. I was almost done, I could do it. I had to keep reminding myself. One we hit that 21 kilometer mark I stopped running and my legs stopped too. It was like I suddenly forgot how to stand.
+The first: the last kilometer or so. My legs were burning. My mental game was weakening. I wanted to quit but I kept looking at my watch reminding myself of how far we'd come. I was almost done, I could do it. I had to keep reminding myself. Once we hit that 21 kilometer mark I stopped running and my legs stopped too. It was like I suddenly forgot how to stand.
 
-The second: the delicious fried chicken we ate afterward. We sat briefly on a bench in Stanley Park and then hobbled our way to the fried chicken joint. I ordered a spicy chicken sandwich. I don't even think it was _that_ could but it was my reward and I'll never forget it.
+The second: the delicious fried chicken I ate afterward. My girlfriend and I briefly sat on a bench in Stanley Park and then hobbled our way to a fried chicken joint. I ordered a spicy chicken sandwich. The chicken wasn't even _that_ good but it was my reward and I'll never forget it.
