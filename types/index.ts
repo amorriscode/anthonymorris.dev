@@ -69,3 +69,12 @@ export type BrainEntry = {
   content: string
   backlinks: string[]
 }
+
+export type BucketListItem = {
+  title: string
+  startedDate: string
+  completedDate: string
+  content: string
+  slug: string
+  tags: string[]
+}

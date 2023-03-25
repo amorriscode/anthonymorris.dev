@@ -71,7 +71,7 @@ function Projects({
       <div className="space-y-12">
         <section>
           <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
-            Projects still holding on for dear life.
+            Projects holding on for dear life.
           </p>
 
           <div className="space-y-8">

@@ -34,14 +34,14 @@ function Home({ greeting }: { greeting: string }) {
           </p>
 
           <p>
-            I&apos;m interested in open source, delightful user experiences, the
-            future of the web, and empowering creators.
+            I&apos;m interested in open source, delightful user experiences, and
+            the future of the technology.
           </p>
 
           <p>
             When not writing code, I enjoy admiring bookshelves, capturing
-            photographs, thinking about space, and hearing more about what I
-            don&apos;t know.
+            photographs, reading, and discovering more about what I don&apos;t
+            know.
           </p>
 
           <p>
@@ -59,7 +59,7 @@ function Home({ greeting }: { greeting: string }) {
             </Link>
             , or{' '}
             <Link href="https://www.goodreads.com/user/show/5171404-anthony">
-              <a target="_blank">goodreads</a>
+              <a target="_blank">Good Reads</a>
             </Link>
             .
           </p>
@@ -82,6 +82,8 @@ function Home({ greeting }: { greeting: string }) {
           <h2 className="text-stone-100 font-hammersmith mb-4">The Garden</h2>
 
           <NavLink title="second brain" path="/second-brain" />
+
+          <NavLink title="bucket list" path="/bucket-list" />
 
           <NavLink title="projects" />
 

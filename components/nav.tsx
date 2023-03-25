@@ -24,6 +24,8 @@ function Nav({ handleSearchClick }: { handleSearchClick: () => void }) {
       <div className="flex flex-col">
         <NavLink title="second brain" path="/second-brain" />
 
+        <NavLink title="bucket list" path="/bucket-list" />
+
         <NavLink title="projects" />
 
         <NavLink title="failures" />

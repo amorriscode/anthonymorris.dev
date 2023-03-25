@@ -2,9 +2,24 @@ import fs from 'fs'
 import { join } from 'path'
 import matter from 'gray-matter'
 
-import { Project, Book, Failure, Learning, BrainEntry, Writing } from '../types'
+import {
+  Project,
+  Book,
+  Failure,
+  Learning,
+  BrainEntry,
+  Writing,
+  BucketListItem,
+} from '../types'
 
-type Content = Project | Book | Failure | Learning | BrainEntry | Writing
+type Content =
+  | Project
+  | Book
+  | Failure
+  | Learning
+  | BrainEntry
+  | Writing
+  | BucketListItem
 
 const getContentDirectory = (type: string) =>
   join(process.cwd(), `data/${type}`)

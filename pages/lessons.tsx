@@ -22,7 +22,7 @@ function Lessons({ lessons }: { lessons: Lesson[] }) {
       />
 
       <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10">lessons learned</h1>
+        <h1 className="text-4xl font-am px-10">Lessons Learned</h1>
 
         <PageSummary>
           <p>
@@ -35,7 +35,7 @@ function Lessons({ lessons }: { lessons: Lesson[] }) {
         </PageSummary>
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-10 p-10 prose">
+      <section className="space-y-10 prose">
         <ul>
           {lessons.map((lesson) => (
             <li key={lesson.title}>
@@ -45,7 +45,7 @@ function Lessons({ lessons }: { lessons: Lesson[] }) {
             </li>
           ))}
         </ul>
-      </main>
+      </section>
     </>
   )
 }
