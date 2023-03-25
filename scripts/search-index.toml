@@ -2,11 +2,6 @@
 base_directory = "../data"
 
 [[input.files]]
-path = "./books/a-darker-shade-of-magic.md"
-url = "/books/a-darker-shade-of-magic"
-title = "A Darker Shade of Magic"
-
-[[input.files]]
 path = "./books/a-little-life.md"
 url = "/books/a-little-life"
 title = "A Little Life"
@@ -17,14 +12,34 @@ url = "/books/be-water-my-friend"
 title = "Be Water, My Friend"
 
 [[input.files]]
+path = "./books/dark-matter.md"
+url = "/books/dark-matter"
+title = "Dark Matter"
+
+[[input.files]]
 path = "./books/dune.md"
 url = "/books/dune"
 title = "Dune"
 
 [[input.files]]
+path = "./books/how-to-absurd-scientific-advice.md"
+url = "/books/how-to-absurd-scientific-advice"
+title = "How To"
+
+[[input.files]]
 path = "./books/how-to-think-like-a-roman-emperor.md"
 url = "/books/how-to-think-like-a-roman-emperor"
 title = "How to Think Like a Roman Emperor"
+
+[[input.files]]
+path = "./books/letters-to-a-young-poet.md"
+url = "/books/letters-to-a-young-poet"
+title = "Letters to a Young Poet"
+
+[[input.files]]
+path = "./books/mountain-is-you.md"
+url = "/books/mountain-is-you"
+title = "The Mountain is You"
 
 [[input.files]]
 path = "./books/name-of-the-wind.md"
@@ -35,6 +50,16 @@ title = "The Name of the Wind"
 path = "./books/recursion.md"
 url = "/books/recursion"
 title = "Recursion"
+
+[[input.files]]
+path = "./books/remains-of-the-day.md"
+url = "/books/remains-of-the-day"
+title = "The Remains of the Day"
+
+[[input.files]]
+path = "./books/skyward.md"
+url = "/books/skyward"
+title = "Skyward"
 
 [[input.files]]
 path = "./books/so-you-want-to-talk-about-race.md"
