@@ -7,6 +7,7 @@
 - Nocterra #12
 - Killadelphia #6
 - Poison Ivy #4
+- Swamp Thing: Green Hell #3
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
@@ -38,7 +39,6 @@
 - Geiger
 - God Country
 - Nottingham
-- Swamp Thing: Green Hell
 - Superman Space Age
 - Fuck This Place
 - Phantom Road by Jeff Lemire
