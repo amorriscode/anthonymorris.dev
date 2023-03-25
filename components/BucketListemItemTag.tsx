@@ -26,9 +26,9 @@ function getTagColor(tag: string) {
       }
     case 'Travel':
       return {
-        text: 'text-yellow-300',
-        background: 'bg-yellow-900',
-        border: 'border-yellow-700',
+        text: 'text-red-300',
+        background: 'bg-red-900',
+        border: 'border-red-700',
       }
     default:
       return {
