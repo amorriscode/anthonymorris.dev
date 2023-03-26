@@ -59,7 +59,7 @@ function Home({ greeting }: { greeting: string }) {
             </Link>
             , or{' '}
             <Link href="https://www.goodreads.com/user/show/5171404-anthony">
-              <a target="_blank">Good Reads</a>
+              <a target="_blank">Goodreads</a>
             </Link>
             .
           </p>

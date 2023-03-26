@@ -1,8 +1,6 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { format } from 'date-fns'
 import { NextSeo } from 'next-seo'
-import Image from 'next/image'
-import { getPlaiceholder } from 'plaiceholder'
 
 import { BucketListItem, Writing } from '../../types'
 
