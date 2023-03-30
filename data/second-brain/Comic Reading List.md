@@ -52,6 +52,10 @@
 - Little Monsters
 - All Against All
 - Transmetropolitan
+- The Ambassadors
+- Descender/Ascender
+- Black Science
+- Eight Billion Genies
 
 ## Read
 - Do a Powerbomb!
