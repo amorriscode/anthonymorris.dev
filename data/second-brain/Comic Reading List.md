@@ -10,6 +10,10 @@
 - Killadelphia #6
 - Poison Ivy #4
 - Swamp Thing: Green Hell #3
+- Phantom Road #1
+- Batman/Superman World's Finest #2
+- Ambassadors #1
+- Department of Truth #13
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
@@ -60,3 +64,4 @@
 ## Read
 - Do a Powerbomb!
 - Once & Future
+- Batman One Bad Day: Clayface
