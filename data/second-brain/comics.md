@@ -2,6 +2,9 @@
 
 # Comics
 
+## Bookmarks
+- [Artist's Edition Index](https://aeindex.org/artists-edition-gallery-edition-original-art-archives-index/)
+
 ## Learn
 - Study cinematography
 	- Great frames make great panels!

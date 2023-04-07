@@ -15,7 +15,7 @@
 - Ambassadors #1
 - Department of Truth #13
 - Batman #134
-- Where Monsters Lie #2
+- Where Monsters Lie #3
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
