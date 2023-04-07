@@ -61,6 +61,7 @@
 - Descender/Ascender
 - Black Science
 - Eight Billion Genies
+- Love Everlasting
 
 ## Read
 - Do a Powerbomb!
