@@ -3,12 +3,10 @@
 # Comic Reading List
 
 ## Currently Reading
-- Damn Them All #2
 - Hitomi #4
 - Ice Cream Man #7
 - Nocterra #12
 - Killadelphia #6
-- Poison Ivy #4
 - Swamp Thing: Green Hell #3
 - Phantom Road #1
 - Batman/Superman World's Finest #2
@@ -16,6 +14,8 @@
 - Department of Truth #13
 - Batman #134
 - Where Monsters Lie #3
+- Junkyard Rabbit #1
+- Poison Ivy #4
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
@@ -62,6 +62,10 @@
 - Black Science
 - Eight Billion Genies
 - Love Everlasting
+- Indigo Children
+
+## On Hold
+- Damn Them All #2
 
 ## Read
 - Do a Powerbomb!

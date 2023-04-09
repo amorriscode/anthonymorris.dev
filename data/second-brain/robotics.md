@@ -1,5 +1,6 @@
-# Robotics
+[[Computer Science]]
 
+# Robotics
 - Study is broken down into two categories:
   - Fixed
     - Don't move
@@ -8,5 +9,6 @@
     - Move in the world
     - Interact with their environment
 
-[[Computer Science]]
+## Learn
+- https://news.ycombinator.com/item?id=35441180
 
