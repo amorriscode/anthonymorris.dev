@@ -5,12 +5,12 @@
 ## Currently Reading
 - Hitomi #4
 - Ice Cream Man #7
-- Nocterra #12
+- Nocterra #13
 - Killadelphia #6
 - Swamp Thing: Green Hell #3
-- Phantom Road #1
+- Phantom Road #2
 - Batman/Superman World's Finest #2
-- Ambassadors #1
+- Ambassadors #2
 - Department of Truth #13
 - Batman #134
 - Where Monsters Lie #3
@@ -63,6 +63,8 @@
 - Eight Billion Genies
 - Love Everlasting
 - Indigo Children
+- Monarch
+- Traveling to Mars
 
 ## On Hold
 - Damn Them All #2
