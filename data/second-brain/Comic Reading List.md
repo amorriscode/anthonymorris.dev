@@ -12,8 +12,8 @@
 - Batman/Superman World's Finest #2
 - Ambassadors #2
 - Department of Truth #13
-- Batman #134
-- Where Monsters Lie #3
+- Batman #135
+- Where Monsters Lie #4
 - Junkyard Rabbit #1
 - Poison Ivy #4
 
