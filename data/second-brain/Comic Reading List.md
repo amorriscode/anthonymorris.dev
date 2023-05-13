@@ -68,6 +68,17 @@
 - Monarch
 - Traveling to Mars
 - Nemesis Reloaded
+- Organisms from an Ancient Cosmos
+- Neoforest
+- PeePee-PooPoo
+- Inescapable
+	- Darth Vader: Black, White & Red #1
+- Fuck My Son by Johnny Ryan
+- Art Brut
+- Now by Peter Bagge
+- Storyboarding for Wim: Visions of Wenders
+- The Extraordinary Part
+- Impossible People
 
 ## On Hold
 - Damn Them All #2
