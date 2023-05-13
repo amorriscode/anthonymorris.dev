@@ -15,7 +15,8 @@
 - Batman #135
 - Where Monsters Lie #4
 - Junkyard Rabbit #1
-- Poison Ivy #4
+- The Night Eaters Book 1
+- Monstress Volume 1
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
@@ -69,6 +70,7 @@
 
 ## On Hold
 - Damn Them All #2
+- Poison Ivy #4
 
 ## Read
 - Do a Powerbomb!
