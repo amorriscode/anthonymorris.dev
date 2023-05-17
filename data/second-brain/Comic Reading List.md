@@ -10,7 +10,7 @@
 - Swamp Thing: Green Hell #3
 - Phantom Road #2
 - Batman/Superman World's Finest #2
-- Ambassadors #2
+- Ambassadors #3
 - Department of Truth #13
 - Batman #135
 - Where Monsters Lie #4
@@ -18,6 +18,7 @@
 - The Night Eaters Book 1
 - Monstress Volume 1
 - w0rldtr33 #1
+- Phantom Road #2
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
@@ -49,7 +50,6 @@
 - Geiger
 - Nottingham
 - Superman Space Age
-- Phantom Road by Jeff Lemire
 - Children of the Black Sun
 - And We Love You
 - God Country
