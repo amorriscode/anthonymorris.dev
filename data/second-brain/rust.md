@@ -1,8 +1,9 @@
+[[Computer Science]] [[Programming Language]]
+
 # Rust
 - Prototyping is a bit harder
 
 ## [[Systems Programming]] in Rust
-
 - Runs fast
 - Low resource usage
 - Memory safe ([[compiler]]'s responsibility)
@@ -19,6 +20,6 @@
 
 ## Resources
 - [Rust Starter Kit](https://wiki.alopex.li/RustStarterKit2020)
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
 
-[[Computer Science]] [[Programming Language]]
 
