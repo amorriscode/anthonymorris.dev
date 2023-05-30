@@ -21,5 +21,6 @@
 ## Resources
 - [Rust Starter Kit](https://wiki.alopex.li/RustStarterKit2020)
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
+- [Rust for JS Devs](https://rustforjs.dev/)
 
 
