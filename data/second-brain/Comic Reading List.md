@@ -26,7 +26,6 @@
 - Black Cloak
 - Die by Kieron Gillen
 - The Wicked + The Divine
-- Monstress
 - Sandman
 - Gideon Falls
 - Paper Girls
@@ -89,3 +88,4 @@
 - Once & Future
 - Batman One Bad Day: Clayface
 - The Good Asian
+- Blink
