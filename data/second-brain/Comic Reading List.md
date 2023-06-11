@@ -1,11 +1,10 @@
-[[comics]]
+ [[comics]]
 
 # Comic Reading List
 
 ## Currently Reading
-- Hitomi #4
 - Ice Cream Man #7
-- Nocterra #13
+- Nocterra #14
 - Killadelphia #6
 - Swamp Thing: Green Hell #3
 - Phantom Road #2
@@ -89,3 +88,4 @@
 - Batman One Bad Day: Clayface
 - The Good Asian
 - Blink
+- Hitomi
