@@ -16,7 +16,7 @@
 - Junkyard Rabbit #1
 - The Night Eaters Book 1
 - Monstress Volume 1
-- w0rldtr33 #1
+- w0rldtr33 #2
 - Phantom Road #2
 
 ## Read Later
