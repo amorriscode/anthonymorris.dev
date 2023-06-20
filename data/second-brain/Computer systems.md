@@ -1,4 +1,4 @@
-[[course]] [[CS Primer]]
+[[course]] [[CS Primer]] [[computer science]]
 
 # Computer Systems
 - Also called computer architecture
@@ -36,3 +36,10 @@
 		- Adding `1` to `1111` results in `0000` (overflow)
 	- The "width" is how many bits something takes up
 	- [[Python]] solves overflows in software
+- What is the effect of shifting bits?
+	- Shifting to the left is basically multiplying by a power of 2
+		- Eg. `1 << 3 = 1 * 2^3 = 8`
+		- `6 << 1 = 12`
+			- `0110 (6) --> 1100 (12)`
+	- Shifting to the right is basically dividing by a power of 2
+	- When you bit shift left or right, you truncate 
