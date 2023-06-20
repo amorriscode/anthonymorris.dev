@@ -4,7 +4,7 @@
 
 ## Currently Reading
 - Ice Cream Man #7
-- Nocterra #14
+- Nocterra #15
 - Killadelphia #6
 - Swamp Thing: Green Hell #3
 - Phantom Road #2
@@ -70,13 +70,16 @@
 - Neoforest
 - PeePee-PooPoo
 - Inescapable
-	- Darth Vader: Black, White & Red #1
+- Darth Vader: Black, White & Red #1
 - Fuck My Son by Johnny Ryan
 - Art Brut
 - Now by Peter Bagge
 - Storyboarding for Wim: Visions of Wenders
 - The Extraordinary Part
 - Impossible People
+- Night Fever by Brubaker
+- Miss Truesdale and the Fall of Hyperborea
+- Deep Cuts
 
 ## On Hold
 - Damn Them All #2
