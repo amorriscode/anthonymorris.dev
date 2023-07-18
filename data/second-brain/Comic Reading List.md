@@ -11,7 +11,7 @@
 - Batman/Superman World's Finest #2
 - Ambassadors #3
 - Department of Truth #13
-- Batman #135
+- Batman #136
 - Where Monsters Lie #4
 - Junkyard Rabbit #1
 - The Night Eaters Book 1
