@@ -181,3 +181,200 @@ https://study.com/academy/course/english-204-english-composition-i.html
 - Occurs when speakers or writers alter their style or tone
 - Often accompanied by a shift in focus
 	- Often between rhetorical modes
+
+## Chapter 4 - Selecting and Evaluating Academic Sources for Research Papers
+
+### Selecting and refining a research topic
+- Research is an investigation or study of a topic in order to draw a conclusion
+- Steps to select and refine a research topic
+	- Brainstorm
+	- Preliminary research
+		- Narrow down your choices to research
+	- Analyze research
+		- Help refine your topic
+		- Do you believe what you've found about the topic?
+		- Are there ideas about it that people believe but aren't true?
+		- Is any of the information biased?
+	- Plan for the project
+		- Is your project persuasive or informative?
+	- Thesis
+		- Statement of the main idea or focus of the paper/project
+		- Return to your thesis and strengthen it as you work on the project
+
+### Academic sources
+- Sources are places to get information
+- Academic or scholarly sources
+	- Peer-reviewed 
+	- Includes a list of references
+	- Written by an expert author
+	- Published by a reputable publisher
+	- Examples include books, academic journal articles, published reports, etc.
+- Identifying scholarly sources
+	- Look at the author's credentials
+		- Should be an expert in the field
+	- Look at the bibliography/list of references
+	- Look at the publisher
+		- Eg. published by a university or academic publisher
+- Aggregated databases can be used to find peer-reviewed journal articles
+
+### Using search engines for online research
+- Types of search engines
+	- General
+		- Google, Bing, etc.
+	- Metasearch
+		- Searches many other search engines to obtain info
+		- Dogpile, MetaCrawler, Excite, etc.
+	- Specific
+		- JSTOR, LexisNexis, etc.
+
+### Finding reliable electronic reference sources and databases
+- Invisible web --> sources not featured on Google
+- Try Google's Advanced Search to limit search
+	- By domain, by file type, etc.
+- Bibliographies
+- Google Scholar
+	- Has rigorous quality control
+
+### Finding and evaluating sources for research
+- Use the CRAAP test
+	- Currency
+		- Timeliness of the info
+		- How long ago was it published?
+	- Relevance
+		- How well does the info relate to your topic?
+	- Authority
+		- Is the info coming from a credible source?
+	- Accuracy
+		- Is the info true?
+		- It should be supported by evidence, free of bias
+	- Purpose
+		- What is the purpose of the info you are sourcing?
+- Don't use blogs or wikis
+- Use databases and archives to find documents not available via search engines
+
+## Chapter 5 - Using Sources in Writing
+
+### Plagiarism
+- Passing off someone else's ideas as your own
+- Could be a direct quote or even summarizing ideas
+- Types
+	- Intentional
+	- Unintentional
+		- More common
+- Avoiding plagiarism
+	- Cite your sources and clarify how you used them
+	- Acknowledge any help you had with writing
+	- Put quotes around any exact wording borrowed from others
+
+### Quoting, paraphrasing, and summarizing
+- Quotations must be used for word-for-word information taken from a source
+- Paraphrasing
+	- Put the text in your own words.  
+	- Avoid copying the text
+	- Rearrange similar text
+	- Can still contain multiple points from original source
+- Summarizing
+	- Written information is written in your own words
+	- Presents only the main idea in a short overview
+
+### APA Citation
+- Often required for college-level writing assignments
+- In-text citation is a source being cited within the body of the paper
+	- Needed to show the reader where you got the info
+	- Should include the last name of the author and the year of publication
+	- Eg. "According to Smith (2012)..." or "... (Smith, 2012)"
+- A reference page lists all the sources used within your paper
+	- References must be in alphabetical order according to author last name
+- Reference entries for journal articles must include:
+	- Name of the author
+	- Year the article was published
+	- Name of the article
+	- Name of the journal
+	- Volume and issue number of the journal
+	- Pages on which the article can be found
+	- The DOI (Digital Object Identifier) if available
+	- Example: Smith, A. B. (2012). The best cure for hiccups. *The Journal of Everyday Cures*, 5(13), 802-850
+- Reference entries for authored books must include:
+	- Name of the author
+	- Year of publication
+	- Title of the book
+	- Name of the publisher
+	- The edition of the book if it has multiple
+	- DOI if applicable
+	- Example: Smith, A. A. (2012). *The best cure for hiccups: The inside story*. Made-Up Publishing Company.
+
+### MLA Format
+- Modern Language Association
+- Commonly used in academic writing, especially the humanities
+- Format rules
+	- 8.5 x 11 inch paper with 12 pt. font
+	- 1-inch margins on all sides
+	- First line of each paragraph indented one half-inch from the left margin
+	- Body text of the paper should be double spaced
+	- Only one space after periods or other punctuation
+	- Number of the pages should be in the upper right hand corner
+		- Half-inch from the top of the paper in line with right margin
+- Upper left-hand corner includes:
+	- Your name
+	- Name of your instructor
+	- Course name and number
+	- Date
+- Upper right-hand corner includes:
+	- Your last name
+	- Page number
+- Include a Works Cited page
+	- End of your paper
+	- Same margins, double-spacing, and page number format as rest of the paper
+	- Citations in alphabetical order
+	- Center title 'Works Cited'
+	- 1/2 inch indentations for 2nd+ lines of each citation
+	- Should include the medium of publication for each citation
+
+## Chapter 6 - Stages of the Writing Process
+- Using a process helps you focus, plan, and write our papers
+	- Helpful with writer's block
+- The writing process is divided into five steps
+	- Prewriting
+		- Planning stage
+		- Think about a topic, brainstorm, develop a thesis, etc.
+	- Drafting
+		- Start developing a paper from your outline
+		- Mechanics don't matter here
+		- Focus on the content
+			- Are your ideas clear and detailed?
+	- Revising
+		- Take some time away before revising
+		- Read your paper out loud
+	- Editing
+		- Finding and correcting errors (mechanics)
+		- Focus on one goal at a time (eg. spelling mistakes)
+		- Double check all citations
+	- Publication
+		- Focus on the formatting
+
+### Essay organization and outline building
+- Sometimes a formal outline is required
+	- Requires presenting your major ideas and sub-points
+- An outline is just an organizational plan
+	- Helps you organize and solidify your ideas
+	- Often makes it easier to write the actual essay
+- Develop your thesis before you do your outline
+
+## Chapter 7 - Writing Introduction Paragraphs
+- The introduction is one of the most important parts of a paper
+	- Explains what is going to be talked about, how it will be laid out, background on the topic
+	- Helpful for grabbing the reader's attention
+- An introduction should be comprised of:
+	- Hook
+	- Background
+	- Thesis statement
+		- Explains the purpose of the paper
+
+### Thesis development
+- The thesis needs to communicate the main point of the essay
+	- Don't make points that won't be in the rest of your paper
+	- Don't make it vague so it doesn't communicate anything of substance
+- The thesis should also express the writer's position
+- Typically one sentence long at the end of the introductory paragraph
+
+## Chapter 8 - Writing Body Paragraphs
