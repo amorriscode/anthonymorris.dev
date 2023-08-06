@@ -4,12 +4,12 @@
 
 ## Currently Reading
 - Uzumaki
+- Goodnight Punpun vol. 3
 
 ## Read Later
 - Berserk
 - Otoyomegatari
 - The Fable
-- Solanin
 - Homunculus
 - Sousou no Frieren
 - Kusuriya no Hitorigoto
@@ -25,9 +25,12 @@
 - Shingeki no Kyojin
 - ReLIFE
 - Code Geass: Hangyaku no Lelouch
+- Liar Game
+- Lost+Brain
 
 ## On Hold
 - 
 
 ## Read
 - Death Note
+- Solanin

@@ -7,7 +7,7 @@
 - Nocterra #15
 - Killadelphia #6
 - Batman/Superman World's Finest #2
-- Ambassadors #4
+- Ambassadors #5
 - Department of Truth #13
 - Batman #136
 - Where Monsters Lie #4
