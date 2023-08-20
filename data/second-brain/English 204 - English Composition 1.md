@@ -378,3 +378,35 @@ https://study.com/academy/course/english-204-english-composition-i.html
 - Typically one sentence long at the end of the introductory paragraph
 
 ## Chapter 8 - Writing Body Paragraphs
+- Main part of an essay or paper
+- Body paragraph is made up of:
+	- Topic sentence
+		- Tells readers what the paragraph is about
+		- Tells readers what you want to say about your topic
+	- Supporting sentences
+		- Discuss the idea(s) from the topic sentence
+	- Concluding sentence
+		- Emphasizes the supporting sentences or the connection between them
+- A fully developed essay should have at least three body paragraphs
+
+### Argumentative writing
+- Convincing your reader of something
+- Make a claim and then defend it
+- Claim must be stated clearly and strongly early on
+	- State it as a fact
+	- Don't use hedging
+- Claims need strong evidence from credible sources
+- Strong arguments need counterclaims (opposing point of view)
+	- Allows you to refute the counterclaim
+
+## Lesson 9 - Writing Effective Conclusions
+- Restate your main points used in your thesis
+- Mentioning your opposition in a conclusion can create a sense of real authority
+- Don't add new ideas in the conclusion
+- Add a consequence statement to your conclusion
+	- What happens if the advice in the essay is ignored?
+- Tips
+	- Use quotes
+	- Add a surprise
+	- Use emotion
+	- Use a call to action

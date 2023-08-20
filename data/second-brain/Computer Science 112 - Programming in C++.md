@@ -1,4 +1,4 @@
-[[wgu]] [[college]]
+[[wgu]] [[college]] [[computer science]] [[programming]] [[C++]]
 
 # Computer Science 112 - Programming in C++
 
@@ -52,4 +52,118 @@
 
 ### Algorithms
 - An algorithm is a recipe describing the steps a computer will take to solve a problem
-- 
+
+## Chapter 2 - Programming Basics in C++
+
+### Procedural vs Object-Oriented Programming
+- Procedural programming
+	- Program organized into small blocks (procedures, functions, or subroutines)
+	- High flexibility and efficiency for systems programming
+- [[Object-oriented programming]]
+	- Program is organized into a collection of components called objects
+	- Objects are real-world entities with two distinct features:
+		- Characteristics (data)
+			- Properties of real-world entities
+		- Behavior (methods)
+			- Set of operations an object can perform
+			- A method is simply a function associated with a class
+	- A class is a framework or template for an object
+	- An object is an instance of a class
+
+### Differences between C and C++
+- Since [[C++]] is a superset, it can run most C code
+- Language
+	- C
+		- Procedural
+	- C++
+		- Procedural and object-oriented (hybrid)
+- Relationship
+	- C
+		- Subset of C++
+		- Code written in C++ cannot run in C
+	- C++
+		- Superset of C
+		- Code written in C can usually run in C++
+- Structure
+	- C
+		- Function-driven
+		- Eg. `scanf` and `printf` for input and output
+	- C++
+		- Object-driven
+		- Eg. `cin` and `cout` for input and output
+- Object-oriented support
+	- C
+		- None
+	- C++
+		- Supports encapsulation, inheritance, and polymorphism
+- Memory
+	- C
+		- `calloc` and `malloc` for dynamic memory allocation
+		- `free` for memory deallocation
+	- C++
+		- `new` for memory allocation
+		- `delete` for memory deallocation
+- Encapsulation
+	- C
+		- None
+	- C++
+		- Data and functions are encapsulated to form an object
+- Error handling
+	- C
+		- No direct support
+	- C++
+		- Has direct support
+
+### Principles of Object-Oriented Programming
+#### Encapsulation
+- Grouping data and methods that work on data together
+- Providing an interface to users to accomplish tasks without knowing the implementation details
+
+### Inheritance
+- Ability of a class to use the attributes and methods of another class
+- Reduces code redundancy through code reuse
+
+#### Polymorphism
+- Ability to display multiple forms
+	- Eg. A person who is a sister, mother, friend, and programmer all at once
+- In OOP, the ability for objects of different types to be accessed using the same interface
+	- The internal implementation may be different depending on the object
+
+### Numeric data types
+- There is no standard for numeric data types in C++
+	- Names and range values can differ slightly depending on the implementation and processor
+- Best practice is to use the smallest data type possible for any situation to conserve memory
+- Integers
+	- `short int`
+	- `int`
+	- `long`
+- Floating points
+	- `float`
+	- `double`
+		- Twice the size of floats
+	- `long double`
+		- Twice the size of doubles
+
+#### Storage and size
+|Data type|Storage|
+|--|--|
+|`char`|1 byte|
+|`bool`|1 byte|
+|`int`|4 bytes|
+|`short int`|2 bytes|
+|`long`|8 bytes|
+|`float`|4 bytes|
+|`double`|8 bytes|
+
+|Data type|Range|
+|--|--|
+|`char`|-127 to 127|
+|`unsigned char`|0 to 255|
+|`unsigned int`|0 to 4294967295|
+|`short int`|-32768 to 32767|
+|`unsigned short int`|0 to 65535|
+|`int`|-2,147,483,648 to 2,147,483,647|
+|`long int`|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+|`unsigned long`|0 to 18,446,744,073,709,551,615|
+|`float`|1.17549e-38 to 3.40282e+38|
+|`double`|2.22507e-308 to 1.79769e+308|
