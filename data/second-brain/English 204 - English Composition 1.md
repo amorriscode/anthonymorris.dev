@@ -399,7 +399,7 @@ https://study.com/academy/course/english-204-english-composition-i.html
 - Strong arguments need counterclaims (opposing point of view)
 	- Allows you to refute the counterclaim
 
-## Lesson 9 - Writing Effective Conclusions
+## Chapter 9 - Writing Effective Conclusions
 - Restate your main points used in your thesis
 - Mentioning your opposition in a conclusion can create a sense of real authority
 - Don't add new ideas in the conclusion
@@ -410,3 +410,40 @@ https://study.com/academy/course/english-204-english-composition-i.html
 	- Add a surprise
 	- Use emotion
 	- Use a call to action
+
+## Chapter 10 - Revising and Editing Academic Writing
+- An argument is made of 3 main parts
+	- Claim
+		- Position to be argued
+	- Reasons
+		- Logically explain why we should accept the claim
+	- Evidence
+		- Supporting reasons with facts, anecdotes, statistics, etc.
+
+### Strategies for revising and improving your essays
+- Editing --> correcting mechanical/grammatical errors
+- Revising --> altering the actual content
+- Strategies
+	- Analyze the organization
+		- How does it flow?
+		- Are there parts that don't fit?
+	- Is your thesis strong?
+	- Word choice
+		- Are you precise?
+		- Are you keeping your readers attention?
+	- Is your introduction attention grabbing?
+	- Does your conclusion summarize your main ideas?
+- Questions to ask yourself
+	- Is your purpose clear?
+	- Is the thesis clear?
+	- Are there good main points?
+	- Is there enough details?
+	- Is your essay organized?
+
+## Chapter 11 - Paragraph and Sentence Structure
+- Write clear paragraphs
+	- Topic sentences near the start conveying a main idea
+	- Ensure the paragraph is coherent
+		- Clear, logical sentences that flow well
+- Capture reader's interest
+- 
