@@ -15,7 +15,7 @@
 - The Night Eaters Book 1
 - Monstress Volume 1
 - w0rldtr33 #3
-- Phantom Road #2
+- Phantom Road #3
 
 ## Read Later
 - The Cull

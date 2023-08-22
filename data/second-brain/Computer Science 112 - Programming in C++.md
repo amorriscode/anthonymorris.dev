@@ -167,3 +167,37 @@
 |`unsigned long`|0 to 18,446,744,073,709,551,615|
 |`float`|1.17549e-38 to 3.40282e+38|
 |`double`|2.22507e-308 to 1.79769e+308|
+
+## Chapter 5 - Arrays and Vectors
+- An array is a list of elements
+	- Static size
+- A vector is a list of elements
+	- Dynamic size
+
+### Vector methods
+|Type of Action|Action|Description|
+|---|---|---|
+|Modifier|push_back|Add element to end|
+|Modifier|insert|Insert an element at an index|
+|Modifier|erase|Erase elements|
+|Modifier|swap|Swap out content|
+|Iterator|begin|Returns control to the beginning|
+|Iterator|end|Moves control to end|
+|Size|size|Returns the size of the vector|
+|Size|empty|Returns if the vector is empty|
+|Access|at|Get an element at specified index|
+|Access|front|Get the first element|
+|Access|back|access the last element|
+
+## Chapter 6 - Strings
+- The `string` class dynamically allocates the memory required for a string
+### C++ string functions
+|Function|Description|Example|
+|---|---|---|
+|size(); length()|Same functions, both return size/length of the string|cout << banner.size();|
+|begin(); end();|Starting and ending index of the string|cout << banner.end();|
+|clear();|Blanks out the string|banner.clear();|
+|empty();|If a string is empty, returns true|if(banner.empty()) { }|
+|replace(start, length, string);|Replaces a string from starting position to a set number|banner.replace(1, 5, "Hi");|
+|substr(start, end);|Finds substring in range indicated|string s = banner.substr(0, 5);|
+|compare(string& str);|Compares strings and returns 0 if equal|if(banner.compare(1, 3, "Wel") == 0) {}|

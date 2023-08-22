@@ -446,4 +446,66 @@ https://study.com/academy/course/english-204-english-composition-i.html
 	- Ensure the paragraph is coherent
 		- Clear, logical sentences that flow well
 - Capture reader's interest
-- 
+
+### Errors in sentence structure
+- Subject-verb agreement
+	- Subject is the person/object doing an action in the sentence, a verb is the action
+	- Verbs must agree with the subjects
+	- The verb must change form to match a subject
+- Clauses
+	- Don't leave dangling clauses
+	- Sentences must have at least one independent clause
+- Comma-splice
+	- Any time a comma is inserted between two main clauses without a conjunction
+
+## Chapter 12 - Parts of Speech and Identifying Usage Errors
+- Noun
+	- People, places, things, and ideas
+	- Types
+		- Abstract
+		- Concrete
+- Pronouns
+	- Take place of nouns
+		- An antecedent is the word the pronoun takes the place of
+	- Types
+		- Peronsal
+		- Indefinite
+			- Does not refer to a particular person or thing
+			- Examples: anybody, everyone, nobody, nothing, none, someone, etc.
+- Verbs
+	- Action words
+- Adjectives
+	- Modify nouns and pronouns
+- Adverbs
+	- Modify verbs, adjectives, and adverbs
+	- Frequently end in -ly
+- Prepositions
+	- Describe relationships between nouns and pronouns
+- Conjunctions
+	- Connect words and phrases
+- Interjections
+	- Break the flow of a sentence to express emotion
+	- Grammatically unrelated to the other parts of speech
+
+### Verb tense
+- The way a verb is formatted to communicate when the action is occurring
+- Tenses
+	- Present tense
+	- Past tense
+	- Future tense
+- Perfect tenses are used to communicate an action that has recently or continues to happen
+	- Present perfect tense
+	- Past perfect tense
+	- Future perfect tense
+
+### Comparison
+- Showing similarities or differences between objects or ideas
+- Comparative
+	- Comparing two objects or ideas
+- Superlative
+	- Comparing three or more objects or ideas
+
+### Parallelism
+- All parts or words in a sentence have the same form
+- Look at the verb tense to ensure everything is correct
+	- Parallelism doesn't only apply to verbs
