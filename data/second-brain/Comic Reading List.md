@@ -14,11 +14,11 @@
 - Junkyard Rabbit #1
 - The Night Eaters Book 1
 - Monstress Volume 1
-- w0rldtr33 #3
+- w0rldtr33 #4
 - Phantom Road #3
+- The Cull #1
 
 ## Read Later
-- The Cull
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
 - Black Cloak
