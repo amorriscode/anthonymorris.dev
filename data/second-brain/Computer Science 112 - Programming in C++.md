@@ -201,3 +201,16 @@
 |replace(start, length, string);|Replaces a string from starting position to a set number|banner.replace(1, 5, "Hi");|
 |substr(start, end);|Finds substring in range indicated|string s = banner.substr(0, 5);|
 |compare(string& str);|Compares strings and returns 0 if equal|if(banner.compare(1, 3, "Wel") == 0) {}|
+
+## Chapter 10 - Pointers and Memory
+### Memory space for data types
+|Data Type|Size|
+|---|---|
+|char|1 byte|
+|bool|1 byte|
+|short|2 bytes|
+|int|4 bytes|
+|float|4 bytes|
+|long|8 bytes|
+|double|8 bytes|
+|long double|16 bytes|
