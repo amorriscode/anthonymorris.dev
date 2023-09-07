@@ -9,7 +9,7 @@
 - Batman/Superman World's Finest #2
 - Ambassadors #5
 - Department of Truth #13
-- Batman #136
+- Batman #137
 - Where Monsters Lie #4
 - Junkyard Rabbit #1
 - The Night Eaters Book 1
@@ -17,6 +17,7 @@
 - w0rldtr33 #4
 - Phantom Road #3
 - The Cull #1
+- The Hunger and the Dusk #1
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
