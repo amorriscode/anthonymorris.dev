@@ -15,7 +15,7 @@
 - The Night Eaters Book 1
 - Monstress Volume 1
 - w0rldtr33 #4
-- Phantom Road #3
+- Phantom Road #4
 - The Cull #1
 - The Hunger and the Dusk #1
 
@@ -80,6 +80,7 @@
 - Night Fever by Brubaker
 - Miss Truesdale and the Fall of Hyperborea
 - Deep Cuts
+- Hexagon Bridge
 
 ## On Hold
 - Damn Them All #2
