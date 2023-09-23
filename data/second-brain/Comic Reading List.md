@@ -7,17 +7,16 @@
 - Nocterra #15
 - Killadelphia #6
 - Batman/Superman World's Finest #2
-- Ambassadors #6
 - Department of Truth #13
 - Batman #137
 - Where Monsters Lie #4
 - Junkyard Rabbit #1
-- The Night Eaters Book 1
-- Monstress Volume 1
 - w0rldtr33 #4
 - Phantom Road #5
 - The Cull #1
 - The Hunger and the Dusk #2
+- House of X #1
+- Powers of X #1
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
@@ -86,6 +85,8 @@
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
+- The Night Eaters Book 1
+- Monstress Volume 1
 
 ## Read
 - Do a Powerbomb!
@@ -95,3 +96,4 @@
 - Blink
 - Hitomi
 - Swamp Thing: Green Hell
+- Ambassadors
