@@ -8,7 +8,7 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #2
 - Department of Truth #13
-- Batman #137
+- Batman #138
 - Where Monsters Lie #4
 - Junkyard Rabbit #1
 - w0rldtr33 #4
