@@ -12,3 +12,9 @@
 - A compiler written in the same language it compiles
 - Must be bootstrapped first
 	- eg. write a compiler in a different language, compile the first self-hosting compiler, get rid of the original one
+## Resources
+- [Crafting Interpreters](https://craftinginterpreters.com/)
+- [Essentials of Compilation](https://wphomes.soic.indiana.edu/jsiek/)
+- [Modern Compiler Implementation in ML](https://www.cs.princeton.edu/~appel/modern/ml/
+- [Programming Languages: Application and Interpretation](https://www.plai.org/)
+- [Programming Language Concepts](https://www.itu.dk/~sestoft/plc/)
