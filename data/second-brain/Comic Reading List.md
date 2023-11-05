@@ -80,6 +80,9 @@
 - Hexagon Bridge
 - Local Man
 - Jonna and the Unpossible Monsters
+- Kill Your Darlings
+- Rare Flavours
+- Beneath The Trees Where Nobody Sees
 
 ## On Hold
 - Damn Them All #2
