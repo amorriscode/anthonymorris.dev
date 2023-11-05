@@ -79,6 +79,7 @@
 - Deep Cuts
 - Hexagon Bridge
 - Local Man
+- Jonna and the Unpossible Monsters
 
 ## On Hold
 - Damn Them All #2
