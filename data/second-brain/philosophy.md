@@ -1,5 +1,4 @@
 # Philosophy
-
 - An attempt to formulate and answer fundamental questions
   - Often deals with questions related to good/bad, right/wrong
 - The value of philosophy
@@ -18,7 +17,6 @@
   - A goal of philosophy should be to scrutinize received wisdoms
 
 ## Subfields
-
 - [[Metaphysics]]
 - [[Epistemology]]
 - [[Logic]]
