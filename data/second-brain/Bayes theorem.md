@@ -2,9 +2,11 @@
 
 # Bayes' theorem
 - Helps you figure out the likelihood of something existing by using evidence to update your guess on the likelihood
+- Core tool for [[machine learning]] and [[artificial intelligence|AI]]
 
 ## Formula
 $P(A∣B)=\frac{P(B|A) \cdot P(A)}{P(B)​}$
+	- $|$ means "given that"
 - $P(A|B)$
 	- Probability of event A occurring given that B is true
 	- Posterior probability
