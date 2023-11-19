@@ -61,7 +61,7 @@ function BucketList({
       <div className="space-y-12">
         <section>
           <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
-            Things I&apos;m currently working on.
+            Things I&apos;m currently working on
           </p>
 
           <div className="space-y-4">
@@ -76,7 +76,7 @@ function BucketList({
 
         <section>
           <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
-            Maybe I&apos;ll get to these someday.
+            Maybe I&apos;ll get to these someday
           </p>
 
           <div className="space-y-4">
@@ -91,7 +91,7 @@ function BucketList({
 
         <section>
           <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
-            The minor victories of a mere mortal.
+            The minor victories of a mere mortal
           </p>
 
           <div className="space-y-4">
@@ -119,15 +119,18 @@ export const getStaticProps: GetStaticProps = async () => {
   ]) as BucketListItem[]
 
   const activeBucketListItems = bucketListItems
-    .filter(({ startedDate }) => !!startedDate)
+    .filter(({ startedDate }) => startedDate !== undefined)
     .sort((a, b) => a.title.localeCompare(b.title))
 
   const pendingBucketListItems = bucketListItems
-    .filter(({ completedDate }) => !completedDate)
+    .filter(
+      ({ startedDate, completedDate }) =>
+        startedDate === undefined && completedDate == undefined
+    )
     .sort((a, b) => a.title.localeCompare(b.title))
 
   const completedBucketListItems = bucketListItems
-    .filter(({ completedDate }) => !!completedDate)
+    .filter(({ completedDate }) => completedDate !== undefined)
     .sort((a, b) => b.completedDate.localeCompare(a.completedDate))
 
   return {
