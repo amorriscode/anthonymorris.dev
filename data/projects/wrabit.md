@@ -6,6 +6,8 @@ launchDate: "2019-12-01T00:00:00"
 sunsetDate: "2020-12-01T00:00:00"
 status: "dead"
 postmortem: "/failures/2020-product-failures"
+userCount: 20
+revenue: 500
 ---
 
 In 2019 I started to really thing about _why_ I code. What do I want to do with the knowledge I have obtained? It was clear to me that I wanted to use my abilities for good. On top of that, I wasn't feeling satisfied with my job.

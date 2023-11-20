@@ -6,6 +6,7 @@ launchDate: "2020-04-20T00:00:00"
 sunsetDate: "2020-12-01T00:00:00"
 status: "dead"
 postmortem: "/failures/2020-product-failures"
+userCount: 10
 ---
 
 Coming off of 2019, I was feeling really good about building products. I had launched [Wrabit](/projects/wrabit) and [Social Media Death Clock](/projects/social-media-death-clock). There's nothing like the feeling you get when you release a product to the world. My projects weren't necessarily massive successes, but I was building things and _finishing them_. That was important to me.

@@ -5,6 +5,7 @@ date: "2019-06-07T00:00:00"
 launchDate: "2019-06-07T00:00:00"
 image: "/assets/projects/smdc/card.jpg"
 status: "live"
+userCount: 809
 ---
 
 I've been a fan of [Stoicism](https://www.iep.utm.edu/stoicism/) for a few years now. I haven't read all of the ancients text. I'm no expert but I love the practical use of the philosophy.

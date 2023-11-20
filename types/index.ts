@@ -10,6 +10,8 @@ export type Project = {
   blurDataURL?: string
   status: string
   postmortem: string
+  userCount: number
+  revenue: number
 }
 
 export type Book = {
