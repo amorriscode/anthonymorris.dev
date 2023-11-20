@@ -4,6 +4,7 @@ description: "stx.me allows anyone to easily receive STX donations on their webs
 date: "2021-04-11T00:00:00"
 launchDate: "2021-04-01T00:00:00"
 status: "live"
+revenue: 5000
 ---
 
 I've been interested in [[blockchain]] since 2013. It always seemed really fascinating to me. I still have emails that I sent to my family trying to convince them to buy [[Bitcoin]] at the time (they didn't listen).
