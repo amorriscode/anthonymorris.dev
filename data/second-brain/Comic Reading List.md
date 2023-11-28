@@ -4,7 +4,6 @@
 
 ## Currently Reading
 - Ice Cream Man #7
-- Nocterra #15
 - Killadelphia #6
 - Batman/Superman World's Finest #2
 - Department of Truth #13
@@ -14,6 +13,8 @@
 - Phantom Road #5
 - The Cull #1
 - The Hunger and the Dusk #3
+- Hack/Slash: Back to School #1
+- The Deviant #1
 
 
 ## Read Later
@@ -91,6 +92,7 @@
 - Monstress Volume 1
 - House of X #1
 - Powers of X #1
+- Nocterra #16 (On hiatus)
 
 ## Read
 - Do a Powerbomb!
