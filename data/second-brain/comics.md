@@ -1,4 +1,4 @@
-[[art]]
+[[art]] [[storytelling]]
 
 # Comics
 
@@ -13,6 +13,7 @@
 
 ### Websites
 - [School of Visual Storytelling](https://www.svslearn.com/)
+- [Comic Book Historians](https://comicbookhistorians.com/)
 
 ### Books
 - [Understanding Comics](https://scottmccloud.com/2-print/1-uc/)

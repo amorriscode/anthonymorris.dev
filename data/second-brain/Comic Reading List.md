@@ -1,13 +1,13 @@
  [[comics]]
 
 # Comic Reading List
-
+- [Comic Reading Orders](https://comicbookreadingorders.com/)
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
 - Batman/Superman World's Finest #2
 - Department of Truth #13
-- Batman #138
+- Batman #139
 - Junkyard Rabbit #1
 - w0rldtr33 #4
 - Phantom Road #5
@@ -15,7 +15,6 @@
 - The Hunger and the Dusk #3
 - Hack/Slash: Back to School #1
 - The Deviant #1
-
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
