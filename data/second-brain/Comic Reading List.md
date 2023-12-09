@@ -5,12 +5,12 @@
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
-- Batman/Superman World's Finest #2
+- Batman/Superman World's Finest #7
 - Department of Truth #13
 - Batman #139
 - Junkyard Rabbit #1
 - w0rldtr33 #4
-- Phantom Road #5
+- Phantom Road #6
 - The Cull #1
 - The Hunger and the Dusk #3
 - Hack/Slash: Back to School #1
