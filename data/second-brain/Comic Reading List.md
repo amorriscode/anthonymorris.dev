@@ -83,6 +83,11 @@
 - Kill Your Darlings
 - Rare Flavours
 - Beneath The Trees Where Nobody Sees
+- Blood of the Virgin by Sammy Harkham
+- All One Life by Jon Strongbow
+- Love & Rockets
+- Wonder Woman by Tom King
+- Wytches
 
 ## On Hold
 - Damn Them All #2
