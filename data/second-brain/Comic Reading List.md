@@ -5,9 +5,9 @@
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
-- Batman/Superman World's Finest #7
+- Batman/Superman World's Finest #17
 - Department of Truth #13
-- Batman #139
+- Batman #140
 - Junkyard Rabbit #1
 - w0rldtr33 #4
 - Phantom Road #6

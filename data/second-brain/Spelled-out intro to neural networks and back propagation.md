@@ -1,4 +1,4 @@
-[[artificial intelligence|AI]] [[neural network]] [[Neural Networks - Zero to Hero]] [[Andrej Karpathy]]
+[[artificial intelligence|AI]] [[artificial neural network|ANN]] [[Neural Networks - Zero to Hero]] [[Andrej Karpathy]]
 
 # The spelled-out intro to neural networks and backpropagation: building micrograd
 
@@ -8,7 +8,7 @@
 - [Jupiter notebook - second half](https://github.com/karpathy/nn-zero-to-hero/blob/master/lectures/micrograd/micrograd_lecture_second_half_roughly.ipynb)
 ## Notes
 - Step by step instructions for building [[micrograd]]
-- "[[micrograd]] is all you need to train a [[neural network]], everything else is efficiency"
+- "[[micrograd]] is all you need to train a [[artificial neural network]], everything else is efficiency"
 	- Like [[Nand to Tetris]] but for neural networks?
 - The [[backpropagation]] part is only ~100 lines of [[Python]]
 - What is a [[derivative]] measuring?

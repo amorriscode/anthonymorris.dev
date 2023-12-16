@@ -3,4 +3,4 @@
 # micrograd
 - [GitHub repo](https://github.com/karpathy/micrograd)
 - A tiny [[Autograd]] engine
-- "Implements [[backpropagation]] over a dynamically built DAG and a small [[neural network]]s library on top of it"
+- "Implements [[backpropagation]] over a dynamically built DAG and a small [[artificial neural network]]s library on top of it"

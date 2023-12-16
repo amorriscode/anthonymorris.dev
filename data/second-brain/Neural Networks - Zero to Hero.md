@@ -1,4 +1,4 @@
-[[artificial intelligence|AI]] [[neural network]]
+[[artificial intelligence|AI]] [[artificial neural network|ANN]]
 
 # Neural Networks: Zero to Hero
 - Playlist by [[Andrej Karpathy]]
