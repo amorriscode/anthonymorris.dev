@@ -10,11 +10,13 @@
 - Batman #140
 - Junkyard Rabbit #1
 - w0rldtr33 #4
-- Phantom Road #6
-- The Cull #1
+- Phantom Road #7
+- The Cull #4
 - The Hunger and the Dusk #3
 - Hack/Slash: Back to School #1
-- The Deviant #1
+- The Deviant #2
+- Swan Songs #5
+- Something is Killing the Children #35
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
