@@ -5,10 +5,9 @@
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
-- Batman/Superman World's Finest #17
+- Batman/Superman World's Finest #18
 - Department of Truth #13
 - Batman #140
-- Junkyard Rabbit #1
 - w0rldtr33 #4
 - Phantom Road #7
 - The Cull #4
@@ -56,7 +55,6 @@
 - Little Monsters
 - All Against All
 - Transmetropolitan
-- The Ambassadors
 - Descender/Ascender
 - Black Science
 - Eight Billion Genies
@@ -99,6 +97,7 @@
 - House of X #1
 - Powers of X #1
 - Nocterra #16 (On hiatus)
+- Junkyard Rabbit #1
 
 ## Read
 - Do a Powerbomb!

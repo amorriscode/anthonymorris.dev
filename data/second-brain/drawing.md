@@ -25,7 +25,6 @@
 - [Complete Guide to Drawing from Life](https://www.amazon.ca/Bridgmans-Complete-Guide-Drawing-Life/dp/1402766785)
 - [Figure Drawing](https://www.amazon.ca/Figure-Drawing-Andrew-Loomis/dp/0857680986) (and anything Loomis)
 - [Creative Illustration](https://www.amazon.com/Creative-Illustration-Andrew-Loomis/dp/1845769287)
-- 
 ### Courses
 - [Portrait Sketchbooking](https://www.domestika.org/en/courses/2846-portrait-sketchbooking-explore-the-human-face?ttag=gabrielaniko)
 - [Vibrant Portrait Drawing](https://www.domestika.org/en/courses/4051-vibrant-portrait-drawing-with-colored-pencils/gabrielaniko)
