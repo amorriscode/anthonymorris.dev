@@ -7,7 +7,7 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #18
 - Department of Truth #13
-- Batman #140
+- Batman #141
 - w0rldtr33 #4
 - Phantom Road #7
 - The Cull #4
@@ -16,6 +16,7 @@
 - The Deviant #2
 - Swan Songs #5
 - Something is Killing the Children #35
+- Ultimate Spider-Man (2024) #1
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
@@ -109,3 +110,4 @@
 - Swamp Thing: Green Hell
 - Ambassadors
 - Where Monsters Lie
+- Batman-Santa Claus: Silent Knight
