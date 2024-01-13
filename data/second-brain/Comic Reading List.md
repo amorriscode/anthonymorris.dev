@@ -5,7 +5,7 @@
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
-- Batman/Superman World's Finest #18
+- Batman/Superman World's Finest #19
 - Department of Truth #13
 - Batman #141
 - w0rldtr33 #4
@@ -17,6 +17,7 @@
 - Swan Songs #5
 - Something is Killing the Children #35
 - Ultimate Spider-Man (2024) #1
+- Moon Knight (2021) #20
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
