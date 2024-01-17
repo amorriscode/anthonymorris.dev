@@ -17,7 +17,7 @@
 - Swan Songs #5
 - Something is Killing the Children #35
 - Ultimate Spider-Man (2024) #1
-- Moon Knight (2021) #20
+- Moon Knight (2021 #24
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
