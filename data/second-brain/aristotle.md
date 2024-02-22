@@ -1,3 +1,3 @@
+[[people]] [[philosopher]]
 # Aristotle
 
-[[People]]

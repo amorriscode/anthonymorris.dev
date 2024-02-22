@@ -9,8 +9,9 @@
 - [Advanced Compilers](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/)
 - [Three.js Journey](https://threejs-journey.com/) (already own)
 - [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/)
+- [Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics)
+- [[CSS for JavaScript Developers]] (already own)
 ## In Progress
-- [[CSS for JavaScript Developers]]
 - [[FinTech - Shaping the Financial World]]
 ## Completed
 - :(

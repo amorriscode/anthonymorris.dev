@@ -5,19 +5,20 @@
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
-- Batman/Superman World's Finest #19
+- Batman/Superman World's Finest #20
 - Department of Truth #13
 - Batman #141
-- w0rldtr33 #4
+- w0rldtr33 #6
 - Phantom Road #7
 - The Cull #4
-- The Hunger and the Dusk #3
+- The Hunger and the Dusk #5
 - Hack/Slash: Back to School #1
-- The Deviant #2
+- The Deviant #4
 - Swan Songs #5
 - Something is Killing the Children #35
 - Ultimate Spider-Man (2024) #1
-- Moon Knight (2021 #24
+- Vengeance of the Moon Knight #1
+- G.O.D.S #1
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
@@ -90,6 +91,8 @@
 - Love & Rockets
 - Wonder Woman by Tom King
 - Wytches
+- Batman: City of Madness
+- Alan Scott: The Green Lantern
 
 ## On Hold
 - Damn Them All #2
@@ -112,3 +115,4 @@
 - Ambassadors
 - Where Monsters Lie
 - Batman-Santa Claus: Silent Knight
+-  Moon Knight (2021)

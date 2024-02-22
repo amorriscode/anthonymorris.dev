@@ -1,5 +1,3 @@
-# Plato
-
-
 [[People]] [[Philosopher]]
+# Plato
 

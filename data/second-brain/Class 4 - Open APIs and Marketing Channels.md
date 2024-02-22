@@ -1,5 +1,4 @@
 [[FinTech - Shaping the Financial World]] [[mit]] [[course]] [[finance]] [[technology]] [[fintech]]
-
 # Open APIs and Marketing Channels
 - API types
 	- Local
@@ -28,13 +27,10 @@
 	- etc.
 - "Do we really want to allow third parties to commercialize our data?" ~ Banks
 	- Some banks are blocking disrupters (eg. PNC blocked Plaid)
-- 
-
 ## Readings
 - [Report on open banking and application programming interfaces (APIs)](https://www.bis.org/bcbs/publ/d486.htm) Bank of International Settlement (November 2019)
 - [Fintechs next decade will look radically different](https://techcrunch.com/2019/12/22/fintechs-next-decade-will-look-radically-different/) Nik Milanovic, _TechCrunch_ (December 22, 2019)
 - [RPA in Banking—Use-cases, Benefits and Steps](https://medium.com/@MarutiTech/rpa-in-banking-use-cases-benefits-and-steps-8b97312a7d4f) Maruti Techlabs, _Medium_ Post (November 28, 2019)
-
 ## Study Questions / Issues to Prepare
 1.  What are some major trends affecting marketing channels & customer processes for financial services?
 	- Giving data up to use services (eg. Mint, CreditKarma, YNAB)
