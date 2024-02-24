@@ -99,8 +99,6 @@
 - Poison Ivy #4
 - The Night Eaters Book 1
 - Monstress Volume 1
-- House of X #1
-- Powers of X #1
 - Nocterra #16 (On hiatus)
 - Junkyard Rabbit #1
 
@@ -116,3 +114,5 @@
 - Where Monsters Lie
 - Batman-Santa Claus: Silent Knight
 -  Moon Knight (2021)
+- House of X
+- Powers of X
