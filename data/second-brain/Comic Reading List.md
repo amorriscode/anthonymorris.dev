@@ -7,7 +7,7 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #20
 - Department of Truth #13
-- Batman #141
+- Batman #144
 - w0rldtr33 #6
 - Phantom Road #7
 - The Cull #4
