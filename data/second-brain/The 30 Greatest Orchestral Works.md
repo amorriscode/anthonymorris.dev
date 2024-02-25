@@ -1,0 +1,67 @@
+[[The Great Courses]] [[course]] [[classical music]] [[music]]
+
+# The 30 Greatest Orchestral Works
+
+## Lecture 1 - Game Plan and Preliminaries
+- [[1700s]] the [[orchestra]] comes into being
+- [[Composer]]s were writing orchestral music thanks to the concept of orchestration
+	- How a composer assigns instruments to the melodic and accompanimental parts of a composition
+- Baroque era
+	- [[1600]] to [[1750]]
+	- Musically revolutionary time
+	- Opera evolved from modest entertainment to hugely popular industry
+	- [[Antonio Vivaldi]], [[George Frederick Handel]], and [[Johann Sebastian Bach]] created great bodies of work
+- Romantic era
+	- [[1827]] to [[1900]]
+	- After the death of Beethoven
+- Composers began searching for "expressive originality" at the turn of the 20th century
+	- Hyper-romanticism
+- Major musical forms:
+	- Ritornello
+		- Theme returns over the course of a movement
+		- Most common among baroque-era instrumental procedures
+	- Theme and variations
+	- Minuet and trio
+		- Moderate, three-step dance
+	- Scherzo
+		- Same structure of minuet and trio
+		- Removes ritual repetitions
+		- Speeds up movements
+	- Rondo
+	- Sonata
+		- Two or more contrasting themes exist
+	- Double exposition
+		- Sonata for concertos
+- Orchestral genres:
+	- Solo concerto
+		- Multi-movement work
+		- Soloist is accompanied by (or pitted against) an orchestra
+	- Concerto grosso
+		- Multi-movement work
+		- Multiple soloists are accompanied by (or pitted against) an orchestra
+	- Symphony
+		- Multi-movement work composed for an orchestra
+	- Symphonic/tone poem
+		- Single-movement orchestral work
+		- Tells an extra-musical or programmatic story
+	- Suite
+		- Concert consisting of a collection of dances
+		- Extracted from a longer ballet
+- Terms:
+	- Classical
+		- Works of art between the 17th and 18th centuries
+		- Characterized by clear lines and balanced forms
+	- Harmony
+		- Art and science of manipulating multiple pitches
+	- Homophonic texture/homophony
+		- Texture in which the melodic line predominates
+	- Melody
+		- A succession of pitches
+	- Polyphonic texture/polyphony
+		- Texture consisting of two or more simultaneous melodies of equal importance
+		- Counterpoint
+	- Texture
+		- Number of melodies present and relationships between them
+		- Includes monophony, polyphony, heterophony, and homophony
+	- Tonal/tonality
+		- Sense that one pitch is central to a section of music
