@@ -2,13 +2,14 @@
 
 # Comic Reading List
 - [Comic Reading Orders](https://comicbookreadingorders.com/)
+- [Continuity Guide](https://www.continuityguide.net)
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
 - Batman/Superman World's Finest #20
 - Department of Truth #13
 - Batman #144
-- w0rldtr33 #6
+- w0rldtr33 #7
 - Phantom Road #7
 - The Cull #4
 - The Hunger and the Dusk #5
