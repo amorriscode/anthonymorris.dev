@@ -3,6 +3,7 @@
 # Comic Reading List
 - [Comic Reading Orders](https://comicbookreadingorders.com/)
 - [Continuity Guide](https://www.continuityguide.net)
+- [Spider-Man 616 Chronology](https://docs.google.com/spreadsheets/d/1z_Ug8gASt3NFLDSXKn7-XOuPLhbemez55798BRL7t-k)
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
