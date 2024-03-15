@@ -9,7 +9,7 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #20
 - Department of Truth #13
-- Batman #144
+- Batman #145
 - w0rldtr33 #7
 - Phantom Road #7
 - The Cull #4
@@ -20,7 +20,8 @@
 - Something is Killing the Children #35
 - Ultimate Spider-Man (2024) #2
 - Vengeance of the Moon Knight #1
-- G.O.D.S #1
+- Ultimate X-Men (2024) #1
+- Avengers Twilight #3
 
 ## Read Later
 - Doctor Strange: Fall Sunrise
@@ -103,6 +104,7 @@
 - Monstress Volume 1
 - Nocterra #16 (On hiatus)
 - Junkyard Rabbit #1
+- G.O.D.S #1
 
 ## Read
 - Do a Powerbomb!

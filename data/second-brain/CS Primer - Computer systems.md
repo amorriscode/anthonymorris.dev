@@ -37,4 +37,7 @@
 		- `6 << 1 = 12`
 			- `0110 (6) --> 1100 (12)`
 	- Shifting to the right is basically dividing by a power of 2
-	- When you bit shift left or right, you truncate 
+	- When you bit shift left or right, you truncate
+- Why does a byte have values 0-255?
+	- A byte has 8 places (each can have a 0 or a 1)
+	- 11111111 --> 255
