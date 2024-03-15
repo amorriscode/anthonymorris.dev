@@ -12,7 +12,7 @@ This is my first time doing a yearly review but it feels like the right thing to
 
 Even though 2020 brought on so many challenges, it might've been the best single year for my personal growth. I live with more **intention** than ever before; it was a theme that kept showing up. I spend more time doing what I wanted to do, what was best for me, and doing it all with more awareness.
 
-## The Pursuit of Happiness
+## The pursuit of happiness
 
 After releasing a [few](/projects/social-media-death-clock) [projects](/projects/wrabit) in 2019, I got pretty hooked on [finishing over starting](/words/what-not-how). Thanks to this feeling (and [plenty](https://twitter.com/sinequanonh) [of](https://www.indiehackers.com/) [inspiration](https://levels.io/)) I worked up the courage to quit my day job. Four years ago I proved to myself that I could make it as a software engineer. I went from self-taught to making $120k/year in that time. I became debt-free and was working at a [company that many people would recognize](https://www.cisco.com/).
 
@@ -26,7 +26,7 @@ It's a lot easier to complain about things you don't like than to act on them. M
 
 Quitting my job led to a journey of self-discovery that I'll forever be grateful for.
 
-## The Pursuit of Knowledge
+## The pursuit of knowledge
 
 [After calling it quits on Bard](/failures/2020-product-failures), I needed to find the next stage in my life. The logical thing to do was start applying for jobs. I did apply for a few ([Shopify](https://www.shopify.com/), I'm looking at you) but never found a new home. With job opportunities looking uncertain, I decided to chase another dream of mine. One I never believed I could accomplish.
 
@@ -44,7 +44,7 @@ I'm doing this to level-up. I've had a few great opportunities but I want to wor
 
 I'm doing this to prove I can. This year I've spent a lot of time trying to love myself. Part of that practice means believing in myself. I always told myself I wasn't smart enough to go to university. I couldn't overcome the fact that [I dropped of out high school](/failures/high-school). Even though I always wanted to do this, I wouldn't let myself. Until 2020 nudged me in the right direction.
 
-## The Pursuit of Me
+## The pursuit of me
 
 My year of self-discovery taught me a lot about myself. How to forgive myself for my past, how to embrace my true self, and be unapologetically me. Although I'm not an expert at it, I get better every day. Everyone is aware that we are given [one life](/life) to live. Yet so many of us live our lives afraid to be who we are. In the end, **money is renewable** and **time is finite**. I've spent this year doing what I needed to do for myself and it's felt more rewarding than any year I can remember.
 

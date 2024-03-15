@@ -36,13 +36,13 @@ At the start of each month, we're going to pick the product we want to build. We
 
 At the end of each month, we'll each reflect on what we've learned. Where did we fall short? What did we have the most fun doing? And of course, we'll post on Product Hunt.
 
-## Following Along
+## Following along
 
 We've setup a [public Notion page](https://batteries.notion.site/12-Products-45c32d127b274f67b44684c5e1c2dd1b) where you can follow along. This is where we'll do our planning. You can see each product, the scope of the MVP, and our tickets as we work through them.
 
 We also plan to stream on Twitch every Sunday at 12 PM PST! This is will just be a fun way to interact with others. If you want to cheer us on, ask questions, or shit talk us, you can do it there. My guess is we won't have any viewers but it's just going to be another fun way to engage with the project. It should also add some aspect of accountability to the whole thing.
 
-## Our First Project
+## Our first project
 
 Today we decided on our first project, **Poke**! Poke is a personal accountability system. You setup recurring goals on the platform and get reminded about them via text message.
 
