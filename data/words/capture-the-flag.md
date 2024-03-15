@@ -8,7 +8,7 @@ heroImage: "/assets/words/i-can-has-flag/hero.jpg"
 
 Last weekend I participated in my first CTF (Capture The Flag). A CTF is a competition where people attempt to solve various security challenges. Think of it as a way to improve your 1337 hacker skills through gamification. Once the CTF starts you are presented with a variety of challenges. They are all organized by category (cloud, cryptography, reverse engineering, web, etc.) and skill. Every challenge you solve award you points on the leaderboard. Each challenge is worth 500 points but that score goes down as more people solve the challenge.
 
-After CTFs are completed, folks tend to write up their solutions to the challenges. For the [hackathon I attended](https://ctf.vikesec.ca/) there are even prized for the best written write ups! This post is not one of those write ups.
+After CTFs are completed, folks tend to write up their solutions to the challenges. For the [hackathon I attended](https://ctf.vikesec.ca/) there are even prizes for the best write ups about the event! This post is not one of those write ups.
 
 Before talking more about CTFs, I want to provide some background. I grew up in a [hamlet in rural Alberta](https://en.wikipedia.org/wiki/Carvel,_Alberta). Everyone I knew wore cowboy boots and rode dirt bikes. Imagine my parent's reaction when they brought home our first computer and I decided I never wanted to see the light of day again. They unknowingly opened my eyes to a world I didn't know existed. Even though we could only get dial up internet, it wasn't long before some of my closest relationships existed inside of that box.
 
