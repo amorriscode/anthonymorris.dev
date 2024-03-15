@@ -12,9 +12,9 @@ After CTFs are completed, folks tend to write up their solutions to the challeng
 
 Before talking more about CTFs, I want to provide some background. I grew up in a [hamlet in rural Alberta](https://en.wikipedia.org/wiki/Carvel,_Alberta). Everyone I knew wore cowboy boots and rode dirt bikes. Imagine my parent's reaction when they brought home our first computer and I decided I never wanted to see the light of day again. They unknowingly opened my eyes to a world I didn't know existed. Even though we could only get dial up internet, it wasn't long before some of my closest relationships existed inside of that box.
 
-In-between countless hours on AIM and deviantART, I discovered [thebroken](https://www.youtube.com/watch?v=tNjoo9TuCHY) while watching The Screen Savers on TechTV. It was an online show covering things like [wardriving](https://en.wikipedia.org/wiki/Wardriving) and social engineering made by Kevin Rose before he got big with startups. My mind was blown. I started to fantasize about my future as a hacker.
+In-between countless hours on AIM and deviantART, I discovered [thebroken](https://www.youtube.com/watch?v=tNjoo9TuCHY) while watching The Screen Savers on TechTV. It was an online show covering topics like [wardriving](https://en.wikipedia.org/wiki/Wardriving) and social engineering made by Kevin Rose before he got big with startups. My mind was blown. I started to fantasize about my future as a hacker.
 
-I was 13 at the time. I didn't have a job. I couldn't drive. I definitely never hacked anything. Like pretty much any other aspiration in my life from that time, I dabbled and then told myself I wasn't capable of doing it. Nothing survived the dream stage.
+I was 13. I didn't have a job. I couldn't drive. I never ended up hacking anything. Like pretty much any other aspiration in my life from that time, I dabbled and then told myself I wasn't capable of doing it. Nothing survived the dream stage.
 
 So what does that have to do with participating in a CTF? Well, Friday morning my partner's brother Zach, who is currently studying computer science, asked if I'd want to participate in the CTF. My curiosity was piqued but knowing I didn't have the required skills I just told him I'd pass.
 
@@ -26,6 +26,6 @@ Last weekend I realized I continue to hold myself back like I did when I was you
 
 Last weekend I realized I need to stop operating with such high expectations. If I want to do a CTF, do a CTF! If I want to learn to draw, just draw! I've been noticing that I've fallen back into old patterns of shutting down my curiosity like when I was younger. I have a desire to learn then I create an expectation and tell myself I could never meet it. As someone with more _dreams_ of hobbies than actual hobbies, I am doing myself a disservice.
 
-It turns out you don't actually need permission from somebody else to develop security skills, learn to code, draw, or anything else you want to do. Especially with access to all of the information on the internet.
+It turns out you don't actually need permission from somebody else to develop security skills, learn to code, draw, or do anything else you want to do. Especially with access to all of the information on the internet.
 
-After all of this I'm confident [vikeCTF](https://ctf.vikesec.ca/) won't be my last CTF. Heck, maybe I'll even make it to [DEF CON](https://defcon.org/) some day.
+After all of this I'm confident [vikeCTF](https://ctf.vikesec.ca/) won't be my last CTF. Heck, maybe I'll even make it to [DEF CON](https://defcon.org/) some day!
