@@ -23,21 +23,26 @@
 	- [[Base 128 Varints]]
 - Can we come up with a variable length encoding to save space?
 #### Explainers
-- What does it mean for something to "be" a certain number of bits?
-	- We have a fixed amount of bits to store data
-		- Memory is allocated for a value
-	- The amount of memory limits determines can be stored there
-		- eg. 4 bits can only store `0000` --> `1111`
-		- Adding `1` to `1111` results in `0000` (overflow)
-	- The "width" is how many bits something takes up
-	- [[Python]] solves overflows in software
-- What is the effect of shifting bits?
-	- Shifting to the left is basically multiplying by a power of 2
-		- Eg. `1 << 3 = 1 * 2^3 = 8`
-		- `6 << 1 = 12`
-			- `0110 (6) --> 1100 (12)`
-	- Shifting to the right is basically dividing by a power of 2
-	- When you bit shift left or right, you truncate
-- Why does a byte have values 0-255?
-	- A byte has 8 places (each can have a 0 or a 1)
-	- 11111111 --> 255
+##### What does it mean for something to "be" a certain number of bits?
+- We have a fixed amount of bits to store data
+	- Memory is allocated for a value
+- The amount of memory limits determines can be stored there
+	- eg. 4 bits can only store `0000` --> `1111`
+	- Adding `1` to `1111` results in `0000` (overflow)
+- The "width" is how many bits something takes up
+- [[Python]] solves overflows in software
+##### What is the effect of shifting bits?
+- Shifting to the left is basically multiplying by a power of 2
+	- Eg. `1 << 3 = 1 * 2^3 = 8`
+	- `6 << 1 = 12`
+		- `0110 (6) --> 1100 (12)`
+- Shifting to the right is basically dividing by a power of 2
+- When you bit shift left or right, you truncate
+##### Why does a byte have values 0-255?
+- A byte has 8 places (each can have a 0 or a 1)
+- 11111111 --> 255
+##### Why do I sometimes see the sequence `\r\n` for a newline?
+- It's a [[carriage return]] plus a line feed
+- The carriage return (`\r`) would originally return the carriage of a typewriter to the start of the _current_ line
+	- Need `\n` to get to the next line
+- Many modern systems treat `\n` with an implicit carriage return

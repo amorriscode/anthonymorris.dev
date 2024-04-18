@@ -12,6 +12,7 @@
 - [Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics)
 - [[CSS for JavaScript Developers]] (already own)
 - [Hello (Real) World with ROS](https://online-learning.tudelft.nl/courses/hello-real-world-with-ros-robot-operating-systems/)
+- https://codecrafters.io/
 ## In Progress
 - [[FinTech - Shaping the Financial World]]
 ## Completed

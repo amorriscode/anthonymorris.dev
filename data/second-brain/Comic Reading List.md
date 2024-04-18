@@ -1,5 +1,4 @@
  [[comics]]
-
 # Comic Reading List
 - [Comic Reading Orders](https://comicbookreadingorders.com/)
 - [Continuity Guide](https://www.continuityguide.net)
@@ -7,23 +6,22 @@
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
-- Batman/Superman World's Finest #20
+- Batman/Superman World's Finest #23
 - Department of Truth #13
 - Batman #145
 - w0rldtr33 #7
-- Phantom Road #7
-- The Cull #4
-- The Hunger and the Dusk #5
+- Phantom Road #9
+- The Hunger and the Dusk #6
 - Hack/Slash: Back to School #1
 - The Deviant #4
 - Swan Songs #5
 - Something is Killing the Children #35
-- Ultimate Spider-Man (2024) #2
+- Ultimate Spider-Man (2024) #3
 - Vengeance of the Moon Knight #1
-- Ultimate X-Men (2024) #1
-- Avengers Twilight #3
-- Helen of Wyndhorn
-
+- Ultimate X-Men (2024) #2
+- Avengers Twilight #4
+- Helen of Wyndhorn #1
+- Beneath The Trees Where Nobody Sees #5
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
@@ -89,7 +87,6 @@
 - Jonna and the Unpossible Monsters
 - Kill Your Darlings
 - Rare Flavours
-- Beneath The Trees Where Nobody Sees
 - Blood of the Virgin by Sammy Harkham
 - All One Life by Jon Strongbow
 - Love & Rockets
@@ -97,7 +94,9 @@
 - Wytches
 - Batman: City of Madness
 - Alan Scott: The Green Lantern
-
+- What's the Furthest Place from Here?
+- Dawnrunner
+- The Bat-Man: First Knight
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
@@ -106,7 +105,6 @@
 - Nocterra #16 (On hiatus)
 - Junkyard Rabbit #1
 - G.O.D.S #1
-
 ## Read
 - Do a Powerbomb!
 - Once & Future
@@ -121,3 +119,4 @@
 -  Moon Knight (2021)
 - House of X
 - Powers of X
+- The Cull
