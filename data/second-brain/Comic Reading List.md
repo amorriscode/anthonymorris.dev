@@ -6,7 +6,7 @@
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
-- Batman/Superman World's Finest #23
+- Batman/Superman World's Finest #24
 - Department of Truth #13
 - Batman #145
 - w0rldtr33 #7
@@ -15,12 +15,12 @@
 - Hack/Slash: Back to School #1
 - The Deviant #4
 - Swan Songs #5
-- Something is Killing the Children #35
-- Ultimate Spider-Man (2024) #3
+- Something is Killing the Children #36
+- Ultimate Spider-Man (2024) #4
 - Vengeance of the Moon Knight #1
 - Ultimate X-Men (2024) #2
 - Avengers Twilight #4
-- Helen of Wyndhorn #1
+- Helen of Wyndhorn #2
 - Beneath The Trees Where Nobody Sees #5
 ## Read Later
 - Doctor Strange: Fall Sunrise
