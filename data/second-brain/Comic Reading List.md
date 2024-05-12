@@ -6,7 +6,7 @@
 ## Currently Reading
 - Ice Cream Man #7
 - Killadelphia #6
-- Batman/Superman World's Finest #24
+- Batman/Superman World's Finest #26
 - Department of Truth #13
 - Batman #145
 - w0rldtr33 #7

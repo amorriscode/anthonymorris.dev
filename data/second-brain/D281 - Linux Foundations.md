@@ -435,3 +435,21 @@ drwxr-xr-x 2 root   root   4096 Jul 19 06:51 journal
 			- Compress/decompress using `gzip`
 		- `-j`
 			- Compress/decompress using `bzip2`
+## Working with Text
+- `cat`
+	- Useful for creating and display text files
+- `less`
+	- Default pager for commands like `man`
+	- More advanced that `cat`
+- `more`
+	- Less features than `less` but always available
+- `head`/`tail`
+	- Display the first/last ten lines of a file
+### Pager movement commands
+| Key      | Movement        |
+| -------- | --------------- |
+| Spacebar | Window forward  |
+| B        | Window backward |
+| Enter    | Line forward    |
+| Q        | Exit            |
+| H        | Help            |
