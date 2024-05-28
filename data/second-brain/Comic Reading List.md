@@ -10,18 +10,18 @@
 - Department of Truth #13
 - Batman #145
 - w0rldtr33 #7
-- Phantom Road #9
+- Phantom Road #10
 - The Hunger and the Dusk #6
-- Hack/Slash: Back to School #1
 - The Deviant #4
 - Swan Songs #5
 - Something is Killing the Children #36
 - Ultimate Spider-Man (2024) #4
 - Vengeance of the Moon Knight #1
-- Ultimate X-Men (2024) #2
+- Ultimate X-Men (2024) #3
 - Avengers Twilight #4
 - Helen of Wyndhorn #2
 - Beneath The Trees Where Nobody Sees #5
+- 20th Century Boys #3
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
@@ -39,6 +39,7 @@
 - Batman & The Joker: The Deadly Duo
 - The Human Target
 - John Constantine: Hellblazer
+- John Constantine: Hellblazer: Dead in America
 - The Me You Love in the Dark
 - The Nice House on the Lake
 - Joe Hill's Rain

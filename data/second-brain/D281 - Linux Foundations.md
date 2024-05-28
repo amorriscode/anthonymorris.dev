@@ -54,6 +54,7 @@
 		- Embedded systems
 		- Linux From Scratch
 			- Teaches you to build a distro from the ground up
+- In Linux, file extensions are only useful to the user, the OS ignores them
 ### Decision points
 - Role
 	- Desktop vs server
@@ -441,10 +442,25 @@ drwxr-xr-x 2 root   root   4096 Jul 19 06:51 journal
 - `less`
 	- Default pager for commands like `man`
 	- More advanced that `cat`
+	- Search
+		- Forward: `/` then `Enter`
+		- Backward from current position: `/` then `?`
+		- Moving through matches:
+			- Forward: `n`
+			- Backward: `Shift + N`
 - `more`
 	- Less features than `less` but always available
 - `head`/`tail`
 	- Display the first/last ten lines of a file
+- `sort`
+	- Sorting
+- `wc`
+	- Prints file statistics
+- `cut`
+	- Extract columns from a file or STDIN
+	- Usually used for delimited databases files (eg. csv)
+- `grep`
+	- Filter based on a specified pattern
 ### Pager movement commands
 | Key      | Movement        |
 | -------- | --------------- |
@@ -453,3 +469,274 @@ drwxr-xr-x 2 root   root   4096 Jul 19 06:51 journal
 | Enter    | Line forward    |
 | Q        | Exit            |
 | H        | Help            |
+#### Input/Output redirection
+- STDOUT `1>` or `>`
+- STDERR `2>`
+- Both STDOUT and STDERR `&>`
+- STDIN `<`
+#### Regular expressions
+- `.`
+	- Single character
+- `[ ]`
+	- A list or range of characters to match *one* character
+	- If `^` is the first character then it means any character _not_ in the list
+- `*`
+	- Previous character zero or more times
+- `^`
+	- If it is the first character in the pattern --> pattern must be at the beginning of the line
+- `$`
+	- If the last character in the pattern --> pattern must be at the end of the line
+- `?`
+	- Matches previous character zero or one time
+- `+`
+	- Matches previous character one or more times
+- `|`
+	- Logical "or"
+## Where data is stored
+### Processes
+- Info provided by pseudo filesystem under `/proc`
+	- Also contains info about system hardware and current kernel config
+- Hardware devices through files under `/dev`
+	- Information about those devices provided by pseudo filesystem under `/sys`
+- Pseudo filesystems appear to be real files on disk but only exist in memory
+- `ps aux`
+	- View all running processes
+	- `a` -- all processes, not just for the current user
+	- `u` -- display detailed user-oriented info
+	- `x` -- all processes (extension of `a` including ones without a controlling terminal
+### Network configuration
+### IP addresses
+- IPv4
+	- Four 8-bit numbers
+	- Limited to ~4.3 billion addresses
+- IPv6
+	- 128-bit addresses
+	- Much larger address pool that won't start running out like IPv4
+### Network config files
+- `/etc/hosts`
+	- Table of hostnames to IP addresses
+	- Used to supplement a DNS server
+- `/etc/resolv.conf`
+	- IP addresses of name servers system uses to resolve names of IP addresses
+- `/etc/nsswitch.conf`
+	- Used to modify where hostname lookups occur
+### Network tools
+- `ifconfig`
+	- Interface configuration
+	- Used to display network configuration information
+	- Can be used to temporarily modify network settings
+- `ip`
+	- Replacing `ifconfig` in some distros
+	- One-stop shop for configuration and control of networking
+- `route`
+	- Show what routing devices are available on the network
+- `ping`
+	- Used to determine if a machine can be reached
+- `netstat`
+	- Provides network information
+	- Can display routing table similar to `route`
+- `ss`
+	- Shows socket statistics
+	- Find what connections are currently established between local and remote machines
+	- Similar to `netstat`
+- `dig`
+	- Queries DNS server to determine if info needed is available
+		- eg. `dig example.com` --> can `example.com` get resolved?
+	- Can use `+trace` to show entire resolution process
+- `ssh`
+	- Used to connect to another machine across the network
+	- If you don't provide a username it will use the username you are currently logged in as
+## System and user security
+- Users belong to at least one group
+- Root account is disabled on Ubuntu
+- `sudo`
+	- Execute commands as another user
+	- `root` is assumed by default
+	- Prompts for a user password initially and then every time a command is run >5 minutes apart
+- `su`
+	- Switch user
+- `/etc/passwd`
+	- Defines account info for user accounts
+	- Contains the following data for each user:
+		- Name
+		- Password placeholder
+		- User ID
+		- Primary group ID
+		- Comment
+		- Home directory
+		- Shell
+- `/etc/shadow`
+	- Contains account info related to user's password
+	- Passwords are encrypted and cannot be read
+- `/etc/group`
+	- Defines supplement group membership for users
+	- Contains the following fields:
+		- Group name
+		- Password placeholder
+		- GID
+		- User list
+- `id`
+	- Print user and group info for a specified user
+- `who`
+	- Displays a list of users who are logged in
+	- Contains the following fields:
+		- Username
+		- Terminal
+		- Date
+		- Host
+- `last`
+	- Reads entire login history from `/var/log/wtmp`
+	- Displays all logins and reboot records by default
+## Creating users and groups
+- Some distributions automatically create a group account for the user (User Private Group)
+	- Name of group matches username
+	- User is the only one in the group
+- If the distribution doesn't make a group for the user then they usually have the `users` group as their primary group
+- `groupadd`
+	- Used to create a group
+	- `-g` allows you to set the group ID
+		- Need to consider user IDs if setting the group ID
+	- Group name considerations
+		- Start with `a-z` or `_`
+		- Ideally <16 characters, _never_ more than 32
+		- After the first character you can user alphanumerics, `-`, or `_`
+		- Last character should not be a `-`
+- `groupmod`
+	- Change the name (`-n`) or GID (`-g`) of a group
+	- Any files associated with a group when you change the GID will no longer be associated with any group name (only the old GID)
+		- You can find orphaned files by searching with `find / -nogroup`
+- `groupdel`
+	- Delete a group
+- `useradd`
+	- Add users
+	- `-D` view or change some default values (also stored in `/etc/default/useradd`)
+		- Group
+			- Default primary group
+			- If not specified, usually `100` which is the `users` group
+			- `-g` option on the CLI
+		- Base
+			- Default base directory for the user's home directory
+			- `-b` option on the CLI 
+		- Inactive
+			- Number of days after password expires that the account is disabled
+			- `-f` option on the CLI
+		- Expire
+			- No default value
+			- Expiration date of the user
+			- `-e` option on the CLI
+		- Shell
+			- Default shell for a user
+			- `-s` option on the CLI
+		- Skeleton directory
+			- Which skeleton directory has its contents copied into the new user's home directory
+			- `-k` option on the CLI
+		- Create mail spool
+			- Where to place incoming mail
+- `usermod`
+	- Modify a user
+	- Some commands fail while the user is logged in
+	- Some commands don't apply until the next time a user logs in
+- `userdel`
+	- Delete a user
+- `/etc/login.defs`
+	- More user defaults
+- `passwd`
+	- Set a password for a user
+- `chage`
+	- Used to manage password aging info in `/etc/shadow`
+## Ownership and permissions
+- Users own files they create by default
+- Ownership is determined by the UID and GID associated with a file
+	- Changing either of these cam orphan a file
+- `newgrp`
+	- Change your current primary group
+	- Useful when you want to create a file that should belong to a different group than your current primary group
+- `chgrp`
+	- Change the group owner of an existing file
+	- Without admin privileges a user can only change the group to one they belong to
+- `chown`
+	- Change user ownership of files and directories
+	- Can only be used to change user ownership by the root user
+	- Can also change group ownership
+### Permission groups
+- `[-]rw-r--r-- 1 root root 4135 May 27 21:08 /etc/passwd`
+	- Type of file:
+		- `-`
+			- Regular file
+			- May be empty or contain text or binary data
+		- `-d`
+			- Directory
+		- `l`
+			- Symbolic link
+			- Pointer to another file
+		- `b`
+			- Block file
+			- Relates to a block hardware device
+			- Data is read in blocks of data
+		- `c`
+			- Character file
+			- Relates to a character hardware device
+			- Data is read one byte at a time
+		- `p`
+			- Pipe file
+			- Similar to the pipe symbol
+			- Allows the output of one process to communicate to another process through the file
+		- `s`
+			- Socket file
+			- Allows two processes to communicate
+- `-[rw-]r--r-- 1 root root 4135 May 27 21:08 /etc/passwd`
+	- User owner
+	- If you are the owner then only the owner permissions are used to determine access
+- `-rw-[r--]r-- 1 root root 4135 May 27 21:08 /etc/passwd`
+	- Group owner
+- `-rw-r--[r--] 1 root root 4135 May 27 21:08 /etc/passwd`
+	- Other permissions ("world's permissions")
+	- Permissions for anyone that is not the file owner or a member of the file's group
+### Permission types
+- Read
+- Write
+- Execute
+### Numeric permission setting
+- Based on the octal numbering system
+- Each permission is assigned a numeric value
+	- Read --> 4
+	- Write --> 2
+	- Execute --> 1
+- Combination of numbers from 0 to 7 are used to set permissions
+	- 7 --> `rwx`
+	- 6 --> `rw-`
+	- 5 --> `r-x`
+	- 4 --> `r--`
+	- 3 --> `-wx`
+	- 2 --> `-w-`
+	- 1 --> `--x`
+	- 0 --> `---`
+- `stat`
+	- Shows permissions in both symbolic and numeric methods
+- `umask`
+	- Determines default permissions set when a file or directory is created
+	- The `umask` value is subtracted from the maximum allowable default permissions
+	- Maximum default value permissions:
+		- Files --> `rw-rw-rw-`
+		- Directories --> `rwxrwxrwx`
+## Special directories and files
+- `setuid`
+	- Allows users to run an executable with permissions of the file owner vs the user running the executable
+	- Add/subtract `4000` when using `chmod` to adjust permissions
+- `setgid`
+	- Used to make sure files/directories can inherit the group ID of their parent
+- Sticky bit
+	- Used to prevent users from deleting files they don't own in a shared directory
+	- Add/subtract `1000` when using `chmod` to adjust permissions
+### Links
+- Hard links are two files that point to the same inode
+	- Use `find -inum` to find where files to an inode are
+	- Don't break if one of the links is deleted
+	- Can't be linked to directories
+- Symbolic links are files that point to another file
+	- Easier to see where they link to
+	- Break if the original file is deleted
+	- Can be linked to directories
+- `ln`
+	- Used to create hard links
+	- `-s` creates symbolic links
