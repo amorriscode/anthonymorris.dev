@@ -15,7 +15,7 @@
 - The Deviant #4
 - Swan Songs #5
 - Something is Killing the Children #36
-- Ultimate Spider-Man (2024) #4
+- Ultimate Spider-Man (2024) #5
 - Vengeance of the Moon Knight #1
 - Ultimate X-Men (2024) #3
 - Avengers Twilight #4
