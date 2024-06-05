@@ -10,7 +10,6 @@
 - Department of Truth #13
 - Batman #145
 - w0rldtr33 #7
-- Phantom Road #10
 - The Hunger and the Dusk #6
 - The Deviant #4
 - Swan Songs #5
@@ -18,7 +17,6 @@
 - Ultimate Spider-Man (2024) #5
 - Vengeance of the Moon Knight #1
 - Ultimate X-Men (2024) #3
-- Avengers Twilight #4
 - Helen of Wyndhorn #2
 - Beneath The Trees Where Nobody Sees #5
 - 20th Century Boys #3
@@ -98,6 +96,7 @@
 - What's the Furthest Place from Here?
 - Dawnrunner
 - The Bat-Man: First Knight
+- The Boy Wonder
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
@@ -106,6 +105,7 @@
 - Nocterra #16 (On hiatus)
 - Junkyard Rabbit #1
 - G.O.D.S #1
+- Phantom Road #10 (on hiatus)
 ## Read
 - Do a Powerbomb!
 - Once & Future
@@ -121,3 +121,4 @@
 - House of X
 - Powers of X
 - The Cull
+- Avengers Twilight

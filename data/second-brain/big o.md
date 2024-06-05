@@ -1,10 +1,14 @@
 
 [[Computer Science]] [[Algorithm]]
-# Big O
-- How "fast" an algorithm is
-	- Rate of growth of operations
-	- How the runtime will increase as the input increases
-- Worst-case run time
+# Big-O
+- Analysis of an algorithm's efficiency
+- Rate of growth of operations
+	- How the runtime or space increases as the input increases
+- Big-O is a measurement of the worst case
+## Rules
+- Ignore constants
+	- Values that don't scale with the input
+- Ignore low-order terms
 ## Common Run Times
 - Fastest --> slowest
 
