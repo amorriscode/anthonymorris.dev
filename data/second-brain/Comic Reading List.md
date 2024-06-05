@@ -8,7 +8,7 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #26
 - Department of Truth #13
-- Batman #145
+- Batman #148
 - w0rldtr33 #7
 - The Hunger and the Dusk #6
 - The Deviant #4
