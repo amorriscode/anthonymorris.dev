@@ -97,6 +97,8 @@
 - Dawnrunner
 - The Bat-Man: First Knight
 - The Boy Wonder
+- Precious Metal
+- Falling in Love on the Path to Hell
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
