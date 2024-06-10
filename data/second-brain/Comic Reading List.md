@@ -20,6 +20,8 @@
 - Helen of Wyndhorn #2
 - Beneath The Trees Where Nobody Sees #5
 - 20th Century Boys #3
+- White Boat #1
+- Ultimates #1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
