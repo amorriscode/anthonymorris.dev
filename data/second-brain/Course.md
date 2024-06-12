@@ -14,6 +14,8 @@
 - [Hello (Real) World with ROS](https://online-learning.tudelft.nl/courses/hello-real-world-with-ros-robot-operating-systems/)
 - https://codecrafters.io/
 - https://animations.dev/
+- https://lowlvl.org/
+- https://advanced-system-design.com/lessons/
 ## In Progress
 - [[FinTech - Shaping the Financial World]]
 ## Completed
