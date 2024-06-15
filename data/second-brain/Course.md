@@ -17,6 +17,7 @@
 - https://lowlvl.org/
 - https://advanced-system-design.com/lessons/
 - https://spinningup.openai.com
+- https://www.edx.org/learn/computer-science/stanford-university-compilers
 ## In Progress
 - [[FinTech - Shaping the Financial World]]
 ## Completed

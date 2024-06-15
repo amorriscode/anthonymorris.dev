@@ -102,6 +102,7 @@
 - Precious Metal
 - Falling in Love on the Path to Hell
 - Into the Unbeing
+- Plastic: Death & Dolls
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
