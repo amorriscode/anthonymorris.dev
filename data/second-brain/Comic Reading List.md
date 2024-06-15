@@ -16,7 +16,7 @@
 - Something is Killing the Children #36
 - Ultimate Spider-Man (2024) #5
 - Vengeance of the Moon Knight #1
-- Ultimate X-Men (2024) #3
+- Ultimate X-Men (2024) #4
 - Helen of Wyndhorn #2
 - Beneath The Trees Where Nobody Sees #5
 - 20th Century Boys #3
@@ -101,6 +101,7 @@
 - The Boy Wonder
 - Precious Metal
 - Falling in Love on the Path to Hell
+- Into the Unbeing
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4

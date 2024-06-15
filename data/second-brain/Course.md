@@ -16,6 +16,7 @@
 - https://animations.dev/
 - https://lowlvl.org/
 - https://advanced-system-design.com/lessons/
+- https://spinningup.openai.com
 ## In Progress
 - [[FinTech - Shaping the Financial World]]
 ## Completed
