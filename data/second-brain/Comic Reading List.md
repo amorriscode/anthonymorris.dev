@@ -22,6 +22,7 @@
 - 20th Century Boys #3
 - White Boat #1
 - Ultimates #1
+- Slam Dunk vol 1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
@@ -103,6 +104,11 @@
 - Falling in Love on the Path to Hell
 - Into the Unbeing
 - Plastic: Death & Dolls
+- The Smell of Starving Boys
+- The Hard Switch
+- For As Long As It Rains
+- Hypericum
+- In by Will McPhail
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
