@@ -1,4 +1,4 @@
- [[comics]]
+ [[comics]] [[read]]
 # Comic Reading List
 - [Comic Reading Orders](https://comicbookreadingorders.com/)
 - [Continuity Guide](https://www.continuityguide.net)
@@ -22,7 +22,6 @@
 - 20th Century Boys #3
 - White Boat #1
 - Ultimates #1
-- Slam Dunk vol 1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger

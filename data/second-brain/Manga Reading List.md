@@ -1,11 +1,10 @@
-[[comics]]
-
+[[comics]] [[read]]
 # Manga Reading List
 
 ## Currently Reading
 - Uzumaki
 - Goodnight Punpun vol. 3
-
+- Slam Dunk vol. 1
 ## Read Later
 - Berserk
 - Otoyomegatari
@@ -27,10 +26,8 @@
 - Code Geass: Hangyaku no Lelouch
 - Liar Game
 - Lost+Brain
-
 ## On Hold
 - 
-
 ## Read
 - Death Note
 - Solanin

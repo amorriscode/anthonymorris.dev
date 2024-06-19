@@ -1,9 +1,8 @@
 # Read
-
 A list of things from around the web that I want to read. For my horrendously large book list, [check GoodReads](https://www.goodreads.com/review/list/5171404?shelf=to-read).
 
 **Have you read something interesting lately? [Share it with me](https://github.com/amorriscode/anthonymorris.dev/issues/new)!**
-
+## Articles
 - [Economics of Innovation: Detailed Reading List](http://matt-clancy.com/economics-of-innovation-detailed-reading-list/)
 - [The Fraying of the US Global Currency Reserve System](https://www.lynalden.com/fraying-petrodollar-system/)
 - [In Praise of the Gods - The Map is Mostly Water](https://simonsarris.substack.com/p/in-praise-of-the-gods)
@@ -20,7 +19,6 @@ A list of things from around the web that I want to read. For my horrendously la
 - [React Reconciliation?. Let’s talk Reconciliation!](https://medium.com/@ryanbas21/react-reconciliation-7075e3f07437)
 - [Emergency on Planet Earth](https://extinctionrebellion.uk/the-truth/the-emergency)
 - [6 ways to improve your debugging skills](https://www.functionize.com/blog/6-ways-to-improve-your-debugging-skills)
-- [Amelia Wattenberger](https://wattenberger.com/blog/css-percents)
 - [Your Circuit Breaker is Misconfigured – Shopify Engineering](https://engineering.shopify.com/blogs/engineering/circuit-breaker-misconfigured)
 - [10 grand challenges we'll face by 2050 - BBC Future](https://www.bbc.com/future/article/20170713-what-will-the-challenges-of-2050-be)
 - [The Internet explained from first principles](https://explained-from-first-principles.com/internet)
