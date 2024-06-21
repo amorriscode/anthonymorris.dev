@@ -1,29 +1,23 @@
+[[Computer Science]] [[Algorithm]] [[search]]
 # Binary Search
-
 - List _must be sorted_
 - Divide and conquer
 - Eliminates half the elements every time
 - Maximum steps --> $log_2 n$
 - As input doubles, the maximum number of steps increases by one
-
 ## Complexity
 
 | Time                                               | Space |
 | -------------------------------------------------- | ----- |
 | $O(log(n))$                                        |       |
 | _Split the search space by two on every iteration_ |       |
-
 ## Process
-
 - Start by searching in the middle
 - If what you are looking for is _smaller_ than what you find in the middle, restrict search up to the middle
 - If what you are looking for is _bigger_ than what you find in the middle, restrict search space from middle on
 - Repeat until you find what you're looking for or your search space has nothing in it
-
 ## Implementations
-
 ### JavaScript
-
 ```javascript
 function binarySearch(target, sortedArray) {
   // Start the search space with the entire array
@@ -55,9 +49,7 @@ function binarySearch(target, sortedArray) {
   return -1;
 }
 ```
-
 ### Python
-
 ```python
 def binary_search(target, sortedArray):
   lowIndex = 0
@@ -77,6 +69,3 @@ def binary_search(target, sortedArray):
 
   return None
 ```
-
-[[Computer Science]] [[Algorithm]]
-
