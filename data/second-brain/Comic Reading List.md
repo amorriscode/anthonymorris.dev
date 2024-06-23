@@ -9,11 +9,11 @@
 - Batman/Superman World's Finest #26
 - Department of Truth #13
 - Batman #148
-- w0rldtr33 #7
+- w0rldtr33 #9
 - The Hunger and the Dusk #6
 - The Deviant #4
 - Swan Songs #5
-- Something is Killing the Children #36
+- Something is Killing the Children #37
 - Ultimate Spider-Man (2024) #6
 - Vengeance of the Moon Knight #1
 - Ultimate X-Men (2024) #4
@@ -56,7 +56,6 @@
 - And We Love You
 - God Country
 - I Hate This Place / Fuck This Place
-- It's Lonely at the Centre of the Earth
 - Infidel
 - Little Monsters
 - All Against All
@@ -107,7 +106,8 @@
 - The Hard Switch
 - For As Long As It Rains
 - Hypericum
-- In by Will McPhail
+- The One Hand
+- Finder: Talisman
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
@@ -133,3 +133,5 @@
 - Powers of X
 - The Cull
 - Avengers Twilight
+- It's Lonely at the Centre of the Earth
+- In by Will McPhail
