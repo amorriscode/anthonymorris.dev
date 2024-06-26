@@ -28,7 +28,6 @@
 - Black Cloak
 - Die by Kieron Gillen
 - The Wicked + The Divine
-- Sandman
 - Gideon Falls
 - Paper Girls
 - Once Upon a Time At The End of The World
@@ -117,6 +116,7 @@
 - Junkyard Rabbit #1
 - G.O.D.S #1
 - Phantom Road #10 (on hiatus)
+- Sandman vol 2
 ## Read
 - Do a Powerbomb!
 - Once & Future
