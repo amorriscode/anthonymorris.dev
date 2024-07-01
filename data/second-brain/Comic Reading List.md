@@ -107,9 +107,10 @@
 - Hypericum
 - The One Hand
 - Finder: Talisman
-- https://comicbookroundup.com/comic-books/reviews/dc-comics/superman-(2023)
-- https://comicbookroundup.com/comic-books/reviews/dc-comics/zatanna-bring-down-the-house-(2024)/1
-- https://comicbookroundup.com/comic-books/reviews/image-comics/aint-no-grave-(2024)
+- Grommets (Rick Remender)
+- [Superman 2023 (Joshua Williamson)](https://comicbookroundup.com/comic-books/reviews/dc-comics/superman-(2023)
+- Zatanna: Bring Down the House
+- Aint No Grave
 - https://www.menshealth.com/entertainment/a60583768/best-comics-graphic-novels/
 ## On Hold
 - Damn Them All #2
