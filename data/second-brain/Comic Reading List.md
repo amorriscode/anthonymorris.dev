@@ -22,6 +22,7 @@
 - 20th Century Boys #3
 - White Boat #1
 - Ultimates #1
+- The Sacrificers #9
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
@@ -112,6 +113,7 @@
 - Zatanna: Bring Down the House
 - Aint No Grave
 - https://www.menshealth.com/entertainment/a60583768/best-comics-graphic-novels/
+- The Unbeing
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
