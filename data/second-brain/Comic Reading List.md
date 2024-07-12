@@ -8,10 +8,10 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #26
 - Department of Truth #13
-- Batman #148
+- Batman #150
 - w0rldtr33 #9
 - The Hunger and the Dusk #6
-- The Deviant #4
+- The Deviant #
 - Swan Songs #5
 - Something is Killing the Children #37
 - Ultimate Spider-Man (2024) #6
