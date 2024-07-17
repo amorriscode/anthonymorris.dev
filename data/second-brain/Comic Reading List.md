@@ -11,18 +11,18 @@
 - Batman #150
 - w0rldtr33 #9
 - The Hunger and the Dusk #6
-- The Deviant #
+- The Deviant #6
 - Swan Songs #5
 - Something is Killing the Children #37
 - Ultimate Spider-Man (2024) #6
 - Vengeance of the Moon Knight #1
 - Ultimate X-Men (2024) #4
-- Helen of Wyndhorn #2
-- Beneath The Trees Where Nobody Sees #5
+- Helen of Wyndhorn #3
 - 20th Century Boys #3
 - White Boat #1
 - Ultimates #1
 - The Sacrificers #9
+- X-Men (2024) #1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
@@ -142,3 +142,4 @@
 - Avengers Twilight
 - It's Lonely at the Centre of the Earth
 - In by Will McPhail
+- Beneath The Trees Where Nobody Sees

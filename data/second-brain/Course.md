@@ -20,6 +20,7 @@
 - https://www.edx.org/learn/computer-science/stanford-university-compilers
 - https://openlearninglibrary.mit.edu/courses/course-v1:MITx+16.00x+2T2019/course/
 - https://openlearninglibrary.mit.edu/courses/course-v1:MITx+16.885x+3T2019/course/
+- https://www.coursera.org/learn/rocket-science-for-everyone
 ## In Progress
 - [[FinTech - Shaping the Financial World]]
 ## Completed
