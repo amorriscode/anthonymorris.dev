@@ -16,11 +16,11 @@
 - Something is Killing the Children #37
 - Ultimate Spider-Man (2024) #6
 - Vengeance of the Moon Knight #1
-- Ultimate X-Men (2024) #4
+- Ultimate X-Men (2024) #5
 - Helen of Wyndhorn #3
 - 20th Century Boys #3
 - White Boat #1
-- Ultimates #1
+- Ultimates #2
 - The Sacrificers #9
 - X-Men (2024) #1
 ## Read Later
@@ -143,3 +143,4 @@
 - It's Lonely at the Centre of the Earth
 - In by Will McPhail
 - Beneath The Trees Where Nobody Sees
+- Tokyo Ghost
