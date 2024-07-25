@@ -2,6 +2,7 @@ import { AppProps } from 'next/app'
 import { DefaultSeo } from 'next-seo'
 import anime from 'animejs'
 import { useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 import { KonamiProvider } from '../context/KonamiContext'
 
@@ -24,6 +25,8 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo {...SEO} />
+
+      <Analytics />
 
       <KonamiProvider>
         <Component {...pageProps} />
