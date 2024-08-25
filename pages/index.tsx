@@ -21,7 +21,7 @@ function Home({ greeting }: { greeting: string }) {
         <h1 className="text-stone-100 font-hammersmith mb-4">Anthony Morris</h1>
 
         <p className="text-stone-500">{greeting}</p>
-        <p className="text-stone-500">vancouver, bc</p>
+        <p className="text-stone-500">san francisco, california</p>
       </div>
 
       <main className="mx-auto max-w-2xl space-y-12 mt-12">
