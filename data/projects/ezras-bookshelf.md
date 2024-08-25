@@ -4,7 +4,7 @@ description: 'A collection of all recommended books from The Ezra Klein Show.'
 date: '2024-05-08T00:00:00'
 launchDate: '2024-05-08T00:00:00'
 status: 'live'
-userCount: 401
+userCount: 601
 ---
 
 A friend of mine send over an episode of The Ezra Klein Show discussing the future of AI. The podcast was great. At the end, the guest recommended a couple of books that sounded interesting to me. It turns out this happens at the end of every episode of the podcast.

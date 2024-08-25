@@ -23,6 +23,7 @@
 - Ultimates #2
 - The Sacrificers #9
 - X-Men (2024) #1
+- TMNT (2024) #1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
