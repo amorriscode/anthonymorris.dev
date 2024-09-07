@@ -21,6 +21,11 @@
 - https://openlearninglibrary.mit.edu/courses/course-v1:MITx+16.00x+2T2019/course/
 - https://openlearninglibrary.mit.edu/courses/course-v1:MITx+16.885x+3T2019/course/
 - https://www.coursera.org/learn/rocket-science-for-everyone
+- https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/syllabus/
+- https://www.offsec.com/courses/pen-200/
+- https://www.coursera.org/learn/big-bang
+- https://www.edx.org/learn/astrophysics/australian-national-university-astrophysics-cosmology
+- https://www.coursera.org/learn/solar-system
 ## In Progress
 - [[FinTech - Shaping the Financial World]]
 ## Completed
