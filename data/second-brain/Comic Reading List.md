@@ -10,7 +10,7 @@
 - Department of Truth #13
 - Batman #151
 - w0rldtr33 #9
-- The Hunger and the Dusk book 2 #1
+- The Hunger and the Dusk book 2 #2
 - The Deviant #7
 - Swan Songs #5
 - Something is Killing the Children #38
@@ -25,6 +25,7 @@
 - X-Men (2024) #3
 - TMNT (2024) #1
 - Uncanny X-Men (2024) #1
+- Witchblade #1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
@@ -116,6 +117,9 @@
 - Aint No Grave
 - https://www.menshealth.com/entertainment/a60583768/best-comics-graphic-novels/
 - The Unbeing
+- The Power Fantasy
+- The Moon is Following Us
+- Minor Arcana
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
