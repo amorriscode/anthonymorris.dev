@@ -120,6 +120,7 @@
 - The Power Fantasy
 - The Moon is Following Us
 - Minor Arcana
+- Tin Can Society
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
