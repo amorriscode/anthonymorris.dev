@@ -1,12 +1,24 @@
-# Database Management System
-
-- Combination of software and data made up of:
-  - The physical [[database]]
-    - Collection of files containing the data
-  - The [[database]] engine
-    - Software that supports access to and modification of [[database]] contents
-  - The [[database]] schema
-    - Specification of the logical structure of the data stored in the [[database]]
-
 [[Computer Science]] [[Database]]
-
+# Database Management System
+- Combination of software and data made up of:
+	- The physical [[database]]
+		- Collection of files containing the data
+	- The [[database]] engine
+		- Software that supports access to and modification of [[database]] contents
+	- The [[database]] schema
+		- Specification of the logical structure of the data stored in the [[database]]
+- Should have the following features:
+	- Ability to store records in a file
+	- Complex algorithms for indexing (support fast access)
+	- Handle concurrent connections
+	- Support committing and rolling back changes
+	- Caching records
+		- Sync the persistent and main-memory versions
+		- Restore database to reasonable state upon system crash
+	- Compiler/interpreter to translate queries to executable code on files
+	- Query optimization
+- Connection types
+	- Embedded
+		- Exclusive access to the database engine
+	- Server-based
+		- Shared with other programs

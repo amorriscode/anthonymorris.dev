@@ -14,9 +14,9 @@
 - The Deviant #7
 - Swan Songs #5
 - Something is Killing the Children #38
-- Ultimate Spider-Man (2024) #8
+- Ultimate Spider-Man (2024) #9
 - Vengeance of the Moon Knight #1
-- Ultimate X-Men (2024) #6
+- Ultimate X-Men (2024) #7
 - Helen of Wyndhorn #3
 - 20th Century Boys #3
 - White Boat #1
