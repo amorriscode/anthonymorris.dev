@@ -12,10 +12,10 @@ function RecentWords({ words }: { words: Writing[] }) {
         <h2 className="text-4xl font-am">Words</h2>
 
         <div className="arrow-link flex items-center space-x-1 group">
-          <Link href="/words">
-            <a className="text-sm">
-              <span>all writing</span>
-            </a>
+          <Link href="/words" className="text-sm">
+
+            <span>all writing</span>
+
           </Link>
 
           <div className="arrow text-purple-300 group-hover:text-purple-500 transition-all duration-300">
@@ -30,7 +30,7 @@ function RecentWords({ words }: { words: Writing[] }) {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 export default RecentWords

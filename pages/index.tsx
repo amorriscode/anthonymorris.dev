@@ -46,20 +46,22 @@ function Home({ greeting }: { greeting: string }) {
 
           <p>
             Find me on{' '}
-            <Link href="https://twitter.com/amorriscode">
-              <a target="_blank">Twitter</a>
+            <Link href="https://twitter.com/amorriscode" target="_blank">
+              Twitter
             </Link>
             ,{' '}
-            <Link href="https://www.linkedin.com/in/amorriscode/">
-              <a target="_blank">LinkedIn</a>
+            <Link href="https://www.linkedin.com/in/amorriscode/" target="_blank">
+              LinkedIn
             </Link>
             ,{' '}
-            <Link href="https://github.com/amorriscode">
-              <a target="_blank">GitHub</a>
+            <Link href="https://github.com/amorriscode" target="_blank">
+              GitHub
             </Link>
             , or{' '}
-            <Link href="https://www.goodreads.com/user/show/5171404-anthony">
-              <a target="_blank">Goodreads</a>
+            <Link
+              href="https://www.goodreads.com/user/show/5171404-anthony"
+              target="_blank">
+              Goodreads
             </Link>
             .
           </p>
@@ -71,7 +73,7 @@ function Home({ greeting }: { greeting: string }) {
           <p className="prose">
             I&apos;m currently imagining what{' '}
             <Link href="/life">
-              <a>life</a>
+              life
             </Link>{' '}
             I&apos;ll be proud of ten years from now. Working backward from
             there.
@@ -97,7 +99,7 @@ function Home({ greeting }: { greeting: string }) {
         </section>
       </main>
     </div>
-  )
+  );
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {

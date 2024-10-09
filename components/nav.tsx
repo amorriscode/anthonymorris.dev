@@ -8,10 +8,12 @@ function Nav({ handleSearchClick }: { handleSearchClick: () => void }) {
 
   return (
     <nav className="space-y-4">
-      <Link href="/">
-        <a className="text-stone-100 font-hammersmith mb-4 hover:text-stone-100">
+      <Link
+        href="/"
+        className="text-stone-100 font-hammersmith mb-4 hover:text-stone-100">
+        
           Anthony Morris
-        </a>
+        
       </Link>
 
       {/* <div
@@ -37,7 +39,7 @@ function Nav({ handleSearchClick }: { handleSearchClick: () => void }) {
         <NavLink title="uses" />
       </div>
     </nav>
-  )
+  );
 }
 
 export default Nav

@@ -43,16 +43,20 @@ function BookCardContent({
 
 function BookCard({ book }: { book: Book }) {
   return book.content.length ? (
-    <Link href="/books/[slug]" as={`/books/${book.slug}`} passHref>
-      <a className="block text-stone-400 hover:text-stone-500 transition-colors duration-300 group">
-        <BookCardContent book={book} />
-      </a>
-    </Link>
+    (<Link
+      href="/books/[slug]"
+      as={`/books/${book.slug}`}
+      passHref
+      className="block text-stone-400 hover:text-stone-500 transition-colors duration-300 group">
+
+      <BookCardContent book={book} />
+
+    </Link>)
   ) : (
     <div className="group text-stone-400">
       <BookCardContent book={book} />
     </div>
-  )
+  );
 }
 
 export default BookCard

@@ -40,20 +40,20 @@ function BucketListItemCard({
   bucketListItem: BucketListItem
 }) {
   return bucketListItem.content.length ? (
-    <Link
+    (<Link
       href="/bucket-list/[slug]"
       as={`/bucket-list/${bucketListItem.slug}`}
       passHref
-    >
-      <a className="block text-stone-300 hover:text-stone-400 group">
-        <BucketListItemContent bucketListItem={bucketListItem} />
-      </a>
-    </Link>
+      className="block text-stone-300 hover:text-stone-400 group">
+
+      <BucketListItemContent bucketListItem={bucketListItem} />
+
+    </Link>)
   ) : (
     <div>
       <BucketListItemContent bucketListItem={bucketListItem} />
     </div>
-  )
+  );
 }
 
 export default BucketListItemCard

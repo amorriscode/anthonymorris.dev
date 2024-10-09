@@ -28,79 +28,77 @@ function ProjectPage({
 }: {
   project: Project
 }) {
-  return (
-    <>
-      <NextSeo
-        title={title}
-        description={description}
-        openGraph={{
-          title: title,
-          description: description,
-        }}
-      />
+  return <>
+    <NextSeo
+      title={title}
+      description={description}
+      openGraph={{
+        title: title,
+        description: description,
+      }}
+    />
 
-      <header>
-        {heroImage && (
-          <div className="mb-4 mx-auto h-64 sm:h-96 max-w-4xl rounded-lg relative overflow-hidden">
-            <Image
-              src={heroImage}
-              alt={title}
-              layout="fill"
-              objectFit="cover"
-              placeholder="blur"
-              blurDataURL={blurDataURL}
-            />
-          </div>
-        )}
-
-        <div>
-          <h1 className="text-3xl">{title}</h1>
-
-          <div className="space-x-2 font-fanwood text-lg italic">
-            <span>{status}</span>
-
-            {launchDate && (
-              <>
-                <span>|</span>
-                <span>
-                  launched {format(new Date(launchDate), 'MMMM do, y')}
-                </span>
-              </>
-            )}
-
-            {sunsetDate && (
-              <>
-                <span>|</span>
-                <span>
-                  retired {format(new Date(sunsetDate), 'MMMM do, y')}
-                </span>
-              </>
-            )}
-          </div>
+    <header>
+      {heroImage && (
+        <div className="mb-4 mx-auto h-64 sm:h-96 max-w-4xl rounded-lg relative overflow-hidden">
+          <Image
+            src={heroImage}
+            alt={title}
+            layout="fill"
+            objectFit="cover"
+            placeholder="blur"
+            blurDataURL={blurDataURL}
+          />
         </div>
+      )}
 
-        {sunsetDate && (
-          <PageSummary>
-            {title} has been laid to rest in my product graveyard.
-            {postmortem && (
-              <>
-                {' '}
-                <Link href={postmortem}>
-                  <a>Read the postmortem</a>
-                </Link>
-                .
-              </>
-            )}
-          </PageSummary>
-        )}
-      </header>
+      <div>
+        <h1 className="text-3xl">{title}</h1>
 
-      <article
-        className="prose mt-12"
-        dangerouslySetInnerHTML={{ __html: content }}
-      />
-    </>
-  )
+        <div className="space-x-2 font-fanwood text-lg italic">
+          <span>{status}</span>
+
+          {launchDate && (
+            <>
+              <span>|</span>
+              <span>
+                launched {format(new Date(launchDate), 'MMMM do, y')}
+              </span>
+            </>
+          )}
+
+          {sunsetDate && (
+            <>
+              <span>|</span>
+              <span>
+                retired {format(new Date(sunsetDate), 'MMMM do, y')}
+              </span>
+            </>
+          )}
+        </div>
+      </div>
+
+      {sunsetDate && (
+        <PageSummary>
+          {title} has been laid to rest in my product graveyard.
+          {postmortem && (
+            <>
+              {' '}
+              <Link href={postmortem}>
+                Read the postmortem
+              </Link>
+              .
+            </>
+          )}
+        </PageSummary>
+      )}
+    </header>
+
+    <article
+      className="prose mt-12"
+      dangerouslySetInnerHTML={{ __html: content }}
+    />
+  </>;
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {

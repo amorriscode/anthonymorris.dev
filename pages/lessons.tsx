@@ -10,44 +10,42 @@ import withLayout from '../components/withLayout'
 import PageSummary from '../components/PageSummary'
 
 function Lessons({ lessons }: { lessons: Lesson[] }) {
-  return (
-    <>
-      <NextSeo
-        title="Lessons"
-        description="Lessons learned from failure."
-        openGraph={{
-          title: 'Lessons',
-          description: 'A collection of lessons learned from failure.',
-        }}
-      />
+  return <>
+    <NextSeo
+      title="Lessons"
+      description="Lessons learned from failure."
+      openGraph={{
+        title: 'Lessons',
+        description: 'A collection of lessons learned from failure.',
+      }}
+    />
 
-      <header className="mx-auto max-w-3xl space-y-5">
-        <h1 className="text-4xl font-am px-10">Lessons Learned</h1>
+    <header className="mx-auto max-w-3xl space-y-5">
+      <h1 className="text-4xl font-am px-10">Lessons Learned</h1>
 
-        <PageSummary>
-          <p>
-            This is a collection of lessons learned pulled from my{' '}
-            <Link href="/failures">
-              <a>failures</a>
+      <PageSummary>
+        <p>
+          This is a collection of lessons learned pulled from my{' '}
+          <Link href="/failures">
+            failures
+          </Link>
+          .
+        </p>
+      </PageSummary>
+    </header>
+
+    <section className="space-y-10 prose">
+      <ul>
+        {lessons.map((lesson) => (
+          <li key={lesson.title}>
+            <Link href={`failures/${lesson.failure}`}>
+              {lesson.title}
             </Link>
-            .
-          </p>
-        </PageSummary>
-      </header>
-
-      <section className="space-y-10 prose">
-        <ul>
-          {lessons.map((lesson) => (
-            <li key={lesson.title}>
-              <Link href={`failures/${lesson.failure}`}>
-                <a>{lesson.title}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </>
-  )
+          </li>
+        ))}
+      </ul>
+    </section>
+  </>;
 }
 
 export const getStaticProps: GetStaticProps = async () => {
