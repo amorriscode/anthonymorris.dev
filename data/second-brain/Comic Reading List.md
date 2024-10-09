@@ -23,7 +23,7 @@
 - Ultimates #2
 - The Sacrificers #11
 - X-Men (2024) #3
-- TMNT (2024) #1
+- TMNT (2024) #2
 - Uncanny X-Men (2024) #1
 - Witchblade #1
 ## Read Later
