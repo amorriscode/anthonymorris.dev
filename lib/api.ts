@@ -92,7 +92,7 @@ export function getContentBySlug(
 
           return lowercaseContent.includes(backlinkUrl)
             ? slug.replace(/\.md$/, '')
-            : null
+            : null;
         })
         .filter(Boolean)
     }

@@ -1,5 +1,5 @@
 ---
 title: "Get a Bachelor's degree"
 tags: ["Knowledge", "Career"]
-startedDate: "2023-09-01T00:00:00"
+completedDate: "2024-09-15T00:00:00"
 ---

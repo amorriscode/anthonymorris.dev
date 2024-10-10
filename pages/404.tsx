@@ -18,44 +18,42 @@ function NotFound({
   projects: Project[]
   words: Writing[]
 }) {
-  return (
-    <>
-      <NextSeo
-        title="Not Found"
-        description="Not all who wander are lost."
-        openGraph={{
-          title: 'Not Found',
-          description: 'Not all who wander are lost.',
-        }}
-      />
+  return <>
+    <NextSeo
+      title="Not Found"
+      description="Not all who wander are lost."
+      openGraph={{
+        title: 'Not Found',
+        description: 'Not all who wander are lost.',
+      }}
+    />
 
-      <header>
-        <h1 className="text-3xl">undefined</h1>
+    <header>
+      <h1 className="text-3xl">undefined</h1>
 
-        <PageSummary>
-          <p>
-            <span className="font-fanwood text-xl italic">
-              Not all who wander are lost
-            </span>
-            . That being said, I didn&apos;t find what you&apos;re looking for.
-          </p>
+      <PageSummary>
+        <p>
+          <span className="font-fanwood text-xl italic">
+            Not all who wander are lost
+          </span>
+          . That being said, I didn&apos;t find what you&apos;re looking for.
+        </p>
 
-          <p>
-            <Link href="/">
-              <a>Return home</a>
-            </Link>{' '}
-            or check out some of my latest additions below.
-          </p>
-        </PageSummary>
-      </header>
+        <p>
+          <Link href="/">
+            Return home
+          </Link>{' '}
+          or check out some of my latest additions below.
+        </p>
+      </PageSummary>
+    </header>
 
-      <section className="grid grid-cols-1 gap-12">
-        <RecentProjects projects={projects} />
+    <section className="grid grid-cols-1 gap-12">
+      <RecentProjects projects={projects} />
 
-        <RecentWords words={words} />
-      </section>
-    </>
-  )
+      <RecentWords words={words} />
+    </section>
+  </>;
 }
 
 export const getStaticProps: GetStaticProps = async () => {
