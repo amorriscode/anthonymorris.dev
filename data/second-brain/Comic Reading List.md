@@ -26,6 +26,7 @@
 - TMNT (2024) #2
 - Uncanny X-Men (2024) #1
 - Witchblade #1
+- Absolute Batman #1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
