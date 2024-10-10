@@ -1,5 +1,5 @@
 ---
-title: "Improving LLMs with syntehtic data"
+title: "Improving LLMs with synthetic data"
 description: "Maybe data is all you need"
 date: "2024-10-09T00:00:00"
 tags: ["Essay"]
