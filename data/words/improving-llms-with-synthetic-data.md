@@ -7,7 +7,7 @@ tags: ["Essay"]
 
 If you haven’t heard yet, Large Language Models (LLMs) are all the rage. They’re going to change the future. They might even replace every developer on the planet (I don’t think this will happen any time soon but who knows).
 
-At Stripe, we’ve started to adopt LLMs into our processes and products. We’ve seen wild success that helped save millions of dollars a year. LLMs empower us to do more than we could before but development with them is often frustrating and difficult.
+At Stripe, we’ve started to adopt LLMs into our processes and products. We’ve already seen impressive results including a use case that helped save millions of dollars a year. LLMs empower us to do more than we could before but development with them is often frustrating and difficult.
 
 On my team, Developer AI, we are exploring new ways for self-serve users to get started with Stripe. One of the products happens to have a conversational interface (surprise, it's a chatbot!). Our conversational interface is powered by LLMs so we’ve experienced the difficulties of building on top of them first hand. The conversation flow needs to feel natural to a user, allowing them to ask clarifying questions, while staying within bounds we've defined. During development, most of the conversations would go off without a hitch. Then we started giving it to humans…
 
