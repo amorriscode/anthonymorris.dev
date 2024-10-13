@@ -27,6 +27,7 @@
 - https://www.edx.org/learn/astrophysics/australian-national-university-astrophysics-cosmology
 - https://www.coursera.org/learn/solar-system
 - https://cryptopals.com/
+- https://store.guitarmessenger.com/songwriting-with-plini
 ## In Progress
 - [[FinTech - Shaping the Financial World]]
 ## Completed

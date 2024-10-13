@@ -11,18 +11,18 @@
 - Batman #151
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #2
-- The Deviant #7
+- The Deviant #8
 - Swan Songs #5
 - Something is Killing the Children #38
 - Ultimate Spider-Man (2024) #9
 - Vengeance of the Moon Knight #1
 - Ultimate X-Men (2024) #7
-- Helen of Wyndhorn #3
+- Helen of Wyndhorn #4
 - 20th Century Boys #3
 - White Boat #1
-- Ultimates #2
+- Ultimates #5
 - The Sacrificers #11
-- X-Men (2024) #3
+- X-Men (2024) #5
 - TMNT (2024) #2
 - Uncanny X-Men (2024) #1
 - Witchblade #1
