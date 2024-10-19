@@ -8,13 +8,13 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #26
 - Department of Truth #13
-- Batman #151
+- Batman #153
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #2
 - The Deviant #8
 - Swan Songs #5
 - Something is Killing the Children #38
-- Ultimate Spider-Man (2024) #9
+- Ultimate Spider-Man (2024) #10
 - Vengeance of the Moon Knight #1
 - Ultimate X-Men (2024) #7
 - Helen of Wyndhorn #4
@@ -24,8 +24,8 @@
 - The Sacrificers #11
 - X-Men (2024) #5
 - TMNT (2024) #2
-- Uncanny X-Men (2024) #1
-- Witchblade #1
+- Uncanny X-Men (2024) #4
+- Witchblade #2
 - Absolute Batman #1
 ## Read Later
 - Doctor Strange: Fall Sunrise

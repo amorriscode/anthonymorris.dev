@@ -1,3 +1,7 @@
-# Cloud Service Provider
+---
+aliases:
+  - CSP
+---
 
 [[cloud computing]]
+# Cloud Service Provider

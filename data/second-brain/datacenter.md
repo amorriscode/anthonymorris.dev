@@ -1,0 +1,13 @@
+# Datacenter
+- Types
+	- Retail
+		- Lower power capacity (few hundred [[megawatts]])
+		- Tenants usually lease a few racks (~a few kW)
+	- Wholesale
+		- 10-30 MW power capacity
+		- Tenants tend to lease larger areas
+		- Value prop is having scalability over time
+	- Hyperscale
+		- Self-built by hyperscalers
+		- 40-100 MW power capacity
+		- Part of campuses of datacenters linked together
