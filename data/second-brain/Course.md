@@ -14,7 +14,7 @@
 - [Hello (Real) World with ROS](https://online-learning.tudelft.nl/courses/hello-real-world-with-ros-robot-operating-systems/)
 - https://codecrafters.io/
 - https://animations.dev/
-- https://lowlvl.org/
+- [Low-Level Academy](https://lowlvl.org/)
 - https://advanced-system-design.com/lessons/
 - https://spinningup.openai.comhttps://spinningup.openai.com
 - https://www.edx.org/learn/computer-science/stanford-university-compilers
@@ -28,6 +28,8 @@
 - https://www.coursera.org/learn/solar-system
 - https://cryptopals.com/
 - https://store.guitarmessenger.com/songwriting-with-plini
+- [Git Internals - Learn by Building Your Own Git](https://www.leshenko.net/p/ugit/#)
+- 
 ## In Progress
 - [[FinTech - Shaping the Financial World]]
 ## Completed
