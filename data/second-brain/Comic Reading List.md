@@ -4,7 +4,7 @@
 - [Continuity Guide](https://www.continuityguide.net)
 - [Spider-Man 616 Chronology](https://docs.google.com/spreadsheets/d/1z_Ug8gASt3NFLDSXKn7-XOuPLhbemez55798BRL7t-k)
 ## Currently Reading
-- Ice Cream Man #7
+- Ice Cream Man #9
 - Killadelphia #6
 - Batman/Superman World's Finest #26
 - Department of Truth #13
@@ -16,7 +16,7 @@
 - Something is Killing the Children #38
 - Ultimate Spider-Man (2024) #10
 - Vengeance of the Moon Knight #1
-- Ultimate X-Men (2024) #7
+- Ultimate X-Men (2024) #8
 - Helen of Wyndhorn #4
 - 20th Century Boys #3
 - White Boat #1
@@ -27,6 +27,7 @@
 - Uncanny X-Men (2024) #4
 - Witchblade #2
 - Absolute Batman #1
+- Absolute Wonder Woman #1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
