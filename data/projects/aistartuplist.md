@@ -3,7 +3,7 @@ title: 'aistartuplist.fyi'
 description: 'A list of interesting AI companies and jobs.'
 date: '2024-05-10T00:00:00'
 launchDate: '2024-05-10T00:00:00'
-status: 'live'
+status: 'dead'
 userCount: 71
 revenue: 200
 ---
