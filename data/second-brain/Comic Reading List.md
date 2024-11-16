@@ -28,6 +28,7 @@
 - Witchblade #2
 - Absolute Batman #1
 - Absolute Wonder Woman #1
+- Psylocke #1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
