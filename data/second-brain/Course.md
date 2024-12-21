@@ -30,6 +30,7 @@
 - https://store.guitarmessenger.com/songwriting-with-plini
 - [Git Internals - Learn by Building Your Own Git](https://www.leshenko.net/p/ugit/#)
 - https://reasonio.teachable.com/p/worlds-of-speculative-fiction
+- https://www.lightnote.co/
 ## In Progress
 - [[FinTech - Shaping the Financial World]]
 ## Completed

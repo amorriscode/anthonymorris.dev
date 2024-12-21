@@ -26,8 +26,8 @@
 - TMNT (2024) #2
 - Uncanny X-Men (2024) #4
 - Witchblade #2
-- Absolute Batman #1
-- Absolute Wonder Woman #1
+- Absolute Batman #3
+- Absolute Wonder Woman #2
 - Psylocke #1
 ## Read Later
 - Doctor Strange: Fall Sunrise

@@ -60,3 +60,5 @@ A list of things from around the web that I want to read. For my horrendously la
 - [Making GitHub’s new homepage fast and performant](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
 - [Best practices for REST API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
 - [Space junk removal is not going smoothly](https://www.scientificamerican.com/article/space-junk-removal-is-not-going-smoothly/)
+- https://www.stripe.press/recommended/design-books.html
+- https://msp.ucsd.edu/techniques/latest/book-html/
