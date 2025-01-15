@@ -3,6 +3,7 @@
 - [Comic Reading Orders](https://comicbookreadingorders.com/)
 - [Continuity Guide](https://www.continuityguide.net)
 - [Spider-Man 616 Chronology](https://docs.google.com/spreadsheets/d/1z_Ug8gASt3NFLDSXKn7-XOuPLhbemez55798BRL7t-k)
+- https://www.cbr.com/tag/top-100-comic-book-runs/
 ## Currently Reading
 - Ice Cream Man #9
 - Killadelphia #6
@@ -10,7 +11,7 @@
 - Department of Truth #13
 - Batman #153
 - w0rldtr33 #9
-- The Hunger and the Dusk book 2 #2
+- The Hunger and the Dusk book 2 #3
 - The Deviant #8
 - Swan Songs #5
 - Something is Killing the Children #38
