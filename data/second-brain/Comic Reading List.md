@@ -13,20 +13,17 @@
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #3
 - The Deviant #8
-- Swan Songs #5
 - Something is Killing the Children #38
-- Ultimate Spider-Man (2024) #10
+- Ultimate Spider-Man (2024) #13
 - Vengeance of the Moon Knight #1
 - Ultimate X-Men (2024) #8
-- Helen of Wyndhorn #4
-- 20th Century Boys #3
-- White Boat #1
+- 20th Century Boys #5
+- White Boat #2
 - Ultimates #5
 - The Sacrificers #11
 - X-Men (2024) #5
 - TMNT (2024) #2
 - Uncanny X-Men (2024) #4
-- Witchblade #2
 - Absolute Batman #3
 - Absolute Wonder Woman #2
 - Psylocke #1
@@ -115,11 +112,8 @@
 - Hypericum
 - The One Hand
 - Finder: Talisman
-- Grommets (Rick Remender)
-- [Superman 2023 (Joshua Williamson)](https://comicbookroundup.com/comic-books/reviews/dc-comics/superman-(2023)
 - Zatanna: Bring Down the House
 - Aint No Grave
-- https://www.menshealth.com/entertainment/a60583768/best-comics-graphic-novels/
 - The Unbeing
 - The Power Fantasy
 - The Moon is Following Us
@@ -135,6 +129,7 @@
 - G.O.D.S #1
 - Phantom Road #10 (on hiatus)
 - Sandman vol 2
+- Witchblade #2
 ## Read
 - Do a Powerbomb!
 - Once & Future
@@ -155,3 +150,6 @@
 - In by Will McPhail
 - Beneath The Trees Where Nobody Sees
 - Tokyo Ghost
+- Swan Songs
+- Grommets
+- Helen of Wyndhorn
