@@ -16,7 +16,7 @@
 - Something is Killing the Children #38
 - Ultimate Spider-Man (2024) #13
 - Vengeance of the Moon Knight #1
-- Ultimate X-Men (2024) #8
+- Ultimate X-Men (2024) #11
 - 20th Century Boys #5
 - White Boat #2
 - Ultimates #5
@@ -24,7 +24,7 @@
 - X-Men (2024) #5
 - TMNT (2024) #2
 - Uncanny X-Men (2024) #4
-- Absolute Batman #3
+- Absolute Batman #4
 - Absolute Wonder Woman #2
 - Psylocke #1
 ## Read Later
