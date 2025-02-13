@@ -1,0 +1,40 @@
+[[article]]
+
+# The State of Video Gaming in 2025
+- [Source](https://www.matthewball.co/all/stateofvideogaming2025)
+- 2011 --> 2021
+	- Growth years
+	- Spending >2x the previous 20 years
+- Growth is hard to predict (lol @ Ark)
+- Spending in other entertainment mediums continued to grow but tiny numbers compared to gaming's 108% increase between 2011 --> 2021
+- VCs are frothy
+- Big variety of growth engines
+	- Battle Royales
+		- Highest grossing genre in history
+	- UGC
+		- Most popular experiences of all time
+- Black hole games?
+	- Massive franchises that suck players into their regularly released games
+- 68% of mobile users (~3B) are mobile gamers
+- Fewer hours spent gaming, top games dominating, fewer mobile games overall
+- Apple/Google make more on mobile games than all non-Chinese gaming companies combined
+- AR never took off
+- PC + mobile + handheld seem to be the real winners today
+- China starts gaming
+- Game cost with inflation is nuts (no wonder hours have gone up with all the free games)
+	- Mortal Kombat: $157
+	- Mario Paint: $134
+	- Monopoly: $123
+- Game prices don't follow inflation
+- Halo 6 was the highest cost at $600MM
+- Way more PC games (Steam) are being released
+	- But older games are taking the majority of play time + money
+- What happens to Roblox gamers as they hit their late teens and adulthood?
+- Content revenue per thous hours of player engagement
+	- Roblox gets crushed here vs other platforms (PlayStation, Steam, EA, etc.)
+- lol @ the Switch version of popular games
+- Users go to the best screen
+	- Crazy that 45% of YouTube watching is on TV
+- [[Reed's Law]]
+- EA Sports' Highlighter 🤯
+- 
