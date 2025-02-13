@@ -37,4 +37,6 @@
 	- Crazy that 45% of YouTube watching is on TV
 - [[Reed's Law]]
 - EA Sports' Highlighter 🤯
-- 
+- Streaming platforms influence of gaming engagement
+	- 28% of players start playing a game within an hour of watching it streamed
+	- 1.4M monthly users try games for the first time after watching streams
