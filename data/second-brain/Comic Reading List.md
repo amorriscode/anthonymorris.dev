@@ -22,11 +22,12 @@
 - Ultimates #5
 - The Sacrificers #11
 - X-Men (2024) #5
-- TMNT (2024) #2
+- TMNT (2024) #3
 - Uncanny X-Men (2024) #4
 - Absolute Batman #5
 - Absolute Wonder Woman #3
 - Psylocke #1
+- Let This One Be a Devil #1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
