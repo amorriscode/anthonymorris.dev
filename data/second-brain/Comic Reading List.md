@@ -22,7 +22,7 @@
 - Ultimates #5
 - The Sacrificers #11
 - X-Men (2024) #5
-- TMNT (2024) #3
+- TMNT (2024) #4
 - Uncanny X-Men (2024) #4
 - Absolute Batman #5
 - Absolute Wonder Woman #3
@@ -120,6 +120,8 @@
 - The Moon is Following Us
 - Minor Arcana
 - Tin Can Society
+- Archie (Mark Waid/Fiona Staples)
+- Kill or Be Killed
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
