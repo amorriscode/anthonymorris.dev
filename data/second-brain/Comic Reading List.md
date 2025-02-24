@@ -4,6 +4,7 @@
 - [Continuity Guide](https://www.continuityguide.net)
 - [Spider-Man 616 Chronology](https://docs.google.com/spreadsheets/d/1z_Ug8gASt3NFLDSXKn7-XOuPLhbemez55798BRL7t-k)
 - https://www.cbr.com/tag/top-100-comic-book-runs/
+- https://www.comicbookherald.com/the-best-comics-of-all-time/
 ## Currently Reading
 - Ice Cream Man #9
 - Killadelphia #6
