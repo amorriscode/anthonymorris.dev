@@ -15,20 +15,21 @@
 - The Hunger and the Dusk book 2 #3
 - The Deviant #8
 - Something is Killing the Children #38
-- Ultimate Spider-Man (2024) #13
+- Ultimate Spider-Man (2024) #14
 - Vengeance of the Moon Knight #1
-- Ultimate X-Men (2024) #11
+- Ultimate X-Men (2024) #12
 - 20th Century Boys #5
 - White Boat #2
 - Ultimates #5
 - The Sacrificers #11
 - X-Men (2024) #5
 - TMNT (2024) #4
-- Uncanny X-Men (2024) #4
+- Uncanny X-Men (2024) #5
 - Absolute Batman #5
 - Absolute Wonder Woman #3
 - Psylocke #1
 - Let This One Be a Devil #1
+- Falling in Love on the Path to Hell #4
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
