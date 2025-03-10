@@ -10,7 +10,7 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #26
 - Department of Truth #13
-- Batman #153
+- Batman #154
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #3
 - The Deviant #8
@@ -26,7 +26,7 @@
 - TMNT (2024) #4
 - Uncanny X-Men (2024) #5
 - Absolute Batman #5
-- Absolute Wonder Woman #3
+- Absolute Wonder Woman #5
 - Psylocke #1
 - Let This One Be a Devil #1
 - Falling in Love on the Path to Hell #4
