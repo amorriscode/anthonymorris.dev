@@ -32,6 +32,6 @@
 - https://reasonio.teachable.com/p/worlds-of-speculative-fiction
 - https://www.lightnote.co/
 ## In Progress
-- [[FinTech - Shaping the Financial World]]
+- 
 ## Completed
-- :(
+- [[FinTech - Shaping the Financial World]]
