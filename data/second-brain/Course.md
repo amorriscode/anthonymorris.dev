@@ -31,6 +31,10 @@
 - [Git Internals - Learn by Building Your Own Git](https://www.leshenko.net/p/ugit/#)
 - https://reasonio.teachable.com/p/worlds-of-speculative-fiction
 - https://www.lightnote.co/
+- https://wasmgroundup.com/
+### Imagineering
+- https://itp.nyu.edu/physcomp/lessons/
+- https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
 ## In Progress
 - 
 ## Completed
