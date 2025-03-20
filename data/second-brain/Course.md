@@ -1,7 +1,6 @@
 # Course
 
 ## Want to Take
-- [[Coursera Robotics Specialization]]
 - [[Cosmic Origin of the Chemical Elements]]
 - [[Principles of Microeconomics]]
 - [Design of Computer Programs](https://www.udacity.com/course/design-of-computer-programs--cs212)
@@ -16,10 +15,10 @@
 - https://animations.dev/
 - [Low-Level Academy](https://lowlvl.org/)
 - https://advanced-system-design.com/lessons/
-- https://spinningup.openai.comhttps://spinningup.openai.com
+- https://spinningup.openai.com
 - https://www.edx.org/learn/computer-science/stanford-university-compilers
-- https://openlearninglibrary.mit.edu/courses/course-v1:MITx+16.00x+2T2019/course/
-- https://openlearninglibrary.mit.edu/courses/course-v1:MITx+16.885x+3T2019/course/
+- [Introduction to Aerospace Engineering: Astronautics and Human Spaceflight](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+16.00x+2T2019/course/)
+- [Engineering the Space Shuttle](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+16.885x+3T2019/course/)
 - https://www.coursera.org/learn/rocket-science-for-everyone
 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/syllabus/
 - https://www.offsec.com/courses/pen-200/
