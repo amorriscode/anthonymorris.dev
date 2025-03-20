@@ -13,7 +13,6 @@
 - Batman #154
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #3
-- The Deviant #8
 - Something is Killing the Children #38
 - Ultimate Spider-Man (2024) #14
 - Ultimate X-Men (2024) #12
@@ -21,14 +20,15 @@
 - The Sacrificers #11
 - X-Men (2024) #5
 - TMNT (2024) #4
-- Uncanny X-Men (2024) #5
-- Absolute Batman #5
+- Uncanny X-Men (2024) #12
+- Absolute Batman #6
 - Absolute Wonder Woman #5
 - Psylocke #2
 - Let This One Be a Devil #1
 - Falling in Love on the Path to Hell #4
 - Assorted Crisis Events #1
 - Absolute Flash #1
+- Magik #1
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
@@ -159,3 +159,4 @@
 - Swan Songs
 - Grommets
 - Helen of Wyndhorn
+- The Deviant
