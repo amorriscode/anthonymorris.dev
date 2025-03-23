@@ -17,7 +17,7 @@
 - Ultimate Spider-Man (2024) #14
 - Ultimate X-Men (2024) #12
 - Ultimates #5
-- The Sacrificers #11
+- The Sacrificers #15
 - X-Men (2024) #5
 - TMNT (2024) #4
 - Uncanny X-Men (2024) #12
