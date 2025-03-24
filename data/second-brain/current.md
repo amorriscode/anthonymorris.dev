@@ -1,4 +1,4 @@
+[[Electricity]]
 # Current
 
-[[Electricity]]
 

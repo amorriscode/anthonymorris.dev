@@ -29,6 +29,7 @@
 - Assorted Crisis Events #1
 - Absolute Flash #1
 - Magik #1
+- Kaya #5
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger

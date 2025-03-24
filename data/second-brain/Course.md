@@ -32,9 +32,8 @@
 - https://www.lightnote.co/
 - https://wasmgroundup.com/
 ### Imagineering
-- https://itp.nyu.edu/physcomp/lessons/
 - https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
 ## In Progress
-- 
+- [[Intro to Physical Computing]]
 ## Completed
 - [[FinTech - Shaping the Financial World]]

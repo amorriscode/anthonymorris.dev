@@ -1,0 +1,65 @@
+[[course]] [[electronics]]
+# Intro to Physical Computing
+- https://itp.nyu.edu/physcomp/
+## Electricity basics
+- [[Electricity]]
+	- Flow of electrical energy through conductive materials
+- Electrical circuit
+	- Power source + components that convert electrical energy into other forms of energy
+- Sensors
+	- Components that convert other forms of energy into electrical energy so they can be read
+	- Switches, knobs, light, motion sensors, etc.
+- Actuators
+	- Components that convert electrical energy into other forms
+	- Light bulbs, motors, LEDs, heaters, etc.
+- Transduction
+	- Process of changing one form of energy into another
+	- Transducers are devices that do this
+- [[Voltage]]
+- [[electric current]]
+- [[Resistance]]
+- Ground
+	- The place in the circuit where potential energy of electrons is zero
+### Voltage <> Current <> Resistance
+- Imagine an avalanche of snow on a mountain
+	- Height of mountain --> voltage
+		- The higher it is, the more potential falling material has
+	- Amount of snow/rocks --> current
+	- Steepness of the mountain --> resistance
+		- Steeper --> less it will resist the flow of snow/rocks
+- Volts = Amps x Ohms
+	- $V = I \times R$
+- Watts = Volts x Amps
+	- $P = V \times I$
+- 
+## Components
+- Conductors
+	- Materials where electrical current moves freely
+- Insulators
+	- Materials which prevent the flow of electricity
+- Resistors
+	- Resist but don't totally block flow of electricity
+	- Used to control flow of current
+		- Current can flow either way through a resistor
+	- Types of resistors
+		- Thermistors
+			- Change resistance in reaction to temperature
+		- Photoresistors
+			- Change resistance in reaction to light
+		- Flex sensors
+			- Change resistance in reaction to being bent/flexed
+		- Force sensing resistors
+			- Change resistance in reaction to force placed on them
+	- Divide voltage when in series
+	- Divide amperage when in parallel
+- Capacitors
+	- Store electricity while current is flowing into them
+	- Release energy when incoming current is removed
+	- Measured by their capacitance in Farads (or microfarads)
+	- Can be polarized so current can only flow through them in one direction
+		- Wiring these backwards can damage the capacitor and your circuit
+	- Will explode if more voltage is applied than what they are rated for
+- Diodes
+	- Permit the flow of electricity in one direction, block in the other direction
+- Transistors
+	- Electrical switching devices
