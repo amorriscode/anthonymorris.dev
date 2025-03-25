@@ -10,7 +10,7 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #26
 - Department of Truth #13
-- Batman #154
+- Batman #157
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #3
 - Something is Killing the Children #38
