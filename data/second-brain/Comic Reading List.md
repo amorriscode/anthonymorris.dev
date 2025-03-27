@@ -10,11 +10,11 @@
 - Killadelphia #6
 - Batman/Superman World's Finest #26
 - Department of Truth #13
-- Batman #157
+- Batman #158
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #3
 - Something is Killing the Children #38
-- Ultimate Spider-Man (2024) #14
+- Ultimate Spider-Man (2024) #15
 - Ultimate X-Men (2024) #12
 - Ultimates #5
 - The Sacrificers #15
