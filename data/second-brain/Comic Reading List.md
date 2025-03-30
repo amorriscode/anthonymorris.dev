@@ -6,9 +6,6 @@
 - https://www.cbr.com/tag/top-100-comic-book-runs/
 - https://www.comicbookherald.com/the-best-comics-of-all-time/
 ## Currently Reading
-- Ice Cream Man #9
-- Killadelphia #6
-- Batman/Superman World's Finest #26
 - Department of Truth #13
 - Batman #158
 - w0rldtr33 #9
@@ -29,7 +26,24 @@
 - Assorted Crisis Events #1
 - Absolute Flash #1
 - Magik #1
-- Kaya #5
+- Kaya #11
+- We're Taking Everyone Down with Us #1
+## On Hold
+- Damn Them All #2
+- Poison Ivy #4
+- The Night Eaters Book 1
+- Monstress Volume 1
+- Nocterra #16 (On hiatus)
+- Junkyard Rabbit #1
+- G.O.D.S #1
+- Phantom Road #10 (on hiatus)
+- Sandman vol 2
+- Witchblade #2
+- Vengeance of the Moon Knight #1
+- White Boat #2
+- Killadelphia #6
+- Ice Cream Man #9
+- Batman/Superman World's Finest #26
 ## Read Later
 - Doctor Strange: Fall Sunrise
 - Junkyard Joe / Geiger
@@ -124,19 +138,6 @@
 - Tin Can Society
 - Archie (Mark Waid/Fiona Staples)
 - Kill or Be Killed
-## On Hold
-- Damn Them All #2
-- Poison Ivy #4
-- The Night Eaters Book 1
-- Monstress Volume 1
-- Nocterra #16 (On hiatus)
-- Junkyard Rabbit #1
-- G.O.D.S #1
-- Phantom Road #10 (on hiatus)
-- Sandman vol 2
-- Witchblade #2
-- Vengeance of the Moon Knight #1
-- White Boat #2
 ## Read
 - Do a Powerbomb!
 - Once & Future
