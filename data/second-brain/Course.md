@@ -33,6 +33,7 @@
 - https://wasmgroundup.com/
 - https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/syllabus/
 - https://ocw.mit.edu/courses/21m-380-music-and-technology-live-electronics-performance-practices-spring-2011/
+- https://littleosbook.github.io/
 ### Imagineering
 - https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
 ## In Progress
