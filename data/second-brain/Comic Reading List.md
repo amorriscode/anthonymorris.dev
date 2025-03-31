@@ -19,7 +19,7 @@
 - TMNT (2024) #4
 - Uncanny X-Men (2024) #12
 - Absolute Batman #6
-- Absolute Wonder Woman #5
+- Absolute Wonder Woman #6
 - Psylocke #2
 - Let This One Be a Devil #1
 - Falling in Love on the Path to Hell #4
@@ -28,6 +28,7 @@
 - Magik #1
 - Kaya #11
 - We're Taking Everyone Down with Us #1
+- You'll Do Bad Things #1
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
