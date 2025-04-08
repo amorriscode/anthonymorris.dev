@@ -12,19 +12,21 @@
 - The Hunger and the Dusk book 2 #3
 - Something is Killing the Children #38
 - Ultimate Spider-Man (2024) #15
-- Ultimate X-Men (2024) #12
-- Ultimates #5
+- Ultimate X-Men (2024) #14
+- Ultimates #7
 - The Sacrificers #15
 - X-Men (2024) #5
 - TMNT (2024) #4
 - Uncanny X-Men (2024) #12
 - Absolute Batman #6
 - Absolute Wonder Woman #6
+- Absolute Martian Manhunter #1
+- Absolute Flash #1
+- Absolute Superman #6
 - Psylocke #2
 - Let This One Be a Devil #1
 - Falling in Love on the Path to Hell #4
 - Assorted Crisis Events #1
-- Absolute Flash #1
 - Magik #1
 - Kaya #11
 - We're Taking Everyone Down with Us #1
