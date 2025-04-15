@@ -18,7 +18,7 @@
 - X-Men (2024) #5
 - TMNT (2024) #4
 - Uncanny X-Men (2024) #12
-- Absolute Batman #6
+- Absolute Batman #7
 - Absolute Wonder Woman #6
 - Absolute Martian Manhunter #1
 - Absolute Flash #1
@@ -31,6 +31,7 @@
 - Kaya #11
 - We're Taking Everyone Down with Us #1
 - You'll Do Bad Things #1
+- The Amazing Spider-Man (2025) #1
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
