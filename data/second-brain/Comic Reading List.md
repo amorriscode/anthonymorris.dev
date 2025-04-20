@@ -21,7 +21,7 @@
 - Absolute Batman #7
 - Absolute Wonder Woman #6
 - Absolute Martian Manhunter #1
-- Absolute Flash #1
+- Absolute Flash #2
 - Absolute Superman #6
 - Psylocke #2
 - Let This One Be a Devil #1
