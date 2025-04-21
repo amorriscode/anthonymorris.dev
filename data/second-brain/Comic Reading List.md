@@ -33,6 +33,7 @@
 - You'll Do Bad Things #1
 - The Amazing Spider-Man (2025) #1
 - Frieren vol 11
+- East of West
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
@@ -70,11 +71,9 @@
 - The Nice House on the Lake
 - Joe Hill's Rain
 - The Sandman Universe: Dead Boy Detectives
-- East of West
 - 100 Bullets
 - Scalped
 - The Nice House on the Lake
-- Supergirl: Woman of Tomorrow
 - Geiger
 - Nottingham
 - Superman Space Age
@@ -88,7 +87,6 @@
 - Transmetropolitan
 - Descender/Ascender
 - Black Science
-- Eight Billion Genies
 - Love Everlasting
 - Indigo Children
 - Monarch
@@ -112,7 +110,6 @@
 - Local Man
 - Jonna and the Unpossible Monsters
 - Kill Your Darlings
-- Rare Flavours
 - Blood of the Virgin by Sammy Harkham
 - All One Life by Jon Strongbow
 - Love & Rockets
@@ -123,7 +120,6 @@
 - What's the Furthest Place from Here?
 - Dawnrunner
 - The Bat-Man: First Knight
-- The Boy Wonder
 - Precious Metal
 - Falling in Love on the Path to Hell
 - Into the Unbeing
@@ -167,3 +163,7 @@
 - Grommets
 - Helen of Wyndhorn
 - The Deviant
+- Supergirl: Woman of Tomorrow
+- The Boy Wonder
+- Rare Flavours
+- Eight Billion Genies
