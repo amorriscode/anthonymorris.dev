@@ -1,17 +1,7 @@
 [[art]] [[learning]]
 
 # Drawing
-
 ## Learn
-
-### Websites
-- [Solo Artist curriculum](https://www.brendanmeachen.com/soloartist)
-- [schoolism](https://schoolism.com/)
-- [Watts Atelier](https://www.wattsatelier.com/online/)
-- [Draw A Box](https://drawabox.com/comic)
-- [New Masters Academy](https://www.nma.art/)
-- http://www.saveloomis.org/
-- https://istebrak.gumroad.com/l/vwhsc?layout=profile
 ### Books
 - [Mike Hawthorne's Anatomy Lectures](https://mikehawthorne.gumroad.com/l/mgfrB)
 - [The Artist's Complete Guide to Facial Expressions](https://www.goodreads.com/en/book/show/1006428)
@@ -28,3 +18,11 @@
 ### Courses
 - [Portrait Sketchbooking](https://www.domestika.org/en/courses/2846-portrait-sketchbooking-explore-the-human-face?ttag=gabrielaniko)
 - [Vibrant Portrait Drawing](https://www.domestika.org/en/courses/4051-vibrant-portrait-drawing-with-colored-pencils/gabrielaniko)
+- [schoolism](https://schoolism.com/)
+- [Watts Atelier](https://www.wattsatelier.com/online/)
+- [Draw A Box](https://drawabox.com/comic)
+- [New Masters Academy](https://www.nma.art/)
+- https://medsmap.mykajabi.com
+- https://creatureartteacher.com
+- https://www.stephenbaumanartwork.com
+- https://www.marcobucciartstore.com
