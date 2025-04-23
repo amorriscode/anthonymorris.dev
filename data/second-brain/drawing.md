@@ -26,3 +26,4 @@
 - https://creatureartteacher.com
 - https://www.stephenbaumanartwork.com
 - https://www.marcobucciartstore.com
+- https://www.ctrlpaint.com
