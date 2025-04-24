@@ -7,7 +7,7 @@
 - https://www.comicbookherald.com/the-best-comics-of-all-time/
 ## Currently Reading
 - Department of Truth #13
-- Batman #158
+- Batman #159
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #3
 - Something is Killing the Children #38
@@ -19,21 +19,20 @@
 - TMNT (2024) #5
 - Uncanny X-Men (2024) #12
 - Absolute Batman #7
-- Absolute Wonder Woman #6
-- Absolute Martian Manhunter #1
+- Absolute Wonder Woman #7
+- Absolute Martian Manhunter #2
 - Absolute Flash #2
 - Absolute Superman #6
 - Psylocke #2
 - Let This One Be a Devil #1
 - Falling in Love on the Path to Hell #4
-- Assorted Crisis Events #1
+- Assorted Crisis Events #2
 - Magik #1
 - Kaya #11
 - We're Taking Everyone Down with Us #1
 - You'll Do Bad Things #1
 - The Amazing Spider-Man (2025) #1
 - Frieren vol 11
-- East of West
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
@@ -167,3 +166,4 @@
 - The Boy Wonder
 - Rare Flavours
 - Eight Billion Genies
+- East of West
