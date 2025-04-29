@@ -36,6 +36,7 @@
 - https://littleosbook.github.io/
 - https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/unified-theory-gc/
 - https://vnav.mit.edu/
+- https://www.coursera.org/learn/electronics
 ### Imagineering
 - https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
 ## In Progress
