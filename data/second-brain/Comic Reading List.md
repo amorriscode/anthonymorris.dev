@@ -11,7 +11,7 @@
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #3
 - Something is Killing the Children #38
-- Ultimate Spider-Man (2024) #15
+- Ultimate Spider-Man (2024) #16
 - Ultimate X-Men (2024) #14
 - Ultimates #7
 - The Sacrificers #15
@@ -29,7 +29,7 @@
 - Assorted Crisis Events #2
 - Magik #1
 - Kaya #11
-- We're Taking Everyone Down with Us #1
+- We're Taking Everyone Down with Us #2
 - You'll Do Bad Things #1
 - The Amazing Spider-Man (2025) #1
 - Frieren vol 11
