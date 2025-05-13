@@ -30,9 +30,10 @@
 - Magik #1
 - Kaya #11
 - We're Taking Everyone Down with Us #2
-- You'll Do Bad Things #1
+- You'll Do Bad Things #2
 - The Amazing Spider-Man (2025) #1
 - Frieren vol 11
+- Lost Fantasy #1
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4

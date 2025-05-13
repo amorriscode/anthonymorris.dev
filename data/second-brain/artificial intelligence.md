@@ -1,9 +1,8 @@
 ---
-aliases: [AI]
+aliases:
+  - AI
 ---
-
 [[technology]] [[computer science]]
-
 # Artificial Intelligence
 - The study of [[computer]] systems that model and apply [[intelligence]] of the [[human]] [[mind]]
 - Branches:

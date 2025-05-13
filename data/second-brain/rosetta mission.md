@@ -1,5 +1,4 @@
 # Rosetta Mission
-
 - Launched in [[2004]]
 - First [[orbit]] around and land on a [[comet]]
 - [[ESA]]

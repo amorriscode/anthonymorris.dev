@@ -1,4 +1,4 @@
-# Computer Memory
+w# Computer Memory
 
 - Think of memory like a set of drawers
   - Each drawer has an address
@@ -53,7 +53,8 @@
     - Sum of seek time and latency
   - **Transfer rate**
     - Rate at which data moves from the disk to memory
-
+    - kasodkasoda
+[[Magnetic tape]]
 ### Magnetic Disks
 
 ![A disk and hard disk drive](/assets/second-brain/2020-09-28-17-45-22.png)
