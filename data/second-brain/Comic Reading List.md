@@ -12,17 +12,17 @@
 - The Hunger and the Dusk book 2 #3
 - Something is Killing the Children #38
 - Ultimate Spider-Man (2024) #16
-- Ultimate X-Men (2024) #14
+- Ultimate X-Men (2024) #15
 - Ultimates #7
 - The Sacrificers #15
 - X-Men (2024) #5
 - TMNT (2024) #5
 - Uncanny X-Men (2024) #12
-- Absolute Batman #7
+- Absolute Batman #8
 - Absolute Wonder Woman #7
 - Absolute Martian Manhunter #2
 - Absolute Flash #2
-- Absolute Superman #6
+- Absolute Superman #7
 - Psylocke #2
 - Let This One Be a Devil #1
 - Falling in Love on the Path to Hell #4
@@ -33,7 +33,7 @@
 - You'll Do Bad Things #2
 - The Amazing Spider-Man (2025) #1
 - Frieren vol 11
-- Lost Fantasy #1
+- Vanishing Point #1
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
