@@ -1,4 +1,4 @@
- [[comics]] [[read]]
+[[comics]] [[read]]
 # Comic Reading List
 - [Comic Reading Orders](https://comicbookreadingorders.com/)
 - [Continuity Guide](https://www.continuityguide.net)
