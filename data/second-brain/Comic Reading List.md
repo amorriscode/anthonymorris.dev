@@ -7,11 +7,11 @@
 - https://www.comicbookherald.com/the-best-comics-of-all-time/
 ## Currently Reading
 - Department of Truth #13
-- Batman #159
+- Batman #160
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #3
 - Something is Killing the Children #38
-- Ultimate Spider-Man (2024) #16
+- Ultimate Spider-Man (2024) #17
 - Ultimate X-Men (2024) #15
 - Ultimates #7
 - The Sacrificers #15
@@ -19,7 +19,7 @@
 - TMNT (2024) #5
 - Uncanny X-Men (2024) #12
 - Absolute Batman #8
-- Absolute Wonder Woman #7
+- Absolute Wonder Woman #8
 - Absolute Martian Manhunter #2
 - Absolute Flash #2
 - Absolute Superman #7
