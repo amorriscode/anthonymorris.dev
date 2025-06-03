@@ -24,10 +24,10 @@
 - Absolute Flash #2
 - Absolute Superman #7
 - Psylocke #2
-- Let This One Be a Devil #1
+- Let This One Be a Devil #2
 - Falling in Love on the Path to Hell #4
 - Assorted Crisis Events #2
-- Magik #1
+- Magik #2
 - Kaya #11
 - We're Taking Everyone Down with Us #2
 - You'll Do Bad Things #2
