@@ -18,7 +18,7 @@
 - X-Men (2024) #5
 - TMNT (2024) #5
 - Uncanny X-Men (2024) #12
-- Absolute Batman #8
+- Absolute Batman #9
 - Absolute Wonder Woman #8
 - Absolute Martian Manhunter #2
 - Absolute Flash #2
@@ -34,6 +34,8 @@
 - The Amazing Spider-Man (2025) #1
 - Frieren vol 11
 - Vanishing Point #1
+- Imperial #1
+- Robin & Batman: Jason Todd #1
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
