@@ -1,5 +1,4 @@
 # Course
-
 ## Want to Take
 - [[Cosmic Origin of the Chemical Elements]]
 - [[Principles of Microeconomics]]
@@ -37,6 +36,7 @@
 - https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/unified-theory-gc/
 - https://vnav.mit.edu/
 - https://www.coursera.org/learn/electronics
+- https://www.neelnanda.io/mechanistic-interpretability/prereqs
 ### Imagineering
 - https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
 ## In Progress
