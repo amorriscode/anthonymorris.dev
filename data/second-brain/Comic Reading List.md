@@ -26,7 +26,7 @@
 - Psylocke #2
 - Let This One Be a Devil #2
 - Falling in Love on the Path to Hell #4
-- Assorted Crisis Events #2
+- Assorted Crisis Events #3
 - Magik #2
 - Kaya #11
 - We're Taking Everyone Down with Us #2
