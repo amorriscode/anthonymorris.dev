@@ -10,7 +10,7 @@
 - Batman #160
 - w0rldtr33 #9
 - The Hunger and the Dusk book 2 #3
-- Something is Killing the Children #38
+- Something is Killing the Children #42
 - Ultimate Spider-Man (2024) #17
 - Ultimate X-Men (2024) #16
 - Ultimates #7
@@ -36,6 +36,7 @@
 - Vanishing Point #1
 - Imperial #1
 - Robin & Batman: Jason Todd #1
+- Exquisite Corpses #2
 ## On Hold
 - Damn Them All #2
 - Poison Ivy #4
