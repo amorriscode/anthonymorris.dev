@@ -6,168 +6,169 @@
 - https://www.cbr.com/tag/top-100-comic-book-runs/
 - https://www.comicbookherald.com/the-best-comics-of-all-time/
 ## Currently Reading
-- Department of Truth #13
-- Batman #160
-- w0rldtr33 #9
-- The Hunger and the Dusk book 2 #3
-- Something is Killing the Children #42
-- Ultimate Spider-Man (2024) #17
-- Ultimate X-Men (2024) #16
-- Ultimates #7
-- The Sacrificers #15
-- X-Men (2024) #5
-- TMNT (2024) #5
-- Uncanny X-Men (2024) #12
 - Absolute Batman #9
-- Absolute Wonder Woman #8
-- Absolute Martian Manhunter #2
 - Absolute Flash #2
+- Absolute Martian Manhunter #4
 - Absolute Superman #8
-- Psylocke #2
-- Let This One Be a Devil #2
-- Falling in Love on the Path to Hell #4
+- Absolute Wonder Woman #8
 - Assorted Crisis Events #3
-- Magik #2
-- Kaya #11
-- We're Taking Everyone Down with Us #2
-- You'll Do Bad Things #2
-- The Amazing Spider-Man (2025) #1
-- Frieren vol 11
-- Vanishing Point #1
-- Imperial #1
-- Robin & Batman: Jason Todd #1
+- Batman #160
+- Department of Truth #13
 - Exquisite Corpses #2
+- Falling in Love on the Path to Hell #4
+- Frieren vol 11
+- Imperial #1
+- Kaya #11
+- Let This One Be a Devil #2
+- Magik #2
+- Nullhunter #1
+- Psylocke #2
+- Robin & Batman: Jason Todd #1
+- Something is Killing the Children #42
+- The Amazing Spider-Man (2025) #1
+- The Hunger and the Dusk book 2 #3
+- The Sacrificers #15
+- TMNT (2024) #5
+- Ultimates #7
+- Ultimate Spider-Man (2024) #18
+- Ultimate X-Men (2024) #16
+- Uncanny X-Men (2024) #12
+- Vanishing Point #1
+- w0rldtr33 #9
+- We're Taking Everyone Down with Us #2
+- X-Men (2024) #5
+- You'll Do Bad Things #2
 ## On Hold
+- Batman/Superman World's Finest #26
 - Damn Them All #2
-- Poison Ivy #4
-- The Night Eaters Book 1
+- G.O.D.S #1
+- Ice Cream Man #9
+- Junkyard Rabbit #1
+- Killadelphia #6
 - Monstress Volume 1
 - Nocterra #16 (On hiatus)
-- Junkyard Rabbit #1
-- G.O.D.S #1
 - Phantom Road #10 (on hiatus)
+- Poison Ivy #4
 - Sandman vol 2
-- Witchblade #2
+- The Night Eaters Book 1
 - Vengeance of the Moon Knight #1
 - White Boat #2
-- Killadelphia #6
-- Ice Cream Man #9
-- Batman/Superman World's Finest #26
+- Witchblade #2
 ## Read Later
-- Doctor Strange: Fall Sunrise
-- Junkyard Joe / Geiger
-- Black Cloak
-- Die by Kieron Gillen
-- The Wicked + The Divine
-- Gideon Falls
-- Paper Girls
-- Once Upon a Time At The End of The World
-- Immortal X-Men by Kieron Gillen (2022)
+- 100 Bullets
+- Aint No Grave
+- Alan Scott: The Green Lantern
+- All Against All
+- All One Life by Jon Strongbow
+- And We Love You
+- Archie (Mark Waid/Fiona Staples)
+- Art Brut
+- Batman: City of Madness
 - Batman/Superman World's Finest
-- Mighty Morphin Power Rangers / TMNT
-- Miles Morales: Spider-Man by Cody Ziglar (2023)
 - Batman & The Joker: The Deadly Duo
-- The Human Target
+- Black Cloak
+- Black Science
+- Blood of the Virgin by Sammy Harkham
+- Children of the Black Sun
+- Darth Vader: Black, White & Red #1
+- Dawnrunner
+- Deep Cuts
+- Descender/Ascender
+- Die by Kieron Gillen
+- Doctor Strange: Fall Sunrise
+- Falling in Love on the Path to Hell
+- Finder: Talisman
+- For As Long As It Rains
+- Fuck My Son by Johnny Ryan
+- Geiger
+- Gideon Falls
+- God Country
+- Hexagon Bridge
+- Hypericum
+- I Hate This Place / Fuck This Place
+- Immortal X-Men by Kieron Gillen (2022)
+- Impossible People
+- Indigo Children
+- Inescapable
+- Infidel
+- Into the Unbeing
+- Joe Hill's Rain
 - John Constantine: Hellblazer
 - John Constantine: Hellblazer: Dead in America
-- The Me You Love in the Dark
-- The Nice House on the Lake
-- Joe Hill's Rain
-- The Sandman Universe: Dead Boy Detectives
-- 100 Bullets
-- Scalped
-- The Nice House on the Lake
-- Geiger
-- Nottingham
-- Superman Space Age
-- Children of the Black Sun
-- And We Love You
-- God Country
-- I Hate This Place / Fuck This Place
-- Infidel
-- Little Monsters
-- All Against All
-- Transmetropolitan
-- Descender/Ascender
-- Black Science
-- Love Everlasting
-- Indigo Children
-- Monarch
-- Traveling to Mars
-- Nemesis Reloaded
-- Organisms from an Ancient Cosmos
-- Neoforest
-- PeePee-PooPoo
-- Inescapable
-- Darth Vader: Black, White & Red #1
-- Fuck My Son by Johnny Ryan
-- Art Brut
-- Now by Peter Bagge
-- Storyboarding for Wim: Visions of Wenders
-- The Extraordinary Part
-- Impossible People
-- Night Fever by Brubaker
-- Miss Truesdale and the Fall of Hyperborea
-- Deep Cuts
-- Hexagon Bridge
-- Local Man
 - Jonna and the Unpossible Monsters
+- Junkyard Joe / Geiger
+- Kill or Be Killed
 - Kill Your Darlings
-- Blood of the Virgin by Sammy Harkham
-- All One Life by Jon Strongbow
+- Little Monsters
+- Local Man
+- Love Everlasting
 - Love & Rockets
+- Mighty Morphin Power Rangers / TMNT
+- Miles Morales: Spider-Man by Cody Ziglar (2023)
+- Minor Arcana
+- Miss Truesdale and the Fall of Hyperborea
+- Monarch
+- Nemesis Reloaded
+- Neoforest
+- Night Fever by Brubaker
+- Nottingham
+- Now by Peter Bagge
+- Once Upon a Time At The End of The World
+- Organisms from an Ancient Cosmos
+- Paper Girls
+- PeePee-PooPoo
+- Plastic: Death & Dolls
+- Precious Metal
+- Scalped
+- Storyboarding for Wim: Visions of Wenders
+- Superman Space Age
+- The Bat-Man: First Knight
+- The Extraordinary Part
+- The Hard Switch
+- The Human Target
+- The Me You Love in the Dark
+- The Moon is Following Us
+- The Nice House on the Lake
+- The Nice House on the Lake
+- The One Hand
+- The Power Fantasy
+- The Sandman Universe: Dead Boy Detectives
+- The Smell of Starving Boys
+- The Unbeing
+- The Wicked + The Divine
+- Tin Can Society
+- Transmetropolitan
+- Traveling to Mars
+- What's the Furthest Place from Here?
 - Wonder Woman by Tom King
 - Wytches
-- Batman: City of Madness
-- Alan Scott: The Green Lantern
-- What's the Furthest Place from Here?
-- Dawnrunner
-- The Bat-Man: First Knight
-- Precious Metal
-- Falling in Love on the Path to Hell
-- Into the Unbeing
-- Plastic: Death & Dolls
-- The Smell of Starving Boys
-- The Hard Switch
-- For As Long As It Rains
-- Hypericum
-- The One Hand
-- Finder: Talisman
 - Zatanna: Bring Down the House
-- Aint No Grave
-- The Unbeing
-- The Power Fantasy
-- The Moon is Following Us
-- Minor Arcana
-- Tin Can Society
-- Archie (Mark Waid/Fiona Staples)
-- Kill or Be Killed
 ## Read
-- Do a Powerbomb!
-- Once & Future
-- Batman One Bad Day: Clayface
-- The Good Asian
-- Blink
-- Hitomi
-- Swamp Thing: Green Hell
 - Ambassadors
-- Where Monsters Lie
-- Batman-Santa Claus: Silent Knight
--  Moon Knight (2021)
-- House of X
-- Powers of X
-- The Cull
 - Avengers Twilight
-- It's Lonely at the Centre of the Earth
-- In by Will McPhail
+- Batman One Bad Day: Clayface
+- Batman-Santa Claus: Silent Knight
 - Beneath The Trees Where Nobody Sees
-- Tokyo Ghost
-- Swan Songs
+- Blink
+- Do a Powerbomb!
+- East of West
+- Eight Billion Genies
 - Grommets
 - Helen of Wyndhorn
-- The Deviant
-- Supergirl: Woman of Tomorrow
-- The Boy Wonder
+- Hitomi
+- House of X
+- In by Will McPhail
+- It's Lonely at the Centre of the Earth
+-  Moon Knight (2021)
+- Once & Future
+- Powers of X
 - Rare Flavours
-- Eight Billion Genies
-- East of West
+- Supergirl: Woman of Tomorrow
+- Swamp Thing: Green Hell
+- Swan Songs
+- The Boy Wonder
+- The Cull
+- The Deviant
+- The Good Asian
+- Tokyo Ghost
+- Where Monsters Lie
