@@ -6,12 +6,12 @@
 - https://www.cbr.com/tag/top-100-comic-book-runs/
 - https://www.comicbookherald.com/the-best-comics-of-all-time/
 ## Currently Reading
-- Absolute Batman #9
+- Absolute Batman #10
 - Absolute Flash #2
 - Absolute Martian Manhunter #4
 - Absolute Superman #8
-- Absolute Wonder Woman #8
-- Assorted Crisis Events #3
+- Absolute Wonder Woman #9
+- Assorted Crisis Events #4
 - Batman #160
 - Department of Truth #13
 - Exquisite Corpses #2
@@ -19,8 +19,8 @@
 - Frieren vol 11
 - Imperial #1
 - Kaya #11
-- Let This One Be a Devil #2
 - Magik #2
+- News from the Fallout #1
 - Nullhunter #1
 - Psylocke #2
 - Robin & Batman: Jason Todd #1
@@ -32,12 +32,12 @@
 - Ultimates #7
 - Ultimate Spider-Man (2024) #18
 - Ultimate X-Men (2024) #16
-- Uncanny X-Men (2024) #12
+- Uncanny X-Men (2024) #1
 - Vanishing Point #1
 - w0rldtr33 #9
 - We're Taking Everyone Down with Us #2
 - X-Men (2024) #5
-- You'll Do Bad Things #2
+- You'll Do Bad Things #4
 ## On Hold
 - Batman/Superman World's Finest #26
 - Damn Them All #2
@@ -54,6 +54,7 @@
 - Vengeance of the Moon Knight #1
 - White Boat #2
 - Witchblade #2
+- Let This One Be a Devil #2
 ## Read Later
 - 100 Bullets
 - Aint No Grave
