@@ -37,6 +37,7 @@
 - https://vnav.mit.edu/
 - https://www.coursera.org/learn/electronics
 - https://www.neelnanda.io/mechanistic-interpretability/prereqs
+- https://devouringdetails.com/introduction
 ### Imagineering
 - https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
 ## In Progress
