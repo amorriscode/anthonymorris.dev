@@ -13,6 +13,7 @@
 - Absolute Wonder Woman #9
 - Assorted Crisis Events #4
 - Batman #160
+- Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Department of Truth #13
 - Exquisite Corpses #2
 - Falling in Love on the Path to Hell #4
@@ -30,7 +31,7 @@
 - The Sacrificers #15
 - TMNT (2024) #5
 - Ultimates #7
-- Ultimate Spider-Man (2024) #18
+- Ultimate Spider-Man (2024) #19
 - Ultimate X-Men (2024) #16
 - Uncanny X-Men (2024) #1
 - Vanishing Point #1
