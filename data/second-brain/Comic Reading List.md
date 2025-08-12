@@ -9,15 +9,16 @@
 - Absolute Batman #10
 - Absolute Flash #2
 - Absolute Martian Manhunter #4
-- Absolute Superman #8
+- Absolute Superman #10
 - Absolute Wonder Woman #9
-- Assorted Crisis Events #4
+- Assorted Crisis Events #5
 - Batman #160
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Department of Truth #13
 - Exquisite Corpses #2
 - Falling in Love on the Path to Hell #4
-- Frieren vol 11
+- Gehenna #1
+- Frieren vol 12
 - Imperial #1
 - Kaya #11
 - Magik #2
@@ -26,15 +27,14 @@
 - Psylocke #2
 - Robin & Batman: Jason Todd #1
 - Something is Killing the Children #42
+- Speed Racer #1
 - The Amazing Spider-Man (2025) #1
-- The Hunger and the Dusk book 2 #3
 - The Sacrificers #15
 - TMNT (2024) #5
 - Ultimates #7
 - Ultimate Spider-Man (2024) #19
 - Ultimate X-Men (2024) #16
 - Uncanny X-Men (2024) #1
-- Vanishing Point #1
 - w0rldtr33 #9
 - We're Taking Everyone Down with Us #2
 - X-Men (2024) #5
@@ -53,9 +53,6 @@
 - Sandman vol 2
 - The Night Eaters Book 1
 - Vengeance of the Moon Knight #1
-- White Boat #2
-- Witchblade #2
-- Let This One Be a Devil #2
 ## Read Later
 - 100 Bullets
 - Aint No Grave
