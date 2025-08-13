@@ -12,7 +12,7 @@
 - Absolute Superman #10
 - Absolute Wonder Woman #9
 - Assorted Crisis Events #5
-- Batman #160
+- Batman #161
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Department of Truth #13
 - Exquisite Corpses #2
