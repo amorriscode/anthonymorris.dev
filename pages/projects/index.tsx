@@ -62,143 +62,144 @@ function Projects({
     })
   })
 
-  return <>
-    <NextSeo
-      title="Projects"
-      description="My personal Google Graveyard."
-      openGraph={{
-        title: 'Projects',
-        description: 'My personal Google Graveyard.',
-      }}
-    />
+  return (
+    <>
+      <NextSeo
+        title="Projects"
+        description="My personal Google Graveyard."
+        openGraph={{
+          title: 'Projects',
+          description: 'My personal Google Graveyard.',
+        }}
+      />
 
-    <header>
-      <h1 className="text-3xl">Projects</h1>
+      <header>
+        <h1 className="text-3xl">Projects</h1>
 
-      <PageSummary>
-        <p>
-          My father was always a handyperson. He worked on all sorts of things
-          around the house with varying degrees of success (he almost lost his
-          fingers in a fight with a table saw).
-        </p>
+        <PageSummary>
+          <p>
+            My father was always a handyperson. He worked on all sorts of things
+            around the house with varying degrees of success (he almost lost his
+            fingers in a fight with a table saw).
+          </p>
 
-        <p>
-          I never got that gift. I was awkward, clumsy, and preferred playing
-          on the computer. This lead me to{' '}
-          <Link href="/second-brain/programming">
-            programming
-          </Link>{' '}
-          .{' '}
-          <span className="italic font-fanwood text-xl">
-            That is how I learned to build
-          </span>
-          .
-        </p>
+          <p>
+            I never got that gift. I was awkward, clumsy, and preferred playing
+            on the computer. This lead me to{' '}
+            <Link href="/second-brain/programming">programming</Link> .{' '}
+            <span className="italic font-fanwood text-xl">
+              That is how I learned to build
+            </span>
+            .
+          </p>
 
-        <p>
-          This is my collection of projects. Big and small. Software and
-          hardware. It&apos;s kind of like my very{' '}
-          <a
-            href="https://killedbygoogle.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Google Graveyard
-          </a>
-          .
-        </p>
-      </PageSummary>
-    </header>
+          <p>
+            This is my collection of projects. Big and small. Software and
+            hardware. It&apos;s kind of like my very{' '}
+            <a
+              href="https://killedbygoogle.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Graveyard
+            </a>
+            .
+          </p>
+        </PageSummary>
+      </header>
 
-    <section className="mt-6 mb-12 border border-stone-800 bg-opacity-20 bg-stone-800 rounded-lg p-8">
-      <p className="text-sm mb-5 text-stone-500 w-full">Stats</p>
+      <section className="mt-6 mb-12 border border-stone-800 bg-opacity-20 bg-stone-800 rounded-lg p-8">
+        <p className="text-sm mb-5 text-stone-500 w-full">Stats</p>
 
-      <div className="space-y-2">
-        <ProjectLifeStateLine
-          stat="Longest living project"
-          count={longestLivingProject.daysAlive}
-          width="100%"
-          duration={2000}
-        />
+        <div className="space-y-2">
+          <ProjectLifeStateLine
+            stat="Longest living project"
+            count={longestLivingProject.daysAlive}
+            width="100%"
+            duration={2000}
+          />
 
-        <ProjectLifeStateLine
-          stat="Shortest living project"
-          count={shortestLivingProject.daysAlive}
-          width={`${
-            (shortestLivingProject.daysAlive /
-              longestLivingProject.daysAlive) *
-            100
-          }%`}
-          duration={1000}
-          delay={700}
-        />
+          <ProjectLifeStateLine
+            stat="Shortest living project"
+            count={shortestLivingProject.daysAlive}
+            width={`${
+              (shortestLivingProject.daysAlive /
+                longestLivingProject.daysAlive) *
+              100
+            }%`}
+            duration={1000}
+            delay={700}
+          />
 
-        <ProjectLifeStateLine
-          stat="Average life of a project"
-          count={averageLifeOfProjects}
-          width={`${
-            (averageLifeOfProjects / longestLivingProject.daysAlive) * 100
-          }%`}
-          duration={1500}
-          delay={1000}
-        />
-      </div>
+          <ProjectLifeStateLine
+            stat="Average life of a project"
+            count={averageLifeOfProjects}
+            width={`${
+              (averageLifeOfProjects / longestLivingProject.daysAlive) * 100
+            }%`}
+            duration={1500}
+            delay={1000}
+          />
+        </div>
 
-      <div className="grid grid-cols-2 mt-8 gap-8">
-        <div className="bg-stone-900 border border-stone-800 p-8 rounded-lg flex flex-col items-center justify-center">
-          <div className="text-2xl mb-1">
-            ~<CountUp end={usersImpacted} />
+        <div className="grid grid-cols-2 mt-8 gap-8">
+          <div className="bg-stone-900 border border-stone-800 p-8 rounded-lg flex flex-col items-center justify-center">
+            <div className="text-2xl mb-1">
+              ~<CountUp end={usersImpacted} />
+            </div>
+            <div className="text-xs text-stone-400 uppercase">
+              humans impacted
+            </div>
           </div>
-          <div className="text-xs text-stone-400 uppercase">users</div>
-        </div>
 
-        <div className="bg-stone-900 border border-stone-800 p-8 rounded-lg flex flex-col items-center justify-center">
-          <div className="text-2xl mb-1">
-            $<CountUp end={revenue} />
+          <div className="bg-stone-900 border border-stone-800 p-8 rounded-lg flex flex-col items-center justify-center">
+            <div className="text-2xl mb-1">
+              $<CountUp end={revenue} />
+            </div>
+            <div className="text-xs text-stone-400 uppercase">revenue</div>
           </div>
-          <div className="text-xs text-stone-400 uppercase">revenue</div>
         </div>
+      </section>
+
+      <div className="space-y-12">
+        <section>
+          <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
+            Projects holding on for dear life
+          </p>
+
+          <div className="space-y-8">
+            {liveProjects?.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
+            Press F to pay respects
+          </p>
+
+          <div className="space-y-8">
+            {deadProjects?.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
+            Projects hacked together for fun and prophet
+          </p>
+
+          <div className="space-y-8">
+            {hackProjects?.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        </section>
       </div>
-    </section>
-
-    <div className="space-y-12">
-      <section>
-        <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
-          Projects holding on for dear life
-        </p>
-
-        <div className="space-y-8">
-          {liveProjects?.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
-          ))}
-        </div>
-      </section>
-
-      <section>
-        <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
-          Press F to pay respects
-        </p>
-
-        <div className="space-y-8">
-          {deadProjects?.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
-          ))}
-        </div>
-      </section>
-
-      <section>
-        <p className="text-sm mb-5 pb-5 border-b border-stone-500 text-stone-500">
-          Projects hacked together for fun and prophet
-        </p>
-
-        <div className="space-y-8">
-          {hackProjects?.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
-          ))}
-        </div>
-      </section>
-    </div>
-  </>;
+    </>
+  )
 }
 
 const getProjectsByStatus = (projects: Project[], statusFilter: string) => {

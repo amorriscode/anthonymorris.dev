@@ -3,7 +3,7 @@ title: "stx.me"
 description: "stx.me allows anyone to easily receive STX donations on their website."
 date: "2021-04-11T00:00:00"
 launchDate: "2021-04-01T00:00:00"
-status: "live"
+status: "hack"
 revenue: 5000
 ---
 
@@ -56,6 +56,6 @@ I was pretty impressed with the documentation and developer experience of the li
 
 [stx.me on GitHub](https://github.com/amorriscode/stx-me)
 
-[stx.me website](https://getstx.me)
+[stx.me website](https://stx-me-website.vercel.app/)
 
 [stx.me on Product Hunt](https://www.producthunt.com/posts/stx-me)
