@@ -22,7 +22,7 @@
 - Imperial #1
 - Kaya #11
 - Magik #2
-- News from the Fallout #1
+- News from the Fallout #2
 - Nullhunter #1
 - Psylocke #2
 - Robin & Batman: Jason Todd #1
