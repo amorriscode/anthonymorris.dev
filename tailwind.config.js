@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         fanwood: ['Fanwood Text', 'serif'],
-        hammersmith: ['Hammersmith One', 'sans-serif'],
+        mono: ['Space Mono', 'monospace'],
         tenor: ['Tenor Sans', 'sans-serif'],
       },
     },

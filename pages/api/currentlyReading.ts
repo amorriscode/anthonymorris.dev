@@ -14,19 +14,14 @@ const currentlyReadingApi = async (
   )
 
   const parsedReadingShelf = await parseStringPromise(await readingShelf.text())
-
-  const currentlyReading: CurrentlyReadingBook[] = []
-
-  parsedReadingShelf?.GoodreadsResponse?.reviews[0]?.review.forEach(
-    (review: any) => {
-      currentlyReading.push({
-        title: review?.book[0]?.title_without_series[0].split(':')[0],
-        author: review?.book[0]?.authors[0]?.author[0]?.name[0],
-        startedDate: new Date(review?.started_at[0]).toDateString(),
-        goodreadsUrl: review?.book[0]?.link[0],
-      })
-    }
-  )
+  const currentlyReading: CurrentlyReadingBook[] = (
+    parsedReadingShelf?.GoodreadsResponse?.reviews[0]?.review ?? []
+  ).map((review: any) => ({
+    title: review?.book[0]?.title_without_series[0].split(':')[0],
+    author: review?.book[0]?.authors[0]?.author[0]?.name[0],
+    startedDate: new Date(review?.started_at[0]).toDateString(),
+    goodreadsUrl: review?.book[0]?.link[0],
+  }))
 
   res.statusCode = 200
   res.setHeader('Content-Type', 'application/json')

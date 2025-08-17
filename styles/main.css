@@ -6,10 +6,6 @@ body::-webkit-scrollbar {
   width: 0.6em;
 }
  
-body::-webkit-scrollbar-track {
-
-}
- 
 body::-webkit-scrollbar-thumb {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   outline: 1px solid #292524;
@@ -61,7 +57,7 @@ h2,
 h3,
 h4,
 h5 {
-  @apply flex text-stone-100 font-hammersmith !important;
+  @apply flex text-stone-100 font-mono !important;
 }
 
 h1 a,

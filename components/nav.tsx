@@ -10,10 +10,9 @@ function Nav({ handleSearchClick }: { handleSearchClick: () => void }) {
     <nav className="space-y-4">
       <Link
         href="/"
-        className="text-stone-100 font-hammersmith mb-4 hover:text-stone-100">
-        
-          Anthony Morris
-        
+        className="text-stone-100 font-mono mb-4 hover:text-stone-100"
+      >
+        Anthony Morris
       </Link>
 
       {/* <div
@@ -39,7 +38,7 @@ function Nav({ handleSearchClick }: { handleSearchClick: () => void }) {
         <NavLink title="uses" />
       </div>
     </nav>
-  );
+  )
 }
 
 export default Nav

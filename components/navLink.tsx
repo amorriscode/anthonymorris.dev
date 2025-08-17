@@ -8,19 +8,16 @@ function NavLink({ title, path }: { title: string; path?: string }) {
   const isActive = router.pathname.includes(linkPath)
 
   return (
-    (<Link
+    <Link
       href={linkPath}
       className={classnames(
-        {
-          'text-purple-400': isActive,
-        },
-        'w-fit text-stone-500 hover:text-purple-400 no-underline'
-      )}>
-
+        isActive ? 'text-purple-400' : 'text-stone-500',
+        'w-fit hover:text-purple-400 no-underline'
+      )}
+    >
       {title}
-
-    </Link>)
-  );
+    </Link>
+  )
 }
 
 export default NavLink

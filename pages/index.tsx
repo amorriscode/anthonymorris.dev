@@ -1,5 +1,4 @@
 import { NextSeo } from 'next-seo'
-import { useState } from 'react'
 import { GetServerSideProps } from 'next'
 
 import NavLink from '../components/navLink'
@@ -18,7 +17,7 @@ function Home({ greeting }: { greeting: string }) {
       />
 
       <div className="mx-auto max-w-2xl">
-        <h1 className="text-stone-100 font-hammersmith mb-4">Anthony Morris</h1>
+        <h1 className="text-stone-100 font-mono mb-4">Anthony Morris</h1>
 
         <p className="text-stone-500">{greeting}</p>
         <p className="text-stone-500">san francisco, california</p>
@@ -50,7 +49,10 @@ function Home({ greeting }: { greeting: string }) {
               Twitter
             </Link>
             ,{' '}
-            <Link href="https://www.linkedin.com/in/amorriscode/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/amorriscode/"
+              target="_blank"
+            >
               LinkedIn
             </Link>
             ,{' '}
@@ -60,7 +62,8 @@ function Home({ greeting }: { greeting: string }) {
             , or{' '}
             <Link
               href="https://www.goodreads.com/user/show/5171404-anthony"
-              target="_blank">
+              target="_blank"
+            >
               Goodreads
             </Link>
             .
@@ -68,20 +71,17 @@ function Home({ greeting }: { greeting: string }) {
         </section>
 
         <section>
-          <h2 className="text-stone-100 font-hammersmith mb-4">Now</h2>
+          <h2 className="text-stone-100 font-mono mb-4">Now</h2>
 
           <p className="prose">
-            I&apos;m currently imagining what{' '}
-            <Link href="/life">
-              life
-            </Link>{' '}
+            I&apos;m currently imagining what <Link href="/life">life</Link>{' '}
             I&apos;ll be proud of ten years from now. Working backward from
             there.
           </p>
         </section>
 
         <section className="flex flex-col">
-          <h2 className="text-stone-100 font-hammersmith mb-4">The Garden</h2>
+          <h2 className="text-stone-100 font-mono mb-4">The Garden</h2>
 
           <NavLink title="second brain" path="/second-brain" />
 
@@ -99,7 +99,7 @@ function Home({ greeting }: { greeting: string }) {
         </section>
       </main>
     </div>
-  );
+  )
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
