@@ -5,8 +5,9 @@
 - [Spider-Man 616 Chronology](https://docs.google.com/spreadsheets/d/1z_Ug8gASt3NFLDSXKn7-XOuPLhbemez55798BRL7t-k)
 - https://www.cbr.com/tag/top-100-comic-book-runs/
 - https://www.comicbookherald.com/the-best-comics-of-all-time/
+- https://goodokbad.com/dailyrec/
 ## Currently Reading
-- Absolute Batman #10
+- Absolute Batman #11
 - Absolute Flash #2
 - Absolute Martian Manhunter #4
 - Absolute Superman #10
