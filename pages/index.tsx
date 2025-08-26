@@ -141,7 +141,10 @@ export const getServerSideProps: GetServerSideProps = async () => {
     "Anthony'); DROP TABLE users;--",
   ]
 
-  const { base64 } = await getPlaiceholder('/assets/profile.png', { size: 4 })
+  const { base64 } = await getPlaiceholder(
+    'https://anthonymorris.dev/assets/profile.png',
+    { size: 4 }
+  )
 
   return {
     props: {
