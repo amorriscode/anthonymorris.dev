@@ -1,6 +1,6 @@
 ---
 title: "I can has flag?"
-description: "Reflections on my first security competition."
+description: "My first ever security competition"
 date: "2024-03-14T00:00:00"
 tags: ["Hacking", "Security"]
 heroImage: "/assets/words/i-can-has-flag/hero.jpg"

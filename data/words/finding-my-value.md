@@ -1,6 +1,6 @@
 ---
 title: 'Finding My Value'
-description: "From one goal to the next, I've struggled with proving my worth."
+description: "From one goal to the next, how do I prove my worth?"
 date: '2021-04-12T00:00:00'
 tags: ['Imposter Syndrome', 'Self-Worth', 'Self-Development']
 heroImage: '/assets/words/finding-my-value/hero-image.jpg'

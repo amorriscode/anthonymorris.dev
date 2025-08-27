@@ -1,6 +1,6 @@
 ---
 title: "Obtaining Your Ideal Software Job"
-description: "My process resources and tips I use when job hunting."
+description: "My process resources and tips I use when job hunting"
 date: "2021-12-24T00:00:00"
 tags: ["Job Hunt", "Software Engineering"]
 ---

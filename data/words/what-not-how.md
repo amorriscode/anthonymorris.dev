@@ -1,6 +1,6 @@
 ---
 title: "What Not How"
-description: "Putting the ego aside and focusing on users."
+description: "Putting ego aside and focusing on users"
 date: "2020-09-04T00:00:00"
 tags: ["Essay", "Opinion"]
 heroImage: "/assets/words/what-not-how/hero-image.jpg"

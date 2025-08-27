@@ -1,6 +1,6 @@
 ---
 title: "2020 Year in Review: Pandemonium"
-description: "A year we won't soon forget."
+description: "A year we won't soon forget"
 date: "2020-12-30T00:00:00"
 tags: ["Yearly Review"]
 heroImage: "/assets/words/2020-year-in-review/hero-image.jpg"

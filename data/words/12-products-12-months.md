@@ -1,6 +1,6 @@
 ---
 title: "12 Products in 12 Months"
-description: "Building one product every month for the entire year."
+description: "Building one product every month for the entire year"
 date: "2022-01-01T00:00:00"
 tags: ["Building", "Product Development"]
 heroImage: "/assets/words/12-products-12-months/hero-image.jpg"

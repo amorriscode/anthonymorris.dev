@@ -1,6 +1,6 @@
 ---
 title: "Building From Source"
-description: "Going back to my roots and playing sys admin."
+description: "Going back to my roots and playing sys admin"
 date: "2021-09-29T00:00:00"
 tags: ["OpenBSD", "Linux", "Programming"]
 ---

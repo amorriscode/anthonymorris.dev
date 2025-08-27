@@ -1,6 +1,6 @@
 ---
 title: "Why (and How) to Study Philosophy"
-description: "Reflecting on Paul Graham's thoughts on philosophy."
+description: "Reflecting on Paul Graham's thoughts on philosophy"
 date: "2020-09-11T00:00:00"
 tags: ["Essay", "Opinion"]
 heroImage: "/assets/words/why-and-how-to-study-philosophy/hero-image.jpg"
