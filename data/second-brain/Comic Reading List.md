@@ -9,7 +9,7 @@
 ## Currently Reading
 - Absolute Batman #11
 - Absolute Flash #2
-- Absolute Martian Manhunter #4
+- Absolute Martian Manhunter #6
 - Absolute Superman #10
 - Absolute Wonder Woman #9
 - Assorted Crisis Events #5
@@ -33,13 +33,12 @@
 - The Sacrificers #15
 - TMNT (2024) #5
 - Ultimates #7
-- Ultimate Spider-Man (2024) #19
+- Ultimate Spider-Man (2024) #20
 - Ultimate X-Men (2024) #16
 - Uncanny X-Men (2024) #1
 - w0rldtr33 #9
 - We're Taking Everyone Down with Us #2
 - X-Men (2024) #5
-- You'll Do Bad Things #4
 ## On Hold
 - Batman/Superman World's Finest #26
 - Damn Them All #2
@@ -172,3 +171,4 @@
 - The Good Asian
 - Tokyo Ghost
 - Where Monsters Lie
+- You'll Do Bad Things
