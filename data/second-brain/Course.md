@@ -38,6 +38,7 @@
 - https://www.coursera.org/learn/electronics
 - https://www.neelnanda.io/mechanistic-interpretability/prereqs
 - https://devouringdetails.com/introduction
+- https://docs.google.com/document/d/1qyBUjkeYUfF4LhJux0dwJItQxDxmoxDRoXPVeQGUAU0/edit?tab=t.0#heading=h.dvxitcfrcedh
 ### Imagineering
 - https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
 ## In Progress
