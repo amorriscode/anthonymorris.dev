@@ -14,21 +14,24 @@
 - Absolute Wonder Woman #9
 - Assorted Crisis Events #5
 - Batman #161
+- Batman (2025) #1
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Department of Truth #13
 - Exquisite Corpses #2
 - Falling in Love on the Path to Hell #4
-- Gehenna #1
 - Frieren vol 12
+- Gehenna #1
 - Imperial #1
 - Kaya #11
-- Magik #2
+- Magik #3
+- Masterminds #1
 - News from the Fallout #2
 - Nullhunter #1
 - Psylocke #2
 - Robin & Batman: Jason Todd #1
 - Something is Killing the Children #42
 - Speed Racer #1
+- Superman: The Kryptonite Spectrum #1
 - The Amazing Spider-Man (2025) #1
 - The Sacrificers #15
 - TMNT (2024) #5
@@ -36,23 +39,21 @@
 - Ultimate Spider-Man (2024) #20
 - Ultimate X-Men (2024) #16
 - Uncanny X-Men (2024) #1
+- Universal Monsters: The Invisible Man #1
 - w0rldtr33 #9
 - We're Taking Everyone Down with Us #2
 - X-Men (2024) #5
 ## On Hold
 - Batman/Superman World's Finest #26
 - Damn Them All #2
-- G.O.D.S #1
 - Ice Cream Man #9
-- Junkyard Rabbit #1
 - Killadelphia #6
 - Monstress Volume 1
-- Nocterra #16 (On hiatus)
+- Nocterra #16 (on hiatus)
 - Phantom Road #10 (on hiatus)
 - Poison Ivy #4
 - Sandman vol 2
 - The Night Eaters Book 1
-- Vengeance of the Moon Knight #1
 ## Read Later
 - 100 Bullets
 - Aint No Grave
@@ -70,12 +71,9 @@
 - Blood of the Virgin by Sammy Harkham
 - Children of the Black Sun
 - Darth Vader: Black, White & Red #1
-- Dawnrunner
 - Deep Cuts
 - Descender/Ascender
-- Die by Kieron Gillen
 - Doctor Strange: Fall Sunrise
-- Falling in Love on the Path to Hell
 - Finder: Talisman
 - For As Long As It Rains
 - Fuck My Son by Johnny Ryan
@@ -85,8 +83,8 @@
 - Hexagon Bridge
 - Hypericum
 - I Hate This Place / Fuck This Place
+- Ionheart
 - Immortal X-Men by Kieron Gillen (2022)
-- Impossible People
 - Indigo Children
 - Inescapable
 - Infidel
@@ -95,7 +93,6 @@
 - John Constantine: Hellblazer
 - John Constantine: Hellblazer: Dead in America
 - Jonna and the Unpossible Monsters
-- Junkyard Joe / Geiger
 - Kill or Be Killed
 - Kill Your Darlings
 - Little Monsters
@@ -149,6 +146,8 @@
 - Batman-Santa Claus: Silent Knight
 - Beneath The Trees Where Nobody Sees
 - Blink
+- Dawnrunner
+- Die
 - Do a Powerbomb!
 - East of West
 - Eight Billion Genies
@@ -156,6 +155,7 @@
 - Helen of Wyndhorn
 - Hitomi
 - House of X
+- Impossible People
 - In by Will McPhail
 - It's Lonely at the Centre of the Earth
 -  Moon Knight (2021)
