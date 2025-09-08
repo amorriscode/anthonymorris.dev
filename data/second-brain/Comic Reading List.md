@@ -10,17 +10,17 @@
 - Absolute Batman #11
 - Absolute Flash #2
 - Absolute Martian Manhunter #6
-- Absolute Superman #10
+- Absolute Superman #11
 - Absolute Wonder Woman #9
 - Assorted Crisis Events #5
 - Batman #161
 - Batman (2025) #1
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Department of Truth #13
-- Exquisite Corpses #2
+- Exquisite Corpses #4
 - Falling in Love on the Path to Hell #4
 - Frieren vol 12
-- Gehenna #1
+- Gehenna #2
 - Imperial #1
 - Kaya #11
 - Magik #3
@@ -28,9 +28,8 @@
 - News from the Fallout #2
 - Nullhunter #1
 - Psylocke #2
-- Robin & Batman: Jason Todd #1
 - Something is Killing the Children #42
-- Speed Racer #1
+- Speed Racer #2
 - Superman: The Kryptonite Spectrum #1
 - The Amazing Spider-Man (2025) #1
 - The Sacrificers #15
