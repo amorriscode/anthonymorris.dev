@@ -40,6 +40,8 @@
 - https://devouringdetails.com/introduction
 - [Mathematics for Machine Learning](https://docs.google.com/document/d/1qyBUjkeYUfF4LhJux0dwJItQxDxmoxDRoXPVeQGUAU0/edit?tab=t.0#heading=h.dvxitcfrcedh)
 - https://rustcurious.com/
+- [Language Modeling From Scratch (Stanford)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI&list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)
+- [CS 2881 AI Safety](https://boazbk.github.io/mltheoryseminar/)
 ### Imagineering
 - https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
 ## In Progress
