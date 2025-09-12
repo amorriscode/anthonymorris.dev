@@ -138,7 +138,8 @@
 - What's the Furthest Place from Here?
 - Wonder Woman by Tom King
 - Wytches
-- Zatanna: Bring Down the House
+- It Killed Everyone But Me
+- Everything Dead and Dying
 ## Read
 - Ambassadors
 - Avengers Twilight
@@ -172,3 +173,4 @@
 - Tokyo Ghost
 - Where Monsters Lie
 - You'll Do Bad Things
+- Zatanna: Bring Down the House
