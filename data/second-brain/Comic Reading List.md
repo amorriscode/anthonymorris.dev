@@ -7,7 +7,7 @@
 - https://www.comicbookherald.com/the-best-comics-of-all-time/
 - https://goodokbad.com/dailyrec/
 ## Currently Reading
-- Absolute Batman #11
+- Absolute Batman #12
 - Absolute Flash #2
 - Absolute Martian Manhunter #6
 - Absolute Superman #11
@@ -36,11 +36,12 @@
 - TMNT (2024) #5
 - Ultimates #7
 - Ultimate Spider-Man (2024) #20
-- Ultimate X-Men (2024) #16
+- Ultimate X-Men (2024) #18
 - Uncanny X-Men (2024) #1
 - Universal Monsters: The Invisible Man #1
 - w0rldtr33 #9
 - We're Taking Everyone Down with Us #2
+- White House Robot Romance #1
 - X-Men (2024) #5
 ## On Hold
 - Batman/Superman World's Finest #26
