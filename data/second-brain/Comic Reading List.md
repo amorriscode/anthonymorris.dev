@@ -8,7 +8,7 @@
 - https://goodokbad.com/dailyrec/
 ## Currently Reading
 - Absolute Batman #12
-- Absolute Flash #2
+- Absolute Flash #4
 - Absolute Martian Manhunter #6
 - Absolute Superman #11
 - Absolute Wonder Woman #9
@@ -22,6 +22,7 @@
 - Frieren vol 12
 - Gehenna #2
 - Imperial #1
+- It Killed Everyone But Me #1
 - Kaya #11
 - Magik #3
 - Masterminds #1
@@ -40,7 +41,7 @@
 - Uncanny X-Men (2024) #1
 - Universal Monsters: The Invisible Man #1
 - w0rldtr33 #9
-- We're Taking Everyone Down with Us #2
+- We're Taking Everyone Down with Us #3
 - White House Robot Romance #1
 - X-Men (2024) #5
 ## On Hold
