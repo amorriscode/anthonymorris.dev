@@ -11,7 +11,7 @@
 - Absolute Flash #4
 - Absolute Martian Manhunter #6
 - Absolute Superman #11
-- Absolute Wonder Woman #9
+- Absolute Wonder Woman #12
 - Assorted Crisis Events #5
 - Batman #161
 - Batman (2025) #1
@@ -36,7 +36,7 @@
 - The Sacrificers #15
 - TMNT (2024) #5
 - Ultimates #7
-- Ultimate Spider-Man (2024) #20
+- Ultimate Spider-Man (2024) #21
 - Ultimate X-Men (2024) #18
 - Uncanny X-Men (2024) #1
 - Universal Monsters: The Invisible Man #1
