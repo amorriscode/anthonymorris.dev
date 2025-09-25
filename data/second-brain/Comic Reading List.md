@@ -16,6 +16,7 @@
 - Batman #161
 - Batman (2025) #1
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
+- Black Cat #2
 - Department of Truth #13
 - Exquisite Corpses #4
 - Falling in Love on the Path to Hell #4
@@ -26,15 +27,15 @@
 - Kaya #11
 - Magik #3
 - Masterminds #1
-- News from the Fallout #2
+- News from the Fallout #4
 - Nullhunter #1
 - Psylocke #2
 - Something is Killing the Children #42
-- Speed Racer #2
 - Superman: The Kryptonite Spectrum #1
 - The Amazing Spider-Man (2025) #1
 - The Sacrificers #15
 - TMNT (2024) #5
+- Twilight Zone #1
 - Ultimates #7
 - Ultimate Spider-Man (2024) #21
 - Ultimate X-Men (2024) #18
@@ -119,6 +120,7 @@
 - Scalped
 - Storyboarding for Wim: Visions of Wenders
 - Superman Space Age
+- System Preference
 - The Bat-Man: First Knight
 - The Extraordinary Part
 - The Hard Switch
