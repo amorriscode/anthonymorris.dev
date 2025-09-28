@@ -42,6 +42,10 @@
 - https://rustcurious.com/
 - [Language Modeling From Scratch (Stanford)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI&list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)
 - [CS 2881 AI Safety](https://boazbk.github.io/mltheoryseminar/)
+- https://www.svslearn.com/
+- https://www.sequentialartistsworkshop.org/
+- https://comicsexperience.com/
+- https://comicsexperience.com/store/courses/master-seminar-team-ensemble-writing/
 ### Imagineering
 - https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
 ## In Progress
