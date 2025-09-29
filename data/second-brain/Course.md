@@ -42,7 +42,6 @@
 - https://rustcurious.com/
 - [Language Modeling From Scratch (Stanford)](https://www.youtube.com/watch?v=SQ3fZ1sAqXI&list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)
 - [CS 2881 AI Safety](https://boazbk.github.io/mltheoryseminar/)
-- https://www.svslearn.com/
 - https://www.sequentialartistsworkshop.org/
 - https://comicsexperience.com/
 - https://comicsexperience.com/store/courses/master-seminar-team-ensemble-writing/

@@ -10,6 +10,7 @@
 ### Websites
 - [School of Visual Storytelling](https://www.svslearn.com/)
 - [Comic Book Historians](https://comicbookhistorians.com/)
+- [Urbane Turtle](https://urbaneturtle.com/)
 ### Books
 - [Understanding Comics](https://scottmccloud.com/2-print/1-uc/)
 - [How to Draw Comics the Marvel Way](https://en.wikipedia.org/wiki/How_to_Draw_Comics_the_Marvel_Way#:~:text=How%20to%20Draw%20Comics%20the%20Marvel%20Way%20is%20a%20book,and%20has%20been%20reprinted%20regularly.)
