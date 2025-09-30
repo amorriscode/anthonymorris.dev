@@ -18,10 +18,10 @@
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Black Cat #2
 - Department of Truth #13
+- Escape #2
 - Exquisite Corpses #4
 - Falling in Love on the Path to Hell #4
 - Frieren vol 12
-- Gehenna #2
 - Imperial #1
 - It Killed Everyone But Me #1
 - Kaya #11
@@ -32,6 +32,7 @@
 - Psylocke #2
 - Something is Killing the Children #42
 - Superman: The Kryptonite Spectrum #1
+- That Texas Blood #1
 - The Amazing Spider-Man (2025) #1
 - The Sacrificers #15
 - TMNT (2024) #5
