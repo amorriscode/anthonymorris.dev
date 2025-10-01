@@ -8,10 +8,11 @@
 - https://goodokbad.com/dailyrec/
 ## Currently Reading
 - Absolute Batman #12
-- Absolute Evil
+- Absolute Evil #1
 - Absolute Flash #4
+- Absolute Green Lantern #1
 - Absolute Martian Manhunter #6
-- Absolute Superman #11
+- Absolute Superman #12
 - Absolute Wonder Woman #12
 - Assorted Crisis Events #5
 - Batman #161
@@ -33,7 +34,7 @@
 - Psylocke #2
 - Something is Killing the Children #42
 - Superman: The Kryptonite Spectrum #1
-- That Texas Blood #1
+- That Texas Blood #3
 - The Amazing Spider-Man (2025) #1
 - The Sacrificers #15
 - TMNT (2024) #5
