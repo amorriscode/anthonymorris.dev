@@ -8,6 +8,7 @@
 - https://goodokbad.com/dailyrec/
 ## Currently Reading
 - Absolute Batman #12
+- Absolute Evil
 - Absolute Flash #4
 - Absolute Martian Manhunter #6
 - Absolute Superman #11
