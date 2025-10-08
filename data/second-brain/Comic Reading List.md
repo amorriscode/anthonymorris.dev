@@ -8,7 +8,6 @@
 - https://goodokbad.com/dailyrec/
 ## Currently Reading
 - Absolute Batman #12
-- Absolute Evil #1
 - Absolute Flash #4
 - Absolute Green Lantern #1
 - Absolute Martian Manhunter #6
@@ -16,12 +15,12 @@
 - Absolute Wonder Woman #12
 - Assorted Crisis Events #5
 - Batman #161
-- Batman (2025) #1
+- Batman (2025) #2
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Black Cat #2
 - Department of Truth #13
 - Escape #2
-- Exquisite Corpses #4
+- Exquisite Corpses #5
 - Falling in Love on the Path to Hell #4
 - Frieren vol 12
 - Imperial #1
@@ -31,7 +30,7 @@
 - Masterminds #1
 - News from the Fallout #4
 - Nullhunter #1
-- Psylocke #2
+- Psylocke #3
 - Something is Killing the Children #42
 - Superman: The Kryptonite Spectrum #1
 - That Texas Blood #3
@@ -148,6 +147,7 @@
 - It Killed Everyone But Me
 - Everything Dead and Dying
 ## Read
+- Absolute Evil
 - Ambassadors
 - Avengers Twilight
 - Batman One Bad Day: Clayface
