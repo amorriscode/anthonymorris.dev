@@ -7,7 +7,7 @@
 - https://www.comicbookherald.com/the-best-comics-of-all-time/
 - https://goodokbad.com/dailyrec/
 ## Currently Reading
-- Absolute Batman #12
+- Absolute Batman #13
 - Absolute Flash #4
 - Absolute Green Lantern #1
 - Absolute Martian Manhunter #6
@@ -18,6 +18,7 @@
 - Batman (2025) #2
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Black Cat #2
+- DC K.O. #1
 - Department of Truth #13
 - Escape #2
 - Exquisite Corpses #5
