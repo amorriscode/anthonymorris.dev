@@ -6,13 +6,14 @@
 - https://www.cbr.com/tag/top-100-comic-book-runs/
 - https://www.comicbookherald.com/the-best-comics-of-all-time/
 - https://goodokbad.com/dailyrec/
+- https://goodokbad.com/TOL/
 ## Currently Reading
 - Absolute Batman #13
 - Absolute Flash #4
 - Absolute Green Lantern #1
 - Absolute Martian Manhunter #6
 - Absolute Superman #12
-- Absolute Wonder Woman #12
+- Absolute Wonder Woman #13
 - Assorted Crisis Events #5
 - Batman #161
 - Batman (2025) #2
@@ -34,13 +35,13 @@
 - Psylocke #3
 - Something is Killing the Children #42
 - Superman: The Kryptonite Spectrum #1
-- That Texas Blood #3
+- That Texas Blood #19
 - The Amazing Spider-Man (2025) #1
 - The Sacrificers #15
-- TMNT (2024) #5
+- TMNT (2024) #10
 - Twilight Zone #1
-- Ultimates #7
-- Ultimate Spider-Man (2024) #21
+- Ultimates #12
+- Ultimate Spider-Man (2024) #22
 - Ultimate X-Men (2024) #18
 - Uncanny X-Men (2024) #1
 - Universal Monsters: The Invisible Man #1
