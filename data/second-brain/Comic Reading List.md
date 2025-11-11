@@ -16,14 +16,14 @@
 - Absolute Wonder Woman #13
 - Assorted Crisis Events #5
 - Batman #161
-- Batman (2025) #2
+- Batman (2025) #3
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Black Cat #2
 - DC K.O. #1
 - Department of Truth #13
-- Escape #2
+- Escape #3
 - Exquisite Corpses #5
-- Falling in Love on the Path to Hell #4
+- Falling in Love on the Path to Hell #10
 - Frieren vol 12
 - Imperial #1
 - It Killed Everyone But Me #1
@@ -33,16 +33,16 @@
 - News from the Fallout #4
 - Nullhunter #1
 - Psylocke #3
-- Something is Killing the Children #42
+- Something is Killing the Children #44
 - Superman: The Kryptonite Spectrum #1
 - That Texas Blood #19
 - The Amazing Spider-Man (2025) #1
 - The Sacrificers #15
 - TMNT (2024) #10
 - Twilight Zone #1
-- Ultimates #12
+- Ultimates #13
 - Ultimate Spider-Man (2024) #22
-- Ultimate X-Men (2024) #18
+- Ultimate X-Men (2024) #21
 - Uncanny X-Men (2024) #1
 - Universal Monsters: The Invisible Man #1
 - w0rldtr33 #9
