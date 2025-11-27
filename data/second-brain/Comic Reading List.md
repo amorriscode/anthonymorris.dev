@@ -8,18 +8,18 @@
 - https://goodokbad.com/dailyrec/
 - https://goodokbad.com/TOL/
 ## Currently Reading
-- Absolute Batman #13
+- Absolute Batman #14
 - Absolute Flash #4
 - Absolute Green Lantern #1
 - Absolute Martian Manhunter #6
 - Absolute Superman #12
-- Absolute Wonder Woman #13
+- Absolute Wonder Woman #14
 - Assorted Crisis Events #5
 - Batman #161
 - Batman (2025) #3
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Black Cat #2
-- DC K.O. #1
+- DC K.O. #2
 - Department of Truth #13
 - Escape #3
 - Exquisite Corpses #5
