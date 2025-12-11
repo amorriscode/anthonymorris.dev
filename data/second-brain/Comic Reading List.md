@@ -8,7 +8,7 @@
 - https://goodokbad.com/dailyrec/
 - https://goodokbad.com/TOL/
 ## Currently Reading
-- Absolute Batman #14
+- Absolute Batman #15
 - Absolute Flash #4
 - Absolute Green Lantern #1
 - Absolute Martian Manhunter #6
@@ -41,8 +41,8 @@
 - TMNT (2024) #10
 - Twilight Zone #1
 - Ultimates #13
-- Ultimate Spider-Man (2024) #22
-- Ultimate X-Men (2024) #21
+- Ultimate Spider-Man (2024) #23
+- Ultimate X-Men (2024) #22
 - Uncanny X-Men (2024) #1
 - Universal Monsters: The Invisible Man #1
 - w0rldtr33 #9
