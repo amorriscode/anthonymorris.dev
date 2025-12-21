@@ -14,14 +14,13 @@
 - Absolute Martian Manhunter #6
 - Absolute Superman #12
 - Absolute Wonder Woman #14
-- Assorted Crisis Events #5
-- Batman #161
+- Assorted Crisis Events #7
 - Batman (2025) #3
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Black Cat #2
 - DC K.O. #2
 - Department of Truth #13
-- Escape #3
+- Escape #4
 - Exquisite Corpses #5
 - Falling in Love on the Path to Hell #10
 - Frieren vol 12
@@ -30,7 +29,6 @@
 - Kaya #11
 - Magik #3
 - Masterminds #1
-- News from the Fallout #4
 - Nullhunter #1
 - Psylocke #3
 - Something is Killing the Children #44
@@ -50,6 +48,7 @@
 - White House Robot Romance #1
 - X-Men (2024) #5
 ## On Hold
+- Batman #161
 - Batman/Superman World's Finest #26
 - Damn Them All #2
 - Ice Cream Man #9
@@ -169,6 +168,7 @@
 - In by Will McPhail
 - It's Lonely at the Centre of the Earth
 -  Moon Knight (2021)
+- News from the Fallout
 - Once & Future
 - Powers of X
 - Rare Flavours

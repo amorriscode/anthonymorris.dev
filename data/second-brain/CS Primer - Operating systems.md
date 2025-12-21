@@ -28,3 +28,5 @@
 	- System call transfers control into the OS while raising the hardware privilege level
 - User apps run in "user mode"
 	- Hardware restricts what apps can do
+
+## CPU Timing
