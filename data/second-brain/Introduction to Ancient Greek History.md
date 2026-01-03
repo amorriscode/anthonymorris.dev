@@ -76,3 +76,33 @@
 	- Filled with competition
 	- People are constantly striving to be the best
 	- The only way to defeat you mortality
+## The Rise of the Polis
+- Aristocratic way of thinking
+- Individualism leads to nihilism
+- For the Greeks, political society is essential for living a good life
+- Archaic period
+	- ~750 BC
+	- Start getting out of the dark ages
+- The first Olympic Games were ~776 BC
+	- Something bringing everyone together
+- A true alphabet is formed
+- The ideal size of a polis allows all folks to be able to hear a speech
+- Agricultural communities
+	- Most people are farming
+	- The invention of the family farm occurs; people are more incentivized
+- Immortality is achieved in various ways
+	- Having children
+	- Fighting for the polis (ie. Achilles, become a legend)
+- There's something about verse that makes it easy to remember
+	- Pamphlets were written in poems because of this
+- A good polis defeats wrong and creates right
+- Concept of a citizen is new to the polis
+	- Nobody owns a citizen
+- The polis creates a concept when men rule themselves
+	- At the same time, slavery arises
+- Interesting to think about how many people used to be farmers vs today
+	- You go back far enough in America's history and ~90%+ of people are farmers
+- How laws are viewed differs from today
+	- Modern view: humans are bad and cannot be changed, a system must exist to keep them in check
+	- Greek view: good laws cure any bad within a person; growing up with a good system creates good people
+- Interesting how there is an individualist perspective yet your worth is dictated by your contribution to the whole / public perception
