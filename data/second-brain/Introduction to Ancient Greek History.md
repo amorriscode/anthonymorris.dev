@@ -1,4 +1,4 @@
-[[Course]] [[greek]] [[History]]
+[[Course]] [[greek]] [[History]] [[yale]]
 # Introduction to Ancient Greek History
 - https://oyc.yale.edu/classics/clcv-205
 
@@ -37,3 +37,42 @@
 	- Whatever caused the fall of Mycenae, it happened quickly and was devastating
 - The collapse of the Mycenaean period brings us a clean slate
 - Greeks are totally illiterate from ~1100-750 B.C.
+## The Dark Ages (cont.)
+- Largest consensus is that some of the details in the Homeric plays are correct but the details are often wrong
+	-  The way Homer described the world (palaces, materials, etc.) are representative of what has been found
+	- Differences
+		- The descriptions of how chariots are used in warfare is wrong
+		- How they dealt with the dead (burial vs cremation)
+		- Weapons
+		- The Homeric society is not literate
+- Very little proof of what the world was like then
+	- Poems of Homer are large source
+	- Greek legends (should we use them?)
+	- Archaeology
+- The higher naiveté
+	- Knowing what to belief even if you can't prove it
+- The reason the Homeric poems contain so many discrepancies is because of the method used to pass them down
+	- Bards would tell the stories and those bards would modify the poems to suit their talents
+- Why is Agamemnon wanax?
+	- His role in the war
+- There is evidence of equality amongst nobility
+	- They are all buried with the same graves
+- The distinct political line is between nobility and commoners (not monarchy)
+	- Aristocratic society
+		- Based on birthright
+	- Decisions are made by the nobility meeting and discussing
+	- Soldiers would have no say in strategy, decisions, etc.
+- Homeric poems would basically be considered the Greek Bible if they were religious in nature
+- Greeks claimed they were the same race as the gods
+- The tragic view
+	- Man is great, death is oblivion
+	- The contradicting view is tragic because there is no comforting story to resolve the tension
+- The polis was always the most important thing, the individual came after
+- The Greeks had no concept of natural rights (rights given by the gods)
+	- You had to act to make life decent, which included participation in the polis
+- The Greeks believed that things happened by chance
+	- Surprising that this is true even though they believed in the gods?
+- An agonal society
+	- Filled with competition
+	- People are constantly striving to be the best
+	- The only way to defeat you mortality

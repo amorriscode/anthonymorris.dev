@@ -11,9 +11,9 @@
 - Absolute Batman #15
 - Absolute Flash #4
 - Absolute Green Lantern #1
-- Absolute Martian Manhunter #6
-- Absolute Superman #12
-- Absolute Wonder Woman #14
+- Absolute Martian Manhunter #7
+- Absolute Superman #14
+- Absolute Wonder Woman #15
 - Assorted Crisis Events #7
 - Batman (2025) #3
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
@@ -38,7 +38,8 @@
 - The Sacrificers #15
 - TMNT (2024) #10
 - Twilight Zone #1
-- Ultimates #13
+- Ultimates #19
+- Ultimate Endgame #1
 - Ultimate Spider-Man (2024) #23
 - Ultimate X-Men (2024) #22
 - Uncanny X-Men (2024) #1
