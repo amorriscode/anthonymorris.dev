@@ -17,7 +17,7 @@
 - Assorted Crisis Events #7
 - Batman (2025) #3
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
-- Black Cat #2
+- Black Cat #4
 - DC K.O. #2
 - Department of Truth #13
 - Escape #4
@@ -41,7 +41,7 @@
 - Ultimates #19
 - Ultimate Endgame #1
 - Ultimate Spider-Man (2024) #23
-- Ultimate X-Men (2024) #22
+- Ultimate X-Men (2024) #23
 - Uncanny X-Men (2024) #1
 - Universal Monsters: The Invisible Man #1
 - w0rldtr33 #9
