@@ -38,10 +38,10 @@
 - [CS 2881 AI Safety](https://boazbk.github.io/mltheoryseminar/)
 - https://www.sequentialartistsworkshop.org/
 - https://comicsexperience.com/
-- https://comicsexperience.com/store/courses/master-seminar-team-ensemble-writing/
-### Imagineering
-- https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/pages/syllabus/
+- https://underpaintacademy.com/
+- https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/
 ## In Progress
 - [[Intro to Physical Computing]]
+- [[Introduction to Ancient Greek History]]
 ## Completed
 - [[FinTech - Shaping the Financial World]]

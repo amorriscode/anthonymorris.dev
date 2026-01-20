@@ -34,7 +34,7 @@
 - Something is Killing the Children #44
 - Superman: The Kryptonite Spectrum #1
 - That Texas Blood #19
-- The Amazing Spider-Man (2025) #1
+- The Amazing Spider-Man (2025) #4
 - The Sacrificers #15
 - TMNT (2024) #10
 - Twilight Zone #1

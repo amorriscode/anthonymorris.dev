@@ -106,3 +106,19 @@
 	- Modern view: humans are bad and cannot be changed, a system must exist to keep them in check
 	- Greek view: good laws cure any bad within a person; growing up with a good system creates good people
 - Interesting how there is an individualist perspective yet your worth is dictated by your contribution to the whole / public perception
+## The Greek "Renaissance" - Colonization and Tyranny
+- Hoplite phalanx
+	- "Shield roller" (rough etymology) 
+	- Core infantry in a solid block
+	- Changed society because men started fighting together (no mo heroes) and started demanding equal politic rights
+	- Heavy armour
+	- Only citizens who can afford the equipment can fight
+- Shield design protects the man to the left, strong together
+- Very little training from the Greeks
+- War is a contest
+	- Tremendous pride/shame involved in the outcome
+	- Fighting for their city
+- The honour code has moved from the individual to the whole (polis)
+- Colonization begins due to a need for new farmland
+- Colonization allowed Greeks to start learning/adopting more from other civilizations
+- 
