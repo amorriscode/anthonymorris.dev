@@ -24,6 +24,7 @@
 - Exquisite Corpses #5
 - Falling in Love on the Path to Hell #10
 - Frieren vol 12
+- Harley and Ivy #1
 - Imperial #1
 - It Killed Everyone But Me #1
 - Kaya #11

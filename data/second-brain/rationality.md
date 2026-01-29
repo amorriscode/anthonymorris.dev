@@ -1,0 +1,2 @@
+[[philosophy]]
+# Rationality

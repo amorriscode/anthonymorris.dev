@@ -110,7 +110,7 @@
 - Hoplite phalanx
 	- "Shield roller" (rough etymology) 
 	- Core infantry in a solid block
-	- Changed society because men started fighting together (no mo heroes) and started demanding equal politic rights
+	- Changed society because men started fighting together (no more heroes) and started demanding equal politic rights
 	- Heavy armour
 	- Only citizens who can afford the equipment can fight
 - Shield design protects the man to the left, strong together
@@ -121,4 +121,3 @@
 - The honour code has moved from the individual to the whole (polis)
 - Colonization begins due to a need for new farmland
 - Colonization allowed Greeks to start learning/adopting more from other civilizations
-- 
