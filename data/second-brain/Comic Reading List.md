@@ -25,7 +25,6 @@
 - Falling in Love on the Path to Hell #10
 - Frieren vol 12
 - Harley and Ivy #1
-- Imperial #1
 - It Killed Everyone But Me #1
 - Kaya #11
 - Magik #3
@@ -35,18 +34,15 @@
 - Something is Killing the Children #44
 - Superman: The Kryptonite Spectrum #1
 - That Texas Blood #19
-- The Amazing Spider-Man (2025) #4
+- The Amazing Spider-Man (2025) #5
 - The Sacrificers #15
 - TMNT (2024) #10
 - Twilight Zone #1
 - Ultimates #19
 - Ultimate Endgame #1
 - Ultimate Spider-Man (2024) #23
-- Ultimate X-Men (2024) #23
 - Uncanny X-Men (2024) #1
-- Universal Monsters: The Invisible Man #1
 - w0rldtr33 #9
-- We're Taking Everyone Down with Us #3
 - White House Robot Romance #1
 - X-Men (2024) #5
 ## On Hold
@@ -134,7 +130,6 @@
 - The Me You Love in the Dark
 - The Moon is Following Us
 - The Nice House on the Lake
-- The Nice House on the Lake
 - The One Hand
 - The Power Fantasy
 - The Sandman Universe: Dead Boy Detectives
@@ -147,7 +142,6 @@
 - What's the Furthest Place from Here?
 - Wonder Woman by Tom King
 - Wytches
-- It Killed Everyone But Me
 - Everything Dead and Dying
 ## Read
 - Absolute Evil
@@ -182,6 +176,8 @@
 - The Deviant
 - The Good Asian
 - Tokyo Ghost
+- Ultimate X-Men (2024)
+- We're Taking Everyone Down with Us
 - Where Monsters Lie
 - You'll Do Bad Things
 - Zatanna: Bring Down the House
