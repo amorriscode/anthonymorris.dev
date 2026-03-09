@@ -12,7 +12,7 @@
 - Absolute Flash #4
 - Absolute Green Lantern #1
 - Absolute Martian Manhunter #7
-- Absolute Superman #14
+- Absolute Superman #15
 - Absolute Wonder Woman #15
 - Assorted Crisis Events #7
 - Batman (2025) #3

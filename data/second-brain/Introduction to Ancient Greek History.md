@@ -121,3 +121,23 @@
 - The honour code has moved from the individual to the whole (polis)
 - Colonization begins due to a need for new farmland
 - Colonization allowed Greeks to start learning/adopting more from other civilizations
+# Greek Tyranny
+- Tyrannos (tyrants) are rich, wealthy rulers
+	- Monarchos, absolute power
+	- Power was not legitimately acquired
+	- Unconstitutional single ruler
+- Persians didn't adopt hoplite phalanx because they preferred calvary and had no civic moral commitment
+	- Persians were a bunch of people whose loyalty was not voluntary
+	- You can't copy the ethos of the polis, you have to live it
+- Tyranny emerged due to
+	- Population growth
+	- Rising merchant classes shut out from power
+	- The hoplite revolution
+- Tyrants did some good things
+	- Built temples
+	- Engineered water supplies, sewers, aqueducts
+	- The agora as a civic/commercial center
+	- Patronized poets, sculptors, architects
+	- Expanded colonization and trade
+	- Spread wealth
+- Tyrants never make it past 3 generations
