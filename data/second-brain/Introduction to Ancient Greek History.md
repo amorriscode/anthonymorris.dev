@@ -141,3 +141,35 @@
 	- Expanded colonization and trade
 	- Spread wealth
 - Tyrants never make it past 3 generations
+## Sparta
+- Mixed regime
+	- Two kinds -> monarchy
+	- Gerousia of 28 elders (elected for life, over 60) -> oligarchy
+	- Five ephors (chosen annually, semi-random)
+	- Assembly -> democracy
+## The Rise of Athens
+- Spartans want to see other states governed by an oligarchy
+	- Against tyranny
+- ~570 BC
+	- Spartans are expanding
+	- Changed the nature of the Spartan situation and the Greek world
+	- Offered an alliance with Tegea
+		- Tegea could keep land, laws, and dignity -> must come to arms when called
+- Spartans are the best due to their training and value systems, it's why they're so successful
+	- They are always worried about corruption entering the state
+- Every person living in Attica is an Athenian
+	- Doesn't matter how far you live from Athens
+	- Unified polis of the area
+- Athens is the antithesis of Sparta
+	- Open rather than closed
+	- Individual rather than communal
+	- Commercial rather than agrarian
+	- Experimental rather than calcified
+- Athens has
+	- No Helot class
+	- No hereditary underclass built from conquest
+	- No low-grade civil war at all times
+- Three factions post-Solon
+	- Paralioi (coast men)
+	- Pediakoi (plain men)
+	- Diakriori (beyond the mountains men)
