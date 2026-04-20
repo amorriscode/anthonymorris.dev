@@ -8,12 +8,12 @@
 - https://goodokbad.com/dailyrec/
 - https://goodokbad.com/TOL/
 ## Currently Reading
-- Absolute Batman #15
-- Absolute Flash #4
-- Absolute Green Lantern #1
+- Absolute Batman #19
+- Absolute Flash Vol 1
+- Absolute Green Lantern Vol 1
 - Absolute Martian Manhunter #7
-- Absolute Superman #15
-- Absolute Wonder Woman #15
+- Absolute Superman #17
+- Absolute Wonder Woman #18
 - Assorted Crisis Events #7
 - Batman (2025) #3
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
@@ -29,6 +29,7 @@
 - Kaya #11
 - Magik #3
 - Masterminds #1
+- Minor Arcana Vol 2
 - Nullhunter #1
 - Psylocke #3
 - Something is Killing the Children #44
@@ -104,7 +105,6 @@
 - Love & Rockets
 - Mighty Morphin Power Rangers / TMNT
 - Miles Morales: Spider-Man by Cody Ziglar (2023)
-- Minor Arcana
 - Miss Truesdale and the Fall of Hyperborea
 - Monarch
 - Nemesis Reloaded
