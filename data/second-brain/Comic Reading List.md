@@ -21,7 +21,7 @@
 - DC K.O. #2
 - Department of Truth #13
 - Escape #4
-- Exquisite Corpses #5
+- Exquisite Corpses #12
 - Falling in Love on the Path to Hell #10
 - Frieren vol 12
 - Harley and Ivy #1
