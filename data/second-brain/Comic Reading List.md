@@ -8,7 +8,7 @@
 - https://goodokbad.com/dailyrec/
 - https://goodokbad.com/TOL/
 ## Currently Reading
-- Absolute Batman #19
+- Absolute Batman #22
 - Absolute Flash Vol 1
 - Absolute Green Lantern Vol 1
 - Absolute Martian Manhunter #7
@@ -18,10 +18,8 @@
 - Batman (2025) #3
 - Beneath the Trees Where Nobody Sees: Rite of Spring information #1
 - Black Cat #4
-- DC K.O. #2
 - Department of Truth #13
-- Escape #4
-- Exquisite Corpses #12
+- Escape #5
 - Falling in Love on the Path to Hell #10
 - Frieren vol 12
 - Harley and Ivy #1
@@ -33,7 +31,6 @@
 - Nullhunter #1
 - Psylocke #3
 - Something is Killing the Children #44
-- Superman: The Kryptonite Spectrum #1
 - That Texas Blood #19
 - The Amazing Spider-Man (2025) #5
 - The Sacrificers #15
@@ -44,7 +41,6 @@
 - Ultimate Spider-Man (2024) #23
 - Uncanny X-Men (2024) #1
 - w0rldtr33 #9
-- White House Robot Romance #1
 - X-Men (2024) #5
 ## On Hold
 - Batman #161
@@ -156,6 +152,7 @@
 - Do a Powerbomb!
 - East of West
 - Eight Billion Genies
+- Exquisite Corpses
 - Grommets
 - Helen of Wyndhorn
 - Hitomi
@@ -169,6 +166,7 @@
 - Powers of X
 - Rare Flavours
 - Supergirl: Woman of Tomorrow
+- Superman: The Kryptonite Spectrum
 - Swamp Thing: Green Hell
 - Swan Songs
 - The Boy Wonder

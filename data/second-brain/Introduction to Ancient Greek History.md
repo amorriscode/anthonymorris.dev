@@ -173,3 +173,9 @@
 	- Paralioi (coast men)
 	- Pediakoi (plain men)
 	- Diakriori (beyond the mountains men)
+## The Persian Wars
+- Tyranny helped in the transition to democracy
+	- Ordinary Athenians got a taste of self-governing
+	- Broke aristocracy's monopoly on power
+- Situation resembles civil war
+- 
