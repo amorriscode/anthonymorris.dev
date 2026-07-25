@@ -178,4 +178,32 @@
 	- Ordinary Athenians got a taste of self-governing
 	- Broke aristocracy's monopoly on power
 - Situation resembles civil war
-- 
+## The Athenian Empire
+- Aryans
+	- Persians + Medes
+	- Linguistic, not race
+- Greeks couldn't distinguish between Persians and Medes
+- Cyrus the Great
+	- Founder of Achaemenid dynasty
+	- Conquers a lot in his lifetime
+- Conquering Babylon gives the Persians control of Mesopotamia
+- Athenians try to ally with Persians
+	- Can never reach a deal
+- Before Marathon the Greeks were terrified of Persians
+	- Insane record
+	- Got Media, Lydia, Babylon, and Egypt in ~80 years
+	- Persians were great due to their scale, cavalry, archery, and huge navy
+		- Unfortunately Marathon took these things away
+- Battle of Marathon
+	- Persians: ~20-30k infantrymen and cavalry
+	- Athenians have the high ground
+	- Both sides wait
+		- Athenians don't attack, waiting for the Spartans
+		- Persians were waiting for treason
+			- Hippias was supposed to cause a shift
+	- Persians only wore pants and wicker shields
+	- Casualties
+		- 192 Athenians
+		- 6,400 Persians
+- If the Athens don't win at Marathon, Western civilization doesn't happen
+	- It's born out of free Athens
